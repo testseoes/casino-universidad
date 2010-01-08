@@ -4,11 +4,15 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import bd.BaseDatos;
+
 import utils.BarajaMesaVacia;
 
 public class Principal {
 
 	public static void main(String[] args) throws IOException, BarajaMesaVacia {
+		BaseDatos bd= new BaseDatos();
+		bd.meterUsuario();
 		String[] nombres = { "(1)Cartman", "(2)   Kyle", "(3)  Kenny",
 				"(4)   Stan" };
 		final int NPARTIDAS = 30;
