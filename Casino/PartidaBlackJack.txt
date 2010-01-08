@@ -1,0 +1,2770 @@
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (DIEZ de DIAMANTES)(CINCO de DIAMANTES)
+(2)   Kyle tiene: (SEIS de CORAZONES)(SIETE de TREBOLES)
+(3)  Kenny tiene: (TRES de CORAZONES)(DIEZ de CORAZONES)
+(4)   Stan tiene: (CINCO de PICAS)(AS de PICAS)
+ElCroupier tiene: (SEIS de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (DIEZ de DIAMANTES)(CINCO de DIAMANTES)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de DIAMANTES)(CINCO de DIAMANTES)(K de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (SEIS de CORAZONES)(SIETE de TREBOLES)
+           roba : (J de TREBOLES)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(SIETE de TREBOLES)(J de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (TRES de CORAZONES)(DIEZ de CORAZONES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(DIEZ de CORAZONES)(J de PICAS)
+------------------------------------------
+(4)   Stan tiene: (CINCO de PICAS)(AS de PICAS)
+           roba : (CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(AS de PICAS)(CUATRO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (SEIS de TREBOLES)
+           roba : (Q de CORAZONES)
+           roba : (K de CORAZONES)
+           no pide más cartas
+           tiene: (SEIS de TREBOLES)(Q de CORAZONES)(K de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 26.0 puntos
+(1)Cartman tiene: 25.0 puntos(Pierde)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 23.0 puntos(Pierde)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 1.0
+           lleva ganado  : -1.0
+(2)   Kyle lleva apostado: 1.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 1.0
+           lleva ganado  : -1.0
+(4)   Stan lleva apostado: 1.0
+           lleva ganado  : 1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (TRES de PICAS)(AS de DIAMANTES)
+(2)   Kyle tiene: (Q de DIAMANTES)(TRES de CORAZONES)
+(3)  Kenny tiene: (AS de PICAS)(SIETE de TREBOLES)
+(4)   Stan tiene: (K de CORAZONES)(OCHO de DIAMANTES)
+ElCroupier tiene: (DOS de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (TRES de PICAS)(AS de DIAMANTES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (TRES de PICAS)(AS de DIAMANTES)(CINCO de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (Q de DIAMANTES)(TRES de CORAZONES)
+           roba : (NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (Q de DIAMANTES)(TRES de CORAZONES)(NUEVE de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (AS de PICAS)(SIETE de TREBOLES)
+           no pide más cartas
+           tiene: (AS de PICAS)(SIETE de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (K de CORAZONES)(OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (K de CORAZONES)(OCHO de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (DOS de TREBOLES)
+           roba : (TRES de TREBOLES)
+           roba : (SEIS de DIAMANTES)
+           roba : (Q de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(TRES de TREBOLES)(SEIS de DIAMANTES)(Q de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 19.0 puntos(Pierde)
+(2)   Kyle tiene: 22.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 2.0
+           lleva ganado  : -2.0
+(2)   Kyle lleva apostado: 2.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 2.0
+           lleva ganado  : -2.0
+(4)   Stan lleva apostado: 2.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (DIEZ de CORAZONES)(K de PICAS)
+(2)   Kyle tiene: (Q de PICAS)(AS de TREBOLES)
+(3)  Kenny tiene: (DIEZ de TREBOLES)(CUATRO de TREBOLES)
+(4)   Stan tiene: (CINCO de DIAMANTES)(DOS de TREBOLES)
+ElCroupier tiene: (TRES de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (DIEZ de CORAZONES)(K de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(K de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (Q de PICAS)(AS de TREBOLES)
+           no pide más cartas
+           tiene: (Q de PICAS)(AS de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (DIEZ de TREBOLES)(CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(CUATRO de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (CINCO de DIAMANTES)(DOS de TREBOLES)
+           roba : (DIEZ de PICAS)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(DOS de TREBOLES)(DIEZ de PICAS)
+------------------------------------------
+ElCroupier tiene: (TRES de CORAZONES)
+           roba : (CINCO de PICAS)
+           roba : (OCHO de CORAZONES)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(CINCO de PICAS)(OCHO de CORAZONES)(NUEVE de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 25.0 puntos
+(1)Cartman tiene: 20.0 puntos(Gana)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 14.0 puntos(Gana)
+(4)   Stan tiene: 17.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 3.0
+           lleva ganado  : -1.0
+(2)   Kyle lleva apostado: 3.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 3.0
+           lleva ganado  : -1.0
+(4)   Stan lleva apostado: 3.0
+           lleva ganado  : 1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (DOS de CORAZONES)(OCHO de CORAZONES)
+(2)   Kyle tiene: (Q de TREBOLES)(SEIS de CORAZONES)
+(3)  Kenny tiene: (NUEVE de PICAS)(DOS de DIAMANTES)
+(4)   Stan tiene: (SIETE de PICAS)(SEIS de PICAS)
+ElCroupier tiene: (DIEZ de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (DOS de CORAZONES)(OCHO de CORAZONES)
+           decide doblar
+           roba : (OCHO de DIAMANTES)
+           acaba mano con: (DOS de CORAZONES)(OCHO de CORAZONES)(OCHO de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (Q de TREBOLES)(SEIS de CORAZONES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (Q de TREBOLES)(SEIS de CORAZONES)(CINCO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de PICAS)(DOS de DIAMANTES)
+           roba : (CINCO de TREBOLES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(DOS de DIAMANTES)(CINCO de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (SIETE de PICAS)(SEIS de PICAS)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(SEIS de PICAS)(K de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de TREBOLES)
+           roba : (TRES de TREBOLES)
+           roba : (TRES de PICAS)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(TRES de TREBOLES)(TRES de PICAS)(DIEZ de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 26.0 puntos
+(1)Cartman tiene: 18.0 puntos(Gana)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 16.0 puntos(Gana)
+(4)   Stan tiene: 23.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 5.0
+           lleva ganado  : 1.0
+(2)   Kyle lleva apostado: 4.0
+           lleva ganado  : 1.0
+(3)  Kenny lleva apostado: 4.0
+           lleva ganado  : 0.0
+(4)   Stan lleva apostado: 4.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (TRES de PICAS)(DIEZ de PICAS)
+(2)   Kyle tiene: (Q de DIAMANTES)(CUATRO de PICAS)
+(3)  Kenny tiene: (TRES de PICAS)(TRES de DIAMANTES)
+(4)   Stan tiene: (SIETE de CORAZONES)(CUATRO de CORAZONES)
+ElCroupier tiene: (NUEVE de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (TRES de PICAS)(DIEZ de PICAS)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(DIEZ de PICAS)(NUEVE de CORAZONES)
+------------------------------------------
+(2)   Kyle tiene: (Q de DIAMANTES)(CUATRO de PICAS)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (Q de DIAMANTES)(CUATRO de PICAS)(J de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (TRES de PICAS)(TRES de DIAMANTES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (TRES de PICAS)(TRES de DIAMANTES)(J de PICAS)
+------------------------------------------
+(4)   Stan tiene: (SIETE de CORAZONES)(CUATRO de CORAZONES)
+           decide doblar
+           roba : (CINCO de CORAZONES)
+           acaba mano con: (SIETE de CORAZONES)(CUATRO de CORAZONES)(CINCO de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (NUEVE de TREBOLES)
+           roba : (J de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de TREBOLES)(J de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 19.0 puntos
+(1)Cartman tiene: 22.0 puntos(Pierde)
+(2)   Kyle tiene: 24.0 puntos(Pierde)
+(3)  Kenny tiene: 16.0 puntos(Pierde)
+(4)   Stan tiene: 16.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 6.0
+           lleva ganado  : 0.0
+(2)   Kyle lleva apostado: 5.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 5.0
+           lleva ganado  : -1.0
+(4)   Stan lleva apostado: 6.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (OCHO de TREBOLES)(TRES de DIAMANTES)
+(2)   Kyle tiene: (K de DIAMANTES)(NUEVE de PICAS)
+(3)  Kenny tiene: (Q de DIAMANTES)(CUATRO de PICAS)
+(4)   Stan tiene: (NUEVE de DIAMANTES)(OCHO de DIAMANTES)
+ElCroupier tiene: (DIEZ de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (OCHO de TREBOLES)(TRES de DIAMANTES)
+           decide doblar
+           roba : (AS de CORAZONES)
+           acaba mano con: (OCHO de TREBOLES)(TRES de DIAMANTES)(AS de CORAZONES)
+------------------------------------------
+(2)   Kyle tiene: (K de DIAMANTES)(NUEVE de PICAS)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(NUEVE de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (Q de DIAMANTES)(CUATRO de PICAS)
+           no pide más cartas
+           tiene: (Q de DIAMANTES)(CUATRO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de DIAMANTES)(OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(OCHO de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de TREBOLES)
+           roba : (CUATRO de TREBOLES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(CUATRO de TREBOLES)(SEIS de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 20.0 puntos
+(1)Cartman tiene: 22.0 puntos(Pierde)
+(2)   Kyle tiene: 19.0 puntos(Pierde)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 17.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 8.0
+           lleva ganado  : -2.0
+(2)   Kyle lleva apostado: 6.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 6.0
+           lleva ganado  : -2.0
+(4)   Stan lleva apostado: 7.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (Q de TREBOLES)(SIETE de PICAS)
+(2)   Kyle tiene: (J de PICAS)(TRES de CORAZONES)
+(3)  Kenny tiene: (TRES de PICAS)(J de TREBOLES)
+(4)   Stan tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+ElCroupier tiene: (NUEVE de PICAS)
+------------------------------------------
+(1)Cartman tiene: (Q de TREBOLES)(SIETE de PICAS)
+           no pide más cartas
+           tiene: (Q de TREBOLES)(SIETE de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (J de PICAS)(TRES de CORAZONES)
+           roba : (Q de DIAMANTES)
+           no pide más cartas
+           tiene: (J de PICAS)(TRES de CORAZONES)(Q de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (TRES de PICAS)(J de TREBOLES)
+           roba : (J de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(J de TREBOLES)(J de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)(DIEZ de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (NUEVE de PICAS)
+           roba : (DIEZ de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(DIEZ de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 19.0 puntos
+(1)Cartman tiene: 17.0 puntos(Pierde)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 23.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 9.0
+           lleva ganado  : -3.0
+(2)   Kyle lleva apostado: 7.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 7.0
+           lleva ganado  : -3.0
+(4)   Stan lleva apostado: 8.0
+           lleva ganado  : -4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (K de PICAS)(CUATRO de CORAZONES)
+(2)   Kyle tiene: (TRES de TREBOLES)(DIEZ de CORAZONES)
+(3)  Kenny tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+(4)   Stan tiene: (J de DIAMANTES)(NUEVE de PICAS)
+ElCroupier tiene: (Q de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (K de PICAS)(CUATRO de CORAZONES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (K de PICAS)(CUATRO de CORAZONES)(SEIS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (TRES de TREBOLES)(DIEZ de CORAZONES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de TREBOLES)(DIEZ de CORAZONES)(Q de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)(K de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (J de DIAMANTES)(NUEVE de PICAS)
+           no pide más cartas
+           tiene: (J de DIAMANTES)(NUEVE de PICAS)
+------------------------------------------
+ElCroupier tiene: (Q de DIAMANTES)
+           roba : (OCHO de PICAS)
+           no pide más cartas
+           tiene: (Q de DIAMANTES)(OCHO de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 20.0 puntos(Gana)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Empata)
+(4)   Stan tiene: 19.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 10.0
+           lleva ganado  : -2.0
+(2)   Kyle lleva apostado: 8.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 8.0
+           lleva ganado  : -3.0
+(4)   Stan lleva apostado: 9.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (NUEVE de TREBOLES)(DIEZ de PICAS)
+(2)   Kyle tiene: (TRES de DIAMANTES)(TRES de CORAZONES)
+(3)  Kenny tiene: (TRES de DIAMANTES)(AS de DIAMANTES)
+(4)   Stan tiene: (CUATRO de PICAS)(Q de PICAS)
+ElCroupier tiene: (CUATRO de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (NUEVE de TREBOLES)(DIEZ de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de TREBOLES)(DIEZ de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (TRES de DIAMANTES)(TRES de CORAZONES)
+           roba : (DIEZ de DIAMANTES)
+           roba : (AS de TREBOLES)
+           roba : (J de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(TRES de CORAZONES)(DIEZ de DIAMANTES)(AS de TREBOLES)(J de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (TRES de DIAMANTES)(AS de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(AS de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (CUATRO de PICAS)(Q de PICAS)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (CUATRO de PICAS)(Q de PICAS)(SEIS de PICAS)
+------------------------------------------
+ElCroupier tiene: (CUATRO de DIAMANTES)
+           roba : (J de PICAS)
+           roba : (DOS de CORAZONES)
+           roba : (AS de CORAZONES)
+           no pide más cartas
+           tiene: (CUATRO de DIAMANTES)(J de PICAS)(DOS de CORAZONES)(AS de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 19.0 puntos(Gana)
+(2)   Kyle tiene: 27.0 puntos(Pierde)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 11.0
+           lleva ganado  : -1.0
+(2)   Kyle lleva apostado: 9.0
+           lleva ganado  : -4.0
+(3)  Kenny lleva apostado: 9.0
+           lleva ganado  : -4.0
+(4)   Stan lleva apostado: 10.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CUATRO de TREBOLES)(K de TREBOLES)
+(2)   Kyle tiene: (DOS de CORAZONES)(CINCO de TREBOLES)
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(CINCO de DIAMANTES)
+(4)   Stan tiene: (DIEZ de PICAS)(SIETE de CORAZONES)
+ElCroupier tiene: (DOS de PICAS)
+------------------------------------------
+(1)Cartman tiene: (CUATRO de TREBOLES)(K de TREBOLES)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (CUATRO de TREBOLES)(K de TREBOLES)(NUEVE de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (DOS de CORAZONES)(CINCO de TREBOLES)
+           roba : (AS de CORAZONES)
+           no pide más cartas
+           tiene: (DOS de CORAZONES)(CINCO de TREBOLES)(AS de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(CINCO de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(CINCO de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de PICAS)(SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(SIETE de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (DOS de PICAS)
+           roba : (CUATRO de DIAMANTES)
+           roba : (CUATRO de PICAS)
+           roba : (SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (DOS de PICAS)(CUATRO de DIAMANTES)(CUATRO de PICAS)(SIETE de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 23.0 puntos(Pierde)
+(2)   Kyle tiene: 18.0 puntos(Gana)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 17.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 12.0
+           lleva ganado  : -2.0
+(2)   Kyle lleva apostado: 10.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 10.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 11.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de CORAZONES)(Q de TREBOLES)
+(2)   Kyle tiene: (AS de TREBOLES)(J de TREBOLES)
+(3)  Kenny tiene: (K de PICAS)(J de TREBOLES)
+(4)   Stan tiene: (NUEVE de PICAS)(SIETE de PICAS)
+ElCroupier tiene: (TRES de PICAS)
+------------------------------------------
+(1)Cartman tiene: (CINCO de CORAZONES)(Q de TREBOLES)
+           roba : (J de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de CORAZONES)(Q de TREBOLES)(J de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (AS de TREBOLES)(J de TREBOLES)
+           no pide más cartas
+           tiene: (AS de TREBOLES)(J de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (K de PICAS)(J de TREBOLES)
+           no pide más cartas
+           tiene: (K de PICAS)(J de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de PICAS)(SIETE de PICAS)
+           roba : (DOS de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(SIETE de PICAS)(DOS de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (TRES de PICAS)
+           roba : (K de PICAS)
+           roba : (DOS de TREBOLES)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(K de PICAS)(DOS de TREBOLES)(TRES de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 25.0 puntos(Pierde)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 18.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 13.0
+           lleva ganado  : -3.0
+(2)   Kyle lleva apostado: 11.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 11.0
+           lleva ganado  : -4.0
+(4)   Stan lleva apostado: 12.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SIETE de DIAMANTES)(CINCO de CORAZONES)
+(2)   Kyle tiene: (NUEVE de TREBOLES)(TRES de TREBOLES)
+(3)  Kenny tiene: (SIETE de TREBOLES)(OCHO de PICAS)
+(4)   Stan tiene: (CINCO de TREBOLES)(AS de DIAMANTES)
+ElCroupier tiene: (DOS de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (SIETE de DIAMANTES)(CINCO de CORAZONES)
+           roba : (SIETE de DIAMANTES)
+           no pide más cartas
+           tiene: (SIETE de DIAMANTES)(CINCO de CORAZONES)(SIETE de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (NUEVE de TREBOLES)(TRES de TREBOLES)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de TREBOLES)(TRES de TREBOLES)(NUEVE de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (SIETE de TREBOLES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (SIETE de TREBOLES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (CINCO de TREBOLES)(AS de DIAMANTES)
+           roba : (DOS de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(AS de DIAMANTES)(DOS de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (DOS de TREBOLES)
+           roba : (OCHO de PICAS)
+           roba : (CUATRO de PICAS)
+           roba : (SIETE de PICAS)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(OCHO de PICAS)(CUATRO de PICAS)(SIETE de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 19.0 puntos(Pierde)
+(2)   Kyle tiene: 21.0 puntos(Empata)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 14.0
+           lleva ganado  : -4.0
+(2)   Kyle lleva apostado: 12.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 12.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 13.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CUATRO de DIAMANTES)(OCHO de PICAS)
+(2)   Kyle tiene: (J de TREBOLES)(CINCO de DIAMANTES)
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(DOS de CORAZONES)
+(4)   Stan tiene: (CUATRO de TREBOLES)(CUATRO de PICAS)
+ElCroupier tiene: (DIEZ de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (CUATRO de DIAMANTES)(OCHO de PICAS)
+           roba : (OCHO de TREBOLES)
+           no pide más cartas
+           tiene: (CUATRO de DIAMANTES)(OCHO de PICAS)(OCHO de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (J de TREBOLES)(CINCO de DIAMANTES)
+           roba : (TRES de TREBOLES)
+           no pide más cartas
+           tiene: (J de TREBOLES)(CINCO de DIAMANTES)(TRES de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(DOS de CORAZONES)
+           roba : (DOS de DIAMANTES)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(DOS de CORAZONES)(DOS de DIAMANTES)(NUEVE de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (CUATRO de TREBOLES)(CUATRO de PICAS)
+           roba : (SIETE de DIAMANTES)
+           roba : (SEIS de CORAZONES)
+           no pide más cartas
+           tiene: (CUATRO de TREBOLES)(CUATRO de PICAS)(SIETE de DIAMANTES)(SEIS de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de TREBOLES)
+           roba : (SEIS de DIAMANTES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(SEIS de DIAMANTES)(OCHO de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 24.0 puntos
+(1)Cartman tiene: 20.0 puntos(Gana)
+(2)   Kyle tiene: 18.0 puntos(Gana)
+(3)  Kenny tiene: 22.0 puntos(Pierde)
+(4)   Stan tiene: 21.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 15.0
+           lleva ganado  : -3.0
+(2)   Kyle lleva apostado: 13.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 13.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 14.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SEIS de PICAS)(J de DIAMANTES)
+(2)   Kyle tiene: (TRES de CORAZONES)(SIETE de CORAZONES)
+(3)  Kenny tiene: (NUEVE de CORAZONES)(J de TREBOLES)
+(4)   Stan tiene: (TRES de TREBOLES)(K de DIAMANTES)
+ElCroupier tiene: (SIETE de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (SEIS de PICAS)(J de DIAMANTES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (SEIS de PICAS)(J de DIAMANTES)(SEIS de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (TRES de CORAZONES)(SIETE de CORAZONES)
+           roba : (DOS de CORAZONES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(SIETE de CORAZONES)(DOS de CORAZONES)(OCHO de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de CORAZONES)(J de TREBOLES)
+           no pide más cartas
+           tiene: (NUEVE de CORAZONES)(J de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (TRES de TREBOLES)(K de DIAMANTES)
+           roba : (CINCO de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de TREBOLES)(K de DIAMANTES)(CINCO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (SIETE de TREBOLES)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (SIETE de TREBOLES)(DIEZ de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 22.0 puntos(Pierde)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 19.0 puntos(Gana)
+(4)   Stan tiene: 18.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 16.0
+           lleva ganado  : -4.0
+(2)   Kyle lleva apostado: 14.0
+           lleva ganado  : 1.0
+(3)  Kenny lleva apostado: 14.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 15.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SEIS de DIAMANTES)(DIEZ de PICAS)
+(2)   Kyle tiene: (Q de PICAS)(SEIS de PICAS)
+(3)  Kenny tiene: (CINCO de TREBOLES)(K de TREBOLES)
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de DIAMANTES)
+ElCroupier tiene: (SEIS de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (SEIS de DIAMANTES)(DIEZ de PICAS)
+           roba : (DIEZ de TREBOLES)
+           no pide más cartas
+           tiene: (SEIS de DIAMANTES)(DIEZ de PICAS)(DIEZ de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (Q de PICAS)(SEIS de PICAS)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (Q de PICAS)(SEIS de PICAS)(NUEVE de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de TREBOLES)(K de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(K de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de DIAMANTES)
+           roba : (TRES de DIAMANTES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(CINCO de DIAMANTES)(TRES de DIAMANTES)(SEIS de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (SEIS de CORAZONES)
+           roba : (DOS de DIAMANTES)
+           roba : (CINCO de TREBOLES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(DOS de DIAMANTES)(CINCO de TREBOLES)(CINCO de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 26.0 puntos(Pierde)
+(2)   Kyle tiene: 25.0 puntos(Pierde)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 21.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 17.0
+           lleva ganado  : -5.0
+(2)   Kyle lleva apostado: 15.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 15.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 16.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(K de DIAMANTES)
+(2)   Kyle tiene: (DIEZ de PICAS)(SIETE de PICAS)
+(3)  Kenny tiene: (Q de CORAZONES)(OCHO de PICAS)
+(4)   Stan tiene: (J de PICAS)(J de DIAMANTES)
+ElCroupier tiene: (DOS de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(K de DIAMANTES)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(K de DIAMANTES)(K de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (DIEZ de PICAS)(SIETE de PICAS)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(SIETE de PICAS)(CINCO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (Q de CORAZONES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (Q de CORAZONES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (J de PICAS)(J de DIAMANTES)
+           no pide más cartas
+           tiene: (J de PICAS)(J de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (DOS de CORAZONES)
+           roba : (K de CORAZONES)
+           roba : (CINCO de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de CORAZONES)(K de CORAZONES)(CINCO de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 26.0 puntos(Pierde)
+(2)   Kyle tiene: 22.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Gana)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 18.0
+           lleva ganado  : -6.0
+(2)   Kyle lleva apostado: 16.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 16.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 17.0
+           lleva ganado  : 1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (Q de PICAS)(TRES de TREBOLES)
+(2)   Kyle tiene: (DIEZ de DIAMANTES)(AS de PICAS)
+(3)  Kenny tiene: (AS de CORAZONES)(NUEVE de TREBOLES)
+(4)   Stan tiene: (TRES de PICAS)(SIETE de TREBOLES)
+ElCroupier tiene: (TRES de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (Q de PICAS)(TRES de TREBOLES)
+           roba : (TRES de TREBOLES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (Q de PICAS)(TRES de TREBOLES)(TRES de TREBOLES)(OCHO de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (DIEZ de DIAMANTES)(AS de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de DIAMANTES)(AS de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (AS de CORAZONES)(NUEVE de TREBOLES)
+           no pide más cartas
+           tiene: (AS de CORAZONES)(NUEVE de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (TRES de PICAS)(SIETE de TREBOLES)
+           decide doblar
+           roba : (J de TREBOLES)
+           acaba mano con: (TRES de PICAS)(SIETE de TREBOLES)(J de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (TRES de DIAMANTES)
+           roba : (DOS de PICAS)
+           roba : (K de DIAMANTES)
+           roba : (K de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(DOS de PICAS)(K de DIAMANTES)(K de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 25.0 puntos
+(1)Cartman tiene: 24.0 puntos(Pierde)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 19.0
+           lleva ganado  : -7.0
+(2)   Kyle lleva apostado: 17.0
+           lleva ganado  : 1.0
+(3)  Kenny lleva apostado: 17.0
+           lleva ganado  : -4.0
+(4)   Stan lleva apostado: 19.0
+           lleva ganado  : 3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (TRES de DIAMANTES)(DIEZ de CORAZONES)
+(2)   Kyle tiene: (K de CORAZONES)(DOS de CORAZONES)
+(3)  Kenny tiene: (NUEVE de CORAZONES)(OCHO de PICAS)
+(4)   Stan tiene: (DOS de TREBOLES)(TRES de TREBOLES)
+ElCroupier tiene: (CINCO de PICAS)
+------------------------------------------
+(1)Cartman tiene: (TRES de DIAMANTES)(DIEZ de CORAZONES)
+           roba : (Q de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(DIEZ de CORAZONES)(Q de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (K de CORAZONES)(DOS de CORAZONES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (K de CORAZONES)(DOS de CORAZONES)(J de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de CORAZONES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de CORAZONES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (DOS de TREBOLES)(TRES de TREBOLES)
+           roba : (TRES de CORAZONES)
+           roba : (CUATRO de PICAS)
+           roba : (AS de DIAMANTES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(TRES de TREBOLES)(TRES de CORAZONES)(CUATRO de PICAS)(AS de DIAMANTES)(SEIS de PICAS)
+------------------------------------------
+ElCroupier tiene: (CINCO de PICAS)
+           roba : (CINCO de TREBOLES)
+           roba : (AS de PICAS)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(CINCO de TREBOLES)(AS de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 23.0 puntos(Pierde)
+(2)   Kyle tiene: 22.0 puntos(Pierde)
+(3)  Kenny tiene: 17.0 puntos(Pierde)
+(4)   Stan tiene: 19.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 20.0
+           lleva ganado  : -8.0
+(2)   Kyle lleva apostado: 18.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 18.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 20.0
+           lleva ganado  : 2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de PICAS)(Q de PICAS)
+(2)   Kyle tiene: (K de TREBOLES)(CINCO de CORAZONES)
+(3)  Kenny tiene: (K de CORAZONES)(CUATRO de CORAZONES)
+(4)   Stan tiene: (Q de CORAZONES)(AS de PICAS)
+ElCroupier tiene: (TRES de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (CINCO de PICAS)(Q de PICAS)
+           roba : (OCHO de PICAS)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(Q de PICAS)(OCHO de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (K de TREBOLES)(CINCO de CORAZONES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (K de TREBOLES)(CINCO de CORAZONES)(J de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (K de CORAZONES)(CUATRO de CORAZONES)
+           no pide más cartas
+           tiene: (K de CORAZONES)(CUATRO de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (Q de CORAZONES)(AS de PICAS)
+           no pide más cartas
+           tiene: (Q de CORAZONES)(AS de PICAS)
+------------------------------------------
+ElCroupier tiene: (TRES de TREBOLES)
+           roba : (DOS de DIAMANTES)
+           roba : (SEIS de CORAZONES)
+           roba : (Q de PICAS)
+           no pide más cartas
+           tiene: (TRES de TREBOLES)(DOS de DIAMANTES)(SEIS de CORAZONES)(Q de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 23.0 puntos(Pierde)
+(2)   Kyle tiene: 25.0 puntos(Pierde)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 21.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 21.0
+           lleva ganado  : -9.0
+(2)   Kyle lleva apostado: 19.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 19.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 21.0
+           lleva ganado  : 2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (DOS de TREBOLES)(K de TREBOLES)
+(2)   Kyle tiene: (AS de PICAS)(J de DIAMANTES)
+(3)  Kenny tiene: (OCHO de CORAZONES)(OCHO de PICAS)
+(4)   Stan tiene: (J de TREBOLES)(CUATRO de PICAS)
+ElCroupier tiene: (CINCO de PICAS)
+------------------------------------------
+(1)Cartman tiene: (DOS de TREBOLES)(K de TREBOLES)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(K de TREBOLES)(DIEZ de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (AS de PICAS)(J de DIAMANTES)
+           no pide más cartas
+           tiene: (AS de PICAS)(J de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (OCHO de CORAZONES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (OCHO de CORAZONES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (J de TREBOLES)(CUATRO de PICAS)
+           roba : (DOS de PICAS)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (J de TREBOLES)(CUATRO de PICAS)(DOS de PICAS)(TRES de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (CINCO de PICAS)
+           roba : (J de CORAZONES)
+           roba : (NUEVE de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(J de CORAZONES)(NUEVE de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 24.0 puntos
+(1)Cartman tiene: 22.0 puntos(Pierde)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 16.0 puntos(Gana)
+(4)   Stan tiene: 19.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 22.0
+           lleva ganado  : -10.0
+(2)   Kyle lleva apostado: 20.0
+           lleva ganado  : 1.0
+(3)  Kenny lleva apostado: 20.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 22.0
+           lleva ganado  : 3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(SIETE de PICAS)
+(2)   Kyle tiene: (AS de DIAMANTES)(NUEVE de DIAMANTES)
+(3)  Kenny tiene: (K de DIAMANTES)(DOS de PICAS)
+(4)   Stan tiene: (CUATRO de CORAZONES)(K de CORAZONES)
+ElCroupier tiene: (CINCO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(SIETE de PICAS)
+           roba : (K de PICAS)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(SIETE de PICAS)(K de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (AS de DIAMANTES)(NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (AS de DIAMANTES)(NUEVE de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (K de DIAMANTES)(DOS de PICAS)
+           roba : (CUATRO de DIAMANTES)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(DOS de PICAS)(CUATRO de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (CUATRO de CORAZONES)(K de CORAZONES)
+           roba : (CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (CUATRO de CORAZONES)(K de CORAZONES)(CUATRO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (CINCO de TREBOLES)
+           roba : (TRES de CORAZONES)
+           roba : (SEIS de DIAMANTES)
+           roba : (DOS de DIAMANTES)
+           roba : (AS de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(TRES de CORAZONES)(SEIS de DIAMANTES)(DOS de DIAMANTES)(AS de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 23.0 puntos(Pierde)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 16.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 23.0
+           lleva ganado  : -11.0
+(2)   Kyle lleva apostado: 21.0
+           lleva ganado  : 2.0
+(3)  Kenny lleva apostado: 21.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 23.0
+           lleva ganado  : 4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SIETE de PICAS)(SIETE de DIAMANTES)
+(2)   Kyle tiene: (DIEZ de PICAS)(K de TREBOLES)
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(AS de CORAZONES)
+(4)   Stan tiene: (DIEZ de DIAMANTES)(SIETE de DIAMANTES)
+ElCroupier tiene: (TRES de PICAS)
+------------------------------------------
+(1)Cartman tiene: (SIETE de PICAS)(SIETE de DIAMANTES)
+           roba : (CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(SIETE de DIAMANTES)(CUATRO de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (DIEZ de PICAS)(K de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(K de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(AS de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(AS de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de DIAMANTES)(SIETE de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de DIAMANTES)(SIETE de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (TRES de PICAS)
+           roba : (NUEVE de DIAMANTES)
+           roba : (SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(NUEVE de DIAMANTES)(SIETE de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 19.0 puntos
+(1)Cartman tiene: 18.0 puntos(Pierde)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 17.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 24.0
+           lleva ganado  : -12.0
+(2)   Kyle lleva apostado: 22.0
+           lleva ganado  : 3.0
+(3)  Kenny lleva apostado: 22.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 24.0
+           lleva ganado  : 3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de TREBOLES)(DIEZ de DIAMANTES)
+(2)   Kyle tiene: (TRES de DIAMANTES)(DIEZ de DIAMANTES)
+(3)  Kenny tiene: (J de TREBOLES)(K de PICAS)
+(4)   Stan tiene: (SIETE de PICAS)(SEIS de DIAMANTES)
+ElCroupier tiene: (J de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (CINCO de TREBOLES)(DIEZ de DIAMANTES)
+           roba : (AS de TREBOLES)
+           roba : (TRES de PICAS)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(DIEZ de DIAMANTES)(AS de TREBOLES)(TRES de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (TRES de DIAMANTES)(DIEZ de DIAMANTES)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(DIEZ de DIAMANTES)(K de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (J de TREBOLES)(K de PICAS)
+           no pide más cartas
+           tiene: (J de TREBOLES)(K de PICAS)
+------------------------------------------
+(4)   Stan tiene: (SIETE de PICAS)(SEIS de DIAMANTES)
+           roba : (DIEZ de PICAS)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(SEIS de DIAMANTES)(DIEZ de PICAS)
+------------------------------------------
+ElCroupier tiene: (J de CORAZONES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (J de CORAZONES)(Q de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 20.0 puntos
+(1)Cartman tiene: 19.0 puntos(Pierde)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 20.0 puntos(Empata)
+(4)   Stan tiene: 23.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 25.0
+           lleva ganado  : -13.0
+(2)   Kyle lleva apostado: 23.0
+           lleva ganado  : 2.0
+(3)  Kenny lleva apostado: 23.0
+           lleva ganado  : -5.0
+(4)   Stan lleva apostado: 25.0
+           lleva ganado  : 2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (DOS de TREBOLES)(SIETE de CORAZONES)
+(2)   Kyle tiene: (NUEVE de CORAZONES)(TRES de PICAS)
+(3)  Kenny tiene: (CINCO de PICAS)(OCHO de PICAS)
+(4)   Stan tiene: (CUATRO de PICAS)(AS de TREBOLES)
+ElCroupier tiene: (SEIS de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (DOS de TREBOLES)(SIETE de CORAZONES)
+           decide doblar
+           roba : (DOS de DIAMANTES)
+           acaba mano con: (DOS de TREBOLES)(SIETE de CORAZONES)(DOS de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (NUEVE de CORAZONES)(TRES de PICAS)
+           roba : (CINCO de DIAMANTES)
+           roba : (Q de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de CORAZONES)(TRES de PICAS)(CINCO de DIAMANTES)(Q de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de PICAS)(OCHO de PICAS)
+           roba : (DOS de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(OCHO de PICAS)(DOS de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (CUATRO de PICAS)(AS de TREBOLES)
+           roba : (Q de PICAS)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (CUATRO de PICAS)(AS de TREBOLES)(Q de PICAS)(DIEZ de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (SEIS de TREBOLES)
+           roba : (K de TREBOLES)
+           roba : (AS de DIAMANTES)
+           no pide más cartas
+           tiene: (SEIS de TREBOLES)(K de TREBOLES)(AS de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 11.0 puntos(Pierde)
+(2)   Kyle tiene: 27.0 puntos(Pierde)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 25.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 27.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 24.0
+           lleva ganado  : 1.0
+(3)  Kenny lleva apostado: 24.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 26.0
+           lleva ganado  : 1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (J de TREBOLES)(NUEVE de PICAS)
+(2)   Kyle tiene: (Q de TREBOLES)(CINCO de DIAMANTES)
+(3)  Kenny tiene: (K de DIAMANTES)(SEIS de DIAMANTES)
+(4)   Stan tiene: (K de TREBOLES)(OCHO de TREBOLES)
+ElCroupier tiene: (DIEZ de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (J de TREBOLES)(NUEVE de PICAS)
+           no pide más cartas
+           tiene: (J de TREBOLES)(NUEVE de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (Q de TREBOLES)(CINCO de DIAMANTES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (Q de TREBOLES)(CINCO de DIAMANTES)(OCHO de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (K de DIAMANTES)(SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(SEIS de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (K de TREBOLES)(OCHO de TREBOLES)
+           no pide más cartas
+           tiene: (K de TREBOLES)(OCHO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de TREBOLES)
+           roba : (DOS de DIAMANTES)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(DOS de DIAMANTES)(NUEVE de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 19.0 puntos(Pierde)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 16.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 28.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 25.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 25.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 27.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de CORAZONES)(OCHO de PICAS)
+(2)   Kyle tiene: (NUEVE de PICAS)(CINCO de DIAMANTES)
+(3)  Kenny tiene: (TRES de CORAZONES)(TRES de PICAS)
+(4)   Stan tiene: (K de DIAMANTES)(DIEZ de DIAMANTES)
+ElCroupier tiene: (CINCO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (CINCO de CORAZONES)(OCHO de PICAS)
+           roba : (K de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de CORAZONES)(OCHO de PICAS)(K de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (NUEVE de PICAS)(CINCO de DIAMANTES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(CINCO de DIAMANTES)(CINCO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (TRES de CORAZONES)(TRES de PICAS)
+           roba : (TRES de TREBOLES)
+           roba : (AS de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(TRES de PICAS)(TRES de TREBOLES)(AS de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (K de DIAMANTES)(DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(DIEZ de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (CINCO de TREBOLES)
+           roba : (DOS de TREBOLES)
+           roba : (CUATRO de DIAMANTES)
+           roba : (DIEZ de CORAZONES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(DOS de TREBOLES)(CUATRO de DIAMANTES)(DIEZ de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 23.0 puntos(Pierde)
+(2)   Kyle tiene: 19.0 puntos(Pierde)
+(3)  Kenny tiene: 20.0 puntos(Pierde)
+(4)   Stan tiene: 20.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 29.0
+           lleva ganado  : -17.0
+(2)   Kyle lleva apostado: 26.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 26.0
+           lleva ganado  : -8.0
+(4)   Stan lleva apostado: 28.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(CINCO de PICAS)
+(2)   Kyle tiene: (CUATRO de PICAS)(DIEZ de TREBOLES)
+(3)  Kenny tiene: (K de DIAMANTES)(K de TREBOLES)
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de PICAS)
+ElCroupier tiene: (K de PICAS)
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(CINCO de PICAS)
+           roba : (SEIS de TREBOLES)
+           no pide más cartas
+           tiene: (K de CORAZONES)(CINCO de PICAS)(SEIS de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (CUATRO de PICAS)(DIEZ de TREBOLES)
+           roba : (TRES de DIAMANTES)
+           roba : (SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (CUATRO de PICAS)(DIEZ de TREBOLES)(TRES de DIAMANTES)(SIETE de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (K de DIAMANTES)(K de TREBOLES)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(K de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de PICAS)
+           roba : (TRES de TREBOLES)
+           roba : (AS de DIAMANTES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(CINCO de PICAS)(TRES de TREBOLES)(AS de DIAMANTES)(Q de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (K de PICAS)
+           roba : (SIETE de TREBOLES)
+           no pide más cartas
+           tiene: (K de PICAS)(SIETE de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 21.0 puntos(Gana)
+(2)   Kyle tiene: 24.0 puntos(Pierde)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 26.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 30.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 27.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 27.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 29.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (OCHO de PICAS)(SIETE de CORAZONES)
+(2)   Kyle tiene: (K de DIAMANTES)(AS de TREBOLES)
+(3)  Kenny tiene: (CINCO de DIAMANTES)(CINCO de TREBOLES)
+(4)   Stan tiene: (CINCO de TREBOLES)(SEIS de CORAZONES)
+ElCroupier tiene: (OCHO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (OCHO de PICAS)(SIETE de CORAZONES)
+           roba : (NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (OCHO de PICAS)(SIETE de CORAZONES)(NUEVE de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (K de DIAMANTES)(AS de TREBOLES)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(AS de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de DIAMANTES)(CINCO de TREBOLES)
+           roba : (CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(CINCO de TREBOLES)(CUATRO de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (CINCO de TREBOLES)(SEIS de CORAZONES)
+           decide doblar
+           roba : (SIETE de DIAMANTES)
+           acaba mano con: (CINCO de TREBOLES)(SEIS de CORAZONES)(SIETE de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (OCHO de TREBOLES)
+           roba : (Q de PICAS)
+           no pide más cartas
+           tiene: (OCHO de TREBOLES)(Q de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 24.0 puntos(Pierde)
+(2)   Kyle tiene: 21.0 puntos(Gana)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 31.0
+           lleva ganado  : -17.0
+(2)   Kyle lleva apostado: 28.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 28.0
+           lleva ganado  : -8.0
+(4)   Stan lleva apostado: 31.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+(2)   Kyle tiene: (CINCO de DIAMANTES)(DIEZ de TREBOLES)
+(3)  Kenny tiene: (DIEZ de CORAZONES)(J de DIAMANTES)
+(4)   Stan tiene: (TRES de CORAZONES)(Q de CORAZONES)
+ElCroupier tiene: (SIETE de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)
+           roba : (SIETE de TREBOLES)
+           roba : (J de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(TRES de DIAMANTES)(SIETE de TREBOLES)(J de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (CINCO de DIAMANTES)(DIEZ de TREBOLES)
+           roba : (K de CORAZONES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(DIEZ de TREBOLES)(K de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (DIEZ de CORAZONES)(J de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(J de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (TRES de CORAZONES)(Q de CORAZONES)
+           roba : (SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(Q de CORAZONES)(SIETE de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (SIETE de CORAZONES)
+           roba : (DIEZ de PICAS)
+           no pide más cartas
+           tiene: (SIETE de CORAZONES)(DIEZ de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 25.0 puntos(Pierde)
+(2)   Kyle tiene: 25.0 puntos(Pierde)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 32.0
+           lleva ganado  : -18.0
+(2)   Kyle lleva apostado: 29.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 29.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 32.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(OCHO de CORAZONES)
+(2)   Kyle tiene: (SIETE de TREBOLES)(AS de TREBOLES)
+(3)  Kenny tiene: (SEIS de TREBOLES)(OCHO de PICAS)
+(4)   Stan tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)
+ElCroupier tiene: (SIETE de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (SEIS de CORAZONES)(OCHO de CORAZONES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(OCHO de CORAZONES)(SEIS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (SIETE de TREBOLES)(AS de TREBOLES)
+           no pide más cartas
+           tiene: (SIETE de TREBOLES)(AS de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (SEIS de TREBOLES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (SEIS de TREBOLES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)
+           roba : (K de PICAS)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)(K de PICAS)
+------------------------------------------
+ElCroupier tiene: (SIETE de TREBOLES)
+           roba : (OCHO de PICAS)
+           roba : (Q de CORAZONES)
+           no pide más cartas
+           tiene: (SIETE de TREBOLES)(OCHO de PICAS)(Q de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 25.0 puntos
+(1)Cartman tiene: 20.0 puntos(Gana)
+(2)   Kyle tiene: 18.0 puntos(Gana)
+(3)  Kenny tiene: 14.0 puntos(Gana)
+(4)   Stan tiene: 24.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 33.0
+           lleva ganado  : -17.0
+(2)   Kyle lleva apostado: 30.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 30.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 33.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(J de TREBOLES)
+(2)   Kyle tiene: (TRES de CORAZONES)(CUATRO de PICAS)
+(3)  Kenny tiene: (CINCO de CORAZONES)(K de TREBOLES)
+(4)   Stan tiene: (DIEZ de TREBOLES)(TRES de TREBOLES)
+ElCroupier tiene: (CINCO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(J de TREBOLES)
+           no pide más cartas
+           tiene: (K de CORAZONES)(J de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (TRES de CORAZONES)(CUATRO de PICAS)
+           roba : (OCHO de TREBOLES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(CUATRO de PICAS)(OCHO de TREBOLES)(OCHO de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de CORAZONES)(K de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de CORAZONES)(K de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de TREBOLES)(TRES de TREBOLES)
+           roba : (OCHO de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(TRES de TREBOLES)(OCHO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (CINCO de TREBOLES)
+           roba : (AS de TREBOLES)
+           roba : (AS de CORAZONES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(AS de TREBOLES)(AS de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 20.0 puntos(Gana)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 21.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 34.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 31.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 31.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 34.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (NUEVE de PICAS)(CUATRO de CORAZONES)
+(2)   Kyle tiene: (K de CORAZONES)(SEIS de CORAZONES)
+(3)  Kenny tiene: (J de PICAS)(OCHO de PICAS)
+(4)   Stan tiene: (K de TREBOLES)(CINCO de CORAZONES)
+ElCroupier tiene: (TRES de PICAS)
+------------------------------------------
+(1)Cartman tiene: (NUEVE de PICAS)(CUATRO de CORAZONES)
+           roba : (SEIS de TREBOLES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(CUATRO de CORAZONES)(SEIS de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (K de CORAZONES)(SEIS de CORAZONES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (K de CORAZONES)(SEIS de CORAZONES)(SEIS de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (J de PICAS)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (J de PICAS)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (K de TREBOLES)(CINCO de CORAZONES)
+           roba : (CINCO de TREBOLES)
+           no pide más cartas
+           tiene: (K de TREBOLES)(CINCO de CORAZONES)(CINCO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (TRES de PICAS)
+           roba : (AS de TREBOLES)
+           roba : (TRES de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(AS de TREBOLES)(TRES de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 19.0 puntos(Gana)
+(2)   Kyle tiene: 22.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Gana)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 35.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 32.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 32.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 35.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de DIAMANTES)(TRES de TREBOLES)
+(2)   Kyle tiene: (CINCO de PICAS)(AS de TREBOLES)
+(3)  Kenny tiene: (CUATRO de CORAZONES)(SIETE de TREBOLES)
+(4)   Stan tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)
+ElCroupier tiene: (CUATRO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (CINCO de DIAMANTES)(TRES de TREBOLES)
+           roba : (SIETE de DIAMANTES)
+           roba : (AS de TREBOLES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(TRES de TREBOLES)(SIETE de DIAMANTES)(AS de TREBOLES)(Q de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (CINCO de PICAS)(AS de TREBOLES)
+           roba : (CUATRO de PICAS)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(AS de TREBOLES)(CUATRO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (CUATRO de CORAZONES)(SIETE de TREBOLES)
+           roba : (AS de CORAZONES)
+           roba : (CINCO de CORAZONES)
+           no pide más cartas
+           tiene: (CUATRO de CORAZONES)(SIETE de TREBOLES)(AS de CORAZONES)(CINCO de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)
+           roba : (J de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(CUATRO de PICAS)(J de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (CUATRO de TREBOLES)
+           roba : (CUATRO de TREBOLES)
+           roba : (K de PICAS)
+           no pide más cartas
+           tiene: (CUATRO de TREBOLES)(CUATRO de TREBOLES)(K de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 26.0 puntos(Pierde)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 17.0 puntos(Pierde)
+(4)   Stan tiene: 24.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 36.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 33.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 33.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 36.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (J de TREBOLES)(OCHO de TREBOLES)
+(2)   Kyle tiene: (OCHO de PICAS)(CUATRO de TREBOLES)
+(3)  Kenny tiene: (SIETE de CORAZONES)(CUATRO de PICAS)
+(4)   Stan tiene: (K de PICAS)(SIETE de PICAS)
+ElCroupier tiene: (AS de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (J de TREBOLES)(OCHO de TREBOLES)
+           no pide más cartas
+           tiene: (J de TREBOLES)(OCHO de TREBOLES)
+------------------------------------------
+(2)   Kyle tiene: (OCHO de PICAS)(CUATRO de TREBOLES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (OCHO de PICAS)(CUATRO de TREBOLES)(SEIS de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (SIETE de CORAZONES)(CUATRO de PICAS)
+           roba : (SIETE de PICAS)
+           no pide más cartas
+           tiene: (SIETE de CORAZONES)(CUATRO de PICAS)(SIETE de PICAS)
+------------------------------------------
+(4)   Stan tiene: (K de PICAS)(SIETE de PICAS)
+           no pide más cartas
+           tiene: (K de PICAS)(SIETE de PICAS)
+------------------------------------------
+ElCroupier tiene: (AS de DIAMANTES)
+           roba : (CINCO de PICAS)
+           roba : (Q de TREBOLES)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (AS de DIAMANTES)(CINCO de PICAS)(Q de TREBOLES)(NUEVE de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 25.0 puntos
+(1)Cartman tiene: 18.0 puntos(Gana)
+(2)   Kyle tiene: 18.0 puntos(Gana)
+(3)  Kenny tiene: 18.0 puntos(Gana)
+(4)   Stan tiene: 17.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 37.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 34.0
+           lleva ganado  : 0.0
+(3)  Kenny lleva apostado: 34.0
+           lleva ganado  : -6.0
+(4)   Stan lleva apostado: 37.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CUATRO de DIAMANTES)(Q de TREBOLES)
+(2)   Kyle tiene: (CINCO de CORAZONES)(J de TREBOLES)
+(3)  Kenny tiene: (AS de PICAS)(SIETE de PICAS)
+(4)   Stan tiene: (NUEVE de PICAS)(SEIS de DIAMANTES)
+ElCroupier tiene: (Q de PICAS)
+------------------------------------------
+(1)Cartman tiene: (CUATRO de DIAMANTES)(Q de TREBOLES)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (CUATRO de DIAMANTES)(Q de TREBOLES)(DIEZ de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (CINCO de CORAZONES)(J de TREBOLES)
+           roba : (NUEVE de CORAZONES)
+           no pide más cartas
+           tiene: (CINCO de CORAZONES)(J de TREBOLES)(NUEVE de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (AS de PICAS)(SIETE de PICAS)
+           no pide más cartas
+           tiene: (AS de PICAS)(SIETE de PICAS)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de PICAS)(SEIS de DIAMANTES)
+           roba : (DOS de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(SEIS de DIAMANTES)(DOS de PICAS)
+------------------------------------------
+ElCroupier tiene: (Q de PICAS)
+           roba : (AS de PICAS)
+           no pide más cartas
+           tiene: (Q de PICAS)(AS de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 24.0 puntos(Pierde)
+(2)   Kyle tiene: 24.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Pierde)
+(4)   Stan tiene: 17.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 38.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 35.0
+           lleva ganado  : -1.0
+(3)  Kenny lleva apostado: 35.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 38.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (TRES de CORAZONES)(Q de DIAMANTES)
+(2)   Kyle tiene: (J de TREBOLES)(TRES de CORAZONES)
+(3)  Kenny tiene: (J de DIAMANTES)(OCHO de PICAS)
+(4)   Stan tiene: (AS de PICAS)(J de PICAS)
+ElCroupier tiene: (NUEVE de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (TRES de CORAZONES)(Q de DIAMANTES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(Q de DIAMANTES)(SEIS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (J de TREBOLES)(TRES de CORAZONES)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (J de TREBOLES)(TRES de CORAZONES)(NUEVE de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (J de DIAMANTES)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (J de DIAMANTES)(OCHO de PICAS)
+------------------------------------------
+(4)   Stan tiene: (AS de PICAS)(J de PICAS)
+           no pide más cartas
+           tiene: (AS de PICAS)(J de PICAS)
+------------------------------------------
+ElCroupier tiene: (NUEVE de TREBOLES)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de TREBOLES)(NUEVE de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 19.0 puntos(Gana)
+(2)   Kyle tiene: 22.0 puntos(Pierde)
+(3)  Kenny tiene: 18.0 puntos(Empata)
+(4)   Stan tiene: 21.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 39.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 36.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 36.0
+           lleva ganado  : -7.0
+(4)   Stan lleva apostado: 39.0
+           lleva ganado  : 1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de PICAS)(TRES de CORAZONES)
+(2)   Kyle tiene: (TRES de CORAZONES)(AS de CORAZONES)
+(3)  Kenny tiene: (Q de TREBOLES)(SEIS de TREBOLES)
+(4)   Stan tiene: (SEIS de CORAZONES)(DOS de PICAS)
+ElCroupier tiene: (CINCO de PICAS)
+------------------------------------------
+(1)Cartman tiene: (CINCO de PICAS)(TRES de CORAZONES)
+           roba : (AS de PICAS)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(TRES de CORAZONES)(AS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (TRES de CORAZONES)(AS de CORAZONES)
+           roba : (OCHO de PICAS)
+           roba : (TRES de TREBOLES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(AS de CORAZONES)(OCHO de PICAS)(TRES de TREBOLES)(J de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (Q de TREBOLES)(SEIS de TREBOLES)
+           no pide más cartas
+           tiene: (Q de TREBOLES)(SEIS de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (SEIS de CORAZONES)(DOS de PICAS)
+           roba : (J de CORAZONES)
+           no pide más cartas
+           tiene: (SEIS de CORAZONES)(DOS de PICAS)(J de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (CINCO de PICAS)
+           roba : (CUATRO de DIAMANTES)
+           roba : (K de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de PICAS)(CUATRO de DIAMANTES)(K de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 19.0 puntos
+(1)Cartman tiene: 19.0 puntos(Empata)
+(2)   Kyle tiene: 25.0 puntos(Pierde)
+(3)  Kenny tiene: 16.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 40.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 37.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 37.0
+           lleva ganado  : -8.0
+(4)   Stan lleva apostado: 40.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (OCHO de CORAZONES)(DOS de PICAS)
+(2)   Kyle tiene: (OCHO de CORAZONES)(NUEVE de DIAMANTES)
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(DOS de TREBOLES)
+(4)   Stan tiene: (CUATRO de CORAZONES)(CINCO de TREBOLES)
+ElCroupier tiene: (TRES de PICAS)
+------------------------------------------
+(1)Cartman tiene: (OCHO de CORAZONES)(DOS de PICAS)
+           decide doblar
+           roba : (OCHO de PICAS)
+           acaba mano con: (OCHO de CORAZONES)(DOS de PICAS)(OCHO de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (OCHO de CORAZONES)(NUEVE de DIAMANTES)
+           roba : (DOS de DIAMANTES)
+           no pide más cartas
+           tiene: (OCHO de CORAZONES)(NUEVE de DIAMANTES)(DOS de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (NUEVE de DIAMANTES)(DOS de TREBOLES)
+           roba : (SIETE de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(DOS de TREBOLES)(SIETE de PICAS)
+------------------------------------------
+(4)   Stan tiene: (CUATRO de CORAZONES)(CINCO de TREBOLES)
+           decide doblar
+           roba : (Q de TREBOLES)
+           acaba mano con: (CUATRO de CORAZONES)(CINCO de TREBOLES)(Q de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (TRES de PICAS)
+           roba : (SIETE de PICAS)
+           roba : (CUATRO de DIAMANTES)
+           roba : (CINCO de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(SIETE de PICAS)(CUATRO de DIAMANTES)(CINCO de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 19.0 puntos
+(1)Cartman tiene: 18.0 puntos(Pierde)
+(2)   Kyle tiene: 19.0 puntos(Empata)
+(3)  Kenny tiene: 18.0 puntos(Pierde)
+(4)   Stan tiene: 19.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 42.0
+           lleva ganado  : -17.0
+(2)   Kyle lleva apostado: 38.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 38.0
+           lleva ganado  : -9.0
+(4)   Stan lleva apostado: 42.0
+           lleva ganado  : 0.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(J de PICAS)
+(2)   Kyle tiene: (TRES de PICAS)(CINCO de CORAZONES)
+(3)  Kenny tiene: (DOS de TREBOLES)(TRES de PICAS)
+(4)   Stan tiene: (NUEVE de DIAMANTES)(DIEZ de DIAMANTES)
+ElCroupier tiene: (AS de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (K de CORAZONES)(J de PICAS)
+           no pide más cartas
+           tiene: (K de CORAZONES)(J de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (TRES de PICAS)(CINCO de CORAZONES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (TRES de PICAS)(CINCO de CORAZONES)(Q de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (DOS de TREBOLES)(TRES de PICAS)
+           roba : (DIEZ de TREBOLES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(TRES de PICAS)(DIEZ de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de DIAMANTES)(DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(DIEZ de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (AS de DIAMANTES)
+           roba : (J de CORAZONES)
+           no pide más cartas
+           tiene: (AS de DIAMANTES)(J de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 20.0 puntos(Pierde)
+(2)   Kyle tiene: 18.0 puntos(Pierde)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 19.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 43.0
+           lleva ganado  : -18.0
+(2)   Kyle lleva apostado: 39.0
+           lleva ganado  : -4.0
+(3)  Kenny lleva apostado: 39.0
+           lleva ganado  : -10.0
+(4)   Stan lleva apostado: 43.0
+           lleva ganado  : -1.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (TRES de CORAZONES)(SEIS de DIAMANTES)
+(2)   Kyle tiene: (SIETE de DIAMANTES)(OCHO de TREBOLES)
+(3)  Kenny tiene: (CINCO de CORAZONES)(Q de TREBOLES)
+(4)   Stan tiene: (TRES de DIAMANTES)(DIEZ de PICAS)
+ElCroupier tiene: (DOS de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (TRES de CORAZONES)(SEIS de DIAMANTES)
+           decide doblar
+           roba : (Q de PICAS)
+           acaba mano con: (TRES de CORAZONES)(SEIS de DIAMANTES)(Q de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (SIETE de DIAMANTES)(OCHO de TREBOLES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (SIETE de DIAMANTES)(OCHO de TREBOLES)(CINCO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (CINCO de CORAZONES)(Q de TREBOLES)
+           no pide más cartas
+           tiene: (CINCO de CORAZONES)(Q de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (TRES de DIAMANTES)(DIEZ de PICAS)
+           roba : (CUATRO de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(DIEZ de PICAS)(CUATRO de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (DOS de TREBOLES)
+           roba : (SIETE de PICAS)
+           roba : (NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(SIETE de PICAS)(NUEVE de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 19.0 puntos(Gana)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 17.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 45.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 40.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 40.0
+           lleva ganado  : -11.0
+(4)   Stan lleva apostado: 44.0
+           lleva ganado  : -2.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SIETE de CORAZONES)(DIEZ de DIAMANTES)
+(2)   Kyle tiene: (SEIS de TREBOLES)(K de TREBOLES)
+(3)  Kenny tiene: (TRES de CORAZONES)(CUATRO de PICAS)
+(4)   Stan tiene: (Q de CORAZONES)(DOS de PICAS)
+ElCroupier tiene: (CINCO de TREBOLES)
+------------------------------------------
+(1)Cartman tiene: (SIETE de CORAZONES)(DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (SIETE de CORAZONES)(DIEZ de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (SEIS de TREBOLES)(K de TREBOLES)
+           roba : (AS de TREBOLES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (SEIS de TREBOLES)(K de TREBOLES)(AS de TREBOLES)(SEIS de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (TRES de CORAZONES)(CUATRO de PICAS)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(CUATRO de PICAS)(OCHO de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (Q de CORAZONES)(DOS de PICAS)
+           roba : (K de PICAS)
+           no pide más cartas
+           tiene: (Q de CORAZONES)(DOS de PICAS)(K de PICAS)
+------------------------------------------
+ElCroupier tiene: (CINCO de TREBOLES)
+           roba : (CUATRO de DIAMANTES)
+           roba : (OCHO de CORAZONES)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(CUATRO de DIAMANTES)(OCHO de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+(1)Cartman tiene: 17.0 puntos(Empata)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 15.0 puntos(Pierde)
+(4)   Stan tiene: 22.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 46.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 41.0
+           lleva ganado  : -4.0
+(3)  Kenny lleva apostado: 41.0
+           lleva ganado  : -12.0
+(4)   Stan lleva apostado: 45.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (Q de PICAS)(OCHO de PICAS)
+(2)   Kyle tiene: (J de DIAMANTES)(K de PICAS)
+(3)  Kenny tiene: (DOS de PICAS)(CINCO de DIAMANTES)
+(4)   Stan tiene: (K de TREBOLES)(CINCO de CORAZONES)
+ElCroupier tiene: (NUEVE de PICAS)
+------------------------------------------
+(1)Cartman tiene: (Q de PICAS)(OCHO de PICAS)
+           no pide más cartas
+           tiene: (Q de PICAS)(OCHO de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (J de DIAMANTES)(K de PICAS)
+           no pide más cartas
+           tiene: (J de DIAMANTES)(K de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (DOS de PICAS)(CINCO de DIAMANTES)
+           roba : (TRES de DIAMANTES)
+           roba : (SIETE de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de PICAS)(CINCO de DIAMANTES)(TRES de DIAMANTES)(SIETE de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (K de TREBOLES)(CINCO de CORAZONES)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (K de TREBOLES)(CINCO de CORAZONES)(TRES de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (NUEVE de PICAS)
+           roba : (SEIS de PICAS)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(SEIS de PICAS)(TRES de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 18.0 puntos(Empata)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 17.0 puntos(Pierde)
+(4)   Stan tiene: 18.0 puntos(Empata)
+------------------------------------------
+(1)Cartman lleva apostado: 47.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 42.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 42.0
+           lleva ganado  : -13.0
+(4)   Stan lleva apostado: 46.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CUATRO de TREBOLES)(SEIS de CORAZONES)
+(2)   Kyle tiene: (OCHO de TREBOLES)(SIETE de TREBOLES)
+(3)  Kenny tiene: (DIEZ de DIAMANTES)(AS de TREBOLES)
+(4)   Stan tiene: (DIEZ de CORAZONES)(DIEZ de TREBOLES)
+ElCroupier tiene: (CUATRO de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (CUATRO de TREBOLES)(SEIS de CORAZONES)
+           decide doblar
+           roba : (OCHO de CORAZONES)
+           acaba mano con: (CUATRO de TREBOLES)(SEIS de CORAZONES)(OCHO de CORAZONES)
+------------------------------------------
+(2)   Kyle tiene: (OCHO de TREBOLES)(SIETE de TREBOLES)
+           roba : (K de TREBOLES)
+           no pide más cartas
+           tiene: (OCHO de TREBOLES)(SIETE de TREBOLES)(K de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (DIEZ de DIAMANTES)(AS de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de DIAMANTES)(AS de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de CORAZONES)(DIEZ de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(DIEZ de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (CUATRO de DIAMANTES)
+           roba : (CINCO de TREBOLES)
+           roba : (DOS de DIAMANTES)
+           roba : (Q de DIAMANTES)
+           no pide más cartas
+           tiene: (CUATRO de DIAMANTES)(CINCO de TREBOLES)(DOS de DIAMANTES)(Q de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 21.0 puntos
+(1)Cartman tiene: 18.0 puntos(Pierde)
+(2)   Kyle tiene: 25.0 puntos(Pierde)
+(3)  Kenny tiene: 21.0 puntos(Empata)
+(4)   Stan tiene: 20.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 49.0
+           lleva ganado  : -18.0
+(2)   Kyle lleva apostado: 43.0
+           lleva ganado  : -4.0
+(3)  Kenny lleva apostado: 43.0
+           lleva ganado  : -13.0
+(4)   Stan lleva apostado: 47.0
+           lleva ganado  : -4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (K de PICAS)(CINCO de CORAZONES)
+(2)   Kyle tiene: (DIEZ de CORAZONES)(NUEVE de DIAMANTES)
+(3)  Kenny tiene: (DOS de TREBOLES)(Q de CORAZONES)
+(4)   Stan tiene: (NUEVE de CORAZONES)(J de DIAMANTES)
+ElCroupier tiene: (AS de CORAZONES)
+------------------------------------------
+(1)Cartman tiene: (K de PICAS)(CINCO de CORAZONES)
+           roba : (Q de PICAS)
+           no pide más cartas
+           tiene: (K de PICAS)(CINCO de CORAZONES)(Q de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (DIEZ de CORAZONES)(NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(NUEVE de DIAMANTES)
+------------------------------------------
+(3)  Kenny tiene: (DOS de TREBOLES)(Q de CORAZONES)
+           roba : (SEIS de CORAZONES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(Q de CORAZONES)(SEIS de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de CORAZONES)(J de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de CORAZONES)(J de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (AS de CORAZONES)
+           roba : (CUATRO de TREBOLES)
+           roba : (TRES de DIAMANTES)
+           no pide más cartas
+           tiene: (AS de CORAZONES)(CUATRO de TREBOLES)(TRES de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 25.0 puntos(Pierde)
+(2)   Kyle tiene: 19.0 puntos(Gana)
+(3)  Kenny tiene: 18.0 puntos(Empata)
+(4)   Stan tiene: 19.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 50.0
+           lleva ganado  : -19.0
+(2)   Kyle lleva apostado: 44.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 44.0
+           lleva ganado  : -13.0
+(4)   Stan lleva apostado: 48.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (OCHO de CORAZONES)(AS de CORAZONES)
+(2)   Kyle tiene: (DIEZ de CORAZONES)(SEIS de PICAS)
+(3)  Kenny tiene: (DOS de TREBOLES)(AS de PICAS)
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de DIAMANTES)
+ElCroupier tiene: (SEIS de PICAS)
+------------------------------------------
+(1)Cartman tiene: (OCHO de CORAZONES)(AS de CORAZONES)
+           no pide más cartas
+           tiene: (OCHO de CORAZONES)(AS de CORAZONES)
+------------------------------------------
+(2)   Kyle tiene: (DIEZ de CORAZONES)(SEIS de PICAS)
+           roba : (CUATRO de CORAZONES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(SEIS de PICAS)(CUATRO de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (DOS de TREBOLES)(AS de PICAS)
+           roba : (TRES de TREBOLES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(AS de PICAS)(TRES de TREBOLES)
+------------------------------------------
+(4)   Stan tiene: (SIETE de PICAS)(CINCO de DIAMANTES)
+           roba : (K de DIAMANTES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(CINCO de DIAMANTES)(K de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (SEIS de PICAS)
+           roba : (NUEVE de TREBOLES)
+           roba : (Q de TREBOLES)
+           no pide más cartas
+           tiene: (SEIS de PICAS)(NUEVE de TREBOLES)(Q de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 25.0 puntos
+(1)Cartman tiene: 19.0 puntos(Gana)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 16.0 puntos(Gana)
+(4)   Stan tiene: 22.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 51.0
+           lleva ganado  : -18.0
+(2)   Kyle lleva apostado: 45.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 45.0
+           lleva ganado  : -12.0
+(4)   Stan lleva apostado: 49.0
+           lleva ganado  : -4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (SIETE de CORAZONES)(DOS de TREBOLES)
+(2)   Kyle tiene: (Q de DIAMANTES)(CINCO de CORAZONES)
+(3)  Kenny tiene: (K de TREBOLES)(TRES de DIAMANTES)
+(4)   Stan tiene: (OCHO de PICAS)(SIETE de TREBOLES)
+ElCroupier tiene: (J de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (SIETE de CORAZONES)(DOS de TREBOLES)
+           decide doblar
+           roba : (SEIS de PICAS)
+           acaba mano con: (SIETE de CORAZONES)(DOS de TREBOLES)(SEIS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (Q de DIAMANTES)(CINCO de CORAZONES)
+           roba : (OCHO de PICAS)
+           no pide más cartas
+           tiene: (Q de DIAMANTES)(CINCO de CORAZONES)(OCHO de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (K de TREBOLES)(TRES de DIAMANTES)
+           roba : (SEIS de PICAS)
+           no pide más cartas
+           tiene: (K de TREBOLES)(TRES de DIAMANTES)(SEIS de PICAS)
+------------------------------------------
+(4)   Stan tiene: (OCHO de PICAS)(SIETE de TREBOLES)
+           roba : (OCHO de CORAZONES)
+           no pide más cartas
+           tiene: (OCHO de PICAS)(SIETE de TREBOLES)(OCHO de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (J de DIAMANTES)
+           roba : (CUATRO de DIAMANTES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (J de DIAMANTES)(CUATRO de DIAMANTES)(J de PICAS)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 24.0 puntos
+(1)Cartman tiene: 15.0 puntos(Gana)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 19.0 puntos(Gana)
+(4)   Stan tiene: 23.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 53.0
+           lleva ganado  : -16.0
+(2)   Kyle lleva apostado: 46.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 46.0
+           lleva ganado  : -11.0
+(4)   Stan lleva apostado: 50.0
+           lleva ganado  : -5.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (CINCO de TREBOLES)(J de DIAMANTES)
+(2)   Kyle tiene: (DOS de PICAS)(SEIS de CORAZONES)
+(3)  Kenny tiene: (TRES de CORAZONES)(TRES de PICAS)
+(4)   Stan tiene: (NUEVE de PICAS)(DIEZ de DIAMANTES)
+ElCroupier tiene: (K de PICAS)
+------------------------------------------
+(1)Cartman tiene: (CINCO de TREBOLES)(J de DIAMANTES)
+           roba : (DOS de PICAS)
+           no pide más cartas
+           tiene: (CINCO de TREBOLES)(J de DIAMANTES)(DOS de PICAS)
+------------------------------------------
+(2)   Kyle tiene: (DOS de PICAS)(SEIS de CORAZONES)
+           roba : (NUEVE de CORAZONES)
+           roba : (AS de CORAZONES)
+           no pide más cartas
+           tiene: (DOS de PICAS)(SEIS de CORAZONES)(NUEVE de CORAZONES)(AS de CORAZONES)
+------------------------------------------
+(3)  Kenny tiene: (TRES de CORAZONES)(TRES de PICAS)
+           roba : (K de CORAZONES)
+           no pide más cartas
+           tiene: (TRES de CORAZONES)(TRES de PICAS)(K de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (NUEVE de PICAS)(DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de PICAS)(DIEZ de DIAMANTES)
+------------------------------------------
+ElCroupier tiene: (K de PICAS)
+           roba : (SEIS de PICAS)
+           roba : (SEIS de TREBOLES)
+           no pide más cartas
+           tiene: (K de PICAS)(SEIS de PICAS)(SEIS de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 22.0 puntos
+(1)Cartman tiene: 17.0 puntos(Gana)
+(2)   Kyle tiene: 18.0 puntos(Gana)
+(3)  Kenny tiene: 16.0 puntos(Gana)
+(4)   Stan tiene: 19.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 54.0
+           lleva ganado  : -15.0
+(2)   Kyle lleva apostado: 47.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 47.0
+           lleva ganado  : -10.0
+(4)   Stan lleva apostado: 51.0
+           lleva ganado  : -4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (NUEVE de TREBOLES)(NUEVE de DIAMANTES)
+(2)   Kyle tiene: (OCHO de TREBOLES)(OCHO de DIAMANTES)
+(3)  Kenny tiene: (CUATRO de DIAMANTES)(NUEVE de DIAMANTES)
+(4)   Stan tiene: (J de PICAS)(DIEZ de CORAZONES)
+ElCroupier tiene: (CINCO de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (NUEVE de TREBOLES)(NUEVE de DIAMANTES)
+           no pide más cartas
+           tiene: (NUEVE de TREBOLES)(NUEVE de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (OCHO de TREBOLES)(OCHO de DIAMANTES)
+           roba : (SIETE de TREBOLES)
+           no pide más cartas
+           tiene: (OCHO de TREBOLES)(OCHO de DIAMANTES)(SIETE de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (CUATRO de DIAMANTES)(NUEVE de DIAMANTES)
+           roba : (SIETE de DIAMANTES)
+           no pide más cartas
+           tiene: (CUATRO de DIAMANTES)(NUEVE de DIAMANTES)(SIETE de DIAMANTES)
+------------------------------------------
+(4)   Stan tiene: (J de PICAS)(DIEZ de CORAZONES)
+           no pide más cartas
+           tiene: (J de PICAS)(DIEZ de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (CINCO de DIAMANTES)
+           roba : (K de DIAMANTES)
+           roba : (AS de PICAS)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (CINCO de DIAMANTES)(K de DIAMANTES)(AS de PICAS)(OCHO de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 24.0 puntos
+(1)Cartman tiene: 18.0 puntos(Gana)
+(2)   Kyle tiene: 23.0 puntos(Pierde)
+(3)  Kenny tiene: 20.0 puntos(Gana)
+(4)   Stan tiene: 20.0 puntos(Gana)
+------------------------------------------
+(1)Cartman lleva apostado: 55.0
+           lleva ganado  : -14.0
+(2)   Kyle lleva apostado: 48.0
+           lleva ganado  : -3.0
+(3)  Kenny lleva apostado: 48.0
+           lleva ganado  : -9.0
+(4)   Stan lleva apostado: 52.0
+           lleva ganado  : -3.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (Q de TREBOLES)(OCHO de DIAMANTES)
+(2)   Kyle tiene: (DOS de TREBOLES)(CINCO de DIAMANTES)
+(3)  Kenny tiene: (DIEZ de PICAS)(CUATRO de CORAZONES)
+(4)   Stan tiene: (DIEZ de TREBOLES)(SIETE de CORAZONES)
+ElCroupier tiene: (J de PICAS)
+------------------------------------------
+(1)Cartman tiene: (Q de TREBOLES)(OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (Q de TREBOLES)(OCHO de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (DOS de TREBOLES)(CINCO de DIAMANTES)
+           roba : (CINCO de PICAS)
+           roba : (CINCO de CORAZONES)
+           roba : (TRES de PICAS)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(CINCO de DIAMANTES)(CINCO de PICAS)(CINCO de CORAZONES)(TRES de PICAS)
+------------------------------------------
+(3)  Kenny tiene: (DIEZ de PICAS)(CUATRO de CORAZONES)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(CUATRO de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (DIEZ de TREBOLES)(SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (DIEZ de TREBOLES)(SIETE de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (J de PICAS)
+           roba : (CINCO de DIAMANTES)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (J de PICAS)(CINCO de DIAMANTES)(TRES de CORAZONES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 18.0 puntos
+(1)Cartman tiene: 18.0 puntos(Empata)
+(2)   Kyle tiene: 20.0 puntos(Gana)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 17.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 56.0
+           lleva ganado  : -14.0
+(2)   Kyle lleva apostado: 49.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 49.0
+           lleva ganado  : -10.0
+(4)   Stan lleva apostado: 53.0
+           lleva ganado  : -4.0
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(1)Cartman es un Jugador que dobla y se planta en: 17
+(2)   Kyle es un Jugador que solo juega su mano y se planta en: 18
+(3)  Kenny es un Jugador que solo juega su mano y se planta en: 14
+(4)   Stan es un Jugador que dobla y se planta en: 17
+------------------------------------------
+(1)Cartman tiene: (AS de PICAS)(CINCO de PICAS)
+(2)   Kyle tiene: (OCHO de PICAS)(CUATRO de TREBOLES)
+(3)  Kenny tiene: (SIETE de PICAS)(SIETE de CORAZONES)
+(4)   Stan tiene: (DOS de TREBOLES)(AS de CORAZONES)
+ElCroupier tiene: (J de DIAMANTES)
+------------------------------------------
+(1)Cartman tiene: (AS de PICAS)(CINCO de PICAS)
+           roba : (OCHO de DIAMANTES)
+           roba : (SEIS de DIAMANTES)
+           no pide más cartas
+           tiene: (AS de PICAS)(CINCO de PICAS)(OCHO de DIAMANTES)(SEIS de DIAMANTES)
+------------------------------------------
+(2)   Kyle tiene: (OCHO de PICAS)(CUATRO de TREBOLES)
+           roba : (TRES de DIAMANTES)
+           roba : (CINCO de TREBOLES)
+           no pide más cartas
+           tiene: (OCHO de PICAS)(CUATRO de TREBOLES)(TRES de DIAMANTES)(CINCO de TREBOLES)
+------------------------------------------
+(3)  Kenny tiene: (SIETE de PICAS)(SIETE de CORAZONES)
+           no pide más cartas
+           tiene: (SIETE de PICAS)(SIETE de CORAZONES)
+------------------------------------------
+(4)   Stan tiene: (DOS de TREBOLES)(AS de CORAZONES)
+           roba : (NUEVE de DIAMANTES)
+           roba : (CUATRO de PICAS)
+           roba : (SEIS de TREBOLES)
+           no pide más cartas
+           tiene: (DOS de TREBOLES)(AS de CORAZONES)(NUEVE de DIAMANTES)(CUATRO de PICAS)(SEIS de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (J de DIAMANTES)
+           roba : (DIEZ de DIAMANTES)
+           no pide más cartas
+           tiene: (J de DIAMANTES)(DIEZ de DIAMANTES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 20.0 puntos
+(1)Cartman tiene: 20.0 puntos(Empata)
+(2)   Kyle tiene: 20.0 puntos(Empata)
+(3)  Kenny tiene: 14.0 puntos(Pierde)
+(4)   Stan tiene: 22.0 puntos(Pierde)
+------------------------------------------
+(1)Cartman lleva apostado: 57.0
+           lleva ganado  : -14.0
+(2)   Kyle lleva apostado: 50.0
+           lleva ganado  : -2.0
+(3)  Kenny lleva apostado: 50.0
+           lleva ganado  : -11.0
+(4)   Stan lleva apostado: 54.0
+           lleva ganado  : -5.0
