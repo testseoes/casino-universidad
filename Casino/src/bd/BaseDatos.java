@@ -5,7 +5,7 @@ public class BaseDatos {
 	public BaseDatos(){
 		try {  
 			Class.forName("com.mysql.jdbc.Driver").newInstance();  
-			conexion = DriverManager.getConnection("jdbc:mysql://localhost/casino","root","zamparo");  
+			conexion = DriverManager.getConnection("jdbc:mysql://localhost/casino","root","kasino");  
 		} catch (SQLException e) {  
 			System.out.println("Error de MySQL: " + e.getMessage());  
 		} catch (Exception e) {  
