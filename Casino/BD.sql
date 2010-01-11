@@ -1,7 +1,7 @@
 ﻿-- MySQL Administrator dump 1.4
 --
 -- ------------------------------------------------------
--- Server version	6.0.10-alpha-community
+-- Server version	5.1.42-community
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -15,11 +15,11 @@
 
 
 --
--- Create schema `casino uni`
+-- Create schema casino
 --
 
-CREATE DATABASE IF NOT EXISTS `casino`;
-USE `casino`;
+CREATE DATABASE IF NOT EXISTS casino;
+USE casino;
 
 --
 -- Definition of table `casino`
@@ -46,17 +46,19 @@ CREATE TABLE `casino` (
 
 
 --
--- Definition of table `estadisticas sesion`
+-- Definition of table `estadisticas_sesion`
 --
 
 DROP TABLE IF EXISTS `estadisticas_sesion`;
 CREATE TABLE `estadisticas_sesion` (
   `NSesion` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `FechaHoraInicioSesion` datetime NOT NULL,
-  `FechaHoraFinSesion` datetime NOT NULL,
-  `PartidaInicialSesion` int(10) unsigned NOT NULL,
-  `PartidaFinalSesion` int(10) unsigned NOT NULL,
-  `Login1` char(10) NOT NULL,
+  `FechaInicioSesion` date DEFAULT NULL,
+  `HoraInicioSesion` time DEFAULT NULL,
+  `FechaFinSesion` date DEFAULT NULL,
+  `HoraFinSesion` time DEFAULT NULL,
+  `PartidaInicialSesion` int(10) unsigned DEFAULT NULL,
+  `PartidaFinalSesion` int(10) unsigned DEFAULT NULL,
+  `Login1` char(10) DEFAULT NULL,
   `Login2` char(10) DEFAULT NULL,
   `Login3` char(10) DEFAULT NULL,
   `Login4` char(10) DEFAULT NULL,
@@ -97,10 +99,10 @@ CREATE TABLE `estadisticas_sesion` (
   CONSTRAINT `FK_estadisticas_sesion_7` FOREIGN KEY (`Login7`) REFERENCES `jugadores` (`Login`),
   CONSTRAINT `FK_estadisticas_sesion_8` FOREIGN KEY (`Login8`) REFERENCES `jugadores` (`Login`),
   CONSTRAINT `FK_estadisticas_sesion_9` FOREIGN KEY (`Login9`) REFERENCES `jugadores` (`Login`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `estadisticas sesion`
+-- Dumping data for table `estadisticas_sesion`
 --
 
 /*!40000 ALTER TABLE `estadisticas_sesion` DISABLE KEYS */;
@@ -137,13 +139,13 @@ CREATE TABLE `jugadores` (
   `Pass` varchar(20) NOT NULL,
   `Nombre` varchar(20) NOT NULL,
   `Apellido` varchar(20) NOT NULL,
-  `EstoyJugando` bit(1) NOT NULL,
-  `PartidasGanadas Uno` int(10) unsigned NOT NULL,
-  `PartidasTotales Uno` int(10) unsigned NOT NULL,
-  `PuntosAcumulados Uno` int(10) unsigned NOT NULL,
-  `DineroInvertidoBlack` int(10) unsigned NOT NULL,
-  `DineroGanadoBlack` int(10) unsigned NOT NULL,
-  `NUltimaSesion` int(10) unsigned NOT NULL,
+  `EstoyJugando` bit(1) NOT NULL DEFAULT b'0',
+  `PartidasGanadas Uno` int(10) unsigned NOT NULL DEFAULT '0',
+  `PartidasTotales Uno` int(10) unsigned NOT NULL DEFAULT '0',
+  `PuntosAcumulados Uno` int(10) unsigned NOT NULL DEFAULT '0',
+  `DineroInvertidoBlack` int(10) unsigned NOT NULL DEFAULT '0',
+  `DineroGanadoBlack` int(10) unsigned NOT NULL DEFAULT '0',
+  `NUltimaSesion` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`Login`),
   KEY `FK_jugadores_1` (`NUltimaSesion`),
   CONSTRAINT `FK_jugadores_1` FOREIGN KEY (`NUltimaSesion`) REFERENCES `estadisticas_sesion` (`NSesion`)
@@ -154,6 +156,11 @@ CREATE TABLE `jugadores` (
 --
 
 /*!40000 ALTER TABLE `jugadores` DISABLE KEYS */;
+INSERT INTO `jugadores` (`Login`,`Pass`,`Nombre`,`Apellido`,`EstoyJugando`,`PartidasGanadas Uno`,`PartidasTotales Uno`,`PuntosAcumulados Uno`,`DineroInvertidoBlack`,`DineroGanadoBlack`,`NUltimaSesion`) VALUES 
+ ('25000000','1111','Antonio','Diaz',0x00,0,0,0,0,0,NULL),
+ ('25000001','2222','Paco','Gutierrez',0x00,0,0,0,0,0,NULL),
+ ('25000002','3333','Laura','Stromboli',0x00,0,0,0,0,0,NULL),
+ ('25000003','4444','Monica','Fernandez',0x00,0,0,0,0,0,NULL);
 /*!40000 ALTER TABLE `jugadores` ENABLE KEYS */;
 
 
