@@ -1,7 +1,6 @@
 package bd;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.sql.*;
 
 import utils.BDNoHayUsuarios;
@@ -9,7 +8,9 @@ public class BaseDatos {
 	private Connection conexion = null;
 	private String[] usuarios = null;
 	private int partidaInicio;
-	public BaseDatos(){
+	private BufferedReader entrada;
+	public BaseDatos(BufferedReader entrada){
+		this.entrada=entrada;
 		try {  
 			Class.forName("com.mysql.jdbc.Driver").newInstance();  
 			conexion = DriverManager.getConnection("jdbc:mysql://localhost/casino","root","kasino");  
@@ -21,7 +22,6 @@ public class BaseDatos {
 	}
 	public String[] meterUsuarios() throws SQLException, IOException{
 		int numjugadores;
-		BufferedReader entrada = new BufferedReader (new InputStreamReader(System.in));
 		String usuarios[];
 		String login,pass;
 		
