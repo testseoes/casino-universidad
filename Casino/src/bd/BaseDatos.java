@@ -11,7 +11,6 @@ public class BaseDatos {
 	 referido a base de datos.
 	 */
 	private Connection conexion = null;
-	int numsesion;
 	
 	public BaseDatos() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{ 
 		Class.forName("com.mysql.jdbc.Driver").newInstance();  
@@ -41,38 +40,35 @@ public class BaseDatos {
 				"VALUES ('"+login+"','"+pass+"','"+nombre+"','"+apellido+"',"+tipojugadoruno+","
 				+ultNum("tipo_jugador_black","Id_Tipo")+")");
 	}
-	public void iniciaSesion(String[] nombres) throws SQLException, BDNoHayUsuarios{
+	public int iniciaSesion(String[] nombres) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
+		int numsesion;   //necesario devolverlo para cuando se cierre la sesión saber si se habia iniciado.
 		if(nombres.length==0){
-			numsesion=0; //para que no pete al cerrar la sesion (si vale 0, la sesión no se inició)
+			numsesion=0;
 			throw new BDNoHayUsuarios();
 		}
 		else{
-			//1º busco el número de la última partida
-			int partidaInicio=ultNum("partidas","NPartida")+1;
-			//2º inserto fecha, hora y el numpartida inicial.
+			//1º inserto fecha, hora y el numpartida inicial.
 			stmt.executeUpdate("INSERT INTO sesion" +
 				" (FechaInicioSesion, HoraInicioSesion) " +
 				"VALUES (CURDATE(),CURTIME())");
-			//3º busco el nº de ult sesion y lo guardo para poder usarlo cuando cierre
+			//2º busco el nº de ult sesion
 			numsesion=ultNum("sesion","NSesion");
-			//4º Inserto los logins en la tabla jugadores_sesiones
+			//3º Inserto los logins en la tabla jugadores_sesiones
 			for(int i=0; i<nombres.length ; i++){
 				stmt.executeUpdate("INSERT INTO jugadores_sesiones" +
 						" (Login,NSesion) "
 						+"VALUES ('"+nombres[i]+"',"+numsesion+")");
 			}
 		}
+		return numsesion;
 	}
-	public void cierraSesion() throws SQLException, BDNoHayUsuarios{
+	public void cierraSesion(int numsesion) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
 		if(numsesion!=0){
-			//1º busco el número de la última partida				
-			int partidaFin = ultNum("partidas","NPartida");
-			//2º inserto fecha, hora y el numpartida final.
+			//inserto fecha, hora y el numpartida final.
 			stmt.executeUpdate("UPDATE sesion " +
-					"SET FechaFinSesion=CURDATE(), HoraFinSesion=CURTIME(), " +
-					"PartidaFinSesion=" + partidaFin +
+					"SET FechaFinSesion=CURDATE(), HoraFinSesion=CURTIME()" +
 					" WHERE NSesion="+ numsesion);
 		}
 	}
