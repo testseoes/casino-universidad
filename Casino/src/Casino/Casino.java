@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import bd.BaseDatos;
+import blackjack.PrincipalBlack;
 import uno.PrincipalUno;
 import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
@@ -15,22 +16,37 @@ import utils.BarajaMesaVacia;
 public class Casino {
 	final static int npartidas=30; //en cada mesa se jugarán este nº de partidas.
 	
-	public static void main(String[] args) throws IOException,SQLException, BDNoHayUsuarios {
+	public static void main(String[] args) throws IOException,SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, BDNoHayUsuarios {
 		BufferedReader entrada = new BufferedReader (new InputStreamReader(System.in)); //entrada x pantalla
 		BufferedWriter fout = new BufferedWriter(new FileWriter("mesas.txt"));//fichero de out
-		BaseDatos bd= new BaseDatos(entrada);
+		BaseDatos bd= new BaseDatos();
 		ArrayList<String> mesa1= new ArrayList<String>();
 		ArrayList<String> mesa2= new ArrayList<String>();
 		ArrayList<String> mesa3= new ArrayList<String>();
 		ArrayList<String> mesa4= new ArrayList<String>();
 		
-		String[] nombres = bd.meterUsuarios();
-		bd.iniciaSesion();
+		String[] nombres = meterUsuarios(entrada,bd); //nombres son los logins de los jugadores
+		/*
+		 ATENCION!!! no se comprueba q:
+		 	1.- al crear un usuario se repita un login ya existente
+		 	(posible solución= manejar la excepción concreta de SQL)
+		 	
+		 	2.- al crear un usuario que los datos sean válidos (Ej// plantarse con 25 )
+		 	(posible solución= añadir comprobadores)
+		 	
+		 	3.- al se logee un usuario ya logeado (Ej// paco puede jugar a la vez en varias mesas o incluso en su misma mesa)
+		 	(posible solucion= añadir comprobadores)
+		 	
+		 ATENCIÓN: tp se han manejado las posibles excepciones IO, SQL, Exception
+		 	
+		 */
 		
+		//bd.iniciaSesion(nombres);
+		  
 		//repartir nombres en mesas. MAX 4 MESAS.
 		repartirNombresMesas(nombres, mesa1, mesa2, mesa3, mesa4, entrada);
 		
-		//elegir el juego q se jugará en cada mesa	
+		//elegir el juego q se jugará en cada mesa y jugar.	
 		
 		try {
 			elegirJuegoMesa(mesa1,1,fout,entrada);
@@ -43,6 +59,7 @@ public class Casino {
 			e.printStackTrace();
 		} finally {
 			fout.close();
+			//bd.cierraSesion();
 		}
 	}
 	
@@ -68,7 +85,7 @@ public class Casino {
 				}else if(opcion==2){
 					fout.write("------------------------------------------\n");
 					fout.write("          MESA "+nmesa+" -> JUEGO BLACK\n");
-					PrincipalUno.iniciaUno(mesa.toArray(new String[mesa.size()]),fout,npartidas,nmesa);
+					PrincipalBlack.iniciaBlack(mesa.toArray(new String[mesa.size()]),fout,npartidas,nmesa);
 					correcto=true;
 				}
 			}
@@ -110,5 +127,52 @@ public class Casino {
 				}
 			}
 		}
+	}
+	static String[] meterUsuarios(BufferedReader entrada, BaseDatos bd) throws SQLException, IOException{
+		int numjugadores;
+		ArrayList<String> usuarios =new ArrayList<String>();
+		String login,pass;
+		
+		System.out.println("Introduzca Nº Jugadores.");
+		numjugadores=Integer.parseInt(entrada.readLine());
+		for(int i=0; i<numjugadores ; i++){
+			System.out.println("Introduzca Login"+(i+1)+".");
+			login=entrada.readLine();
+			if(bd.comprobarLogin(login)){
+				System.out.println("Introduzca la Pass.");
+				pass=entrada.readLine();
+				for(int j=0;j<3 && !bd.comprobarPass(login, pass);j++){
+					System.out.println("ERROR EN LA PASS. Introduzcala de nuevo.");
+					pass=entrada.readLine();
+				}
+				if(bd.comprobarPass(login, pass))usuarios.add(login);
+				else System.out.println("Se ha equivocado 4 veces, el usuario no se logeará.");
+			}else{
+				System.out.println("El usuario no existe, deberá crearlo.");
+				usuarios.add(crearUsuario(bd,entrada));
+			}
+		}
+		return usuarios.toArray(new String[usuarios.size()]);
+	}
+	
+	private static String crearUsuario(BaseDatos bd, BufferedReader entrada) throws IOException, SQLException {
+		System.out.println("Introduzca el nuevo Login.");
+		String login=entrada.readLine();
+		System.out.println("Introduzca la nueva Pass.");
+		String pass=entrada.readLine();
+		System.out.println("Introduzca el nombre.");
+		String nombre=entrada.readLine();
+		System.out.println("Introduzca el apellido.");
+		String apellido=entrada.readLine();
+		System.out.println("Introduzca el tipo de jugador que será en el UNO(1=CartaEspecial 2=Color 3=Numero).");
+		int tipojugadoruno=Integer.parseInt(entrada.readLine());
+		System.out.println("Introduzca si se doblará en el Black Jack(false=no true=si).");
+		boolean doblar=Boolean.parseBoolean(entrada.readLine());
+		System.out.println("Introduzca si separará en el Black Jack(false=no true=si).");
+		boolean separar=Boolean.parseBoolean(entrada.readLine());
+		System.out.println("Introduzca la cantidad con la que se plantará en el Black Jack.");
+		int plantarse=Integer.parseInt(entrada.readLine());
+		bd.crearUsuario(login,pass,nombre,apellido,tipojugadoruno,doblar,separar,plantarse);
+		return login;
 	}
 }
