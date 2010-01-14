@@ -14,7 +14,7 @@ import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
 
 public class Casino {
-	final static int npartidas=30; //en cada mesa se jugarán este nº de partidas.
+	final static int npartidas=30; //en cada mesa se jugarán este nº de partidas. tb se podría pedir en elegirJuegoMesa para elegir el nº partidas a jugar en cada mesa.
 	
 	public static void main(String[] args) throws IOException,SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, BDNoHayUsuarios {
 		BufferedReader entrada = new BufferedReader (new InputStreamReader(System.in)); //entrada x pantalla
@@ -24,6 +24,7 @@ public class Casino {
 		ArrayList<String> mesa2= new ArrayList<String>();
 		ArrayList<String> mesa3= new ArrayList<String>();
 		ArrayList<String> mesa4= new ArrayList<String>();
+		int numsesion;
 		
 		String[] nombres = meterUsuarios(entrada,bd); //nombres son los logins de los jugadores
 		/*
@@ -41,13 +42,12 @@ public class Casino {
 		 	
 		 */
 		
-		//bd.iniciaSesion(nombres);
+		numsesion=bd.iniciaSesion(nombres);
 		  
 		//repartir nombres en mesas. MAX 4 MESAS.
 		repartirNombresMesas(nombres, mesa1, mesa2, mesa3, mesa4, entrada);
 		
-		//elegir el juego q se jugará en cada mesa y jugar.	
-		
+		//elegir el juego q se jugará en cada mesa y jugar. no es más q lanzar el principal según el juego q sea, con los datos correspondientes.	
 		try {
 			elegirJuegoMesa(mesa1,1,fout,entrada);
 			elegirJuegoMesa(mesa2,2,fout,entrada);
@@ -59,7 +59,7 @@ public class Casino {
 			e.printStackTrace();
 		} finally {
 			fout.close();
-			//bd.cierraSesion();
+			bd.cierraSesion(numsesion);
 		}
 	}
 	

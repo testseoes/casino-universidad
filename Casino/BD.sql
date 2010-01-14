@@ -2,7 +2,6 @@
 --
 -- ------------------------------------------------------
 -- Server version	5.1.42-community
---
 -- SIEMPRE QUE CARGUEIS DE NUEVO LA BD CON: QUERYBROWSER->OPEN SCRIPT
 -- BORRAD LA ANTERIOR BD CON: BOTON DERECHO SOBRE LA BD->DROP SCHEMA
 
@@ -33,13 +32,13 @@ CREATE TABLE `jugadores` (
   `Pass` varchar(8) NOT NULL,
   `Nombre` varchar(20) NOT NULL,
   `Apellido` varchar(20) NOT NULL,
-  `InvertidoTotal` int(10) unsigned DEFAULT NULL,
-  `RecuperadoTotal` int(10) unsigned DEFAULT NULL,
+  `InvertidoTotal` int(10) unsigned DEFAULT '0',
+  `RecuperadoTotal` int(10) unsigned DEFAULT '0',
   `TipoJugadorUno` int(10) unsigned DEFAULT NULL,
   `TipoJugadorBlack` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`Login`),
   KEY `FK_jugadores_1` (`TipoJugadorBlack`),
-  CONSTRAINT `FK_jugadores_1` FOREIGN KEY (`TipoJugadorBlack`) REFERENCES `tipo_jugador_black` (`id_tipo`)
+  CONSTRAINT `FK_jugadores_1` FOREIGN KEY (`TipoJugadorBlack`) REFERENCES `tipo_jugador_black` (`Id_Tipo`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -47,11 +46,6 @@ CREATE TABLE `jugadores` (
 --
 
 /*!40000 ALTER TABLE `jugadores` DISABLE KEYS */;
-INSERT INTO `jugadores` (`Login`,`Pass`,`Nombre`,`Apellido`,`InvertidoTotal`,`RecuperadoTotal`,`TipoJugadorUno`,`TipoJugadorBlack`) VALUES 
- ('23456745K','3333','Manuela','Mayorga',NULL,NULL,NULL,NULL),
- ('25698745L','1111','Horacio','Perez',NULL,NULL,NULL,NULL),
- ('25732700R','4444','Raul','Gutierrez',NULL,NULL,NULL,NULL),
- ('X3135830X','2222','Jose','Gonzalez',NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `jugadores` ENABLE KEYS */;
 
 
@@ -65,10 +59,10 @@ CREATE TABLE `jugadores_partidas` (
   `Login` varchar(20) NOT NULL,
   `Invertido` int(10) unsigned NOT NULL,
   `Recuperado` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`NPartida`),
+  PRIMARY KEY (`NPartida`,`Login`) USING BTREE,
   KEY `FK_jugadores_partidas_1` (`Login`),
-  CONSTRAINT `FK_jugadores_partidas_2` FOREIGN KEY (`NPartida`) REFERENCES `partidas` (`NPartida`),
-  CONSTRAINT `FK_jugadores_partidas_1` FOREIGN KEY (`Login`) REFERENCES `jugadores` (`Login`)
+  CONSTRAINT `FK_jugadores_partidas_1` FOREIGN KEY (`Login`) REFERENCES `jugadores` (`Login`),
+  CONSTRAINT `FK_jugadores_partidas_2` FOREIGN KEY (`NPartida`) REFERENCES `partidas` (`NPartida`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -88,9 +82,9 @@ CREATE TABLE `jugadores_sesiones` (
   `Login` varchar(20) NOT NULL,
   `NSesion` int(10) unsigned NOT NULL,
   PRIMARY KEY (`Login`,`NSesion`),
-  KEY `FK_jugadores_sesiones_1` (`NSesion`),
-  CONSTRAINT `FK_jugadores_sesiones_2` FOREIGN KEY (`Login`) REFERENCES `jugadores` (`Login`),
-  CONSTRAINT `FK_jugadores_sesiones_1` FOREIGN KEY (`NSesion`) REFERENCES `sesion` (`NSesion`)
+  KEY `FK_jugadores_sesiones_2` (`NSesion`),
+  CONSTRAINT `FK_jugadores_sesiones_1` FOREIGN KEY (`Login`) REFERENCES `jugadores` (`Login`),
+  CONSTRAINT `FK_jugadores_sesiones_2` FOREIGN KEY (`NSesion`) REFERENCES `sesion` (`NSesion`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -125,24 +119,40 @@ CREATE TABLE `partidas` (
 
 
 --
+-- Definition of table `partidas_sesiones`
+--
+
+DROP TABLE IF EXISTS `partidas_sesiones`;
+CREATE TABLE `partidas_sesiones` (
+  `NPartida` int(10) unsigned NOT NULL,
+  `NSesion` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`NPartida`,`NSesion`),
+  KEY `FK_partidas_sesiones_1` (`NSesion`),
+  CONSTRAINT `FK_partidas_sesiones_1` FOREIGN KEY (`NSesion`) REFERENCES `sesion` (`NSesion`),
+  CONSTRAINT `FK_partidas_sesiones_2` FOREIGN KEY (`NPartida`) REFERENCES `partidas` (`NPartida`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `partidas_sesiones`
+--
+
+/*!40000 ALTER TABLE `partidas_sesiones` DISABLE KEYS */;
+/*!40000 ALTER TABLE `partidas_sesiones` ENABLE KEYS */;
+
+
+--
 -- Definition of table `sesion`
 --
 
 DROP TABLE IF EXISTS `sesion`;
 CREATE TABLE `sesion` (
   `NSesion` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `FechaInicioSesion` datetime NOT NULL,
-  `FechaFinSesion` datetime NOT NULL,
+  `FechaInicioSesion` date NOT NULL,
+  `FechaFinSesion` date DEFAULT NULL,
   `HoraInicioSesion` time NOT NULL,
-  `HoraFinSesion` time NOT NULL,
-  `PartidaInicialSesion` int(10) unsigned NOT NULL,
-  `PartidaFinSesion` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`NSesion`),
-  KEY `FK_sesion_1` (`PartidaInicialSesion`),
-  KEY `FK_sesion_2` (`PartidaFinSesion`),
-  CONSTRAINT `FK_sesion_2` FOREIGN KEY (`PartidaFinSesion`) REFERENCES `partidas` (`NPartida`),
-  CONSTRAINT `FK_sesion_1` FOREIGN KEY (`PartidaInicialSesion`) REFERENCES `partidas` (`NPartida`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `HoraFinSesion` time DEFAULT NULL,
+  PRIMARY KEY (`NSesion`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `sesion`
@@ -158,12 +168,12 @@ CREATE TABLE `sesion` (
 
 DROP TABLE IF EXISTS `tipo_jugador_black`;
 CREATE TABLE `tipo_jugador_black` (
-  `id_tipo` int(10) unsigned NOT NULL,
-  `doblar` bit(1) NOT NULL,
-  `separar` bit(1) NOT NULL,
-  `plantarse` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`id_tipo`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Id_Tipo` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Doblar` bit(1) NOT NULL,
+  `Separar` bit(1) NOT NULL,
+  `Plantarse` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`Id_Tipo`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tipo_jugador_black`
