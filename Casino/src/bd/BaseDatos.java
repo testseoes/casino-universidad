@@ -81,7 +81,7 @@ public class BaseDatos {
 		else return 0;
 	}
 	//Insertar Partida
-	public void InsertarPartida(int mesa,String juego) throws SQLException{
+	public void insertarPartida(int mesa,String juego) throws SQLException{
 		Statement stmt=conexion.createStatement();
 		stmt.executeUpdate("INSERT INTO partidas" +
 				" (Mesa,NombreJuego) "
@@ -93,7 +93,7 @@ public class BaseDatos {
 
 	}
 	//Para rellenar la tabla jugadores/partida
-	public void JugadoresPartida (String[] nombres) throws SQLException{
+	public void jugadoresPartida (String[] nombres) throws SQLException{
 		Statement stmt=conexion.createStatement();
 		int npartida=ultNum("partidas","NPartida");
 		for(int i=0; i<nombres.length; i++){
@@ -103,7 +103,7 @@ public class BaseDatos {
 		}		
 	}
 	//Insertar partidas por sesion	
-	public void PartidasSesion () throws SQLException{
+	public void partidasSesion () throws SQLException{
 	Statement stmt=conexion.createStatement();
 	int npartida=ultNum("partidas","NPartida");
 	int nsesion=ultNum("sesion","NSesion");
@@ -115,9 +115,9 @@ public class BaseDatos {
 
 	//Inicia partida para uno y black
 	public void iniciaPartida(int nmesa, String juego,String[] nombres) throws SQLException{
-		InsertarPartida(nmesa,juego);
-		JugadoresPartida(nombres);
-		PartidasSesion();
+		insertarPartida(nmesa,juego);
+		jugadoresPartida(nombres);
+		partidasSesion();
 	}
 	//Fin partida para uno y black
 	public void finPartida() throws SQLException{
@@ -158,7 +158,7 @@ public class BaseDatos {
 		if(resultado.next()) suma=resultado.getInt("RecuperadoTotal")+c;
 		stmt.executeUpdate("UPDATE jugadores " +
 				"SET RecuperadoTotal="+suma +
-				" WHERE Login="+ login);
+				" WHERE Login='"+login+"'");
 		stmt.executeUpdate("UPDATE jugadores_partidas " + 
 				"SET Recuperado="+c +
 				" WHERE Login='"+login+"' && NPartida="+ultpartida);
@@ -173,7 +173,7 @@ public class BaseDatos {
 			if(resultado.next()) suma=resultado.getInt("InvertidoTotal")+c;
 			stmt.executeUpdate("UPDATE jugadores " +
 					"SET InvertidoTotal="+suma +
-					" WHERE Login="+ nombres[i]);
+					" WHERE Login='"+nombres[i]+"'");
 		}
 		for(int i=0; i<nombres.length; i++){
 				int ultpartida=ultNum("partidas","NPartida");

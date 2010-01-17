@@ -1,1230 +1,1805 @@
 ------------------------------------------
-          MESA 1 -> JUEGO UNO
+          MESA 2 -> JUEGO UNO
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25732700 tiene: (Salta Turno, AMARILLO)(Salta Turno, ROJO)(9, ROJO)(3, VERDE)(Cambio de Sentido, AMARILLO)(0, AMARILLO)(7, AZUL)
-(J.Color ) 25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(9, VERDE)(7, VERDE)(6, ROJO)
+(J.Número) 25732700R tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, ROJO)(8, AZUL)(3, VERDE)(2, VERDE)(Roba4, Cambio de Color)
+(J.Color ) 25111111X tiene: (4, AMARILLO)(6, VERDE)(Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)
 ------------------------------------------
-      En la Mesa: (8, AZUL)
+      En la Mesa: (Roba2 , ROJO)
 ------------------------------------------
 
-25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(9, VERDE)(7, VERDE)(6, ROJO)
-           roba : (Roba2 , VERDE)
-
-25732700 tiene: (Salta Turno, AMARILLO)(Salta Turno, ROJO)(9, ROJO)(3, VERDE)(Cambio de Sentido, AMARILLO)(0, AMARILLO)(7, AZUL)
-           echa : (7, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(9, VERDE)(7, VERDE)(6, ROJO)(Roba2 , VERDE)
-           echa : (7, VERDE)
-
-25732700 tiene: (Salta Turno, AMARILLO)(Salta Turno, ROJO)(9, ROJO)(3, VERDE)(Cambio de Sentido, AMARILLO)(0, AMARILLO)
-           echa : (3, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(9, VERDE)(6, ROJO)(Roba2 , VERDE)
-           echa : (9, VERDE)
-
-25732700 tiene: (Salta Turno, AMARILLO)(Salta Turno, ROJO)(9, ROJO)(Cambio de Sentido, AMARILLO)(0, AMARILLO)
-           echa : (9, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(6, ROJO)(Roba2 , VERDE)
-           echa : (6, ROJO)
-
-25732700 tiene: (Salta Turno, AMARILLO)(Salta Turno, ROJO)(Cambio de Sentido, AMARILLO)(0, AMARILLO)
-           echa : (Salta Turno, ROJO)
-
-25434343 pierde su turno
-
-25732700 tiene: (Salta Turno, AMARILLO)(Cambio de Sentido, AMARILLO)(0, AMARILLO)
-           echa : (Salta Turno, AMARILLO)
-
-25434343 pierde su turno
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)(0, AMARILLO)
-           echa : (0, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(0, ROJO)(4, VERDE)(2, ROJO)(Roba2 , VERDE)
-           echa : (0, ROJO)
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)
-           roba : (6, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(2, ROJO)(Roba2 , VERDE)
-           echa : (2, ROJO)
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)(6, AMARILLO)
-           roba : (6, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)
-           roba : (5, AMARILLO)
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)(6, AMARILLO)(6, AZUL)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color AMARILLO
-
-           roba : (Roba4, Cambio de Color)
-           roba : (Roba4, Cambio de Color)
            roba : (Cambio de Color)
-           roba : (Salta Turno, VERDE)
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(5, AMARILLO)(Roba4, Cambio de Color)(Roba4, Cambio de Color)(Cambio de Color)(Salta Turno, VERDE)
-           echa : (5, AMARILLO)
+           roba : (Roba2 , AZUL)
+25111111X tiene: (4, AMARILLO)(6, VERDE)(Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)(Cambio de Color)(Roba2 , AZUL)
+           echa : (Roba2 , AZUL)
 
-25732700 tiene: (Cambio de Sentido, AMARILLO)(6, AMARILLO)(6, AZUL)
-           echa : (6, AMARILLO)
+           roba : (4, VERDE)
+           roba : (1, AMARILLO)
+25732700R tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, ROJO)(8, AZUL)(3, VERDE)(2, VERDE)(Roba4, Cambio de Color)(4, VERDE)(1, AMARILLO)
+           echa : (4, AZUL)
 
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Roba4, Cambio de Color)(Roba4, Cambio de Color)(Cambio de Color)(Salta Turno, VERDE)
+25111111X tiene: (4, AMARILLO)(6, VERDE)(Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)(Cambio de Color)
+           echa : (4, AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(3, ROJO)(8, AZUL)(3, VERDE)(2, VERDE)(Roba4, Cambio de Color)(4, VERDE)(1, AMARILLO)
+           echa : (4, VERDE)
+
+25111111X tiene: (6, VERDE)(Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)(Cambio de Color)
+           echa : (6, VERDE)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(3, ROJO)(8, AZUL)(3, VERDE)(2, VERDE)(Roba4, Cambio de Color)(1, AMARILLO)
+           echa : (2, VERDE)
+
+25111111X tiene: (Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)(Cambio de Color)
            echa : (Cambio de Color)
            ha elegido el color AZUL
 
-25732700 tiene: (Cambio de Sentido, AMARILLO)(6, AZUL)
-           echa : (6, AZUL)
+25732700R tiene: (Cambio de Sentido, ROJO)(3, ROJO)(8, AZUL)(3, VERDE)(Roba4, Cambio de Color)(1, AMARILLO)
+           echa : (8, AZUL)
 
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Roba4, Cambio de Color)(Roba4, Cambio de Color)(Salta Turno, VERDE)
+25111111X tiene: (Cambio de Color)(5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25732700R tiene: (Cambio de Sentido, ROJO)(3, ROJO)(3, VERDE)(Roba4, Cambio de Color)(1, AMARILLO)
+           echa : (3, VERDE)
+
+25111111X tiene: (5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)
+           roba : (Roba2 , AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(3, ROJO)(Roba4, Cambio de Color)(1, AMARILLO)
+           echa : (3, ROJO)
+
+25111111X tiene: (5, AMARILLO)(Salta Turno, ROJO)(6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)
+           echa : (Salta Turno, ROJO)
+
+25732700R pierde su turno
+
+25111111X tiene: (5, AMARILLO)(6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)
+           echa : (Salta Turno, AMARILLO)
+
+25732700R pierde su turno
+
+25111111X tiene: (5, AMARILLO)(6, AMARILLO)(Roba2 , AMARILLO)
+           echa : (5, AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(Roba4, Cambio de Color)(1, AMARILLO)
+           echa : (1, AMARILLO)
+
+25111111X tiene: (6, AMARILLO)(Roba2 , AMARILLO)
+           echa : (6, AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(Roba4, Cambio de Color)
            echa : (Roba4, Cambio de Color)
            ha elegido el color AZUL
 
            roba : (Salta Turno, AZUL)
-           roba : (7, ROJO)
-           roba : (1, AZUL)
-           roba : (7, AMARILLO)
-25732700 tiene: (Cambio de Sentido, AMARILLO)(Salta Turno, AZUL)(7, ROJO)(1, AZUL)(7, AMARILLO)
-           echa : (1, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Roba4, Cambio de Color)(Salta Turno, VERDE)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (Cambio de Color)
-           roba : (Cambio de Sentido, VERDE)
-           roba : (Cambio de Color)
-           roba : (9, VERDE)
-25732700 tiene: (Cambio de Sentido, AMARILLO)(Salta Turno, AZUL)(7, ROJO)(7, AMARILLO)(Cambio de Color)(Cambio de Sentido, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (7, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Salta Turno, VERDE)
-           roba : (0, AZUL)
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)(Salta Turno, AZUL)(7, AMARILLO)(Cambio de Color)(Cambio de Sentido, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (7, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Salta Turno, VERDE)(0, AZUL)
-           roba : (6, ROJO)
-
-25732700 tiene: (Cambio de Sentido, AMARILLO)(Salta Turno, AZUL)(Cambio de Color)(Cambio de Sentido, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (Cambio de Sentido, AMARILLO)
-
-           Se cambia orientación
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)
-           roba : (Roba2 , ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)(Cambio de Sentido, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25434343 tiene: (Salta Turno, VERDE)(4, VERDE)(Roba2 , VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)(Roba2 , ROJO)
-           echa : (4, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)(Cambio de Color)(9, VERDE)
-           echa : (9, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)(Roba2 , ROJO)
-           echa : (Roba2 , VERDE)
-
-           roba : (1, ROJO)
-           roba : (8, AMARILLO)
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)(Cambio de Color)(1, ROJO)(8, AMARILLO)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)(Roba2 , ROJO)
-           roba : (1, AZUL)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)(1, ROJO)(8, AMARILLO)
-           echa : (8, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)(Roba2 , ROJO)(1, AZUL)
-           roba : (8, ROJO)
-           echa : (8, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)(1, ROJO)
-           echa : (1, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(6, ROJO)(Roba2 , ROJO)(1, AZUL)
-           echa : (6, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color ROJO
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)
-           roba : (5, AZUL)
-
-25732700 tiene: (Salta Turno, AZUL)
-           roba : (9, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)(5, AZUL)
-           roba : (Cambio de Sentido, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)
+           roba : (Salta Turno, ROJO)
            roba : (3, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)
-           roba : (Cambio de Sentido, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)
-           roba : (Cambio de Sentido, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)
-           roba : (Cambio de Sentido, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)
-           roba : (1, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           roba : (8, ROJO)
-           echa : (8, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)
-           roba : (5, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(Roba2 , ROJO)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           echa : (Roba2 , ROJO)
-
-           roba : (7, AZUL)
-           roba : (2, AMARILLO)
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(5, AMARILLO)(7, AZUL)(2, AMARILLO)
-           roba : (6, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           roba : (Roba2 , AZUL)
-           echa : (Roba2 , AZUL)
-
-           roba : (2, ROJO)
-           roba : (9, AMARILLO)
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(5, AMARILLO)(7, AZUL)(2, AMARILLO)(6, AMARILLO)(2, ROJO)(9, AMARILLO)
-           echa : (7, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(1, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           echa : (1, AZUL)
-
-25732700 tiene: (Salta Turno, AZUL)(9, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(5, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)(9, AMARILLO)
-           echa : (9, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, AZUL)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           echa : (0, AZUL)
-
-25732700 tiene: (Salta Turno, AZUL)(3, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(5, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)(9, AMARILLO)
+           roba : (Roba2 , ROJO)
+25111111X tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(Salta Turno, ROJO)(3, AZUL)(Roba2 , ROJO)
            echa : (3, AZUL)
 
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(5, AZUL)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           echa : (5, AZUL)
+25732700R tiene: (Cambio de Sentido, ROJO)
+           roba : (0, ROJO)
 
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(5, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)(9, AMARILLO)
-           echa : (5, AMARILLO)
+25111111X tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(Salta Turno, ROJO)(Roba2 , ROJO)
+           echa : (Salta Turno, AZUL)
 
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)
-           roba : (4, ROJO)
+25732700R pierde su turno
 
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)(9, AMARILLO)
+25111111X tiene: (Roba2 , AMARILLO)(Salta Turno, ROJO)(Roba2 , ROJO)
+           echa : (Salta Turno, ROJO)
+
+25732700R pierde su turno
+
+25111111X tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)
+           roba : (Roba2 , AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(0, ROJO)
+           echa : (0, ROJO)
+
+25111111X tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)(Roba2 , AMARILLO)
+           echa : (Roba2 , ROJO)
+
+           roba : (Cambio de Sentido, AMARILLO)
+           roba : (Salta Turno, AMARILLO)
+25732700R tiene: (Cambio de Sentido, ROJO)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)
+           roba : (7, VERDE)
+
+25111111X tiene: (Roba2 , AMARILLO)(Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (0, AMARILLO)
+           roba : (Cambio de Sentido, VERDE)
+25732700R tiene: (Cambio de Sentido, ROJO)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(7, VERDE)(0, AMARILLO)(Cambio de Sentido, VERDE)
+           echa : (0, AMARILLO)
+
+25111111X tiene: (Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+------------------------------------------
+             Clasificación
+          ------------------
+1º 25111111X tiene 0.0 puntos y lleva 1 partidas ganadas.
+2º 25732700R tiene 87.0 puntos y lleva 0 partidas ganadas.
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(J.Número) 25732700R tiene: (Salta Turno, ROJO)(Roba2 , VERDE)(Cambio de Sentido, AMARILLO)(Roba2 , AZUL)(2, AZUL)(3, AMARILLO)(3, VERDE)
+(J.Color ) 25111111X tiene: (Cambio de Sentido, AZUL)(9, AMARILLO)(Roba4, Cambio de Color)(7, AMARILLO)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)
+------------------------------------------
+      En la Mesa: (Roba2 , ROJO)
+------------------------------------------
+
+           roba : (8, AMARILLO)
+           roba : (Cambio de Color)
+25732700R tiene: (Salta Turno, ROJO)(Roba2 , VERDE)(Cambio de Sentido, AMARILLO)(Roba2 , AZUL)(2, AZUL)(3, AMARILLO)(3, VERDE)(8, AMARILLO)(Cambio de Color)
+           echa : (Roba2 , VERDE)
+
+           roba : (8, VERDE)
+           roba : (0, ROJO)
+25111111X tiene: (Cambio de Sentido, AZUL)(9, AMARILLO)(Roba4, Cambio de Color)(7, AMARILLO)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)(8, VERDE)(0, ROJO)
+           echa : (8, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Sentido, AMARILLO)(Roba2 , AZUL)(2, AZUL)(3, AMARILLO)(3, VERDE)(8, AMARILLO)(Cambio de Color)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, AZUL)(9, AMARILLO)(Roba4, Cambio de Color)(7, AMARILLO)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)(0, ROJO)
            echa : (9, AMARILLO)
 
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(4, ROJO)
-           roba : (4, AMARILLO)
-           echa : (4, AMARILLO)
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Sentido, AMARILLO)(Roba2 , AZUL)(2, AZUL)(3, AMARILLO)(3, VERDE)(Cambio de Color)
+           echa : (3, AMARILLO)
 
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(1, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)
-           echa : (1, AMARILLO)
+25111111X tiene: (Cambio de Sentido, AZUL)(Roba4, Cambio de Color)(7, AMARILLO)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)(0, ROJO)
+           echa : (7, AMARILLO)
 
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(4, ROJO)
-           roba : (8, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(2, AMARILLO)(6, AMARILLO)(2, ROJO)
-           echa : (6, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(4, ROJO)(8, VERDE)
-           roba : (2, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(2, AMARILLO)(2, ROJO)
-           echa : (2, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(4, ROJO)(8, VERDE)(2, VERDE)
-           echa : (2, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(2, ROJO)
-           echa : (2, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(4, ROJO)(8, VERDE)
-           echa : (4, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)
-           roba : (0, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)
-           roba : (5, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)(0, VERDE)
-           roba : (1, AMARILLO)
-           echa : (1, AMARILLO)
-
-25732700 tiene: (Salta Turno, AZUL)(Cambio de Sentido, AMARILLO)(5, ROJO)
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Sentido, AMARILLO)(Roba2 , AZUL)(2, AZUL)(3, VERDE)(Cambio de Color)
            echa : (Cambio de Sentido, AMARILLO)
 
            Se cambia orientación
 
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)(0, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25732700 tiene: (Salta Turno, AZUL)(5, ROJO)
-           roba : (8, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)(0, VERDE)
-           echa : (8, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(5, ROJO)(8, AMARILLO)
-           echa : (8, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(0, VERDE)
-           roba : (7, VERDE)
-
-25732700 tiene: (Salta Turno, AZUL)(5, ROJO)
-           roba : (9, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(0, VERDE)(7, VERDE)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (Salta Turno, ROJO)
-           roba : (Roba2 , AMARILLO)
-           roba : (8, AZUL)
-           roba : (1, ROJO)
-25732700 tiene: (Salta Turno, AZUL)(5, ROJO)(9, ROJO)(Salta Turno, ROJO)(Roba2 , AMARILLO)(8, AZUL)(1, ROJO)
-           echa : (5, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, ROJO)(0, VERDE)(7, VERDE)
-           echa : (Cambio de Sentido, ROJO)
-
-           Se cambia orientación
-
-25732700 tiene: (Salta Turno, AZUL)(9, ROJO)(Salta Turno, ROJO)(Roba2 , AMARILLO)(8, AZUL)(1, ROJO)
-           echa : (1, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Cambio de Sentido, ROJO)(0, VERDE)(7, VERDE)
-           echa : (Cambio de Sentido, ROJO)
-
-           Se cambia orientación
-
-25732700 tiene: (Salta Turno, AZUL)(9, ROJO)(Salta Turno, ROJO)(Roba2 , AMARILLO)(8, AZUL)
-           echa : (9, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)
-           roba : (5, ROJO)
-           echa : (5, ROJO)
-
-25732700 tiene: (Salta Turno, AZUL)(Salta Turno, ROJO)(Roba2 , AMARILLO)(8, AZUL)
-           echa : (Salta Turno, ROJO)
-
-25434343 pierde su turno
-
-25732700 tiene: (Salta Turno, AZUL)(Roba2 , AMARILLO)(8, AZUL)
-           echa : (Salta Turno, AZUL)
-
-25434343 pierde su turno
-
-25732700 tiene: (Roba2 , AMARILLO)(8, AZUL)
-           echa : (8, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)
-           roba : (1, VERDE)
-
-25732700 tiene: (Roba2 , AMARILLO)
-           roba : (4, AZUL)
-           echa : (4, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)(1, VERDE)
-           roba : (2, AZUL)
-           echa : (2, AZUL)
-
-25732700 tiene: (Roba2 , AMARILLO)
-           roba : (5, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)(1, VERDE)
-           roba : (Roba2 , VERDE)
-
-25732700 tiene: (Roba2 , AMARILLO)(5, VERDE)
-           roba : (5, AZUL)
-           echa : (5, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)(1, VERDE)(Roba2 , VERDE)
-           roba : (7, AMARILLO)
-
-25732700 tiene: (Roba2 , AMARILLO)(5, VERDE)
-           echa : (5, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(7, VERDE)(1, VERDE)(Roba2 , VERDE)(7, AMARILLO)
-           echa : (7, VERDE)
-
-25732700 tiene: (Roba2 , AMARILLO)
-           roba : (4, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(1, VERDE)(Roba2 , VERDE)(7, AMARILLO)
-           echa : (1, VERDE)
-
-25732700 tiene: (Roba2 , AMARILLO)(4, ROJO)
-           roba : (2, VERDE)
-           echa : (2, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(0, VERDE)(Roba2 , VERDE)(7, AMARILLO)
-           echa : (0, VERDE)
-
-25732700 tiene: (Roba2 , AMARILLO)(4, ROJO)
-           roba : (3, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(Roba2 , VERDE)(7, AMARILLO)
-           echa : (Roba2 , VERDE)
-
-           roba : (Roba2 , AZUL)
-           roba : (Cambio de Sentido, AZUL)
-25732700 tiene: (Roba2 , AMARILLO)(4, ROJO)(3, AMARILLO)(Roba2 , AZUL)(Cambio de Sentido, AZUL)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (3, ROJO)
-           roba : (9, AMARILLO)
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(7, AMARILLO)(3, ROJO)(9, AMARILLO)
-           echa : (9, AMARILLO)
-
-25732700 tiene: (4, ROJO)(3, AMARILLO)(Roba2 , AZUL)(Cambio de Sentido, AZUL)
-           echa : (3, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(7, AMARILLO)(3, ROJO)
-           echa : (7, AMARILLO)
-
-25732700 tiene: (4, ROJO)(Roba2 , AZUL)(Cambio de Sentido, AZUL)
-           roba : (6, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(3, ROJO)
-           roba : (6, VERDE)
-
-25732700 tiene: (4, ROJO)(Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)
-           roba : (9, AZUL)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(3, ROJO)(6, VERDE)
-           roba : (7, ROJO)
-           echa : (7, ROJO)
-
-25732700 tiene: (4, ROJO)(Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)
-           echa : (4, ROJO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(3, ROJO)(6, VERDE)
-           echa : (3, ROJO)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)
-           roba : (8, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)
-           roba : (2, AMARILLO)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)
-           roba : (4, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)(2, AMARILLO)
-           roba : (4, VERDE)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)(4, AMARILLO)
-           roba : (6, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)(2, AMARILLO)(4, VERDE)
-           roba : (1, VERDE)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)(4, AMARILLO)(6, VERDE)
-           roba : (3, AMARILLO)
-           echa : (3, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)(2, AMARILLO)(4, VERDE)(1, VERDE)
-           echa : (2, AMARILLO)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)(4, AMARILLO)(6, VERDE)
-           echa : (4, AMARILLO)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)(4, VERDE)(1, VERDE)
-           echa : (4, VERDE)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)(6, VERDE)
-           echa : (6, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(6, VERDE)(1, VERDE)
-           echa : (6, VERDE)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)(8, VERDE)
-           echa : (8, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(1, VERDE)
-           echa : (1, VERDE)
-
-25732700 tiene: (Roba2 , AZUL)(Cambio de Sentido, AZUL)(6, AZUL)(9, AZUL)
-           roba : (5, VERDE)
-           echa : (5, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)
-           echa : (Salta Turno, VERDE)
-
-25732700 pierde su turno
-
-25434343 tiene: (Salta Turno, VERDE)
-           echa : (Salta Turno, VERDE)
-------------------------------------------
-             Clasificación
-          ------------------
-1º 25434343 tiene 0.0 puntos y lleva 1 partidas ganadas.
-2º 25732700 tiene 55.0 puntos y lleva 0 partidas ganadas.
-------------------------------------------
-          Empieza La Partida
-          ------------------
-(J.Color ) 25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(9, ROJO)(2, VERDE)(Cambio de Color)
-(J.Color ) 25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, VERDE)(Cambio de Color)(5, AMARILLO)(2, AZUL)
-------------------------------------------
-      En la Mesa: (Roba4, Cambio de Color)
-------------------------------------------
-           ha elegido el color ROJO
-
-           roba : (9, AMARILLO)
-           roba : (3, VERDE)
-           roba : (Cambio de Sentido, ROJO)
-           roba : (Cambio de Sentido, VERDE)
-25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(9, ROJO)(2, VERDE)(Cambio de Color)(9, AMARILLO)(3, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)
-           echa : (9, ROJO)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, VERDE)(Cambio de Color)(5, AMARILLO)(2, AZUL)
-           echa : (Cambio de Color)
-           ha elegido el color VERDE
-
-25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(2, VERDE)(Cambio de Color)(9, AMARILLO)(3, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)
-           echa : (2, VERDE)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, VERDE)(5, AMARILLO)(2, AZUL)
-           echa : (5, VERDE)
-
-25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(Cambio de Color)(9, AMARILLO)(3, VERDE)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)
-           echa : (3, VERDE)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(2, AZUL)
-           roba : (Roba2 , AZUL)
-
-25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(Cambio de Color)(9, AMARILLO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(2, AZUL)(Roba2 , AZUL)
-           roba : (1, VERDE)
-           echa : (1, VERDE)
-
-25732700 tiene: (0, AMARILLO)(Roba4, Cambio de Color)(8, AZUL)(9, ROJO)(Cambio de Color)(9, AMARILLO)(Cambio de Sentido, ROJO)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color VERDE
-
-           roba : (Cambio de Color)
-           roba : (Cambio de Color)
-           roba : (Roba4, Cambio de Color)
-           roba : (4, VERDE)
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(2, AZUL)(Roba2 , AZUL)(Cambio de Color)(Cambio de Color)(Roba4, Cambio de Color)(4, VERDE)
-           echa : (4, VERDE)
-
-25732700 tiene: (0, AMARILLO)(8, AZUL)(9, ROJO)(Cambio de Color)(9, AMARILLO)(Cambio de Sentido, ROJO)
-           echa : (Cambio de Color)
-           ha elegido el color ROJO
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(2, AZUL)(Roba2 , AZUL)(Cambio de Color)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AZUL
-
-25732700 tiene: (0, AMARILLO)(8, AZUL)(9, ROJO)(9, AMARILLO)(Cambio de Sentido, ROJO)
-           echa : (8, AZUL)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(2, AZUL)(Roba2 , AZUL)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (2, AZUL)
-
-25732700 tiene: (0, AMARILLO)(9, ROJO)(9, AMARILLO)(Cambio de Sentido, ROJO)
-           roba : (8, AMARILLO)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(Roba2 , AZUL)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (Roba2 , AZUL)
-
-           roba : (6, VERDE)
-           roba : (Cambio de Sentido, AMARILLO)
-25732700 tiene: (0, AMARILLO)(9, ROJO)(9, AMARILLO)(Cambio de Sentido, ROJO)(8, AMARILLO)(6, VERDE)(Cambio de Sentido, AMARILLO)
-           roba : (Salta Turno, ROJO)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Roba2 , AMARILLO)(5, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (6, ROJO)
-           roba : (Roba2 , ROJO)
-25732700 tiene: (0, AMARILLO)(9, ROJO)(9, AMARILLO)(Cambio de Sentido, ROJO)(8, AMARILLO)(6, VERDE)(Cambio de Sentido, AMARILLO)(Salta Turno, ROJO)(6, ROJO)(Roba2 , ROJO)
-           echa : (9, AMARILLO)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(5, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (5, AMARILLO)
-
-25732700 tiene: (0, AMARILLO)(9, ROJO)(Cambio de Sentido, ROJO)(8, AMARILLO)(6, VERDE)(Cambio de Sentido, AMARILLO)(Salta Turno, ROJO)(6, ROJO)(Roba2 , ROJO)
-           echa : (8, AMARILLO)
-
-25434343 tiene: (6, AMARILLO)(Salta Turno, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (6, AMARILLO)
-
-25732700 tiene: (0, AMARILLO)(9, ROJO)(Cambio de Sentido, ROJO)(6, VERDE)(Cambio de Sentido, AMARILLO)(Salta Turno, ROJO)(6, ROJO)(Roba2 , ROJO)
-           echa : (0, AMARILLO)
-
-25434343 tiene: (Salta Turno, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
-           echa : (Salta Turno, AMARILLO)
-
-25732700 pierde su turno
-
-25434343 tiene: (Cambio de Color)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color AZUL
-
-           roba : (Roba2 , VERDE)
-           roba : (9, VERDE)
-           roba : (1, AZUL)
-           roba : (9, AZUL)
-25732700 tiene: (9, ROJO)(Cambio de Sentido, ROJO)(6, VERDE)(Cambio de Sentido, AMARILLO)(Salta Turno, ROJO)(6, ROJO)(Roba2 , ROJO)(Roba2 , VERDE)(9, VERDE)(1, AZUL)(9, AZUL)
-           echa : (1, AZUL)
-
-25434343 tiene: (Cambio de Color)
-           echa : (Cambio de Color)
-------------------------------------------
-             Clasificación
-          ------------------
-1º 25434343 tiene 0.0 puntos y lleva 2 partidas ganadas.
-2º 25732700 tiene 139.0 puntos y lleva 0 partidas ganadas.
-------------------------------------------
-          Empieza La Partida
-          ------------------
-(J.Color ) 25732700 tiene: (7, AMARILLO)(4, ROJO)(5, VERDE)(2, ROJO)(5, AMARILLO)(9, VERDE)(Cambio de Sentido, AZUL)
-(J.Color ) 25434343 tiene: (Roba2 , AMARILLO)(Salta Turno, VERDE)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(6, VERDE)(7, ROJO)(7, VERDE)
-------------------------------------------
-      En la Mesa: (1, AMARILLO)
-------------------------------------------
-
-25732700 tiene: (7, AMARILLO)(4, ROJO)(5, VERDE)(2, ROJO)(5, AMARILLO)(9, VERDE)(Cambio de Sentido, AZUL)
-           echa : (7, AMARILLO)
-
-25434343 tiene: (Roba2 , AMARILLO)(Salta Turno, VERDE)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(6, VERDE)(7, ROJO)(7, VERDE)
-           echa : (7, VERDE)
-
-25732700 tiene: (4, ROJO)(5, VERDE)(2, ROJO)(5, AMARILLO)(9, VERDE)(Cambio de Sentido, AZUL)
-           echa : (5, VERDE)
-
-25434343 tiene: (Roba2 , AMARILLO)(Salta Turno, VERDE)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(6, VERDE)(7, ROJO)
-           echa : (6, VERDE)
-
-25732700 tiene: (4, ROJO)(2, ROJO)(5, AMARILLO)(9, VERDE)(Cambio de Sentido, AZUL)
-           echa : (9, VERDE)
-
-25434343 tiene: (Roba2 , AMARILLO)(Salta Turno, VERDE)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(7, ROJO)
-           echa : (Salta Turno, VERDE)
-
-25732700 pierde su turno
-
-25434343 tiene: (Roba2 , AMARILLO)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(7, ROJO)
-           echa : (Salta Turno, ROJO)
-
-25732700 pierde su turno
-
-25434343 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(7, ROJO)
-           echa : (7, ROJO)
-
-25732700 tiene: (4, ROJO)(2, ROJO)(5, AMARILLO)(Cambio de Sentido, AZUL)
-           echa : (2, ROJO)
-
-25434343 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           roba : (3, VERDE)
-
-25732700 tiene: (4, ROJO)(5, AMARILLO)(Cambio de Sentido, AZUL)
-           echa : (4, ROJO)
-
-25434343 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(3, VERDE)
-           roba : (4, AZUL)
-           echa : (4, AZUL)
-
-25732700 tiene: (5, AMARILLO)(Cambio de Sentido, AZUL)
+25111111X tiene: (Cambio de Sentido, AZUL)(Roba4, Cambio de Color)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)(0, ROJO)
            echa : (Cambio de Sentido, AZUL)
 
            Se cambia orientación
 
-25434343 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(3, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25732700 tiene: (5, AMARILLO)
-           roba : (Roba2 , VERDE)
-
-25434343 tiene: (Roba2 , AMARILLO)(3, VERDE)
-           echa : (3, VERDE)
-
-25732700 tiene: (5, AMARILLO)(Roba2 , VERDE)
-           echa : (Roba2 , VERDE)
-
-           roba : (6, AZUL)
-           roba : (3, AMARILLO)
-25434343 tiene: (Roba2 , AMARILLO)(6, AZUL)(3, AMARILLO)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (Roba4, Cambio de Color)
-           roba : (7, AMARILLO)
-25732700 tiene: (5, AMARILLO)(Roba4, Cambio de Color)(7, AMARILLO)
-           echa : (5, AMARILLO)
-
-25434343 tiene: (6, AZUL)(3, AMARILLO)
-           echa : (3, AMARILLO)
-
-25732700 tiene: (Roba4, Cambio de Color)(7, AMARILLO)
-           echa : (7, AMARILLO)
-
-25434343 tiene: (6, AZUL)
-           roba : (2, AZUL)
-
-25732700 tiene: (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-------------------------------------------
-             Clasificación
-          ------------------
-1º 25732700 tiene 0.0 puntos y lleva 1 partidas ganadas.
-2º 25434343 tiene 8.0 puntos y lleva 2 partidas ganadas.
-------------------------------------------
-          Empieza La Partida
-          ------------------
-(J.Color ) 25732700 tiene: (0, ROJO)(1, AZUL)(8, ROJO)(4, AZUL)(3, VERDE)(7, VERDE)(Roba4, Cambio de Color)
-(J.Color ) 25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(8, ROJO)(Salta Turno, VERDE)(1, VERDE)(1, ROJO)
-------------------------------------------
-      En la Mesa: (Roba2 , AZUL)
-------------------------------------------
-
-           roba : (Roba2 , VERDE)
-           roba : (6, VERDE)
-25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(8, ROJO)(Salta Turno, VERDE)(1, VERDE)(1, ROJO)(Roba2 , VERDE)(6, VERDE)
-           echa : (Roba2 , VERDE)
-
-           roba : (8, VERDE)
-           roba : (9, VERDE)
-25732700 tiene: (0, ROJO)(1, AZUL)(8, ROJO)(4, AZUL)(3, VERDE)(7, VERDE)(Roba4, Cambio de Color)(8, VERDE)(9, VERDE)
-           echa : (9, VERDE)
-
-25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(8, ROJO)(Salta Turno, VERDE)(1, VERDE)(1, ROJO)(6, VERDE)
-           echa : (1, VERDE)
-
-25732700 tiene: (0, ROJO)(1, AZUL)(8, ROJO)(4, AZUL)(3, VERDE)(7, VERDE)(Roba4, Cambio de Color)(8, VERDE)
-           echa : (3, VERDE)
-
-25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(8, ROJO)(Salta Turno, VERDE)(1, ROJO)(6, VERDE)
-           echa : (6, VERDE)
-
-25732700 tiene: (0, ROJO)(1, AZUL)(8, ROJO)(4, AZUL)(7, VERDE)(Roba4, Cambio de Color)(8, VERDE)
-           echa : (8, VERDE)
-
-25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(8, ROJO)(Salta Turno, VERDE)(1, ROJO)
-           echa : (8, ROJO)
-
-25732700 tiene: (0, ROJO)(1, AZUL)(8, ROJO)(4, AZUL)(7, VERDE)(Roba4, Cambio de Color)
-           echa : (0, ROJO)
-
-25434343 tiene: (Cambio de Color)(3, ROJO)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(1, ROJO)
-           echa : (3, ROJO)
-
-25732700 tiene: (1, AZUL)(8, ROJO)(4, AZUL)(7, VERDE)(Roba4, Cambio de Color)
-           echa : (8, ROJO)
-
-25434343 tiene: (Cambio de Color)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(1, ROJO)
-           echa : (1, ROJO)
-
-25732700 tiene: (1, AZUL)(4, AZUL)(7, VERDE)(Roba4, Cambio de Color)
-           echa : (1, AZUL)
-
-25434343 tiene: (Cambio de Color)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25732700 tiene: (4, AZUL)(7, VERDE)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color AMARILLO
-
-           roba : (Roba4, Cambio de Color)
-           roba : (7, AZUL)
-           roba : (Roba2 , AMARILLO)
-           roba : (1, AMARILLO)
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Roba4, Cambio de Color)(7, AZUL)(Roba2 , AMARILLO)(1, AMARILLO)
-           echa : (1, AMARILLO)
-
-25732700 tiene: (4, AZUL)(7, VERDE)
-           roba : (5, VERDE)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Roba4, Cambio de Color)(7, AZUL)(Roba2 , AMARILLO)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (8, AMARILLO)
-           roba : (9, ROJO)
-25732700 tiene: (4, AZUL)(7, VERDE)(5, VERDE)(8, AMARILLO)(9, ROJO)
-           echa : (8, AMARILLO)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Roba4, Cambio de Color)(7, AZUL)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (7, VERDE)
-           roba : (4, ROJO)
-           roba : (9, AMARILLO)
-           roba : (Roba2 , ROJO)
-25732700 tiene: (4, AZUL)(7, VERDE)(5, VERDE)(9, ROJO)(7, VERDE)(4, ROJO)(9, AMARILLO)(Roba2 , ROJO)
-           echa : (4, ROJO)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(7, AZUL)
-           roba : (5, VERDE)
-
-25732700 tiene: (4, AZUL)(7, VERDE)(5, VERDE)(9, ROJO)(7, VERDE)(9, AMARILLO)(Roba2 , ROJO)
-           echa : (9, ROJO)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(7, AZUL)(5, VERDE)
-           roba : (4, AMARILLO)
-
-25732700 tiene: (4, AZUL)(7, VERDE)(5, VERDE)(7, VERDE)(9, AMARILLO)(Roba2 , ROJO)
-           echa : (9, AMARILLO)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(7, AZUL)(5, VERDE)(4, AMARILLO)
-           echa : (4, AMARILLO)
-
-25732700 tiene: (4, AZUL)(7, VERDE)(5, VERDE)(7, VERDE)(Roba2 , ROJO)
-           echa : (4, AZUL)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(7, AZUL)(5, VERDE)
-           echa : (7, AZUL)
-
-25732700 tiene: (7, VERDE)(5, VERDE)(7, VERDE)(Roba2 , ROJO)
-           echa : (7, VERDE)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)(5, VERDE)
-           echa : (5, VERDE)
-
-25732700 tiene: (7, VERDE)(5, VERDE)(Roba2 , ROJO)
-           echa : (5, VERDE)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25732700 tiene: (7, VERDE)(Roba2 , ROJO)
-           echa : (7, VERDE)
-
-25434343 tiene: (Salta Turno, VERDE)
-           echa : (Salta Turno, VERDE)
-------------------------------------------
-             Clasificación
-          ------------------
-1º 25434343 tiene 0.0 puntos y lleva 3 partidas ganadas.
-2º 25732700 tiene 20.0 puntos y lleva 1 partidas ganadas.
-------------------------------------------
-          Empieza La Partida
-          ------------------
-(J.Color ) 25732700 tiene: (7, ROJO)(8, AMARILLO)(6, VERDE)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)
-(J.Color ) 25434343 tiene: (3, AMARILLO)(9, VERDE)(4, VERDE)(Cambio de Color)(9, VERDE)(3, VERDE)(Roba4, Cambio de Color)
-------------------------------------------
-      En la Mesa: (1, ROJO)
-------------------------------------------
-
-25732700 tiene: (7, ROJO)(8, AMARILLO)(6, VERDE)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)
-           echa : (7, ROJO)
-
-25434343 tiene: (3, AMARILLO)(9, VERDE)(4, VERDE)(Cambio de Color)(9, VERDE)(3, VERDE)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color VERDE
-
-           roba : (2, VERDE)
-           roba : (Roba2 , VERDE)
-           roba : (4, ROJO)
-           roba : (3, AZUL)
-25732700 tiene: (8, AMARILLO)(6, VERDE)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(2, VERDE)(Roba2 , VERDE)(4, ROJO)(3, AZUL)
-           echa : (2, VERDE)
-
-25434343 tiene: (3, AMARILLO)(9, VERDE)(4, VERDE)(Cambio de Color)(9, VERDE)(3, VERDE)
-           echa : (4, VERDE)
-
-25732700 tiene: (8, AMARILLO)(6, VERDE)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(Roba2 , VERDE)(4, ROJO)(3, AZUL)
-           echa : (6, VERDE)
-
-25434343 tiene: (3, AMARILLO)(9, VERDE)(Cambio de Color)(9, VERDE)(3, VERDE)
-           echa : (3, VERDE)
-
-25732700 tiene: (8, AMARILLO)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(Roba2 , VERDE)(4, ROJO)(3, AZUL)
-           echa : (3, AZUL)
-
-25434343 tiene: (3, AMARILLO)(9, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (3, AMARILLO)
-
-25732700 tiene: (8, AMARILLO)(7, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(Roba2 , VERDE)(4, ROJO)
-           echa : (7, AMARILLO)
-
-25434343 tiene: (9, VERDE)(Cambio de Color)(9, VERDE)
-           echa : (Cambio de Color)
-           ha elegido el color ROJO
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(Roba2 , VERDE)(4, ROJO)
-           echa : (4, ROJO)
-
-25434343 tiene: (9, VERDE)(9, VERDE)
-           roba : (Roba2 , AZUL)
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(4, ROJO)(5, AZUL)(Roba2 , VERDE)
-           echa : (4, ROJO)
-
-25434343 tiene: (9, VERDE)(9, VERDE)(Roba2 , AZUL)
-           roba : (3, AZUL)
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(5, AZUL)(Roba2 , VERDE)
-           roba : (6, ROJO)
-           echa : (6, ROJO)
-
-25434343 tiene: (9, VERDE)(9, VERDE)(Roba2 , AZUL)(3, AZUL)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AZUL
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(5, AZUL)(Roba2 , VERDE)
-           echa : (5, AZUL)
-
-25434343 tiene: (9, VERDE)(9, VERDE)(Roba2 , AZUL)(3, AZUL)
-           echa : (3, AZUL)
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(Roba2 , VERDE)
-           roba : (2, AZUL)
+25732700R tiene: (Salta Turno, ROJO)(Roba2 , AZUL)(2, AZUL)(3, VERDE)(Cambio de Color)
            echa : (2, AZUL)
 
-25434343 tiene: (9, VERDE)(9, VERDE)(Roba2 , AZUL)
+25111111X tiene: (Roba4, Cambio de Color)(Salta Turno, AMARILLO)(1, VERDE)(1, AZUL)(0, ROJO)
+           echa : (1, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(Roba2 , AZUL)(3, VERDE)(Cambio de Color)
            echa : (Roba2 , AZUL)
 
-           roba : (Salta Turno, VERDE)
-           roba : (8, ROJO)
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(Roba2 , VERDE)(Salta Turno, VERDE)(8, ROJO)
-           echa : (Roba2 , VERDE)
+           roba : (6, AZUL)
+           roba : (9, AMARILLO)
+25111111X tiene: (Roba4, Cambio de Color)(Salta Turno, AMARILLO)(1, VERDE)(0, ROJO)(6, AZUL)(9, AMARILLO)
+           echa : (6, AZUL)
 
-           roba : (Cambio de Sentido, VERDE)
-           roba : (Salta Turno, AZUL)
-25434343 tiene: (9, VERDE)(9, VERDE)(Cambio de Sentido, VERDE)(Salta Turno, AZUL)
-           echa : (9, VERDE)
-
-25732700 tiene: (8, AMARILLO)(9, AMARILLO)(Salta Turno, VERDE)(8, ROJO)
-           echa : (9, AMARILLO)
-
-25434343 tiene: (9, VERDE)(Cambio de Sentido, VERDE)(Salta Turno, AZUL)
-           echa : (9, VERDE)
-
-25732700 tiene: (8, AMARILLO)(Salta Turno, VERDE)(8, ROJO)
-           echa : (Salta Turno, VERDE)
-
-25434343 pierde su turno
-
-25732700 tiene: (8, AMARILLO)(8, ROJO)
-           roba : (3, AMARILLO)
-
-25434343 tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)
-           echa : (Salta Turno, AZUL)
-
-25732700 pierde su turno
-
-25434343 tiene: (Cambio de Sentido, VERDE)
-           roba : (5, VERDE)
-
-25732700 tiene: (8, AMARILLO)(8, ROJO)(3, AMARILLO)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
+25732700R tiene: (Salta Turno, ROJO)(3, VERDE)(Cambio de Color)
+           echa : (Cambio de Color)
            ha elegido el color VERDE
 
-           roba : (9, AZUL)
-           roba : (6, AZUL)
-           roba : (9, ROJO)
+25111111X tiene: (Roba4, Cambio de Color)(Salta Turno, AMARILLO)(1, VERDE)(0, ROJO)(9, AMARILLO)
+           echa : (1, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(3, VERDE)
+           echa : (3, VERDE)
+
+25111111X tiene: (Roba4, Cambio de Color)(Salta Turno, AMARILLO)(0, ROJO)(9, AMARILLO)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (0, AZUL)
+           roba : (6, VERDE)
            roba : (8, AZUL)
-25434343 tiene: (Cambio de Sentido, VERDE)(5, VERDE)(9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)
-           echa : (5, VERDE)
+           roba : (3, ROJO)
+25732700R tiene: (Salta Turno, ROJO)(0, AZUL)(6, VERDE)(8, AZUL)(3, ROJO)
+           roba : (1, AZUL)
 
-25732700 tiene: (8, AMARILLO)(8, ROJO)(3, AMARILLO)
+25111111X tiene: (Salta Turno, AMARILLO)(0, ROJO)(9, AMARILLO)
+           echa : (9, AMARILLO)
+
+25732700R tiene: (Salta Turno, ROJO)(0, AZUL)(6, VERDE)(8, AZUL)(3, ROJO)(1, AZUL)
+           roba : (4, ROJO)
+
+25111111X tiene: (Salta Turno, AMARILLO)(0, ROJO)
+           echa : (Salta Turno, AMARILLO)
+
+25732700R pierde su turno
+
+25111111X tiene: (0, ROJO)
+           roba : (Cambio de Sentido, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(0, AZUL)(6, VERDE)(8, AZUL)(3, ROJO)(1, AZUL)(4, ROJO)
+           echa : (Salta Turno, ROJO)
+
+25111111X pierde su turno
+
+25732700R tiene: (0, AZUL)(6, VERDE)(8, AZUL)(3, ROJO)(1, AZUL)(4, ROJO)
+           echa : (4, ROJO)
+
+25111111X tiene: (0, ROJO)(Cambio de Sentido, VERDE)
+           echa : (0, ROJO)
+
+25732700R tiene: (0, AZUL)(6, VERDE)(8, AZUL)(3, ROJO)(1, AZUL)
+           echa : (0, AZUL)
+
+25111111X tiene: (Cambio de Sentido, VERDE)
+           roba : (Salta Turno, AZUL)
+           echa : (Salta Turno, AZUL)
+
+25732700R pierde su turno
+
+25111111X tiene: (Cambio de Sentido, VERDE)
+           roba : (4, ROJO)
+
+25732700R tiene: (6, VERDE)(8, AZUL)(3, ROJO)(1, AZUL)
+           echa : (1, AZUL)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)
+           roba : (Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color AMARILLO
+
+25732700R tiene: (6, VERDE)(8, AZUL)(3, ROJO)
+           roba : (5, AMARILLO)
+           echa : (5, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)
+           roba : (Roba2 , AZUL)
+
+25732700R tiene: (6, VERDE)(8, AZUL)(3, ROJO)
+           roba : (9, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)(Roba2 , AZUL)
            roba : (9, ROJO)
 
-25434343 tiene: (Cambio de Sentido, VERDE)(9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)
+25732700R tiene: (6, VERDE)(8, AZUL)(3, ROJO)(9, VERDE)
+           roba : (7, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)(Roba2 , AZUL)(9, ROJO)
+           roba : (5, AZUL)
+           echa : (5, AZUL)
+
+25732700R tiene: (6, VERDE)(8, AZUL)(3, ROJO)(9, VERDE)(7, VERDE)
+           echa : (8, AZUL)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)(Roba2 , AZUL)(9, ROJO)
+           echa : (Roba2 , AZUL)
+
+           roba : (1, AMARILLO)
+           roba : (Roba4, Cambio de Color)
+25732700R tiene: (6, VERDE)(3, ROJO)(9, VERDE)(7, VERDE)(1, AMARILLO)(Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AZUL
+
+           roba : (5, ROJO)
+           roba : (2, AZUL)
+           roba : (6, AZUL)
+           roba : (Salta Turno, VERDE)
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)(9, ROJO)(5, ROJO)(2, AZUL)(6, AZUL)(Salta Turno, VERDE)
+           echa : (2, AZUL)
+
+25732700R tiene: (6, VERDE)(3, ROJO)(9, VERDE)(7, VERDE)(1, AMARILLO)
+           roba : (2, VERDE)
+           echa : (2, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(4, ROJO)(9, ROJO)(5, ROJO)(6, AZUL)(Salta Turno, VERDE)
            echa : (Cambio de Sentido, VERDE)
 
            Se cambia orientación
 
-25732700 tiene: (8, AMARILLO)(8, ROJO)(3, AMARILLO)(9, ROJO)
+25732700R tiene: (6, VERDE)(3, ROJO)(9, VERDE)(7, VERDE)(1, AMARILLO)
+           echa : (9, VERDE)
+
+25111111X tiene: (4, ROJO)(9, ROJO)(5, ROJO)(6, AZUL)(Salta Turno, VERDE)
+           echa : (9, ROJO)
+
+25732700R tiene: (6, VERDE)(3, ROJO)(7, VERDE)(1, AMARILLO)
+           echa : (3, ROJO)
+
+25111111X tiene: (4, ROJO)(5, ROJO)(6, AZUL)(Salta Turno, VERDE)
+           echa : (4, ROJO)
+
+25732700R tiene: (6, VERDE)(7, VERDE)(1, AMARILLO)
+           roba : (7, AZUL)
+
+25111111X tiene: (5, ROJO)(6, AZUL)(Salta Turno, VERDE)
+           echa : (5, ROJO)
+
+25732700R tiene: (6, VERDE)(7, VERDE)(1, AMARILLO)(7, AZUL)
+           roba : (9, AZUL)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)
+           roba : (2, VERDE)
+
+25732700R tiene: (6, VERDE)(7, VERDE)(1, AMARILLO)(7, AZUL)(9, AZUL)
+           roba : (9, VERDE)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)(2, VERDE)
+           roba : (6, AMARILLO)
+
+25732700R tiene: (6, VERDE)(7, VERDE)(1, AMARILLO)(7, AZUL)(9, AZUL)(9, VERDE)
+           roba : (7, AZUL)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)(2, VERDE)(6, AMARILLO)
+           roba : (5, VERDE)
+           echa : (5, VERDE)
+
+25732700R tiene: (6, VERDE)(7, VERDE)(1, AMARILLO)(7, AZUL)(9, AZUL)(9, VERDE)(7, AZUL)
+           echa : (7, VERDE)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)(2, VERDE)(6, AMARILLO)
+           echa : (2, VERDE)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(7, AZUL)(9, AZUL)(9, VERDE)(7, AZUL)
+           echa : (6, VERDE)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)(6, AMARILLO)
+           echa : (6, AMARILLO)
+
+25732700R tiene: (1, AMARILLO)(7, AZUL)(9, AZUL)(9, VERDE)(7, AZUL)
+           echa : (1, AMARILLO)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)
+           roba : (0, AMARILLO)
+           echa : (0, AMARILLO)
+
+25732700R tiene: (7, AZUL)(9, AZUL)(9, VERDE)(7, AZUL)
+           roba : (7, AMARILLO)
+           echa : (7, AMARILLO)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)
+           roba : (4, AZUL)
+
+25732700R tiene: (7, AZUL)(9, AZUL)(9, VERDE)(7, AZUL)
+           echa : (7, AZUL)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)(4, AZUL)
+           echa : (4, AZUL)
+
+25732700R tiene: (9, AZUL)(9, VERDE)(7, AZUL)
+           echa : (9, AZUL)
+
+25111111X tiene: (6, AZUL)(Salta Turno, VERDE)
+           echa : (6, AZUL)
+
+25732700R tiene: (9, VERDE)(7, AZUL)
+           echa : (7, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)
+           roba : (4, VERDE)
+
+25732700R tiene: (9, VERDE)
+           roba : (8, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(4, VERDE)
+           roba : (2, AMARILLO)
+
+25732700R tiene: (9, VERDE)(8, ROJO)
+           roba : (1, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(4, VERDE)(2, AMARILLO)
+           roba : (Salta Turno, VERDE)
+
+25732700R tiene: (9, VERDE)(8, ROJO)(1, ROJO)
+           roba : (6, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(4, VERDE)(2, AMARILLO)(Salta Turno, VERDE)
+           roba : (7, VERDE)
+           echa : (7, VERDE)
+
+25732700R tiene: (9, VERDE)(8, ROJO)(1, ROJO)(6, ROJO)
+           echa : (9, VERDE)
+
+25111111X tiene: (Salta Turno, VERDE)(4, VERDE)(2, AMARILLO)(Salta Turno, VERDE)
+           echa : (4, VERDE)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)
+           roba : (4, AMARILLO)
+           echa : (4, AMARILLO)
+
+25111111X tiene: (Salta Turno, VERDE)(2, AMARILLO)(Salta Turno, VERDE)
+           echa : (2, AMARILLO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)
+           roba : (3, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)
+           roba : (2, AMARILLO)
+           echa : (2, AMARILLO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)
+           roba : (Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (9, ROJO)
+           roba : (4, AMARILLO)
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(4, AMARILLO)
+           echa : (4, AMARILLO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)
+           roba : (6, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)
+           roba : (3, VERDE)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)(6, ROJO)
+           roba : (Salta Turno, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(3, VERDE)
+           roba : (7, ROJO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)(6, ROJO)(Salta Turno, AZUL)
+           roba : (Cambio de Sentido, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(3, VERDE)(7, ROJO)
+           roba : (3, AZUL)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)(6, ROJO)(Salta Turno, AZUL)(Cambio de Sentido, ROJO)
+           roba : (8, VERDE)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(3, VERDE)(7, ROJO)(3, AZUL)
+           roba : (3, AMARILLO)
+           echa : (3, AMARILLO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(3, AZUL)(6, ROJO)(Salta Turno, AZUL)(Cambio de Sentido, ROJO)(8, VERDE)
+           echa : (3, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(3, VERDE)(7, ROJO)(3, AZUL)
+           echa : (3, AZUL)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Salta Turno, AZUL)(Cambio de Sentido, ROJO)(8, VERDE)
+           echa : (Salta Turno, AZUL)
+
+25111111X pierde su turno
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)
+           roba : (5, VERDE)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, VERDE)(9, ROJO)(3, VERDE)(7, ROJO)
+           echa : (Salta Turno, VERDE)
+
+25732700R pierde su turno
+
+25111111X tiene: (Salta Turno, VERDE)(9, ROJO)(3, VERDE)(7, ROJO)
+           echa : (3, VERDE)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(8, VERDE)(5, VERDE)
+           echa : (8, VERDE)
+
+25111111X tiene: (Salta Turno, VERDE)(9, ROJO)(7, ROJO)
+           echa : (Salta Turno, VERDE)
+
+25732700R pierde su turno
+
+25111111X tiene: (9, ROJO)(7, ROJO)
+           roba : (5, AZUL)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(5, VERDE)
+           echa : (5, VERDE)
+
+25111111X tiene: (9, ROJO)(7, ROJO)(5, AZUL)
+           echa : (5, AZUL)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)
+           roba : (Cambio de Sentido, VERDE)
+
+25111111X tiene: (9, ROJO)(7, ROJO)
+           roba : (Cambio de Sentido, ROJO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)
+           roba : (1, AMARILLO)
+
+25111111X tiene: (9, ROJO)(7, ROJO)(Cambio de Sentido, ROJO)
+           roba : (Roba2 , VERDE)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)
+           roba : (0, VERDE)
+
+25111111X tiene: (9, ROJO)(7, ROJO)(Cambio de Sentido, ROJO)(Roba2 , VERDE)
+           roba : (5, ROJO)
+           echa : (5, ROJO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (6, ROJO)
+
+25111111X tiene: (9, ROJO)(7, ROJO)(Cambio de Sentido, ROJO)(Roba2 , VERDE)
+           echa : (7, ROJO)
+
+25732700R tiene: (8, ROJO)(1, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (8, ROJO)
+
+25111111X tiene: (9, ROJO)(Cambio de Sentido, ROJO)(Roba2 , VERDE)
+           echa : (9, ROJO)
+
+25732700R tiene: (1, ROJO)(6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (1, ROJO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(Roba2 , VERDE)
+           echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25732700R tiene: (6, ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (6, ROJO)
+
+25111111X tiene: (Roba2 , VERDE)
+           roba : (4, AZUL)
+
+25732700R tiene: (Cambio de Sentido, ROJO)(Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25111111X tiene: (Roba2 , VERDE)(4, AZUL)
+           roba : (4, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(1, AMARILLO)(0, VERDE)
+           echa : (Cambio de Sentido, VERDE)
+
+           Se cambia orientación
+
+25111111X tiene: (Roba2 , VERDE)(4, AZUL)(4, VERDE)
+           echa : (4, VERDE)
+
+25732700R tiene: (1, AMARILLO)(0, VERDE)
+           echa : (0, VERDE)
+
+25111111X tiene: (Roba2 , VERDE)(4, AZUL)
+           echa : (Roba2 , VERDE)
+
+           roba : (Roba2 , ROJO)
+           roba : (Salta Turno, ROJO)
+25732700R tiene: (1, AMARILLO)(Roba2 , ROJO)(Salta Turno, ROJO)
+           echa : (Roba2 , ROJO)
+
+           roba : (Roba4, Cambio de Color)
+           roba : (Cambio de Sentido, AZUL)
+25111111X tiene: (4, AZUL)(Roba4, Cambio de Color)(Cambio de Sentido, AZUL)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color ROJO
+
+           roba : (8, AZUL)
+           roba : (8, AMARILLO)
+           roba : (1, ROJO)
+           roba : (Roba4, Cambio de Color)
+25732700R tiene: (1, AMARILLO)(Salta Turno, ROJO)(8, AZUL)(8, AMARILLO)(1, ROJO)(Roba4, Cambio de Color)
+           echa : (1, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)
+           roba : (2, ROJO)
+           echa : (2, ROJO)
+
+25732700R tiene: (1, AMARILLO)(Salta Turno, ROJO)(8, AZUL)(8, AMARILLO)(Roba4, Cambio de Color)
+           echa : (Salta Turno, ROJO)
+
+25111111X pierde su turno
+
+25732700R tiene: (1, AMARILLO)(8, AZUL)(8, AMARILLO)(Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (6, VERDE)
+           roba : (Cambio de Color)
+           roba : (9, AZUL)
+           roba : (5, AMARILLO)
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(6, VERDE)(Cambio de Color)(9, AZUL)(5, AMARILLO)
+           echa : (5, AMARILLO)
+
+25732700R tiene: (1, AMARILLO)(8, AZUL)(8, AMARILLO)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(6, VERDE)(Cambio de Color)(9, AZUL)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25732700R tiene: (1, AMARILLO)(8, AZUL)
+           roba : (3, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(6, VERDE)(9, AZUL)
+           echa : (6, VERDE)
+
+25732700R tiene: (1, AMARILLO)(8, AZUL)(3, ROJO)
+           roba : (1, VERDE)
+           echa : (1, VERDE)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)
+           roba : (Roba2 , AMARILLO)
+
+25732700R tiene: (1, AMARILLO)(8, AZUL)(3, ROJO)
+           echa : (1, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (8, ROJO)
            roba : (Cambio de Sentido, AMARILLO)
+25732700R tiene: (8, AZUL)(3, ROJO)(8, ROJO)(Cambio de Sentido, AMARILLO)
+           roba : (Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)
+           roba : (Salta Turno, AMARILLO)
+
+25732700R tiene: (8, AZUL)(3, ROJO)(8, ROJO)(Cambio de Sentido, AMARILLO)
+           roba : (6, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)
+           roba : (2, ROJO)
+
+25732700R tiene: (8, AZUL)(3, ROJO)(8, ROJO)(Cambio de Sentido, AMARILLO)(6, AMARILLO)
+           roba : (7, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)(2, ROJO)
+          (Baraja Sin Cartas, recupero cartas de La Mesa)
+           roba : (Roba2 , ROJO)
+
+25732700R tiene: (8, AZUL)(3, ROJO)(8, ROJO)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(7, ROJO)
+           roba : (Roba2 , VERDE)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)(2, ROJO)(Roba2 , ROJO)
+           roba : (8, VERDE)
+           echa : (8, VERDE)
+
+25732700R tiene: (8, AZUL)(3, ROJO)(8, ROJO)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(7, ROJO)(Roba2 , VERDE)
+           echa : (8, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)(2, ROJO)(Roba2 , ROJO)
+           echa : (2, ROJO)
+
+25732700R tiene: (8, AZUL)(3, ROJO)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(7, ROJO)(Roba2 , VERDE)
+           echa : (3, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)(Roba2 , ROJO)
+           echa : (Roba2 , ROJO)
+
+           roba : (8, AMARILLO)
+           roba : (9, AMARILLO)
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(7, ROJO)(Roba2 , VERDE)(8, AMARILLO)(9, AMARILLO)
+           echa : (7, ROJO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)
+           roba : (3, AMARILLO)
+
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(Roba2 , VERDE)(8, AMARILLO)(9, AMARILLO)
+           roba : (7, AMARILLO)
+           echa : (7, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)(3, AMARILLO)
+           echa : (3, AMARILLO)
+
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(6, AMARILLO)(Roba2 , VERDE)(8, AMARILLO)(9, AMARILLO)
+           echa : (6, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Salta Turno, AMARILLO)
+           echa : (Salta Turno, AMARILLO)
+
+25732700R pierde su turno
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)
+           roba : (Cambio de Sentido, AMARILLO)
+
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(Roba2 , VERDE)(8, AMARILLO)(9, AMARILLO)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)(Cambio de Sentido, AMARILLO)
            echa : (Cambio de Sentido, AMARILLO)
 
            Se cambia orientación
 
-25434343 tiene: (9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)
-           roba : (4, AZUL)
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(Roba2 , VERDE)(9, AMARILLO)
+           echa : (9, AMARILLO)
 
-25732700 tiene: (8, AMARILLO)(8, ROJO)(3, AMARILLO)(9, ROJO)
-           echa : (3, AMARILLO)
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)(9, AZUL)
+           echa : (9, AZUL)
 
-25434343 tiene: (9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)(4, AZUL)
+25732700R tiene: (8, AZUL)(Cambio de Sentido, AMARILLO)(Roba2 , VERDE)
+           echa : (8, AZUL)
+
+25111111X tiene: (4, AZUL)(Cambio de Sentido, AZUL)
+           echa : (4, AZUL)
+
+25732700R tiene: (Cambio de Sentido, AMARILLO)(Roba2 , VERDE)
+           roba : (Cambio de Sentido, AZUL)
+           echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25111111X tiene: (Cambio de Sentido, AZUL)
+           echa : (Cambio de Sentido, AZUL)
+------------------------------------------
+             Clasificación
+          ------------------
+1º 25111111X tiene 0.0 puntos y lleva 2 partidas ganadas.
+2º 25732700R tiene 40.0 puntos y lleva 0 partidas ganadas.
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(J.Número) 25732700R tiene: (6, VERDE)(1, AZUL)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(5, AZUL)(8, VERDE)
+(J.Color ) 25111111X tiene: (5, VERDE)(Roba2 , AZUL)(7, AZUL)(2, AZUL)(3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+------------------------------------------
+      En la Mesa: (8, ROJO)
+------------------------------------------
+
+25732700R tiene: (6, VERDE)(1, AZUL)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(5, AZUL)(8, VERDE)
+           echa : (8, VERDE)
+
+25111111X tiene: (5, VERDE)(Roba2 , AZUL)(7, AZUL)(2, AZUL)(3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+           echa : (5, VERDE)
+
+25732700R tiene: (6, VERDE)(1, AZUL)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(5, AZUL)
+           echa : (5, AZUL)
+
+25111111X tiene: (Roba2 , AZUL)(7, AZUL)(2, AZUL)(3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+           echa : (2, AZUL)
+
+25732700R tiene: (6, VERDE)(1, AZUL)(1, AMARILLO)(0, AMARILLO)(1, ROJO)
+           echa : (1, AZUL)
+
+25111111X tiene: (Roba2 , AZUL)(7, AZUL)(3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+           echa : (7, AZUL)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)
+           roba : (1, VERDE)
+
+25111111X tiene: (Roba2 , AZUL)(3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+           echa : (Roba2 , AZUL)
+
+           roba : (3, VERDE)
            roba : (Cambio de Color)
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(1, VERDE)(3, VERDE)(Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25111111X tiene: (3, ROJO)(Roba4, Cambio de Color)(Cambio de Sentido, ROJO)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AZUL
+
+           roba : (5, VERDE)
+           roba : (8, AMARILLO)
+           roba : (Cambio de Color)
+           roba : (2, ROJO)
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(1, VERDE)(3, VERDE)(5, VERDE)(8, AMARILLO)(Cambio de Color)(2, ROJO)
            echa : (Cambio de Color)
            ha elegido el color AZUL
 
-25732700 tiene: (8, AMARILLO)(8, ROJO)(9, ROJO)
-           roba : (Salta Turno, VERDE)
+25111111X tiene: (3, ROJO)(Cambio de Sentido, ROJO)
+           roba : (Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color ROJO
 
-25434343 tiene: (9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)(4, AZUL)
-           echa : (4, AZUL)
-
-25732700 tiene: (8, AMARILLO)(8, ROJO)(9, ROJO)(Salta Turno, VERDE)
-           roba : (Roba2 , VERDE)
-
-25434343 tiene: (9, AZUL)(6, AZUL)(9, ROJO)(8, AZUL)
-           echa : (6, AZUL)
-
-25732700 tiene: (8, AMARILLO)(8, ROJO)(9, ROJO)(Salta Turno, VERDE)(Roba2 , VERDE)
-           roba : (Roba2 , AMARILLO)
-
-25434343 tiene: (9, AZUL)(9, ROJO)(8, AZUL)
-           echa : (8, AZUL)
-
-25732700 tiene: (8, AMARILLO)(8, ROJO)(9, ROJO)(Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)
-           echa : (8, AMARILLO)
-
-25434343 tiene: (9, AZUL)(9, ROJO)
-           roba : (3, ROJO)
-
-25732700 tiene: (8, ROJO)(9, ROJO)(Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)
-           echa : (8, ROJO)
-
-25434343 tiene: (9, AZUL)(9, ROJO)(3, ROJO)
-           echa : (9, ROJO)
-
-25732700 tiene: (9, ROJO)(Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)
-           echa : (9, ROJO)
-
-25434343 tiene: (9, AZUL)(3, ROJO)
-           echa : (3, ROJO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)
-           roba : (3, ROJO)
-           echa : (3, ROJO)
-
-25434343 tiene: (9, AZUL)
-           roba : (5, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)
-           roba : (1, VERDE)
-
-25434343 tiene: (9, AZUL)(5, VERDE)
-           roba : (7, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)(1, VERDE)
-           roba : (0, VERDE)
-
-25434343 tiene: (9, AZUL)(5, VERDE)(7, AMARILLO)
-           roba : (7, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)(1, VERDE)(0, VERDE)
-           roba : (Cambio de Sentido, AZUL)
-
-25434343 tiene: (9, AZUL)(5, VERDE)(7, AMARILLO)(7, VERDE)
-           roba : (2, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)(1, VERDE)(0, VERDE)(Cambio de Sentido, AZUL)
-           roba : (2, ROJO)
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(1, VERDE)(3, VERDE)(5, VERDE)(8, AMARILLO)(2, ROJO)
            echa : (2, ROJO)
 
-25434343 tiene: (9, AZUL)(5, VERDE)(7, AMARILLO)(7, VERDE)(2, AMARILLO)
-           echa : (2, AMARILLO)
+25111111X tiene: (3, ROJO)(Cambio de Sentido, ROJO)
+           echa : (3, ROJO)
 
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Roba2 , AMARILLO)(1, VERDE)(0, VERDE)(Cambio de Sentido, AZUL)
-           echa : (Roba2 , AMARILLO)
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(1, VERDE)(3, VERDE)(5, VERDE)(8, AMARILLO)
+           echa : (3, VERDE)
 
-           roba : (5, ROJO)
-           roba : (0, AZUL)
-25434343 tiene: (9, AZUL)(5, VERDE)(7, AMARILLO)(7, VERDE)(5, ROJO)(0, AZUL)
-           echa : (7, AMARILLO)
+25111111X tiene: (Cambio de Sentido, ROJO)
+           roba : (4, AZUL)
 
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(1, VERDE)(0, VERDE)(Cambio de Sentido, AZUL)
-           roba : (6, ROJO)
-
-25434343 tiene: (9, AZUL)(5, VERDE)(7, VERDE)(5, ROJO)(0, AZUL)
-           echa : (7, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(1, VERDE)(0, VERDE)(Cambio de Sentido, AZUL)(6, ROJO)
-           echa : (0, VERDE)
-
-25434343 tiene: (9, AZUL)(5, VERDE)(5, ROJO)(0, AZUL)
-           echa : (5, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(1, VERDE)(Cambio de Sentido, AZUL)(6, ROJO)
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(1, VERDE)(5, VERDE)(8, AMARILLO)
            echa : (1, VERDE)
 
-25434343 tiene: (9, AZUL)(5, ROJO)(0, AZUL)
+25111111X tiene: (Cambio de Sentido, ROJO)(4, AZUL)
+           roba : (1, AZUL)
+           echa : (1, AZUL)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(1, ROJO)(5, VERDE)(8, AMARILLO)
+           echa : (1, ROJO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(4, AZUL)
+           echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(8, AMARILLO)
+           roba : (9, ROJO)
+           echa : (9, ROJO)
+
+25111111X tiene: (4, AZUL)
+           roba : (5, AZUL)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(8, AMARILLO)
+           roba : (Cambio de Sentido, VERDE)
+
+25111111X tiene: (4, AZUL)(5, AZUL)
+           roba : (3, AMARILLO)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(8, AMARILLO)(Cambio de Sentido, VERDE)
+           roba : (6, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(3, AMARILLO)
+           roba : (6, ROJO)
+           echa : (6, ROJO)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(8, AMARILLO)(Cambio de Sentido, VERDE)(6, AMARILLO)
+           echa : (6, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(3, AMARILLO)
+           echa : (3, AMARILLO)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(8, AMARILLO)(Cambio de Sentido, VERDE)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)
+           roba : (4, VERDE)
+
+25732700R tiene: (6, VERDE)(1, AMARILLO)(0, AMARILLO)(5, VERDE)(Cambio de Sentido, VERDE)
+           echa : (1, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)
+           roba : (4, AMARILLO)
+           echa : (4, AMARILLO)
+
+25732700R tiene: (6, VERDE)(0, AMARILLO)(5, VERDE)(Cambio de Sentido, VERDE)
+           echa : (0, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)
+           roba : (2, VERDE)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)
+           roba : (8, VERDE)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)
+           roba : (4, ROJO)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)
+           roba : (3, ROJO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)
+           roba : (Cambio de Sentido, VERDE)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)
+           roba : (8, AZUL)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)
+           roba : (3, VERDE)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(8, AZUL)
+           roba : (Salta Turno, AZUL)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)
+           roba : (Roba2 , ROJO)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(8, AZUL)(Salta Turno, AZUL)
+           roba : (Roba2 , VERDE)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)
+           roba : (9, AZUL)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(8, AZUL)(Salta Turno, AZUL)(Roba2 , VERDE)
+           roba : (Cambio de Sentido, AZUL)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(9, AZUL)
+           roba : (Cambio de Sentido, ROJO)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(8, AZUL)(Salta Turno, AZUL)(Roba2 , VERDE)(Cambio de Sentido, AZUL)
+           roba : (9, AMARILLO)
+           echa : (9, AMARILLO)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(9, AZUL)(Cambio de Sentido, ROJO)
+           echa : (9, AZUL)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(8, AZUL)(Salta Turno, AZUL)(Roba2 , VERDE)(Cambio de Sentido, AZUL)
+           echa : (8, AZUL)
+
+25111111X tiene: (4, AZUL)(5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (4, AZUL)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(Salta Turno, AZUL)(Roba2 , VERDE)(Cambio de Sentido, AZUL)
+           echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25111111X tiene: (5, AZUL)(4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (5, AZUL)
+
+25732700R tiene: (6, VERDE)(5, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(Salta Turno, AZUL)(Roba2 , VERDE)
+           echa : (5, VERDE)
+
+25111111X tiene: (4, VERDE)(2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (4, VERDE)
+
+25732700R tiene: (6, VERDE)(Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(Salta Turno, AZUL)(Roba2 , VERDE)
+           echa : (6, VERDE)
+
+25111111X tiene: (2, VERDE)(4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (2, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(8, VERDE)(3, ROJO)(Salta Turno, AZUL)(Roba2 , VERDE)
+           echa : (8, VERDE)
+
+25111111X tiene: (4, ROJO)(Cambio de Sentido, VERDE)(3, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (3, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(3, ROJO)(Salta Turno, AZUL)(Roba2 , VERDE)
+           echa : (3, ROJO)
+
+25111111X tiene: (4, ROJO)(Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)
+           echa : (4, ROJO)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)
+           roba : (Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color VERDE
+
+           roba : (Cambio de Sentido, AZUL)
+           roba : (Cambio de Sentido, AMARILLO)
+           roba : (1, ROJO)
+           roba : (Salta Turno, ROJO)
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, AZUL)(Cambio de Sentido, AMARILLO)(1, ROJO)(Salta Turno, ROJO)
+           roba : (6, AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)
+           roba : (2, ROJO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, AZUL)(Cambio de Sentido, AMARILLO)(1, ROJO)(Salta Turno, ROJO)(6, AMARILLO)
+           roba : (Roba2 , ROJO)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)(2, ROJO)
            roba : (6, VERDE)
            echa : (6, VERDE)
 
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(6, ROJO)
-           echa : (6, ROJO)
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, AZUL)(Cambio de Sentido, AMARILLO)(1, ROJO)(Salta Turno, ROJO)(6, AMARILLO)(Roba2 , ROJO)
+           echa : (6, AMARILLO)
 
-25434343 tiene: (9, AZUL)(5, ROJO)(0, AZUL)
+25732700R tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)(2, ROJO)
+           roba : (3, AZUL)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, AZUL)(Cambio de Sentido, AMARILLO)(1, ROJO)(Salta Turno, ROJO)(Roba2 , ROJO)
+           echa : (Cambio de Sentido, AMARILLO)
+
+           Se cambia orientación
+
+25732700R tiene: (Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)(2, ROJO)(3, AZUL)
+           echa : (Cambio de Sentido, VERDE)
+
+           Se cambia orientación
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Cambio de Sentido, AZUL)(1, ROJO)(Salta Turno, ROJO)(Roba2 , ROJO)
+           echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25732700R tiene: (Salta Turno, AZUL)(Roba2 , VERDE)(2, ROJO)(3, AZUL)
+           echa : (3, AZUL)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(1, ROJO)(Salta Turno, ROJO)(Roba2 , ROJO)
+           roba : (2, AMARILLO)
+
+25732700R tiene: (Salta Turno, AZUL)(Roba2 , VERDE)(2, ROJO)
+           echa : (Salta Turno, AZUL)
+
+25111111X pierde su turno
+
+25732700R tiene: (Roba2 , VERDE)(2, ROJO)
+           roba : (7, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(1, ROJO)(Salta Turno, ROJO)(Roba2 , ROJO)(2, AMARILLO)
+           echa : (Salta Turno, ROJO)
+
+25732700R pierde su turno
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(1, ROJO)(Roba2 , ROJO)(2, AMARILLO)
+           echa : (1, ROJO)
+
+25732700R tiene: (Roba2 , VERDE)(2, ROJO)(7, AMARILLO)
+           echa : (2, ROJO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(2, AMARILLO)
+           echa : (2, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(7, AMARILLO)
+           echa : (7, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)
+           roba : (4, VERDE)
+
+25732700R tiene: (Roba2 , VERDE)
+           roba : (9, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(4, VERDE)
+           roba : (5, AMARILLO)
+           echa : (5, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)
+           roba : (0, ROJO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(4, VERDE)
+           roba : (0, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(0, ROJO)
+           roba : (Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (4, AMARILLO)
+           roba : (Roba2 , AZUL)
+           roba : (6, AZUL)
+           roba : (6, AZUL)
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(4, VERDE)(0, AZUL)(4, AMARILLO)(Roba2 , AZUL)(6, AZUL)(6, AZUL)
+           echa : (4, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(0, ROJO)
+           roba : (3, AMARILLO)
+           echa : (3, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(4, VERDE)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)
+           roba : (8, AMARILLO)
+           echa : (8, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(0, ROJO)
+           roba : (Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color VERDE
+
+           roba : (5, ROJO)
+           roba : (7, ROJO)
+           roba : (7, AMARILLO)
+           roba : (Salta Turno, VERDE)
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(4, VERDE)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)(Salta Turno, VERDE)
+           echa : (4, VERDE)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(0, ROJO)
+           echa : (9, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)(Salta Turno, VERDE)
+           echa : (Salta Turno, VERDE)
+
+25732700R pierde su turno
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)
+           roba : (Roba2 , VERDE)
+
+25732700R tiene: (Roba2 , VERDE)(0, ROJO)
+           roba : (2, VERDE)
+           echa : (2, VERDE)
+
+25111111X tiene: (Cambio de Sentido, VERDE)(Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)(Roba2 , VERDE)
+           echa : (Cambio de Sentido, VERDE)
+
+           Se cambia orientación
+
+25732700R tiene: (Roba2 , VERDE)(0, ROJO)
+           roba : (2, AMARILLO)
+
+25111111X tiene: (Roba2 , ROJO)(Cambio de Sentido, ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)(Roba2 , VERDE)
+           echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25732700R tiene: (Roba2 , VERDE)(0, ROJO)(2, AMARILLO)
+           echa : (0, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(5, ROJO)(7, ROJO)(7, AMARILLO)(Roba2 , VERDE)
            echa : (5, ROJO)
 
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)
+25732700R tiene: (Roba2 , VERDE)(2, AMARILLO)
+           roba : (5, AMARILLO)
+           echa : (5, AMARILLO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(7, AMARILLO)(Roba2 , VERDE)
+           echa : (7, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(2, AMARILLO)
+           echa : (2, AMARILLO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)
+           roba : (9, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)
+           roba : (9, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)
+           roba : (Salta Turno, AMARILLO)
+           echa : (Salta Turno, AMARILLO)
+
+25732700R pierde su turno
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)
+           roba : (2, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)
+           roba : (1, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)(2, AZUL)
            roba : (7, AZUL)
 
-25434343 tiene: (9, AZUL)(0, AZUL)
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)
+           roba : (Roba2 , AMARILLO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)(2, AZUL)(7, AZUL)
+           roba : (6, ROJO)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)(Roba2 , AMARILLO)
+           roba : (5, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)
+           roba : (Roba2 , AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)(Roba2 , AMARILLO)(5, ROJO)
+           roba : (Salta Turno, AMARILLO)
+           echa : (Salta Turno, AMARILLO)
+
+25111111X pierde su turno
+
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)(Roba2 , AMARILLO)(5, ROJO)
+           roba : (1, AMARILLO)
+           echa : (1, AMARILLO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)(Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (7, ROJO)
+           roba : (4, ROJO)
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)(Roba2 , AMARILLO)(5, ROJO)(7, ROJO)(4, ROJO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (8, AZUL)
+           roba : (7, VERDE)
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(Roba2 , VERDE)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)(8, AZUL)(7, VERDE)
+           echa : (Roba2 , VERDE)
+
+           roba : (9, ROJO)
+           roba : (3, AZUL)
+25732700R tiene: (Roba2 , VERDE)(9, VERDE)(1, VERDE)(5, ROJO)(7, ROJO)(4, ROJO)(9, ROJO)(3, AZUL)
+           echa : (9, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)(8, AZUL)(7, VERDE)
+           echa : (7, VERDE)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)(7, ROJO)(4, ROJO)(9, ROJO)(3, AZUL)
+           echa : (7, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(7, ROJO)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)(8, AZUL)
+           echa : (7, ROJO)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)(4, ROJO)(9, ROJO)(3, AZUL)
+           echa : (4, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(9, AZUL)(2, AZUL)(7, AZUL)(6, ROJO)(8, AZUL)
+           echa : (6, ROJO)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)(9, ROJO)(3, AZUL)
+           echa : (9, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(9, AZUL)(2, AZUL)(7, AZUL)(8, AZUL)
+           echa : (9, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)(3, AZUL)
+           echa : (3, AZUL)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(7, AZUL)(8, AZUL)
+           echa : (7, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)
+           roba : (7, VERDE)
+           echa : (7, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)
+           roba : (4, AZUL)
+
+25732700R tiene: (Roba2 , VERDE)(1, VERDE)(5, ROJO)
+           echa : (1, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)
+           roba : (Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25732700R tiene: (Roba2 , VERDE)(5, ROJO)
+           roba : (Salta Turno, AZUL)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)
+           roba : (Cambio de Sentido, AMARILLO)
+
+25732700R tiene: (Roba2 , VERDE)(5, ROJO)(Salta Turno, AZUL)
+           roba : (Salta Turno, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)
+           roba : (0, VERDE)
+           echa : (0, VERDE)
+
+25732700R tiene: (Roba2 , VERDE)(5, ROJO)(Salta Turno, AZUL)(Salta Turno, VERDE)
+           echa : (Roba2 , VERDE)
+
+           roba : (8, ROJO)
+           roba : (9, AMARILLO)
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(Roba2 , AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(8, ROJO)(9, AMARILLO)
+           echa : (Roba2 , AZUL)
+
+           roba : (Salta Turno, ROJO)
+          (Baraja Sin Cartas, recupero cartas de La Mesa)
+           roba : (8, ROJO)
+25732700R tiene: (5, ROJO)(Salta Turno, AZUL)(Salta Turno, VERDE)(Salta Turno, ROJO)(8, ROJO)
+           roba : (8, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(6, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(8, ROJO)(9, AMARILLO)
+           echa : (6, AZUL)
+
+25732700R tiene: (5, ROJO)(Salta Turno, AZUL)(Salta Turno, VERDE)(Salta Turno, ROJO)(8, ROJO)(8, VERDE)
+           echa : (Salta Turno, AZUL)
+
+25111111X pierde su turno
+
+25732700R tiene: (5, ROJO)(Salta Turno, VERDE)(Salta Turno, ROJO)(8, ROJO)(8, VERDE)
+           echa : (Salta Turno, VERDE)
+
+25111111X pierde su turno
+
+25732700R tiene: (5, ROJO)(Salta Turno, ROJO)(8, ROJO)(8, VERDE)
+           echa : (8, VERDE)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(6, AZUL)(2, AZUL)(8, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(8, ROJO)(9, AMARILLO)
+           echa : (8, AZUL)
+
+25732700R tiene: (5, ROJO)(Salta Turno, ROJO)(8, ROJO)
+           echa : (8, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(6, AZUL)(2, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(8, ROJO)(9, AMARILLO)
+           echa : (8, ROJO)
+
+25732700R tiene: (5, ROJO)(Salta Turno, ROJO)
+           echa : (5, ROJO)
+
+25111111X tiene: (Roba2 , ROJO)(Roba2 , ROJO)(0, AZUL)(6, AZUL)(2, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)
+           echa : (Roba2 , ROJO)
+
+           roba : (5, VERDE)
+           roba : (5, AZUL)
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)
+           roba : (2, AZUL)
+
+25111111X tiene: (Roba2 , ROJO)(0, AZUL)(6, AZUL)(2, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)
+           echa : (Roba2 , ROJO)
+
+           roba : (1, AZUL)
+           roba : (7, AZUL)
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)(2, AZUL)(1, AZUL)(7, AZUL)
+           roba : (Roba2 , AZUL)
+           echa : (Roba2 , AZUL)
+
+           roba : (Cambio de Color)
+           roba : (Roba4, Cambio de Color)
+25111111X tiene: (0, AZUL)(6, AZUL)(2, AZUL)(4, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
+           echa : (4, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)(2, AZUL)(1, AZUL)(7, AZUL)
+           echa : (1, AZUL)
+
+25111111X tiene: (0, AZUL)(6, AZUL)(2, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
+           echa : (2, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)(2, AZUL)(7, AZUL)
+           echa : (2, AZUL)
+
+25111111X tiene: (0, AZUL)(6, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
+           echa : (0, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)(7, AZUL)
+           echa : (7, AZUL)
+
+25111111X tiene: (6, AZUL)(Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
+           echa : (6, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(5, AZUL)
+           echa : (5, AZUL)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)(Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (Cambio de Color)
+           roba : (Cambio de Color)
+           roba : (2, ROJO)
+           roba : (3, ROJO)
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(Cambio de Color)(Cambio de Color)(2, ROJO)(3, ROJO)
+           echa : (Cambio de Color)
+           ha elegido el color ROJO
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(9, AMARILLO)(Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25732700R tiene: (Salta Turno, ROJO)(5, VERDE)(Cambio de Color)(2, ROJO)(3, ROJO)
+           echa : (5, VERDE)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(9, AMARILLO)
+           roba : (3, VERDE)
+           echa : (3, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Color)(2, ROJO)(3, ROJO)
+           echa : (3, ROJO)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(9, AMARILLO)
+           roba : (1, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Color)(2, ROJO)
+           echa : (2, ROJO)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(9, AMARILLO)(1, VERDE)
+           roba : (1, AZUL)
+
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Color)
+           echa : (Salta Turno, ROJO)
+
+25111111X pierde su turno
+
+25732700R tiene: (Cambio de Color)
+           echa : (Cambio de Color)
+------------------------------------------
+             Clasificación
+          ------------------
+1º 25732700R tiene 0.0 puntos y lleva 1 partidas ganadas.
+2º 25111111X tiene 31.0 puntos y lleva 2 partidas ganadas.
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(J.Número) 25732700R tiene: (4, VERDE)(9, VERDE)(8, VERDE)(5, ROJO)(5, AZUL)(0, AMARILLO)(Roba4, Cambio de Color)
+(J.Color ) 25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)(5, AMARILLO)(1, AZUL)(Roba2 , VERDE)(4, ROJO)
+------------------------------------------
+      En la Mesa: (9, AZUL)
+------------------------------------------
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)(5, AMARILLO)(1, AZUL)(Roba2 , VERDE)(4, ROJO)
+           echa : (1, AZUL)
+
+25732700R tiene: (4, VERDE)(9, VERDE)(8, VERDE)(5, ROJO)(5, AZUL)(0, AMARILLO)(Roba4, Cambio de Color)
+           echa : (5, AZUL)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)(5, AMARILLO)(Roba2 , VERDE)(4, ROJO)
+           echa : (5, AMARILLO)
+
+25732700R tiene: (4, VERDE)(9, VERDE)(8, VERDE)(5, ROJO)(0, AMARILLO)(Roba4, Cambio de Color)
+           echa : (5, ROJO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)(Roba2 , VERDE)(4, ROJO)
+           echa : (4, ROJO)
+
+25732700R tiene: (4, VERDE)(9, VERDE)(8, VERDE)(0, AMARILLO)(Roba4, Cambio de Color)
+           echa : (4, VERDE)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)(Roba2 , VERDE)
+           echa : (Roba2 , VERDE)
+
+           roba : (7, AZUL)
+           roba : (3, VERDE)
+25732700R tiene: (9, VERDE)(8, VERDE)(0, AMARILLO)(Roba4, Cambio de Color)(7, AZUL)(3, VERDE)
+           echa : (9, VERDE)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(Cambio de Color)
+           echa : (Cambio de Color)
+           ha elegido el color VERDE
+
+25732700R tiene: (8, VERDE)(0, AMARILLO)(Roba4, Cambio de Color)(7, AZUL)(3, VERDE)
+           echa : (8, VERDE)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)
+           roba : (1, VERDE)
+           echa : (1, VERDE)
+
+25732700R tiene: (0, AMARILLO)(Roba4, Cambio de Color)(7, AZUL)(3, VERDE)
+           echa : (3, VERDE)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)
+           roba : (5, ROJO)
+
+25732700R tiene: (0, AMARILLO)(Roba4, Cambio de Color)(7, AZUL)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (Salta Turno, ROJO)
+           roba : (1, VERDE)
+           roba : (3, ROJO)
+           roba : (6, AMARILLO)
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(5, ROJO)(Salta Turno, ROJO)(1, VERDE)(3, ROJO)(6, AMARILLO)
+           echa : (6, AMARILLO)
+
+25732700R tiene: (0, AMARILLO)(7, AZUL)
+           echa : (0, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(0, ROJO)(5, ROJO)(Salta Turno, ROJO)(1, VERDE)(3, ROJO)
+           echa : (0, ROJO)
+
+25732700R tiene: (7, AZUL)
+           roba : (7, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(5, ROJO)(Salta Turno, ROJO)(1, VERDE)(3, ROJO)
+           echa : (5, ROJO)
+
+25732700R tiene: (7, AZUL)(7, AMARILLO)
+           roba : (Cambio de Sentido, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(Salta Turno, ROJO)(1, VERDE)(3, ROJO)
+           echa : (3, ROJO)
+
+25732700R tiene: (7, AZUL)(7, AMARILLO)(Cambio de Sentido, AMARILLO)
+           roba : (5, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, ROJO)(Salta Turno, ROJO)(1, VERDE)
+           echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25732700R tiene: (7, AZUL)(7, AMARILLO)(Cambio de Sentido, AMARILLO)(5, AMARILLO)
+           echa : (Cambio de Sentido, AMARILLO)
+
+           Se cambia orientación
+
+25111111X tiene: (Salta Turno, ROJO)(1, VERDE)
+           roba : (6, ROJO)
+
+25732700R tiene: (7, AZUL)(7, AMARILLO)(5, AMARILLO)
+           echa : (7, AMARILLO)
+
+25111111X tiene: (Salta Turno, ROJO)(1, VERDE)(6, ROJO)
+           roba : (4, VERDE)
+
+25732700R tiene: (7, AZUL)(5, AMARILLO)
+           echa : (7, AZUL)
+
+25111111X tiene: (Salta Turno, ROJO)(1, VERDE)(6, ROJO)(4, VERDE)
+           roba : (6, ROJO)
+
+25732700R tiene: (5, AMARILLO)
+           roba : (Salta Turno, AZUL)
+           echa : (Salta Turno, AZUL)
+
+25111111X pierde su turno
+
+25732700R tiene: (5, AMARILLO)
+           roba : (Salta Turno, VERDE)
+           echa : (Salta Turno, VERDE)
+
+25111111X pierde su turno
+
+25732700R tiene: (5, AMARILLO)
+           roba : (3, VERDE)
+           echa : (3, VERDE)
+
+25111111X tiene: (Salta Turno, ROJO)(1, VERDE)(6, ROJO)(4, VERDE)(6, ROJO)
+           echa : (1, VERDE)
+
+25732700R tiene: (5, AMARILLO)
+           roba : (8, AMARILLO)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(4, VERDE)(6, ROJO)
+           echa : (4, VERDE)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)
+           roba : (2, VERDE)
+           echa : (2, VERDE)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)
+           roba : (4, AZUL)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)
+           roba : (Cambio de Sentido, AZUL)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)
+           roba : (3, AZUL)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)(Cambio de Sentido, AZUL)
+           roba : (6, AZUL)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)
+           roba : (Salta Turno, AMARILLO)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)(Cambio de Sentido, AZUL)(6, AZUL)
+           roba : (1, ROJO)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)(Salta Turno, AMARILLO)
+           roba : (7, ROJO)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)(Cambio de Sentido, AZUL)(6, AZUL)(1, ROJO)
+           roba : (Salta Turno, ROJO)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)(Salta Turno, AMARILLO)(7, ROJO)
+           roba : (5, VERDE)
+           echa : (5, VERDE)
+
+25732700R tiene: (5, AMARILLO)(8, AMARILLO)(Cambio de Sentido, AZUL)(6, AZUL)(1, ROJO)(Salta Turno, ROJO)
+           echa : (5, AMARILLO)
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)(Salta Turno, AMARILLO)(7, ROJO)
+           echa : (Salta Turno, AMARILLO)
+
+25732700R pierde su turno
+
+25111111X tiene: (Salta Turno, ROJO)(6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)(7, ROJO)
+           echa : (Salta Turno, ROJO)
+
+25732700R pierde su turno
+
+25111111X tiene: (6, ROJO)(6, ROJO)(4, AZUL)(3, AZUL)(7, ROJO)
+           echa : (6, ROJO)
+
+25732700R tiene: (8, AMARILLO)(Cambio de Sentido, AZUL)(6, AZUL)(1, ROJO)(Salta Turno, ROJO)
+           echa : (6, AZUL)
+
+25111111X tiene: (6, ROJO)(4, AZUL)(3, AZUL)(7, ROJO)
+           echa : (3, AZUL)
+
+25732700R tiene: (8, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)(Salta Turno, ROJO)
+           echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25111111X tiene: (6, ROJO)(4, AZUL)(7, ROJO)
+           echa : (4, AZUL)
+
+25732700R tiene: (8, AMARILLO)(1, ROJO)(Salta Turno, ROJO)
+           roba : (0, VERDE)
+
+25111111X tiene: (6, ROJO)(7, ROJO)
+           roba : (9, VERDE)
+
+25732700R tiene: (8, AMARILLO)(1, ROJO)(Salta Turno, ROJO)(0, VERDE)
+           roba : (4, AMARILLO)
+           echa : (4, AMARILLO)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(9, VERDE)
+           roba : (Roba4, Cambio de Color)
+           echa : (Roba4, Cambio de Color)
+           ha elegido el color AMARILLO
+
+           roba : (8, VERDE)
+           roba : (9, AMARILLO)
+           roba : (9, AZUL)
+           roba : (9, AMARILLO)
+25732700R tiene: (8, AMARILLO)(1, ROJO)(Salta Turno, ROJO)(0, VERDE)(8, VERDE)(9, AMARILLO)(9, AZUL)(9, AMARILLO)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(9, VERDE)
+           roba : (Roba2 , VERDE)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(0, VERDE)(8, VERDE)(9, AMARILLO)(9, AZUL)(9, AMARILLO)
+           echa : (8, VERDE)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(9, VERDE)(Roba2 , VERDE)
+           echa : (9, VERDE)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(0, VERDE)(9, AMARILLO)(9, AZUL)(9, AMARILLO)
+           echa : (9, AMARILLO)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(Roba2 , VERDE)
+           roba : (3, AMARILLO)
+           echa : (3, AMARILLO)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(0, VERDE)(9, AZUL)(9, AMARILLO)
+           echa : (9, AMARILLO)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(Roba2 , VERDE)
+           roba : (6, AMARILLO)
+           echa : (6, AMARILLO)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(0, VERDE)(9, AZUL)
+           roba : (Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (2, AZUL)
+           roba : (5, AZUL)
+25111111X tiene: (6, ROJO)(7, ROJO)(Roba2 , VERDE)(2, AZUL)(5, AZUL)
+           echa : (Roba2 , VERDE)
+
+           roba : (8, ROJO)
+           roba : (6, AZUL)
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(0, VERDE)(9, AZUL)(8, ROJO)(6, AZUL)
+           echa : (0, VERDE)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(2, AZUL)(5, AZUL)
+           roba : (7, VERDE)
+           echa : (7, VERDE)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(9, AZUL)(8, ROJO)(6, AZUL)
+           roba : (7, ROJO)
+           echa : (7, ROJO)
+
+25111111X tiene: (6, ROJO)(7, ROJO)(2, AZUL)(5, AZUL)
+           echa : (6, ROJO)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(9, AZUL)(8, ROJO)(6, AZUL)
+           echa : (6, AZUL)
+
+25111111X tiene: (7, ROJO)(2, AZUL)(5, AZUL)
+           echa : (2, AZUL)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(9, AZUL)(8, ROJO)
+           echa : (9, AZUL)
+
+25111111X tiene: (7, ROJO)(5, AZUL)
+           echa : (5, AZUL)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(8, ROJO)
+           roba : (1, AZUL)
+           echa : (1, AZUL)
+
+25111111X tiene: (7, ROJO)
+           roba : (8, AZUL)
+           echa : (8, AZUL)
+
+25732700R tiene: (1, ROJO)(Salta Turno, ROJO)(8, ROJO)
+           echa : (8, ROJO)
+
+25111111X tiene: (7, ROJO)
+           echa : (7, ROJO)
+------------------------------------------
+             Clasificación
+          ------------------
+1º 25111111X tiene 0.0 puntos y lleva 3 partidas ganadas.
+2º 25732700R tiene 21.0 puntos y lleva 1 partidas ganadas.
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(J.Número) 25732700R tiene: (2, ROJO)(8, AZUL)(Salta Turno, ROJO)(1, ROJO)(6, AZUL)(5, AMARILLO)(8, AMARILLO)
+(J.Color ) 25111111X tiene: (9, AZUL)(3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(6, AMARILLO)(5, VERDE)(Cambio de Sentido, AZUL)
+------------------------------------------
+      En la Mesa: (9, AZUL)
+------------------------------------------
+
+25732700R tiene: (2, ROJO)(8, AZUL)(Salta Turno, ROJO)(1, ROJO)(6, AZUL)(5, AMARILLO)(8, AMARILLO)
+           echa : (8, AZUL)
+
+25111111X tiene: (9, AZUL)(3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(6, AMARILLO)(5, VERDE)(Cambio de Sentido, AZUL)
+           echa : (9, AZUL)
+
+25732700R tiene: (2, ROJO)(Salta Turno, ROJO)(1, ROJO)(6, AZUL)(5, AMARILLO)(8, AMARILLO)
+           echa : (6, AZUL)
+
+25111111X tiene: (3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(6, AMARILLO)(5, VERDE)(Cambio de Sentido, AZUL)
+           echa : (6, AMARILLO)
+
+25732700R tiene: (2, ROJO)(Salta Turno, ROJO)(1, ROJO)(5, AMARILLO)(8, AMARILLO)
+           echa : (8, AMARILLO)
+
+25111111X tiene: (3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(5, VERDE)(Cambio de Sentido, AZUL)
+           roba : (Roba2 , AMARILLO)
+           echa : (Roba2 , AMARILLO)
+
+           roba : (Cambio de Sentido, VERDE)
+           roba : (5, ROJO)
+25732700R tiene: (2, ROJO)(Salta Turno, ROJO)(1, ROJO)(5, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)
+           echa : (5, AMARILLO)
+
+25111111X tiene: (3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(5, VERDE)(Cambio de Sentido, AZUL)
+           echa : (5, VERDE)
+
+25732700R tiene: (2, ROJO)(Salta Turno, ROJO)(1, ROJO)(Cambio de Sentido, VERDE)(5, ROJO)
+           echa : (5, ROJO)
+
+25111111X tiene: (3, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)
+           echa : (3, ROJO)
+
+25732700R tiene: (2, ROJO)(Salta Turno, ROJO)(1, ROJO)(Cambio de Sentido, VERDE)
+           echa : (2, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)
+           roba : (9, VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(1, ROJO)(Cambio de Sentido, VERDE)
+           echa : (1, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)
+           roba : (Roba2 , VERDE)
+
+25732700R tiene: (Salta Turno, ROJO)(Cambio de Sentido, VERDE)
+           echa : (Salta Turno, ROJO)
+
+25111111X pierde su turno
+
+25732700R tiene: (Cambio de Sentido, VERDE)
+           roba : (5, ROJO)
+           echa : (5, ROJO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)(Roba2 , VERDE)
+           roba : (2, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)
+           roba : (3, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)(Roba2 , VERDE)(2, VERDE)
+           roba : (1, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(3, AZUL)
+           roba : (4, AMARILLO)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)
+           roba : (Cambio de Sentido, AMARILLO)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(3, AZUL)(4, AMARILLO)
+           roba : (4, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)(Cambio de Sentido, AMARILLO)
+           roba : (5, AZUL)
+           echa : (5, AZUL)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(3, AZUL)(4, AMARILLO)(4, AZUL)
+           echa : (3, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25732700R tiene: (Cambio de Sentido, VERDE)(4, AMARILLO)(4, AZUL)
+           echa : (4, AZUL)
+
+25111111X tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (Salta Turno, AZUL)
+
+25732700R pierde su turno
+
+25111111X tiene: (Salta Turno, VERDE)(9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (Salta Turno, VERDE)
+
+25732700R pierde su turno
+
+25111111X tiene: (9, VERDE)(Roba2 , VERDE)(2, VERDE)(1, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (1, VERDE)
+
+25732700R tiene: (Cambio de Sentido, VERDE)(4, AMARILLO)
+           echa : (Cambio de Sentido, VERDE)
+
+           Se cambia orientación
+
+25111111X tiene: (9, VERDE)(Roba2 , VERDE)(2, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (9, VERDE)
+
+25732700R tiene: (4, AMARILLO)
+           roba : (7, AMARILLO)
+
+25111111X tiene: (Roba2 , VERDE)(2, VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (2, VERDE)
+
+25732700R tiene: (4, AMARILLO)(7, AMARILLO)
+           roba : (Roba2 , ROJO)
+
+25111111X tiene: (Roba2 , VERDE)(Cambio de Sentido, AMARILLO)
+           echa : (Roba2 , VERDE)
+
+           roba : (Roba2 , ROJO)
+           roba : (Cambio de Sentido, AZUL)
+25732700R tiene: (4, AMARILLO)(7, AMARILLO)(Roba2 , ROJO)(Roba2 , ROJO)(Cambio de Sentido, AZUL)
+           echa : (Roba2 , ROJO)
+
+           roba : (6, VERDE)
+           roba : (7, AZUL)
+25111111X tiene: (Cambio de Sentido, AMARILLO)(6, VERDE)(7, AZUL)
            roba : (0, AMARILLO)
 
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)
-           roba : (5, AMARILLO)
-           echa : (5, AMARILLO)
-
-25434343 tiene: (9, AZUL)(0, AZUL)(0, AMARILLO)
-           echa : (0, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)
-           roba : (6, AMARILLO)
-           echa : (6, AMARILLO)
-
-25434343 tiene: (9, AZUL)(0, AZUL)
-           roba : (Roba2 , AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (4, AZUL)
-           roba : (8, AZUL)
-           roba : (Salta Turno, AMARILLO)
-           roba : (2, AZUL)
-25434343 tiene: (9, AZUL)(0, AZUL)(Roba2 , AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)
-           roba : (5, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)
-           roba : (Roba2 , ROJO)
-
-25434343 tiene: (9, AZUL)(0, AZUL)(Roba2 , AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)
-           roba : (1, ROJO)
-           echa : (1, ROJO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)(Roba2 , ROJO)
+25732700R tiene: (4, AMARILLO)(7, AMARILLO)(Roba2 , ROJO)(Cambio de Sentido, AZUL)
            echa : (Roba2 , ROJO)
 
-           roba : (1, AMARILLO)
-           roba : (8, VERDE)
-25434343 tiene: (9, AZUL)(0, AZUL)(Roba2 , AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)
-           echa : (Roba2 , AZUL)
+           roba : (6, AZUL)
+           roba : (5, VERDE)
+25111111X tiene: (Cambio de Sentido, AMARILLO)(6, VERDE)(7, AZUL)(0, AMARILLO)(6, AZUL)(5, VERDE)
+           roba : (4, ROJO)
+           echa : (4, ROJO)
 
-           roba : (0, ROJO)
-           roba : (1, VERDE)
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(7, AZUL)(0, ROJO)(1, VERDE)
+25732700R tiene: (4, AMARILLO)(7, AMARILLO)(Cambio de Sentido, AZUL)
+           echa : (4, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(6, VERDE)(7, AZUL)(0, AMARILLO)(6, AZUL)(5, VERDE)
+           echa : (0, AMARILLO)
+
+25732700R tiene: (7, AMARILLO)(Cambio de Sentido, AZUL)
+           echa : (7, AMARILLO)
+
+25111111X tiene: (Cambio de Sentido, AMARILLO)(6, VERDE)(7, AZUL)(6, AZUL)(5, VERDE)
            echa : (7, AZUL)
 
-25434343 tiene: (9, AZUL)(0, AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)
-           echa : (0, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(0, ROJO)(1, VERDE)
-           echa : (0, ROJO)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)
-           roba : (6, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(1, VERDE)
-           roba : (6, AMARILLO)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)(6, AZUL)
-           roba : (Cambio de Sentido, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(1, VERDE)(6, AMARILLO)
-           roba : (2, VERDE)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)(6, AZUL)(Cambio de Sentido, AZUL)
-           roba : (Salta Turno, ROJO)
-           echa : (Salta Turno, ROJO)
-
-25732700 pierde su turno
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(Salta Turno, AMARILLO)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (Salta Turno, AMARILLO)
-
-25732700 pierde su turno
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(2, AZUL)(5, AMARILLO)(1, AMARILLO)(8, VERDE)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (5, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(1, VERDE)(6, AMARILLO)(2, VERDE)
-           echa : (6, AMARILLO)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(2, AZUL)(1, AMARILLO)(8, VERDE)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (1, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(1, VERDE)(2, VERDE)
-           echa : (1, VERDE)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(2, AZUL)(8, VERDE)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (8, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)(2, VERDE)
-           echa : (2, VERDE)
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(2, AZUL)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (2, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(Cambio de Sentido, AZUL)
+25732700R tiene: (Cambio de Sentido, AZUL)
            echa : (Cambio de Sentido, AZUL)
-
-           Se cambia orientación
-
-25434343 tiene: (9, AZUL)(4, AZUL)(8, AZUL)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (9, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)
-           roba : (8, VERDE)
-
-25434343 tiene: (4, AZUL)(8, AZUL)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (4, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(8, VERDE)
-           roba : (1, AZUL)
-           echa : (1, AZUL)
-
-25434343 tiene: (8, AZUL)(6, AZUL)(Cambio de Sentido, AZUL)
-           echa : (8, AZUL)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)(8, VERDE)
-           echa : (8, VERDE)
-
-25434343 tiene: (6, AZUL)(Cambio de Sentido, AZUL)
-           roba : (4, AMARILLO)
-
-25732700 tiene: (Salta Turno, VERDE)(Roba2 , VERDE)
-           echa : (Roba2 , VERDE)
-
-           roba : (7, AZUL)
-           roba : (Cambio de Sentido, ROJO)
-25434343 tiene: (6, AZUL)(Cambio de Sentido, AZUL)(4, AMARILLO)(7, AZUL)(Cambio de Sentido, ROJO)
-           roba : (3, VERDE)
-           echa : (3, VERDE)
-
-25732700 tiene: (Salta Turno, VERDE)
-           echa : (Salta Turno, VERDE)
 ------------------------------------------
              Clasificación
           ------------------
-1º 25732700 tiene 0.0 puntos y lleva 2 partidas ganadas.
-2º 25434343 tiene 57.0 puntos y lleva 3 partidas ganadas.
+1º 25732700R tiene 0.0 puntos y lleva 2 partidas ganadas.
+2º 25111111X tiene 37.0 puntos y lleva 3 partidas ganadas.
