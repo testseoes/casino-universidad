@@ -2,7 +2,10 @@ package uno;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.TreeSet;
+
+import bd.BaseDatos;
 import utils.BarajaMesaVacia;
 
 public class Uno {
@@ -11,13 +14,15 @@ public class Uno {
 	private boolean sentido;
 	private BufferedWriter fout;
 
-	public Uno(Partida partida, /* String[] nombres, */BufferedWriter fout) {
+
+	public Uno(Partida partida, /* String[] nombres, */BufferedWriter fout) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 		// this.nombres=nombres;
 		this.partida = partida;
 		this.fout = fout;
+		
 	}
 
-	public void juega() throws IOException, BarajaMesaVacia {
+	public void juega() throws IOException, BarajaMesaVacia, SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
 		comenzarPartida();
 		accionCartaEspecial();
 		do {
@@ -130,8 +135,11 @@ public class Uno {
 			accionCartaEspecial();
 	}
 
-	public void finalizarPartida() throws IOException {
+	public void finalizarPartida() throws IOException, SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
 		partida.getJugadores()[partida.getTurno()].sumaPartidaGanada();
+		String ganador= partida.getJugadores()[partida.getTurno()].getNombre();
+		BaseDatos bd=new BaseDatos();
+		bd.recuperarCredito(1,ganador);
 		JugadorUno jugadores[] = partida.getJugadores();
 		float puntuacion = 0;
 		for (int i = 0; i < jugadores.length; i++)

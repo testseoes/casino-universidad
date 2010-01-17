@@ -2,6 +2,9 @@ package blackjack;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.sql.SQLException;
+
+import bd.BaseDatos;
 import utils.BarajaMesaVacia;
 
 public class BlackJack {
@@ -15,7 +18,7 @@ public class BlackJack {
 		this.partida = partida;
 		this.fout = fout;
 	}
-	public void juega() throws IOException, BarajaMesaVacia {
+	public void juega() throws IOException, BarajaMesaVacia, IllegalAccessException, ClassNotFoundException, SQLException, InstantiationException {
 		comenzarPartida();
 		jueganJugadores();
 		fout.write(partida.getJugadores()[turno].toString() + "\n");
@@ -76,7 +79,8 @@ public class BlackJack {
 		fout.write("           no pide más cartas\n");
 		fout.write("           tiene: " + partida.getJugadores()[turno].toString2() + "\n");
 	}
-	public void finalizarPartida() throws IOException {
+	public void finalizarPartida() throws IOException, IllegalAccessException, ClassNotFoundException, SQLException, InstantiationException {
+		BaseDatos bd=new BaseDatos();
 		float puntuacionCrupier=partida.getJugadores()[partida.getNJUGADORES()].sumaPuntos();
 		fout.write("------------------------------------------\n");
 		fout.write("              Resultados\n");
@@ -139,6 +143,7 @@ public class BlackJack {
 			float ganado=partida.getGanado(turno)-partida.getApostado(turno);
 			fout.write("          " + " lleva ganado  : ");
 			fout.write(ganado + "\n");
+			bd.creditosBlack(partida.getJugadores()[turno].getNombre(),partida.getApostado(turno),partida.getGanado(turno));
 		}
 	}
 }
