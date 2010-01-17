@@ -2,6 +2,7 @@ package bd;
 
 import java.io.IOException;
 import java.sql.*;
+
 import utils.BDNoHayUsuarios;
 
 public class BaseDatos {
@@ -10,7 +11,7 @@ public class BaseDatos {
 	 NO USAR LA ENTRADA SALIDA en las funciones, eso se hará fuera, aquí solo lo 
 	 referido a base de datos.
 	 */
-	private Connection conexion = null;
+	private static Connection conexion = null;
 	
 	public BaseDatos() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{ 
 		Class.forName("com.mysql.jdbc.Driver").newInstance();  
@@ -78,5 +79,107 @@ public class BaseDatos {
 		ResultSet resultado = stmt.executeQuery("SELECT * FROM "+tabla+" ORDER BY "+campo+" DESC LIMIT 1");
 		if(resultado.next()) return resultado.getInt(campo);
 		else return 0;
+	}
+	//Insertar Partida
+	public void InsertarPartida(int mesa,String juego) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		stmt.executeUpdate("INSERT INTO partidas" +
+				" (Mesa,NombreJuego) "
+				+"VALUES ("+mesa+",'"+juego+"')");
+		int ultpartida=ultNum("partidas","NPartida");
+		stmt.executeUpdate("UPDATE partidas " +
+				"SET HoraInicioPartida=CURTIME()" +
+				" WHERE NPartida="+ ultpartida);
+
+	}
+	//Para rellenar la tabla jugadores/partida
+	public void JugadoresPartida (String[] nombres) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		int npartida=ultNum("partidas","NPartida");
+		for(int i=0; i<nombres.length; i++){
+			stmt.executeUpdate("INSERT INTO jugadores_partidas" +
+					" (NPartida,Login) "
+					+"VALUES ("+npartida+",'"+nombres[i]+"')");
+		}		
+	}
+	//Insertar partidas por sesion	
+	public void PartidasSesion () throws SQLException{
+	Statement stmt=conexion.createStatement();
+	int npartida=ultNum("partidas","NPartida");
+	int nsesion=ultNum("sesion","NSesion");
+		stmt.executeUpdate("INSERT INTO partidas_sesiones" +
+				" (NSesion,NPartida) "
+				+"VALUES ("+nsesion+",'"+npartida+"')");
+	}	
+	
+
+	//Inicia partida para uno y black
+	public void iniciaPartida(int nmesa, String juego,String[] nombres) throws SQLException{
+		InsertarPartida(nmesa,juego);
+		JugadoresPartida(nombres);
+		PartidasSesion();
+	}
+	//Fin partida para uno y black
+	public void finPartida() throws SQLException{
+		Statement stmt=conexion.createStatement();
+		int ultpartida=ultNum("partidas","NPartida");
+		stmt.executeUpdate("UPDATE partidas " +
+				"SET HoraFinPartida=CURTIME()" +
+				" WHERE NPartida="+ ultpartida);	
+	}
+	//Total de creditos para Black
+	public void creditosBlack(String login, float invertidos,float ganados) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		float suma=0, suma1=0;
+		int ultpartida=ultNum("partidas","NPartida");
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+login+"'");
+		if(resultado.next()) suma=resultado.getInt("RecuperadoTotal")+ganados;
+		stmt.executeUpdate("UPDATE jugadores " +
+				"SET RecuperadoTotal="+suma +
+				" WHERE Login="+ login);
+		stmt.executeUpdate("UPDATE jugadores_partidas " + //para rellenar partida_jugadores
+				"SET Recuperado="+ganados +
+				" WHERE Login='"+login+"' && NPartida="+ultpartida);
+		ResultSet resultado1 = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+login+"'");
+		if(resultado1.next())suma1=resultado1.getInt("InvertidoTotal")+invertidos;
+		stmt.executeUpdate("UPDATE jugadores " +
+				"SET InvertidoTotal="+suma1 +
+				" WHERE Login="+ login);
+		stmt.executeUpdate("UPDATE jugadores_partidas " + //para rellenar partida_jugadores
+				"SET Invertido="+invertidos +
+				" WHERE Login='"+login+"' && NPartida="+ultpartida);
+	}
+	//Recuperar credito para Uno
+	public void recuperarCredito(int c, String login) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		int suma=0, suma1=0;
+		int ultpartida=ultNum("partidas","NPartida");
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+login+"'");
+		if(resultado.next()) suma=resultado.getInt("RecuperadoTotal")+c;
+		stmt.executeUpdate("UPDATE jugadores " +
+				"SET RecuperadoTotal="+suma +
+				" WHERE Login="+ login);
+		stmt.executeUpdate("UPDATE jugadores_partidas " + 
+				"SET Recuperado="+c +
+				" WHERE Login='"+login+"' && NPartida="+ultpartida);
+	}
+	
+	//Invertir creditos para el Uno 
+	public void invertirCredito(int c, String[] nombres) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		int suma=0;
+		for(int i=0; i<nombres.length; i++){
+			ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+nombres[i]+"'");
+			if(resultado.next()) suma=resultado.getInt("InvertidoTotal")+c;
+			stmt.executeUpdate("UPDATE jugadores " +
+					"SET InvertidoTotal="+suma +
+					" WHERE Login="+ nombres[i]);
+		}
+		for(int i=0; i<nombres.length; i++){
+				int ultpartida=ultNum("partidas","NPartida");
+				stmt.executeUpdate("UPDATE jugadores_partidas " +
+					"SET Invertido="+c +
+					" WHERE Login='"+nombres[i]+"' && NPartida="+ultpartida);
+		}
 	}
 }

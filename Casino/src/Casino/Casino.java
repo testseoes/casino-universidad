@@ -14,7 +14,7 @@ import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
 
 public class Casino {
-	final static int npartidas=30; //en cada mesa se jugarán este nº de partidas. tb se podría pedir en elegirJuegoMesa para elegir el nº partidas a jugar en cada mesa.
+	final static int npartidas=5; //en cada mesa se jugarán este nº de partidas. tb se podría pedir en elegirJuegoMesa para elegir el nº partidas a jugar en cada mesa.
 	
 	public static void main(String[] args) throws IOException,SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, BDNoHayUsuarios {
 		BufferedReader entrada = new BufferedReader (new InputStreamReader(System.in)); //entrada x pantalla
@@ -65,7 +65,7 @@ public class Casino {
 	
 	//estos métodos son estáticos x q los quiero usar en el main
 	//realmente no deberían ser estáticos.
-	static void elegirJuegoMesa(ArrayList<String> mesa,int nmesa,BufferedWriter fout,BufferedReader entrada) throws IOException, BarajaMesaVacia{
+	static void elegirJuegoMesa(ArrayList<String> mesa,int nmesa,BufferedWriter fout,BufferedReader entrada) throws IOException, BarajaMesaVacia, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
 		String str;
 		if(!mesa.isEmpty()){
 			int opcion=0;
