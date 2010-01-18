@@ -1,26 +1,27 @@
 package vista;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-import java.awt.BorderLayout;
-import java.awt.event.*;
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.SpringLayout;
 
-
-
-
-public class VentanaCrearCuenta implements ActionListener {
+public class VentanaIniciarSesion implements ActionListener {
 
 	@Override
-	public void actionPerformed(ActionEvent arg0) {
-		JFrame framecc = new JFrame("Crear Cuenta");
+	public void actionPerformed(ActionEvent e) {
+		JFrame frameis = new JFrame("Iniciar Sesion");
 		JPanel contentPane = new JPanel(new SpringLayout());
 		JLabel loggin = new JLabel("Loggin",JLabel.TRAILING);
 		JLabel passw1 = new JLabel("Password",JLabel.TRAILING);
-		JLabel passw2 = new JLabel("Password",JLabel.TRAILING);
 		JTextField campo1= new JTextField(10);
 		JPasswordField pass1 = new JPasswordField(10);
-		JPasswordField pass2 = new JPasswordField(10);
-		JButton botonCrear =new JButton ("Crear");
+		JButton botonIniciar =new JButton ("Iniciar");
 		JButton botonCancelar =new JButton ("Cancelar");
 		JLabel statusMsg1 = new JLabel("Estado: ");
 		JLabel statusMsg2 = new JLabel();
@@ -37,19 +38,18 @@ public class VentanaCrearCuenta implements ActionListener {
 		passw1.setLabelFor(pass1);
 		contentPane.add(pass1);
 		
-		contentPane.add(passw2);
-		passw2.setLabelFor(pass2);
-		contentPane.add(pass2);
-		
-		contentPane.add(botonCrear);
+
+		contentPane.add(botonIniciar);
 		contentPane.add(botonCancelar);
 		
 		contentPane.add(statusMsg1);
 		contentPane.add(statusMsg2);
 		
+//		frameis.c
+//		botonCancelar.addActionListener(frameis.setDefaultCloseOperation(operation));
 		
 		SpringUtilities.makeCompactGrid(contentPane,
-                5, 2, //rows, cols
+                4, 2, //rows, cols
                 6, 6,        //initX, initY
                 6, 6);       //xPad, yPad
 
@@ -57,14 +57,15 @@ public class VentanaCrearCuenta implements ActionListener {
 		contentPane.setOpaque(true);
 		
 //		framecc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		framecc.setContentPane(contentPane);
+		frameis.setContentPane(contentPane);
 		
 //		framecc.setSize(300,200);
-		framecc.pack();
-		framecc.setLocation(150,150);
-		framecc.setVisible(true);
-;
+		frameis.pack();
+		frameis.setLocation(150,150);
+		frameis.setVisible(true);
+		
+
+
 
 	}
-
 }
