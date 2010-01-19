@@ -18,12 +18,12 @@ public class BlackJack {
 		this.partida = partida;
 		this.fout = fout;
 	}
-	public void juega() throws IOException, BarajaMesaVacia, IllegalAccessException, ClassNotFoundException, SQLException, InstantiationException {
+	public void juega(BaseDatos bd) throws IOException, SQLException, BarajaMesaVacia{
 		comenzarPartida();
 		jueganJugadores();
 		fout.write(partida.getJugadores()[turno].toString() + "\n");
 		juegaJugadorNormal(); //En este caso el Croupier
-		finalizarPartida();
+		finalizarPartida(bd);
 	}
 	public void comenzarPartida() throws IOException {
 		// partida.crearJugadores(nombres); se hace fuera, en el principal.
@@ -79,8 +79,7 @@ public class BlackJack {
 		fout.write("           no pide más cartas\n");
 		fout.write("           tiene: " + partida.getJugadores()[turno].toString2() + "\n");
 	}
-	public void finalizarPartida() throws IOException, IllegalAccessException, ClassNotFoundException, SQLException, InstantiationException {
-		BaseDatos bd=new BaseDatos();
+	public void finalizarPartida(BaseDatos bd) throws IOException, SQLException {
 		float puntuacionCrupier=partida.getJugadores()[partida.getNJUGADORES()].sumaPuntos();
 		fout.write("------------------------------------------\n");
 		fout.write("              Resultados\n");

@@ -16,7 +16,7 @@ import utils.BarajaMesaVacia;
 public class Casino {
 	final static int npartidas=5; //en cada mesa se jugarán este nº de partidas. tb se podría pedir en elegirJuegoMesa para elegir el nº partidas a jugar en cada mesa.
 	
-	public static void main(String[] args) throws IOException,SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, BDNoHayUsuarios {
+	public static void main(String[] args) throws IOException,SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException, BDNoHayUsuarios{
 		BufferedReader entrada = new BufferedReader (new InputStreamReader(System.in)); //entrada x pantalla
 		BufferedWriter fout = new BufferedWriter(new FileWriter("mesas.txt"));//fichero de out
 		BaseDatos bd= new BaseDatos();
@@ -49,10 +49,10 @@ public class Casino {
 		
 		//elegir el juego q se jugará en cada mesa y jugar. no es más q lanzar el principal según el juego q sea, con los datos correspondientes.	
 		try {
-			elegirJuegoMesa(mesa1,1,fout,entrada);
-			elegirJuegoMesa(mesa2,2,fout,entrada);
-			elegirJuegoMesa(mesa3,3,fout,entrada);
-			elegirJuegoMesa(mesa4,4,fout,entrada);
+			elegirJuegoMesa(mesa1,1,bd,fout,entrada);
+			elegirJuegoMesa(mesa2,2,bd,fout,entrada);
+			elegirJuegoMesa(mesa3,3,bd,fout,entrada);
+			elegirJuegoMesa(mesa4,4,bd,fout,entrada);
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (BarajaMesaVacia e){
@@ -65,7 +65,7 @@ public class Casino {
 	
 	//estos métodos son estáticos x q los quiero usar en el main
 	//realmente no deberían ser estáticos.
-	static void elegirJuegoMesa(ArrayList<String> mesa,int nmesa,BufferedWriter fout,BufferedReader entrada) throws IOException, BarajaMesaVacia, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+	static private void elegirJuegoMesa(ArrayList<String> mesa,int nmesa,BaseDatos bd,BufferedWriter fout,BufferedReader entrada) throws IOException, BarajaMesaVacia, SQLException{
 		String str;
 		if(!mesa.isEmpty()){
 			int opcion=0;
@@ -78,20 +78,20 @@ public class Casino {
 					if(mesa.size()>=2){
 						fout.write("------------------------------------------\n");
 						fout.write("          MESA "+nmesa+" -> JUEGO UNO\n");
-						PrincipalUno.iniciaUno(mesa.toArray(new String[mesa.size()]),fout,npartidas,nmesa);
+						PrincipalUno.iniciaUno(mesa.toArray(new String[mesa.size()]),fout,bd,npartidas,nmesa);
 						correcto=true;
 					}else
 						System.out.println("Para jugar al Uno al menos hace faltan 2 jugadores.");
 				}else if(opcion==2){
 					fout.write("------------------------------------------\n");
 					fout.write("          MESA "+nmesa+" -> JUEGO BLACK\n");
-					PrincipalBlack.iniciaBlack(mesa.toArray(new String[mesa.size()]),fout,npartidas,nmesa);
+					PrincipalBlack.iniciaBlack(mesa.toArray(new String[mesa.size()]),fout,bd,npartidas,nmesa);
 					correcto=true;
 				}
 			}
 		}
 	}
-	static void repartirNombresMesas(String[] nombres, ArrayList<String> mesa1, ArrayList<String> mesa2
+	static private void repartirNombresMesas(String[] nombres, ArrayList<String> mesa1, ArrayList<String> mesa2
 			, ArrayList<String> mesa3, ArrayList<String> mesa4, BufferedReader entrada){
 		for(int i=0; i<nombres.length; i++){
 			int nmesa=0;
@@ -128,7 +128,7 @@ public class Casino {
 			}
 		}
 	}
-	static String[] meterUsuarios(BufferedReader entrada, BaseDatos bd) throws SQLException, IOException{
+	static private String[] meterUsuarios(BufferedReader entrada, BaseDatos bd) throws SQLException, IOException{
 		int numjugadores;
 		ArrayList<String> usuarios =new ArrayList<String>();
 		String login,pass;
@@ -164,7 +164,7 @@ public class Casino {
 		String nombre=entrada.readLine();
 		System.out.println("Introduzca el apellido.");
 		String apellido=entrada.readLine();
-		System.out.println("Introduzca el tipo de jugador que será en el UNO(1=CartaEspecial 2=Color 3=Numero).");
+		System.out.println("Introduzca el tipo de jugador que será en el UNO(1=Numero 2=Color 3=Especial).");
 		int tipojugadoruno=Integer.parseInt(entrada.readLine());
 		System.out.println("Introduzca si se doblará en el Black Jack(false=no true=si).");
 		boolean doblar=Boolean.parseBoolean(entrada.readLine());

@@ -84,13 +84,8 @@ public class BaseDatos {
 	public void insertarPartida(int mesa,String juego) throws SQLException{
 		Statement stmt=conexion.createStatement();
 		stmt.executeUpdate("INSERT INTO partidas" +
-				" (Mesa,NombreJuego) "
-				+"VALUES ("+mesa+",'"+juego+"')");
-		int ultpartida=ultNum("partidas","NPartida");
-		stmt.executeUpdate("UPDATE partidas " +
-				"SET HoraInicioPartida=CURTIME()" +
-				" WHERE NPartida="+ ultpartida);
-
+				" (Mesa,NombreJuego,HoraInicioPartida) "
+				+"VALUES ("+mesa+",'"+juego+"',CURTIME())");
 	}
 	//Para rellenar la tabla jugadores/partida
 	public void jugadoresPartida (String[] nombres) throws SQLException{
@@ -150,9 +145,9 @@ public class BaseDatos {
 				" WHERE Login='"+login+"' && NPartida="+ultpartida);
 	}
 	//Recuperar credito para Uno
-	public void recuperarCredito(int c, String login) throws SQLException{
+	public void recuperarCreditoUno(int c, String login) throws SQLException{
 		Statement stmt=conexion.createStatement();
-		int suma=0, suma1=0;
+		int suma=0;
 		int ultpartida=ultNum("partidas","NPartida");
 		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+login+"'");
 		if(resultado.next()) suma=resultado.getInt("RecuperadoTotal")+c;
@@ -165,7 +160,7 @@ public class BaseDatos {
 	}
 	
 	//Invertir creditos para el Uno 
-	public void invertirCredito(int c, String[] nombres) throws SQLException{
+	public void invertirCreditoUno(int c, String[] nombres) throws SQLException{
 		Statement stmt=conexion.createStatement();
 		int suma=0;
 		for(int i=0; i<nombres.length; i++){
@@ -181,5 +176,15 @@ public class BaseDatos {
 					"SET Invertido="+c +
 					" WHERE Login='"+nombres[i]+"' && NPartida="+ultpartida);
 		}
+	}
+	public int obtenerTipoJugadorUno(String nombre) throws SQLException{
+		int tipo=0;//si no existe el jugador, devuelve 0
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+nombre+"'");
+		if(resultado.next()) tipo=resultado.getInt("TipoJugadorUno");
+		return tipo;
+	}
+	public int obtenerTipoJugadorBlack(String nombre)throws SQLException{
+		return 0;
 	}
 }
