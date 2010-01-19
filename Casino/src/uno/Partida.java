@@ -21,17 +21,15 @@ public class Partida {
 		jugada = 0;
 	}
 
-	void crearJugadores(String[] nombres) {
+	void crearJugadores(String[] nombres, int[] tipos) {
 		NJUGADORES = nombres.length;
 		jugadores = new JugadorUno[NJUGADORES];
-		Double tipojugador;
 		for (int i = 0; i < NJUGADORES; i++) {
-			tipojugador = Math.random() * 3 % 3;
-			switch (tipojugador.intValue()) {
-			case 0:
+			switch (tipos[i]) {
+			case 1:
 				jugadores[i] = new JugadorNumero(nombres[i]);
 				break;
-			case 1:
+			case 2:
 				jugadores[i] = new JugadorColor(nombres[i]);
 				break;
 			default:

@@ -15,21 +15,21 @@ public class Uno {
 	private BufferedWriter fout;
 
 
-	public Uno(Partida partida, /* String[] nombres, */BufferedWriter fout) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+	public Uno(Partida partida, /* String[] nombres, */BufferedWriter fout) {
 		// this.nombres=nombres;
 		this.partida = partida;
 		this.fout = fout;
 		
 	}
 
-	public void juega() throws IOException, BarajaMesaVacia, SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
+	public void juega(BaseDatos bd) throws IOException, BarajaMesaVacia, SQLException {
 		comenzarPartida();
 		accionCartaEspecial();
 		do {
 			robarPorCartaEspecial();
 			jugarPartida();
 		} while (!partida.finpartida());
-		finalizarPartida();
+		finalizarPartida(bd);
 	}
 
 	public void accionCartaEspecial() throws IOException {
@@ -135,11 +135,10 @@ public class Uno {
 			accionCartaEspecial();
 	}
 
-	public void finalizarPartida() throws IOException, SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
+	public void finalizarPartida(BaseDatos bd) throws IOException, SQLException{
 		partida.getJugadores()[partida.getTurno()].sumaPartidaGanada();
 		String ganador= partida.getJugadores()[partida.getTurno()].getNombre();
-		BaseDatos bd=new BaseDatos();
-		bd.recuperarCredito(1,ganador);
+		bd.recuperarCreditoUno(1,ganador);
 		JugadorUno jugadores[] = partida.getJugadores();
 		float puntuacion = 0;
 		for (int i = 0; i < jugadores.length; i++)
