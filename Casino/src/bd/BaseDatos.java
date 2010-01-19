@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.sql.*;
 
 import utils.BDNoHayUsuarios;
+import utils.TipoJugadorBlack;
 
 public class BaseDatos {
 	/*
@@ -30,16 +31,12 @@ public class BaseDatos {
 		return str.equals(pass);
 	}
 	public void crearUsuario(String login, String pass, String nombre,
-			String apellido, int tipojugadoruno, boolean doblar,
-			boolean separar, int plantarse) throws SQLException {
+			String apellido, int tipojugadoruno, int tipojugadorblack, int plantarse) throws SQLException {
 		Statement stmt=conexion.createStatement();
-		stmt.executeUpdate("INSERT INTO tipo_jugador_black" +
-				" (Doblar, Separar, Plantarse) " +
-				"VALUES ("+doblar+","+separar+","+plantarse+")");
 		stmt.executeUpdate("INSERT INTO jugadores" +
-				" (Login, Pass, Nombre, Apellido,TipoJugadorUno,TipoJugadorBlack) " +
+				" (Login, Pass, Nombre, Apellido,TipoJugadorUno,TipoJugadorBlack,PlantarseBlack) " +
 				"VALUES ('"+login+"','"+pass+"','"+nombre+"','"+apellido+"',"+tipojugadoruno+","
-				+ultNum("tipo_jugador_black","Id_Tipo")+")");
+				+tipojugadorblack+","+plantarse+")");
 	}
 	public int iniciaSesion(String[] nombres) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
@@ -131,7 +128,7 @@ public class BaseDatos {
 		if(resultado.next()) suma=resultado.getInt("RecuperadoTotal")+ganados;
 		stmt.executeUpdate("UPDATE jugadores " +
 				"SET RecuperadoTotal="+suma +
-				" WHERE Login="+ login);
+				" WHERE Login='"+ login+"'");
 		stmt.executeUpdate("UPDATE jugadores_partidas " + //para rellenar partida_jugadores
 				"SET Recuperado="+ganados +
 				" WHERE Login='"+login+"' && NPartida="+ultpartida);
@@ -139,7 +136,7 @@ public class BaseDatos {
 		if(resultado1.next())suma1=resultado1.getInt("InvertidoTotal")+invertidos;
 		stmt.executeUpdate("UPDATE jugadores " +
 				"SET InvertidoTotal="+suma1 +
-				" WHERE Login="+ login);
+				" WHERE Login='"+ login+"'");
 		stmt.executeUpdate("UPDATE jugadores_partidas " + //para rellenar partida_jugadores
 				"SET Invertido="+invertidos +
 				" WHERE Login='"+login+"' && NPartida="+ultpartida);
@@ -184,7 +181,17 @@ public class BaseDatos {
 		if(resultado.next()) tipo=resultado.getInt("TipoJugadorUno");
 		return tipo;
 	}
-	public int obtenerTipoJugadorBlack(String nombre)throws SQLException{
-		return 0;
+	
+	/* OJO!!, es necesario inventare una nueva clase TipoJugadorBlack x q en java no se pueden pasar
+	 tipos primitivos por referencia. Es decir, para q la función devuelva las variables tipo y plantarse. */
+	public TipoJugadorBlack obtenerTipoJugadorBlack(String nombre)throws SQLException{
+		TipoJugadorBlack tipo= new TipoJugadorBlack();
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+nombre+"'");
+		if(resultado.next()){
+			tipo.setTipo(resultado.getInt("TipoJugadorBlack"));
+			tipo.setPlantarse(resultado.getInt("PlantarseBlack"));
+		}
+		return tipo;
 	}
 }
