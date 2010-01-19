@@ -166,13 +166,11 @@ public class Casino {
 		String apellido=entrada.readLine();
 		System.out.println("Introduzca el tipo de jugador que será en el UNO(1=Numero 2=Color 3=Especial).");
 		int tipojugadoruno=Integer.parseInt(entrada.readLine());
-		System.out.println("Introduzca si se doblará en el Black Jack(false=no true=si).");
-		boolean doblar=Boolean.parseBoolean(entrada.readLine());
-		System.out.println("Introduzca si separará en el Black Jack(false=no true=si).");
-		boolean separar=Boolean.parseBoolean(entrada.readLine());
+		System.out.println("Introduzca el tipo de jugador que será en el BLACKJACK(1=dobla y separa 2=separa 3=dobla 4=no hace nada).");
+		int tipojugadorblack=Integer.parseInt(entrada.readLine());
 		System.out.println("Introduzca la cantidad con la que se plantará en el Black Jack.");
 		int plantarse=Integer.parseInt(entrada.readLine());
-		bd.crearUsuario(login,pass,nombre,apellido,tipojugadoruno,doblar,separar,plantarse);
+		bd.crearUsuario(login,pass,nombre,apellido,tipojugadoruno,tipojugadorblack,plantarse);
 		return login;
 	}
 }

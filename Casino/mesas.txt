@@ -1,1156 +1,189 @@
 ------------------------------------------
-          MESA 1 -> JUEGO UNO
+          MESA 1 -> JUEGO BLACK
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25252525 tiene: (4, ROJO)(4, AZUL)(1, AMARILLO)(0, AZUL)(2, AMARILLO)(1, ROJO)(8, AMARILLO)
-(J.Número) 25252525J tiene: (Salta Turno, AMARILLO)(7, VERDE)(3, ROJO)(2, AZUL)(5, VERDE)(Cambio de Color)(2, ROJO)
+25000000K es un Jugador que solo juega su mano y se planta en: 16
+25000001G es un Jugador que dobla y separa y se planta en: 16
 ------------------------------------------
-      En la Mesa: (4, ROJO)
+25000000K tiene: (SIETE de CORAZONES)(CINCO de TREBOLES)
+25000001G tiene: (TRES de DIAMANTES)(CINCO de DIAMANTES)
+ElCroupier tiene: (SEIS de DIAMANTES)
 ------------------------------------------
-
-25252525J tiene: (Salta Turno, AMARILLO)(7, VERDE)(3, ROJO)(2, AZUL)(5, VERDE)(Cambio de Color)(2, ROJO)
-           echa : (3, ROJO)
-
-25252525 tiene: (4, ROJO)(4, AZUL)(1, AMARILLO)(0, AZUL)(2, AMARILLO)(1, ROJO)(8, AMARILLO)
-           echa : (4, ROJO)
-
-25252525J tiene: (Salta Turno, AMARILLO)(7, VERDE)(2, AZUL)(5, VERDE)(Cambio de Color)(2, ROJO)
-           echa : (2, ROJO)
-
-25252525 tiene: (4, AZUL)(1, AMARILLO)(0, AZUL)(2, AMARILLO)(1, ROJO)(8, AMARILLO)
-           echa : (1, ROJO)
-
-25252525J tiene: (Salta Turno, AMARILLO)(7, VERDE)(2, AZUL)(5, VERDE)(Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25252525 tiene: (4, AZUL)(1, AMARILLO)(0, AZUL)(2, AMARILLO)(8, AMARILLO)
-           echa : (1, AMARILLO)
-
-25252525J tiene: (Salta Turno, AMARILLO)(7, VERDE)(2, AZUL)(5, VERDE)
-           echa : (Salta Turno, AMARILLO)
-
-25252525 pierde su turno
-
-25252525J tiene: (7, VERDE)(2, AZUL)(5, VERDE)
-           roba : (2, AMARILLO)
-           echa : (2, AMARILLO)
-
-25252525 tiene: (4, AZUL)(0, AZUL)(2, AMARILLO)(8, AMARILLO)
-           echa : (2, AMARILLO)
-
-25252525J tiene: (7, VERDE)(2, AZUL)(5, VERDE)
-           echa : (2, AZUL)
-
-25252525 tiene: (4, AZUL)(0, AZUL)(8, AMARILLO)
-           echa : (4, AZUL)
-
-25252525J tiene: (7, VERDE)(5, VERDE)
-           roba : (Roba2 , AZUL)
-           echa : (Roba2 , AZUL)
-
-           roba : (4, AMARILLO)
-           roba : (8, AZUL)
-25252525 tiene: (0, AZUL)(8, AMARILLO)(4, AMARILLO)(8, AZUL)
-           echa : (0, AZUL)
-
-25252525J tiene: (7, VERDE)(5, VERDE)
-           roba : (7, ROJO)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)(8, AZUL)
-           echa : (8, AZUL)
-
-25252525J tiene: (7, VERDE)(5, VERDE)(7, ROJO)
-           roba : (3, AZUL)
-           echa : (3, AZUL)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)
-           roba : (5, AZUL)
-           echa : (5, AZUL)
-
-25252525J tiene: (7, VERDE)(5, VERDE)(7, ROJO)
-           echa : (5, VERDE)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color AZUL
-
-           roba : (6, ROJO)
-           roba : (2, VERDE)
-           roba : (7, AMARILLO)
-           roba : (7, ROJO)
-25252525J tiene: (7, VERDE)(7, ROJO)(6, ROJO)(2, VERDE)(7, AMARILLO)(7, ROJO)
-           roba : (7, VERDE)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)
-           roba : (1, AZUL)
-           echa : (1, AZUL)
-
-25252525J tiene: (7, VERDE)(7, ROJO)(6, ROJO)(2, VERDE)(7, AMARILLO)(7, ROJO)(7, VERDE)
-           roba : (7, AZUL)
-           echa : (7, AZUL)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)
-           roba : (6, AMARILLO)
-
-25252525J tiene: (7, VERDE)(7, ROJO)(6, ROJO)(2, VERDE)(7, AMARILLO)(7, ROJO)(7, VERDE)
-           echa : (7, AMARILLO)
-
-25252525 tiene: (8, AMARILLO)(4, AMARILLO)(6, AMARILLO)
-           echa : (4, AMARILLO)
-
-25252525J tiene: (7, VERDE)(7, ROJO)(6, ROJO)(2, VERDE)(7, ROJO)(7, VERDE)
-           roba : (7, AMARILLO)
-           echa : (7, AMARILLO)
-
-25252525 tiene: (8, AMARILLO)(6, AMARILLO)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (7, VERDE)(7, ROJO)(6, ROJO)(2, VERDE)(7, ROJO)(7, VERDE)
-           roba : (9, VERDE)
-
-25252525 tiene: (6, AMARILLO)
-           echa : (6, AMARILLO)
+25000000K tiene: (SIETE de CORAZONES)(CINCO de TREBOLES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (SIETE de CORAZONES)(CINCO de TREBOLES)(CINCO de PICAS)
 ------------------------------------------
-             Clasificación
+25000001G tiene: (TRES de DIAMANTES)(CINCO de DIAMANTES)
+           roba : (SIETE de PICAS)
+           roba : (NUEVE de PICAS)
+           no pide más cartas
+           tiene: (TRES de DIAMANTES)(CINCO de DIAMANTES)(SIETE de PICAS)(NUEVE de PICAS)
+------------------------------------------
+ElCroupier tiene: (SEIS de DIAMANTES)
+           roba : (AS de PICAS)
+           no pide más cartas
+           tiene: (SEIS de DIAMANTES)(AS de PICAS)
+------------------------------------------
+              Resultados
           ------------------
-1º 25252525 tiene 0.0 puntos y lleva 1 partidas ganadas.
-2º 25252525J tiene 45.0 puntos y lleva 0 partidas ganadas.
+ElCroupier tiene: 17.0 puntos
+25000000K tiene: 17.0 puntos(Empata)
+25000001G tiene: 24.0 puntos(Pierde)
+------------------------------------------
+25000000K lleva apostado: 1.0
+           lleva ganado  : 0.0
+25000001G lleva apostado: 1.0
+           lleva ganado  : -1.0
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25252525 tiene: (2, AZUL)(5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(Roba4, Cambio de Color)
-(J.Número) 25252525J tiene: (Roba2 , AZUL)(6, ROJO)(7, AZUL)(Roba2 , VERDE)(2, ROJO)(5, AZUL)(6, AZUL)
+25000000K es un Jugador que solo juega su mano y se planta en: 16
+25000001G es un Jugador que dobla y separa y se planta en: 16
 ------------------------------------------
-      En la Mesa: (4, AZUL)
+25000000K tiene: (K de DIAMANTES)(TRES de CORAZONES)
+25000001G tiene: (CUATRO de CORAZONES)(CUATRO de CORAZONES)
+ElCroupier tiene: (NUEVE de DIAMANTES)
 ------------------------------------------
-
-25252525J tiene: (Roba2 , AZUL)(6, ROJO)(7, AZUL)(Roba2 , VERDE)(2, ROJO)(5, AZUL)(6, AZUL)
-           echa : (7, AZUL)
-
-25252525 tiene: (2, AZUL)(5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(Roba4, Cambio de Color)
-           echa : (2, AZUL)
-
-25252525J tiene: (Roba2 , AZUL)(6, ROJO)(Roba2 , VERDE)(2, ROJO)(5, AZUL)(6, AZUL)
-           echa : (2, ROJO)
-
-25252525 tiene: (5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (7, ROJO)
-           roba : (Salta Turno, AZUL)
-           roba : (7, AMARILLO)
-           roba : (1, ROJO)
-25252525J tiene: (Roba2 , AZUL)(6, ROJO)(Roba2 , VERDE)(5, AZUL)(6, AZUL)(7, ROJO)(Salta Turno, AZUL)(7, AMARILLO)(1, ROJO)
-           echa : (1, ROJO)
-
-25252525 tiene: (5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)
-           roba : (9, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(6, ROJO)(Roba2 , VERDE)(5, AZUL)(6, AZUL)(7, ROJO)(Salta Turno, AZUL)(7, AMARILLO)
-           echa : (6, ROJO)
-
-25252525 tiene: (5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(9, AMARILLO)
-           roba : (Salta Turno, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(5, AZUL)(6, AZUL)(7, ROJO)(Salta Turno, AZUL)(7, AMARILLO)
-           echa : (6, AZUL)
-
-25252525 tiene: (5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(9, AMARILLO)(Salta Turno, AMARILLO)
-           roba : (1, AZUL)
-           echa : (1, AZUL)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(5, AZUL)(7, ROJO)(Salta Turno, AZUL)(7, AMARILLO)
-           echa : (5, AZUL)
-
-25252525 tiene: (5, AMARILLO)(3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(9, AMARILLO)(Salta Turno, AMARILLO)
-           echa : (5, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(7, ROJO)(Salta Turno, AZUL)(7, AMARILLO)
-           echa : (7, AMARILLO)
-
-25252525 tiene: (3, AMARILLO)(8, VERDE)(7, AMARILLO)(3, VERDE)(9, AMARILLO)(Salta Turno, AMARILLO)
-           echa : (3, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(7, ROJO)(Salta Turno, AZUL)
-           roba : (Salta Turno, ROJO)
-
-25252525 tiene: (8, VERDE)(7, AMARILLO)(3, VERDE)(9, AMARILLO)(Salta Turno, AMARILLO)
-           echa : (9, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(7, ROJO)(Salta Turno, AZUL)(Salta Turno, ROJO)
-           roba : (Roba2 , VERDE)
-
-25252525 tiene: (8, VERDE)(7, AMARILLO)(3, VERDE)(Salta Turno, AMARILLO)
-           echa : (7, AMARILLO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(7, ROJO)(Salta Turno, AZUL)(Salta Turno, ROJO)(Roba2 , VERDE)
-           echa : (7, ROJO)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)
-           roba : (9, ROJO)
-           echa : (9, ROJO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Salta Turno, AZUL)(Salta Turno, ROJO)(Roba2 , VERDE)
-           echa : (Salta Turno, ROJO)
-
-25252525 pierde su turno
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Salta Turno, AZUL)(Roba2 , VERDE)
-           echa : (Salta Turno, AZUL)
-
-25252525 pierde su turno
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Roba2 , VERDE)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AZUL
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)
-           roba : (Cambio de Sentido, AZUL)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Roba2 , VERDE)
-           roba : (Cambio de Sentido, VERDE)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)
-           roba : (1, ROJO)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)
-           roba : (5, ROJO)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)
-           roba : (6, AZUL)
-           echa : (6, AZUL)
-
-25252525J tiene: (Roba2 , AZUL)(Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)
-           echa : (Roba2 , AZUL)
-
-           roba : (3, ROJO)
-           roba : (Roba4, Cambio de Color)
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color AMARILLO
-
-           roba : (Salta Turno, VERDE)
-           roba : (1, VERDE)
-           roba : (Salta Turno, AZUL)
-           roba : (0, AZUL)
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)
-           roba : (5, VERDE)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)
-           roba : (5, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(5, VERDE)
-           roba : (8, VERDE)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           roba : (2, AMARILLO)
-           echa : (2, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(5, VERDE)(8, VERDE)
-           roba : (Cambio de Sentido, AZUL)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Salta Turno, AMARILLO)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           echa : (Salta Turno, AMARILLO)
-
-25252525J pierde su turno
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           roba : (6, AMARILLO)
-           echa : (6, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(5, VERDE)(8, VERDE)(Cambio de Sentido, AZUL)
-           roba : (1, AZUL)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           roba : (8, AMARILLO)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(5, VERDE)(8, VERDE)(Cambio de Sentido, AZUL)(1, AZUL)
-           echa : (8, VERDE)
-
-25252525 tiene: (8, VERDE)(3, VERDE)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           echa : (3, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(5, VERDE)(Cambio de Sentido, AZUL)(1, AZUL)
-           echa : (5, VERDE)
-
-25252525 tiene: (8, VERDE)(Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           echa : (8, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(1, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(1, AZUL)
-           echa : (1, VERDE)
-
-25252525 tiene: (Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)(5, VERDE)
-           echa : (5, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(5, ROJO)(Salta Turno, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(1, AZUL)
-           echa : (5, ROJO)
-
-25252525 tiene: (Cambio de Sentido, AZUL)(1, ROJO)(3, ROJO)
-           echa : (3, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(1, AZUL)
-           roba : (Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (Roba4, Cambio de Color)
-           roba : (8, ROJO)
-           roba : (3, AMARILLO)
-           roba : (Roba2 , AMARILLO)
-25252525 tiene: (Cambio de Sentido, AZUL)(1, ROJO)(Roba4, Cambio de Color)(8, ROJO)(3, AMARILLO)(Roba2 , AMARILLO)
-           echa : (8, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(1, AZUL)
-           roba : (Roba2 , AZUL)
-
-25252525 tiene: (Cambio de Sentido, AZUL)(1, ROJO)(Roba4, Cambio de Color)(3, AMARILLO)(Roba2 , AMARILLO)
-           echa : (1, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(1, AZUL)(Roba2 , AZUL)
-           echa : (1, AZUL)
-
-25252525 tiene: (Cambio de Sentido, AZUL)(Roba4, Cambio de Color)(3, AMARILLO)(Roba2 , AMARILLO)
-           echa : (Cambio de Sentido, AZUL)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(0, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)
-           echa : (0, AZUL)
-
-25252525 tiene: (Roba4, Cambio de Color)(3, AMARILLO)(Roba2 , AMARILLO)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (Cambio de Sentido, ROJO)
-           roba : (3, AZUL)
-           roba : (7, AZUL)
-           roba : (8, AZUL)
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)
-           roba : (7, VERDE)
-
-25252525 tiene: (3, AMARILLO)(Roba2 , AMARILLO)
-           roba : (Cambio de Sentido, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)
-           roba : (7, VERDE)
-
-25252525 tiene: (3, AMARILLO)(Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           roba : (0, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(7, VERDE)
-           roba : (4, VERDE)
-
-25252525 tiene: (3, AMARILLO)(Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(0, AMARILLO)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(7, VERDE)(4, VERDE)
-           roba : (6, VERDE)
-
-25252525 tiene: (3, AMARILLO)(Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(0, AMARILLO)
-           echa : (0, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(7, VERDE)(4, VERDE)(6, VERDE)
-           roba : (3, ROJO)
-
-25252525 tiene: (3, AMARILLO)(Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           echa : (3, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(7, VERDE)(4, VERDE)(6, VERDE)(3, ROJO)
-           echa : (3, ROJO)
-
-25252525 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           roba : (Salta Turno, ROJO)
-           echa : (Salta Turno, ROJO)
-
-25252525J pierde su turno
-
-25252525 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           roba : (Salta Turno, VERDE)
-           echa : (Salta Turno, VERDE)
-
-25252525J pierde su turno
-
-25252525 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)
-           roba : (6, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(7, VERDE)(4, VERDE)(6, VERDE)
-           echa : (7, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)(Cambio de Sentido, VERDE)(6, ROJO)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(4, VERDE)(6, VERDE)
-           echa : (6, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)(6, ROJO)
-           echa : (6, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(4, VERDE)
-           echa : (Cambio de Sentido, ROJO)
-
-           Se cambia orientación
-
-25252525 tiene: (Roba2 , AMARILLO)
-           roba : (Cambio de Sentido, AMARILLO)
-           echa : (Cambio de Sentido, AMARILLO)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Cambio de Sentido, AZUL)(Roba2 , AZUL)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(4, VERDE)
-           echa : (Cambio de Sentido, AZUL)
-
-           Se cambia orientación
-
-25252525 tiene: (Roba2 , AMARILLO)
-           roba : (7, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(7, AZUL)(8, AZUL)(7, VERDE)(4, VERDE)
-           echa : (7, AZUL)
-
-25252525 tiene: (Roba2 , AMARILLO)(7, ROJO)
-           echa : (7, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)(7, VERDE)(4, VERDE)
-           echa : (7, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)
-           roba : (Roba2 , ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)(4, VERDE)
-           echa : (4, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color ROJO
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)
-           roba : (2, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)
-           roba : (9, ROJO)
-           echa : (9, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)(2, VERDE)
-           roba : (9, AZUL)
-           echa : (9, AZUL)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)
-           roba : (9, VERDE)
-           echa : (9, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)(2, VERDE)
-           echa : (2, VERDE)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)
-           roba : (0, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)
-           echa : (Salta Turno, VERDE)
-
-25252525 pierde su turno
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Salta Turno, AZUL)(Roba2 , AZUL)(3, AZUL)(8, AZUL)
-           echa : (Salta Turno, AZUL)
-
-25252525 pierde su turno
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Roba2 , AZUL)(3, AZUL)(8, AZUL)
-           echa : (8, AZUL)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)(0, ROJO)
-           roba : (Roba2 , ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Roba2 , AZUL)(3, AZUL)
-           echa : (3, AZUL)
-
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)
-           roba : (Cambio de Sentido, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
-           echa : (Roba2 , AZUL)
-
-           roba : (8, AMARILLO)
-           roba : (9, VERDE)
-25252525 tiene: (Roba2 , AMARILLO)(Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)(Cambio de Sentido, AMARILLO)(8, AMARILLO)(9, VERDE)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (1, AMARILLO)
-           roba : (3, VERDE)
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(1, AMARILLO)(3, VERDE)
-           echa : (1, AMARILLO)
-
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)(Cambio de Sentido, AMARILLO)(8, AMARILLO)(9, VERDE)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(3, VERDE)
-           roba : (2, AMARILLO)
-           echa : (2, AMARILLO)
-
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)(Cambio de Sentido, AMARILLO)(9, VERDE)
-           echa : (Cambio de Sentido, AMARILLO)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(Cambio de Sentido, VERDE)(3, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)(9, VERDE)
-           echa : (9, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)(3, VERDE)
-           echa : (3, VERDE)
-
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)
-           roba : (1, VERDE)
-           echa : (1, VERDE)
-
-25252525J tiene: (Roba2 , VERDE)(Roba2 , VERDE)
-           echa : (Roba2 , VERDE)
-
-           roba : (2, AZUL)
-           roba : (8, ROJO)
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(Roba2 , ROJO)(2, AZUL)(8, ROJO)
-           echa : (Roba2 , ROJO)
-
-           roba : (4, ROJO)
-           roba : (2, VERDE)
-25252525J tiene: (Roba2 , VERDE)(4, ROJO)(2, VERDE)
-           echa : (4, ROJO)
-
-25252525 tiene: (Roba2 , ROJO)(0, ROJO)(2, AZUL)(8, ROJO)
-           echa : (0, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(2, VERDE)
-           roba : (8, AZUL)
-
-25252525 tiene: (Roba2 , ROJO)(2, AZUL)(8, ROJO)
-           echa : (8, ROJO)
-
-25252525J tiene: (Roba2 , VERDE)(2, VERDE)(8, AZUL)
-           echa : (8, AZUL)
-
-25252525 tiene: (Roba2 , ROJO)(2, AZUL)
-           echa : (2, AZUL)
-
-25252525J tiene: (Roba2 , VERDE)(2, VERDE)
-           echa : (2, VERDE)
-
-25252525 tiene: (Roba2 , ROJO)
-           roba : (6, AMARILLO)
-
-25252525J tiene: (Roba2 , VERDE)
-           echa : (Roba2 , VERDE)
+25000000K tiene: (K de DIAMANTES)(TRES de CORAZONES)
+           roba : (OCHO de PICAS)
+           no pide más cartas
+           tiene: (K de DIAMANTES)(TRES de CORAZONES)(OCHO de PICAS)
 ------------------------------------------
-             Clasificación
+25000001G tiene: (CUATRO de CORAZONES)(CUATRO de CORAZONES)
+           decide separar
+           roba : (CINCO de CORAZONES)
+- Juega 1º mano con: (CUATRO de CORAZONES)(CINCO de CORAZONES)
+           roba : (DOS de DIAMANTES)
+           roba : (CINCO de PICAS)
+           no pide más cartas
+           tiene: (CUATRO de CORAZONES)(CINCO de CORAZONES)(DOS de DIAMANTES)(CINCO de PICAS)
+- Juega 2º mano con: (CUATRO de CORAZONES)
+           roba : (DOS de CORAZONES)
+           roba : (J de TREBOLES)
+           no pide más cartas
+           tiene: (CUATRO de CORAZONES)(DOS de CORAZONES)(J de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (NUEVE de DIAMANTES)
+           roba : (DIEZ de PICAS)
+           no pide más cartas
+           tiene: (NUEVE de DIAMANTES)(DIEZ de PICAS)
+------------------------------------------
+              Resultados
           ------------------
-1º 25252525J tiene 0.0 puntos y lleva 1 partidas ganadas.
-2º 25252525 tiene 26.0 puntos y lleva 1 partidas ganadas.
+ElCroupier tiene: 19.0 puntos
+25000000K tiene: 21.0 puntos(Gana)
+25000001G tiene mas de una apuesta:
+           la 1º tiene: 16.0 puntos(Pierde)
+           la 2º tiene: 16.0 puntos(Pierde)
+------------------------------------------
+25000000K lleva apostado: 2.0
+           lleva ganado  : 1.0
+25000001G lleva apostado: 3.0
+           lleva ganado  : -3.0
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(9, VERDE)(3, VERDE)(7, AZUL)(7, AMARILLO)
-(J.Número) 25252525J tiene: (8, VERDE)(4, ROJO)(2, VERDE)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(2, AMARILLO)
+25000000K es un Jugador que solo juega su mano y se planta en: 16
+25000001G es un Jugador que dobla y separa y se planta en: 16
 ------------------------------------------
-      En la Mesa: (Roba4, Cambio de Color)
+25000000K tiene: (AS de PICAS)(Q de CORAZONES)
+25000001G tiene: (DIEZ de PICAS)(J de TREBOLES)
+ElCroupier tiene: (DIEZ de CORAZONES)
 ------------------------------------------
-           ha elegido el color AMARILLO
-
-           roba : (5, AZUL)
-           roba : (Cambio de Sentido, AMARILLO)
-           roba : (8, AMARILLO)
-           roba : (3, AMARILLO)
-25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(9, VERDE)(3, VERDE)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(8, AMARILLO)(3, AMARILLO)
-           echa : (3, AMARILLO)
-
-25252525J tiene: (8, VERDE)(4, ROJO)(2, VERDE)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(2, AMARILLO)
-           echa : (2, AMARILLO)
-
-25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(9, VERDE)(3, VERDE)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(8, AMARILLO)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (8, VERDE)(4, ROJO)(2, VERDE)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)
-           echa : (8, VERDE)
-
-25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(9, VERDE)(3, VERDE)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (3, VERDE)
-
-25252525J tiene: (4, ROJO)(2, VERDE)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)
-           echa : (2, VERDE)
-
-25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(9, VERDE)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (9, VERDE)
-
-25252525J tiene: (4, ROJO)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)
-           roba : (0, VERDE)
-           echa : (0, VERDE)
-
-25252525 tiene: (2, ROJO)(1, AZUL)(0, ROJO)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (0, ROJO)
-
-25252525J tiene: (4, ROJO)(4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)
-           echa : (4, ROJO)
-
-25252525 tiene: (2, ROJO)(1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (2, ROJO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)
-           roba : (5, VERDE)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)
-           roba : (Salta Turno, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)
-           roba : (1, VERDE)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)
-           roba : (8, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)
-           roba : (9, AZUL)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)
-           roba : (Salta Turno, VERDE)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)
-           roba : (1, AMARILLO)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)
-           roba : (Cambio de Sentido, VERDE)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)
-           roba : (Salta Turno, AZUL)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)
-           roba : (7, VERDE)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)(Salta Turno, AZUL)
-           roba : (3, AZUL)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)
-           roba : (4, VERDE)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)(Salta Turno, AZUL)(3, AZUL)
-           roba : (4, VERDE)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)
-           roba : (4, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)
-           roba : (0, AZUL)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)(4, AMARILLO)
-           roba : (7, ROJO)
-           echa : (7, ROJO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(0, AZUL)
-           roba : (2, VERDE)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(7, AMARILLO)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)(4, AMARILLO)
-           echa : (7, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(1, AMARILLO)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(0, AZUL)(2, VERDE)
-           echa : (1, AMARILLO)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)(4, AMARILLO)
-           echa : (4, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(0, AZUL)(2, VERDE)
-           echa : (4, AZUL)
-
-25252525 tiene: (1, AZUL)(7, AZUL)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)
-           echa : (7, AZUL)
-
-25252525J tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(0, AZUL)(2, VERDE)
-           echa : (0, AZUL)
-
-25252525 tiene: (1, AZUL)(5, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)
-           echa : (5, AZUL)
-
-25252525J tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(5, VERDE)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(2, VERDE)
-           echa : (5, VERDE)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)(4, VERDE)
-           echa : (4, VERDE)
-
-25252525J tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(4, VERDE)(2, VERDE)
-           echa : (4, VERDE)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)(7, VERDE)
-           echa : (7, VERDE)
-
-25252525J tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, VERDE)
-           echa : (2, VERDE)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Salta Turno, VERDE)(Cambio de Sentido, VERDE)
-           echa : (Salta Turno, VERDE)
-
-25252525J pierde su turno
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Salta Turno, AMARILLO)(8, AMARILLO)(Cambio de Sentido, VERDE)
-           echa : (Salta Turno, AMARILLO)
-
-25252525J pierde su turno
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(8, AMARILLO)(Cambio de Sentido, VERDE)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (Roba2 , AMARILLO)(Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (5, ROJO)
-           roba : (4, AZUL)
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)(4, AZUL)
-           roba : (9, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)
-           roba : (9, ROJO)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)(4, AZUL)(9, VERDE)
-           roba : (Cambio de Sentido, AMARILLO)
-
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(9, ROJO)
-           roba : (2, AZUL)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)(4, AZUL)(9, VERDE)(Cambio de Sentido, AMARILLO)
-           roba : (Roba2 , AMARILLO)
-           echa : (Roba2 , AMARILLO)
-
-           roba : (9, AMARILLO)
-           roba : (1, ROJO)
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(9, ROJO)(2, AZUL)(9, AMARILLO)(1, ROJO)
-           echa : (9, AMARILLO)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)(4, AZUL)(9, VERDE)(Cambio de Sentido, AMARILLO)
-           echa : (9, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(9, ROJO)(2, AZUL)(1, ROJO)
-           echa : (9, ROJO)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(5, ROJO)(4, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (5, ROJO)
-
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(1, ROJO)
-           echa : (1, ROJO)
-
-25252525 tiene: (1, AZUL)(Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(4, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (1, AZUL)
-
-25252525J tiene: (Salta Turno, AZUL)(1, VERDE)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)
-           echa : (1, VERDE)
-
-25252525 tiene: (Cambio de Sentido, AMARILLO)(Cambio de Sentido, VERDE)(4, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)
-           roba : (8, ROJO)
-
-25252525 tiene: (Cambio de Sentido, AMARILLO)(4, AZUL)(Cambio de Sentido, AMARILLO)
-           echa : (Cambio de Sentido, AMARILLO)
-
-           Se cambia orientación
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)
-           roba : (6, VERDE)
-
-25252525 tiene: (Cambio de Sentido, AMARILLO)(4, AZUL)
-           echa : (Cambio de Sentido, AMARILLO)
-
-           Se cambia orientación
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)
-           roba : (5, AMARILLO)
-           echa : (5, AMARILLO)
-
-25252525 tiene: (4, AZUL)
-           roba : (Cambio de Sentido, ROJO)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)
-           roba : (7, ROJO)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)
-           roba : (3, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)(7, ROJO)
-           roba : (6, ROJO)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, VERDE)
-           roba : (7, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)(7, ROJO)(6, ROJO)
-           roba : (Roba2 , VERDE)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, VERDE)(7, VERDE)
-           roba : (5, AMARILLO)
-           echa : (5, AMARILLO)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)(7, ROJO)(6, ROJO)(Roba2 , VERDE)
-           roba : (Roba2 , ROJO)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, VERDE)(7, VERDE)
-           roba : (7, AMARILLO)
-           echa : (7, AMARILLO)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)(7, ROJO)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)
-           echa : (7, ROJO)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, VERDE)(7, VERDE)
-           echa : (7, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, VERDE)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)
-           echa : (6, VERDE)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)(3, VERDE)
-           echa : (3, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(3, AZUL)(2, AZUL)(8, ROJO)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)
-           echa : (3, AZUL)
-
-25252525 tiene: (4, AZUL)(Cambio de Sentido, ROJO)
-           echa : (4, AZUL)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(2, AZUL)(8, ROJO)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)
-           echa : (2, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color VERDE
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(8, ROJO)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)
-           roba : (Salta Turno, ROJO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)
-           roba : (6, VERDE)
-           echa : (6, VERDE)
-
-25252525J tiene: (Salta Turno, AZUL)(9, AZUL)(Salta Turno, AZUL)(8, ROJO)(6, ROJO)(Roba2 , VERDE)(Roba2 , ROJO)(Salta Turno, ROJO)
-           echa : (6, ROJO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)
-           echa : (Cambio de Sentido, ROJO)
+25000000K tiene: (AS de PICAS)(Q de CORAZONES)
+           no pide más cartas
+           tiene: (AS de PICAS)(Q de CORAZONES)
 ------------------------------------------
-             Clasificación
+25000001G tiene: (DIEZ de PICAS)(J de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(J de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de CORAZONES)
+           roba : (AS de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de CORAZONES)(AS de TREBOLES)
+------------------------------------------
+              Resultados
           ------------------
-1º 25252525 tiene 0.0 puntos y lleva 2 partidas ganadas.
-2º 25252525J tiene 117.0 puntos y lleva 1 partidas ganadas.
+ElCroupier tiene: 21.0 puntos
+25000000K tiene: 21.0 puntos(Empata)
+25000001G tiene: 20.0 puntos(Pierde)
+------------------------------------------
+25000000K lleva apostado: 3.0
+           lleva ganado  : 1.0
+25000001G lleva apostado: 4.0
+           lleva ganado  : -4.0
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25252525 tiene: (7, ROJO)(2, VERDE)(Cambio de Color)(8, AMARILLO)(2, VERDE)(4, ROJO)(Cambio de Sentido, ROJO)
-(J.Número) 25252525J tiene: (0, AZUL)(9, AZUL)(Cambio de Sentido, VERDE)(5, VERDE)(2, AMARILLO)(Salta Turno, AMARILLO)(8, ROJO)
+25000000K es un Jugador que solo juega su mano y se planta en: 16
+25000001G es un Jugador que dobla y separa y se planta en: 16
 ------------------------------------------
-      En la Mesa: (9, ROJO)
+25000000K tiene: (DOS de PICAS)(J de DIAMANTES)
+25000001G tiene: (OCHO de PICAS)(SEIS de CORAZONES)
+ElCroupier tiene: (SIETE de TREBOLES)
 ------------------------------------------
-
-25252525J tiene: (0, AZUL)(9, AZUL)(Cambio de Sentido, VERDE)(5, VERDE)(2, AMARILLO)(Salta Turno, AMARILLO)(8, ROJO)
-           echa : (9, AZUL)
-
-25252525 tiene: (7, ROJO)(2, VERDE)(Cambio de Color)(8, AMARILLO)(2, VERDE)(4, ROJO)(Cambio de Sentido, ROJO)
-           echa : (Cambio de Color)
-           ha elegido el color VERDE
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(5, VERDE)(2, AMARILLO)(Salta Turno, AMARILLO)(8, ROJO)
-           echa : (5, VERDE)
-
-25252525 tiene: (7, ROJO)(2, VERDE)(8, AMARILLO)(2, VERDE)(4, ROJO)(Cambio de Sentido, ROJO)
-           echa : (2, VERDE)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(2, AMARILLO)(Salta Turno, AMARILLO)(8, ROJO)
-           echa : (2, AMARILLO)
-
-25252525 tiene: (7, ROJO)(2, VERDE)(8, AMARILLO)(4, ROJO)(Cambio de Sentido, ROJO)
-           echa : (8, AMARILLO)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)(8, ROJO)
-           echa : (8, ROJO)
-
-25252525 tiene: (7, ROJO)(2, VERDE)(4, ROJO)(Cambio de Sentido, ROJO)
-           echa : (7, ROJO)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)
-           roba : (0, VERDE)
-
-25252525 tiene: (2, VERDE)(4, ROJO)(Cambio de Sentido, ROJO)
-           echa : (4, ROJO)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)(0, VERDE)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color VERDE
-
-25252525 tiene: (2, VERDE)(Cambio de Sentido, ROJO)
-           echa : (2, VERDE)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)(0, VERDE)
-           echa : (0, VERDE)
-
-25252525 tiene: (Cambio de Sentido, ROJO)
-           roba : (9, ROJO)
-
-25252525J tiene: (0, AZUL)(Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)
-           echa : (0, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)
-           roba : (1, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)
-           roba : (0, AMARILLO)
-           echa : (0, AMARILLO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)
-           roba : (3, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Salta Turno, AMARILLO)
-           echa : (Salta Turno, AMARILLO)
-
-25252525 pierde su turno
-
-25252525J tiene: (Cambio de Sentido, VERDE)
-           roba : (Cambio de Sentido, VERDE)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)
-           roba : (8, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)
-           roba : (4, VERDE)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)
-           roba : (1, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(4, VERDE)
-           roba : (8, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)(1, VERDE)
-           roba : (5, AZUL)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(4, VERDE)(8, AZUL)
-           roba : (1, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)(1, VERDE)(5, AZUL)
-           roba : (4, AZUL)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(4, VERDE)(8, AZUL)(1, AZUL)
-           roba : (Roba2 , AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)(1, VERDE)(5, AZUL)(4, AZUL)
-           roba : (Cambio de Color)
-           echa : (Cambio de Color)
-           ha elegido el color AMARILLO
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(4, VERDE)(8, AZUL)(1, AZUL)(Roba2 , AZUL)
-           roba : (4, AMARILLO)
-           echa : (4, AMARILLO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)(1, VERDE)(5, AZUL)(4, AZUL)
-           echa : (4, AZUL)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(4, VERDE)(8, AZUL)(1, AZUL)(Roba2 , AZUL)
-           echa : (4, VERDE)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(1, VERDE)(3, VERDE)(8, VERDE)(1, VERDE)(5, AZUL)
-           echa : (1, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(8, AZUL)(1, AZUL)(Roba2 , AZUL)
-           echa : (1, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(3, VERDE)(8, VERDE)(1, VERDE)(5, AZUL)
-           echa : (5, AZUL)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(8, AZUL)(Roba2 , AZUL)
-           echa : (8, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(3, VERDE)(8, VERDE)(1, VERDE)
-           echa : (8, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(3, VERDE)(1, VERDE)
-           echa : (1, VERDE)
-
-25252525J tiene: (Cambio de Sentido, VERDE)(Roba2 , AZUL)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(3, VERDE)
-           echa : (3, VERDE)
-
-25252525J tiene: (Roba2 , AZUL)
-           roba : (5, ROJO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)
-           roba : (Cambio de Sentido, AZUL)
-
-25252525J tiene: (Roba2 , AZUL)(5, ROJO)
-           roba : (3, AZUL)
-           echa : (3, AZUL)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)(Cambio de Sentido, AZUL)
-           echa : (Cambio de Sentido, AZUL)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , AZUL)(5, ROJO)
-           roba : (1, ROJO)
-
-25252525 tiene: (Cambio de Sentido, ROJO)(9, ROJO)
-           echa : (Cambio de Sentido, ROJO)
-
-           Se cambia orientación
-
-25252525J tiene: (Roba2 , AZUL)(5, ROJO)(1, ROJO)
-           echa : (1, ROJO)
-
-25252525 tiene: (9, ROJO)
-           echa : (9, ROJO)
+25000000K tiene: (DOS de PICAS)(J de DIAMANTES)
+           roba : (TRES de CORAZONES)
+           roba : (K de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de PICAS)(J de DIAMANTES)(TRES de CORAZONES)(K de DIAMANTES)
 ------------------------------------------
-             Clasificación
+25000001G tiene: (OCHO de PICAS)(SEIS de CORAZONES)
+           roba : (CUATRO de TREBOLES)
+           no pide más cartas
+           tiene: (OCHO de PICAS)(SEIS de CORAZONES)(CUATRO de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (SIETE de TREBOLES)
+           roba : (J de PICAS)
+           no pide más cartas
+           tiene: (SIETE de TREBOLES)(J de PICAS)
+------------------------------------------
+              Resultados
           ------------------
-1º 25252525 tiene 0.0 puntos y lleva 3 partidas ganadas.
-2º 25252525J tiene 25.0 puntos y lleva 1 partidas ganadas.
+ElCroupier tiene: 17.0 puntos
+25000000K tiene: 25.0 puntos(Pierde)
+25000001G tiene: 18.0 puntos(Gana)
+------------------------------------------
+25000000K lleva apostado: 4.0
+           lleva ganado  : 0.0
+25000001G lleva apostado: 5.0
+           lleva ganado  : -3.0
 ------------------------------------------
           Empieza La Partida
           ------------------
-(J.Color ) 25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(9, AZUL)(2, AMARILLO)(Roba2 , ROJO)(Roba2 , VERDE)(2, VERDE)
-(J.Número) 25252525J tiene: (Cambio de Color)(4, AZUL)(8, AMARILLO)(5, VERDE)(Cambio de Sentido, ROJO)(8, ROJO)(2, ROJO)
+25000000K es un Jugador que solo juega su mano y se planta en: 16
+25000001G es un Jugador que dobla y separa y se planta en: 16
 ------------------------------------------
-      En la Mesa: (Cambio de Color)
+25000000K tiene: (DOS de DIAMANTES)(SEIS de DIAMANTES)
+25000001G tiene: (Q de CORAZONES)(CINCO de DIAMANTES)
+ElCroupier tiene: (SIETE de CORAZONES)
 ------------------------------------------
-           ha elegido el color AMARILLO
-
-25252525J tiene: (Cambio de Color)(4, AZUL)(8, AMARILLO)(5, VERDE)(Cambio de Sentido, ROJO)(8, ROJO)(2, ROJO)
-           echa : (8, AMARILLO)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(9, AZUL)(2, AMARILLO)(Roba2 , ROJO)(Roba2 , VERDE)(2, VERDE)
-           echa : (2, AMARILLO)
-
-25252525J tiene: (Cambio de Color)(4, AZUL)(5, VERDE)(Cambio de Sentido, ROJO)(8, ROJO)(2, ROJO)
-           echa : (2, ROJO)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(9, AZUL)(Roba2 , ROJO)(Roba2 , VERDE)(2, VERDE)
-           echa : (2, VERDE)
-
-25252525J tiene: (Cambio de Color)(4, AZUL)(5, VERDE)(Cambio de Sentido, ROJO)(8, ROJO)
-           echa : (5, VERDE)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(9, AZUL)(Roba2 , ROJO)(Roba2 , VERDE)
-           echa : (Roba2 , VERDE)
-
-           roba : (3, AZUL)
-           roba : (1, AZUL)
-25252525J tiene: (Cambio de Color)(4, AZUL)(Cambio de Sentido, ROJO)(8, ROJO)(3, AZUL)(1, AZUL)
-           echa : (Cambio de Color)
-           ha elegido el color AZUL
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(9, AZUL)(Roba2 , ROJO)
-           echa : (9, AZUL)
-
-25252525J tiene: (4, AZUL)(Cambio de Sentido, ROJO)(8, ROJO)(3, AZUL)(1, AZUL)
-           echa : (3, AZUL)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(Roba2 , ROJO)
-           roba : (5, AMARILLO)
-
-25252525J tiene: (4, AZUL)(Cambio de Sentido, ROJO)(8, ROJO)(1, AZUL)
-           echa : (1, AZUL)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)
-           roba : (5, ROJO)
-
-25252525J tiene: (4, AZUL)(Cambio de Sentido, ROJO)(8, ROJO)
-           echa : (4, AZUL)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)(5, ROJO)
-           roba : (1, AMARILLO)
-
-25252525J tiene: (Cambio de Sentido, ROJO)(8, ROJO)
-           roba : (8, VERDE)
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)(5, ROJO)(1, AMARILLO)
-           roba : (Salta Turno, AZUL)
-           echa : (Salta Turno, AZUL)
-
-25252525J pierde su turno
-
-25252525 tiene: (Salta Turno, AMARILLO)(Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)(5, ROJO)(1, AMARILLO)
-           echa : (Salta Turno, AMARILLO)
-
-25252525J pierde su turno
-
-25252525 tiene: (Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)(5, ROJO)(1, AMARILLO)
-           echa : (1, AMARILLO)
-
-25252525J tiene: (Cambio de Sentido, ROJO)(8, ROJO)(8, VERDE)
-           roba : (5, ROJO)
-
-25252525 tiene: (Salta Turno, VERDE)(Roba2 , ROJO)(5, AMARILLO)(5, ROJO)
-           echa : (5, AMARILLO)
-
-25252525J tiene: (Cambio de Sentido, ROJO)(8, ROJO)(8, VERDE)(5, ROJO)
-           echa : (5, ROJO)
-
-25252525 tiene: (Salta Turno, VERDE)(Roba2 , ROJO)(5, ROJO)
-           echa : (5, ROJO)
-
-25252525J tiene: (Cambio de Sentido, ROJO)(8, ROJO)(8, VERDE)
-           echa : (8, ROJO)
-
-25252525 tiene: (Salta Turno, VERDE)(Roba2 , ROJO)
-           echa : (Roba2 , ROJO)
-
-           roba : (Cambio de Sentido, VERDE)
-           roba : (Roba4, Cambio de Color)
-25252525J tiene: (Cambio de Sentido, ROJO)(8, VERDE)(Cambio de Sentido, VERDE)(Roba4, Cambio de Color)
-           echa : (Roba4, Cambio de Color)
-           ha elegido el color ROJO
-
-           roba : (0, ROJO)
-           roba : (5, AMARILLO)
-           roba : (Cambio de Sentido, AZUL)
-           roba : (7, AMARILLO)
-25252525 tiene: (Salta Turno, VERDE)(0, ROJO)(5, AMARILLO)(Cambio de Sentido, AZUL)(7, AMARILLO)
-           echa : (0, ROJO)
-
-25252525J tiene: (Cambio de Sentido, ROJO)(8, VERDE)(Cambio de Sentido, VERDE)
-           echa : (Cambio de Sentido, ROJO)
-
-           Se cambia orientación
-
-25252525 tiene: (Salta Turno, VERDE)(5, AMARILLO)(Cambio de Sentido, AZUL)(7, AMARILLO)
-           echa : (Cambio de Sentido, AZUL)
-
-           Se cambia orientación
-
-25252525J tiene: (8, VERDE)(Cambio de Sentido, VERDE)
-           echa : (Cambio de Sentido, VERDE)
-
-           Se cambia orientación
-
-25252525 tiene: (Salta Turno, VERDE)(5, AMARILLO)(7, AMARILLO)
-           roba : (0, AZUL)
-
-25252525J tiene: (8, VERDE)
-           echa : (8, VERDE)
+25000000K tiene: (DOS de DIAMANTES)(SEIS de DIAMANTES)
+           roba : (OCHO de DIAMANTES)
+           no pide más cartas
+           tiene: (DOS de DIAMANTES)(SEIS de DIAMANTES)(OCHO de DIAMANTES)
 ------------------------------------------
-             Clasificación
+25000001G tiene: (Q de CORAZONES)(CINCO de DIAMANTES)
+           roba : (K de CORAZONES)
+           no pide más cartas
+           tiene: (Q de CORAZONES)(CINCO de DIAMANTES)(K de CORAZONES)
+------------------------------------------
+ElCroupier tiene: (SIETE de CORAZONES)
+           roba : (SIETE de TREBOLES)
+           roba : (TRES de CORAZONES)
+           no pide más cartas
+           tiene: (SIETE de CORAZONES)(SIETE de TREBOLES)(TRES de CORAZONES)
+------------------------------------------
+              Resultados
           ------------------
-1º 25252525J tiene 0.0 puntos y lleva 2 partidas ganadas.
-2º 25252525 tiene 32.0 puntos y lleva 3 partidas ganadas.
+ElCroupier tiene: 17.0 puntos
+25000000K tiene: 16.0 puntos(Pierde)
+25000001G tiene: 25.0 puntos(Pierde)
+------------------------------------------
+25000000K lleva apostado: 5.0
+           lleva ganado  : -1.0
+25000001G lleva apostado: 6.0
+           lleva ganado  : -4.0

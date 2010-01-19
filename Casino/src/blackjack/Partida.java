@@ -1,6 +1,7 @@
 package blackjack;
 
 import utils.BarajaMesaVacia;
+import utils.TipoJugadorBlack;
 
 public class Partida {
 	private int NJUGADORES = 0;
@@ -14,36 +15,33 @@ public class Partida {
 	public Partida() {
 		NUMERO_BARAJAS=2;
 	}
-	void crearJugadores(String[] nombres) {
+	// explicacion de x q es necesario TipoJugadorBlack [] en principal
+	void crearJugadores(String[] nombres, TipoJugadorBlack[] tipos) {
 		NJUGADORES = nombres.length;
 		jugadores = new JugadorBlackJack[NJUGADORES+1];
-		Double tipojugador;
-		Double plantarse;
 		dineroGanado=new float[NJUGADORES];
 		dineroApostado=new float[NJUGADORES];
 		for (int i = 0; i < NJUGADORES; i++) {
-			tipojugador = Math.random() * 4 % 4;
-			plantarse = Math.random() * 5 % 5 + 14;
-			switch (tipojugador.intValue()) {
-			case 0:
-				jugadores[i] = new JugadorBlackJackN(nombres[i],true,true,plantarse.intValue());  // Jugador dobla y separa
-				str.append(jugadores[i].getNombre() + " es un Jugador que dobla y separa y se planta en: ");
-				str.append(plantarse.intValue() + "\n");
-				break;
+			switch (tipos[i].getTipo()) {
 			case 1:
-				jugadores[i] = new JugadorBlackJackN(nombres[i],false,true,plantarse.intValue()); // Jugador parte
-				str.append(jugadores[i].getNombre() + " es un Jugador que separa y se planta en: ");
-				str.append(plantarse.intValue() + "\n");
+				jugadores[i] = new JugadorBlackJackN(nombres[i],true,true,tipos[i].getPlantarse());  // Jugador dobla y separa
+				str.append(jugadores[i].getNombre() + " es un Jugador que dobla y separa y se planta en: ");
+				str.append(tipos[i].getPlantarse() + "\n");
 				break;
 			case 2:
-				jugadores[i] = new JugadorBlackJackN(nombres[i],true,false,plantarse.intValue()); // Jugador dobla
+				jugadores[i] = new JugadorBlackJackN(nombres[i],false,true,tipos[i].getPlantarse()); // Jugador parte
+				str.append(jugadores[i].getNombre() + " es un Jugador que separa y se planta en: ");
+				str.append(tipos[i].getPlantarse() + "\n");
+				break;
+			case 3:
+				jugadores[i] = new JugadorBlackJackN(nombres[i],true,false,tipos[i].getPlantarse()); // Jugador dobla
 				str.append(jugadores[i].getNombre() + " es un Jugador que dobla y se planta en: ");
-				str.append(plantarse.intValue() + "\n");
+				str.append(tipos[i].getPlantarse() + "\n");
 				break;
 			default:
-				jugadores[i] = new JugadorBlackJackN(nombres[i],false,false,plantarse.intValue());
+				jugadores[i] = new JugadorBlackJackN(nombres[i],false,false,tipos[i].getPlantarse());
 				str.append(jugadores[i].getNombre() + " es un Jugador que solo juega su mano y se planta en: ");
-				str.append(plantarse.intValue() + "\n");
+				str.append(tipos[i].getPlantarse() + "\n");
 				break;
 			}
 			dineroGanado=new float[NJUGADORES];
