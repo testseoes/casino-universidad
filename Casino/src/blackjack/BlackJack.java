@@ -137,10 +137,11 @@ public class BlackJack {
 		//fout.write(partida.tipoJugadores());
 		fout.write("------------------------------------------\n");
 		for(turno=0;turno<partida.getNJUGADORES();turno++){
-			fout.write(partida.getJugadores()[turno].getNombre() + " lleva apostado: ");
+			
+			fout.write(partida.getJugadores()[turno].getNombre() + " ha apostado: ");
 			fout.write(partida.getApostado(turno) + "\n");
 			float ganado=partida.getGanado(turno)-partida.getApostado(turno);
-			fout.write("          " + " lleva ganado  : ");
+			fout.write("          " + " ha ganado  : ");
 			fout.write(ganado + "\n");
 			bd.creditosBlack(partida.getJugadores()[turno].getNombre(),partida.getApostado(turno),partida.getGanado(turno));
 		}

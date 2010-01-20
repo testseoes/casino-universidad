@@ -52,8 +52,11 @@ public class Partida {
 	void comenzarPartida() {
 		baraja = new BarajaBlackJack(NUMERO_BARAJAS);
 		baraja.Barajar();
-		for (int i = 0; i < NJUGADORES; i++)
+		for (int i = 0; i < NJUGADORES; i++){
 			((JugadorBlackJackN) jugadores[i]).comenzarPartida(baraja);
+			dineroGanado[i]=0;
+			dineroApostado[i]=0;
+		}
 		((JugadorBlackJackCrupier) jugadores[NJUGADORES]).comenzarPartida(baraja);
 	}
 	void pedirCarta(int turno) throws BarajaMesaVacia {
