@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
 
 
@@ -30,7 +31,7 @@ public class JugarController {
 
 	class JugarListener implements ActionListener {
 		String aux;
-		int mesa,estado;
+		int mesa,estado=0;
 		BufferedWriter fout;
 	
 		
@@ -44,30 +45,30 @@ public class JugarController {
         			aux.replaceAll(" ", "");
         			try{
         				mesa=Integer.parseInt(aux);
-            			estado=m_model.jugar(mesa-1, fout);
+            			estado=m_model.jugar(mesa-1);
             			if (estado==0) m_jugarView.setEstado("No hay jugadores en la mesa"); 
             			if (estado==1) m_jugarView.setEstado("El Uno requiere más de un jugador"); 
             			if (estado==2){
             				m_jugarView.setEstado("Se ha jugado en la mesa : " + mesa); 
-            				System.out.println(fout);
+//            				System.out.println(fout);
             			}
                    		 
         			}
         			catch (NumberFormatException nfe){
         				m_jugarView.setEstado("El campo ha de ser un número"); 
-           			} catch (SQLException e1) {
+           			} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
-					} catch (IOException e2) {
+					} catch (BarajaMesaVacia e2) {
 						// TODO Auto-generated catch block
 						e2.printStackTrace();
-					} catch (BarajaMesaVacia e3) {
+					} catch (SQLException e3) {
 						// TODO Auto-generated catch block
 						e3.printStackTrace();
 					}
         			
         		}
-        		}
+        	}
     }
 	class CancelarListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {

@@ -18,21 +18,25 @@ package mvc;
 
 //import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import blackjack.PrincipalBlack;
 import uno.PrincipalUno;
+import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
 
 import bd.BaseDatos;
 
 public class CasinoModel {
     //... Constants
-	private static final String INITIAL_VALUE = "1";
+	private static final int INITIAL_VALUE =1;
 	private static final int MAX_JUG =8;
 	private static final int N_MESAS =4;
     
@@ -47,14 +51,16 @@ public class CasinoModel {
     private String [] mesa2;
     private String [] mesa3;
     private String [] mesa4;
+    private BufferedWriter fout;
 	    
     //============================================================== constructor
     /** Constructor 
      * @throws SQLException 
      * @throws ClassNotFoundException 
      * @throws IllegalAccessException 
-     * @throws InstantiationException */
-    public CasinoModel() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+     * @throws InstantiationException 
+     * @throws IOException */
+    public CasinoModel() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, IOException {
         reset();
         posiMesa=new int [N_MESAS];
         for (int i=0;i<N_MESAS;i++){
@@ -73,10 +79,12 @@ public class CasinoModel {
      * @throws SQLException 
      * @throws ClassNotFoundException 
      * @throws IllegalAccessException 
-     * @throws InstantiationException */
-    public void reset() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
-        m_total = new BigInteger(INITIAL_VALUE);
+     * @throws InstantiationException 
+     * @throws IOException */
+    public void reset() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, IOException {
+//        numSesion = INITIAL_VALUE;
         m_bd=new BaseDatos();
+        fout = new BufferedWriter(new FileWriter("mesas.txt"));
     }
     
     //=============================================================== multiplyBy
@@ -96,8 +104,9 @@ public class CasinoModel {
     }
     public boolean crearUsuario(String login,String pass, String nombre,String apellido, int tipoJugadorUno, int tipoJugadorBlack, int plantarse) throws SQLException, IOException {
         boolean correcto=false;
-       	if (!m_bd.comprobarLogin(login)){
+        if (!m_bd.comprobarLogin(login)){
     		m_bd.crearUsuario(login, pass, nombre, apellido,tipoJugadorUno, tipoJugadorBlack, plantarse);
+    		m_bd.iniciaUnaSesion(login);
     		correcto=true;
     	}
     	return correcto;
@@ -116,18 +125,86 @@ public class CasinoModel {
     	return estado;
     	
     }
-    public int jugar(int mesa, BufferedWriter fout) throws SQLException, IOException, BarajaMesaVacia{
-    	int estado=0; //la mesa está vacia 
-       	if (posiMesa[mesa]>0){
+    public int jugar(int mesa) throws IOException, BarajaMesaVacia, SQLException{
+    	int res,estado=0; //la mesa está vacia 
+    	String [] aux;
+    	
+
+//    	BaseDatos bd= new BaseDatos();
+    	
+//    	PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
+//    	try {
+//			PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,1);
+//		} catch (BarajaMesaVacia e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} //salon[mesa],fout,m_bd,1,mesa);
+//		catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}	
+    	if (posiMesa[mesa]>0){
       		estado=1; //hay al menos una persona; 1 persona en el Uno
       		if ((posiMesa[mesa]>1)||(mesa%2==0)){
       			estado=2; //se puede jugar
+      			aux = new String [posiMesa[mesa]];
+      			for (int i=0;i<posiMesa[mesa];i++){
+      				aux[i]=salon[mesa][i];
+      			}
+//      			System.out.println(salon[0][0]);
+//      			for (int i=0;i<posiMesa[mesa];i++){
+//      				aux.add(salon[mesa][i]);
+//      			}
+      			
+//      	    	aux=new String [posiMesa[mesa]];
+//      	    	aux=salon[mesa];
+      		
       			if (mesa%2==0){//juega al black
-      				
+//      				String [] array ={"11"};
+//      				PrincipalBlack.iniciaBlack(array,fout,bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
+      		    	try {
+      		    		System.out.println(aux);
+      		    		System.out.println(mesa);
+      		    		
+      				PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,mesa+1);
+      			} catch (BarajaMesaVacia e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			} //salon[mesa],fout,m_bd,1,mesa);
+      			catch (IOException e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			} catch (SQLException e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			}	
+          			System.out.println("Se JUgó");
       			}
       			else{  //juega al Uno
-      				PrincipalBlack.iniciaBlack(salon[mesa].toArray(new String[mesa.size()]),fout,m_bd,1,mesa); //salon[mesa],fout,m_bd,1,mesa);
+      				try {
+      		    		System.out.println(aux);
+      		    		System.out.println(mesa);
+      		    		
+      				PrincipalUno.iniciaUno(aux,fout,m_bd,1,mesa+1);
+      			} catch (BarajaMesaVacia e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			} //salon[mesa],fout,m_bd,1,mesa);
+      			catch (IOException e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			} catch (SQLException e) {
+      				// TODO Auto-generated catch block
+      				e.printStackTrace();
+      			}	
+          			System.out.println("Se JUgó");
       			}
+      				//PrincipalBlack.iniciaBlack(aux.toArray(new String[posiMesa[mesa]]),fout,m_bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
+      				//System.out.println("Se JUgó");
+      			
       				
       			posiMesa[mesa]=0;
       			
@@ -154,4 +231,24 @@ public class CasinoModel {
     public String getValue() {
         return m_total.toString();
     }
+
+	public void Salir() {
+		try {
+			fout.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			m_bd.cierraSesion(numSesion);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (BDNoHayUsuarios e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+		
+	}
 }
