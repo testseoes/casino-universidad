@@ -16,6 +16,8 @@ package mvc;
 // Fred Swartz -- December 2004
 
 import java.awt.event.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.SQLException;
 
 import javax.swing.text.View;
@@ -87,7 +89,8 @@ public class CasinoController {
     }
     class SalirListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	  System.exit(0);
+        	m_model.Salir();
+        	System.exit(0);
         }
     }
     class CrearCuentaListener implements ActionListener {
@@ -144,6 +147,13 @@ public class CasinoController {
 				e1.printStackTrace();
 			}
 //            m_view.reset();
+ catch (FileNotFoundException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			} catch (IOException e3) {
+	// TODO Auto-generated catch block
+	e3.printStackTrace();
+}
         }
     }// end inner class ClearListener
 }
