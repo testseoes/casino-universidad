@@ -30,7 +30,6 @@ public class CasinoView extends javax.swing.JFrame {
     public CasinoView(String titulo, CasinoModel model) {
         super(titulo);
     	m_model = model;
-        m_model.setValue(this.INITIAL_VALUE);
         initComponents();
     }
     
@@ -148,6 +147,7 @@ public class CasinoView extends javax.swing.JFrame {
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+		muestraUsuariosBd();
     }// </editor-fold>//GEN-END:initComponents
     
    
@@ -222,17 +222,18 @@ public class CasinoView extends javax.swing.JFrame {
         m_jugar.addActionListener(mal);
     }
     public void addJugarMesa1Listener(ActionListener mal) {
-        botonJugar1.addActionListener(mal);
+    	botonJugar1.addActionListener(mal);
     }
     public void addJugarMesa2Listener(ActionListener mal) {
-        botonJugar2.addActionListener(mal);
+    	botonJugar2.addActionListener(mal);
     }
     public void addJugarMesa3Listener(ActionListener mal) {
-        botonJugar3.addActionListener(mal);
+    	botonJugar3.addActionListener(mal);
     }
     public void addJugarMesa4Listener(ActionListener mal) {
-        botonJugar4.addActionListener(mal);
+    	botonJugar4.addActionListener(mal);
     }
+	
 
     public void setUsuario(String login) {
 		//lista.SetText(login);
@@ -240,9 +241,13 @@ public class CasinoView extends javax.swing.JFrame {
 		
 	}
     public void setEstado(String estado) {
-    	statusMsg2.setText(estado)
-;    }
-	public void addUsuario(String login) {
+    	statusMsg2.setText(estado);
+    }
+	private void muestraUsuariosBd(){
+		String [] aux=m_model.TodosLogin();
+		for (int i=0;i<aux.length;i++) addUsuario(aux[i]);
+	}
+    public void addUsuario(String login) {
 		
 		lista.setText(login +'\n' + lista.getText());
 	}
