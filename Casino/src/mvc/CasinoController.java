@@ -40,6 +40,8 @@ public class CasinoController {
     private UsuarioView m_ventanaDatos;
     private JugarView m_ventanaJ;
     private JugarController m_controllerJ;
+    private EliminarUsuarioView m_ventanaEU;
+    private EliminarUsuarioController m_controllerEU;
     
     
     //========================================================== constructor
@@ -57,7 +59,7 @@ public class CasinoController {
         
         view.addCrearCuentaListener(new CrearCuentaListener());
         view.addDatosListener(new DatosListener());
-        view.addCerrarSesionListener(new CerrarSesionListener());
+        view.addEliminarCuentaListener(new EliminarListener());
         view.addSentarMesaListener(new SentarMesaListener());
         view.addJugarListener(new JugarListener());
         view.addJugarMesa1Listener(new JugarMesa1Listener());
@@ -116,9 +118,10 @@ public class CasinoController {
         	    
         }
     }
-    class CerrarSesionListener implements ActionListener {
+    class EliminarListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	  System.exit(0);
+        	m_ventanaEU=new EliminarUsuarioView();
+        	m_controllerEU=new EliminarUsuarioController(m_ventanaEU,m_model,m_view);        	
         }
     }
     class SentarMesaListener implements ActionListener {

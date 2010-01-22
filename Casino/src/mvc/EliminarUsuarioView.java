@@ -1,5 +1,4 @@
 package mvc;
-
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 
@@ -16,11 +15,11 @@ import javax.swing.SpringLayout;
 
 import vista.SpringUtilities;
 
-public class UsuarioView extends javax.swing.JFrame {
+public class EliminarUsuarioView extends javax.swing.JFrame {
 
 	private CasinoModel m_model;
     /** Creates new form CalcView */
-    public UsuarioView() {
+    public EliminarUsuarioView() {
         initComponents();
     }
     
@@ -28,7 +27,7 @@ public class UsuarioView extends javax.swing.JFrame {
         
     	this.getContentPane().setLayout(new BorderLayout());
     	        
-		framecc = new javax.swing.JFrame("Ver Datos de Usuario");
+		framecc = new javax.swing.JFrame("Eliminar Cuenta de Usuario");
 		contentPane = new javax.swing.JPanel(new SpringLayout());
 		login = new javax.swing.JLabel("Loggin",JLabel.TRAILING);
 		pass = new javax.swing.JLabel("Password",JLabel.TRAILING);
@@ -36,7 +35,7 @@ public class UsuarioView extends javax.swing.JFrame {
 		campoLogin = new javax.swing.JTextField(30);
 		campoPass = new javax.swing.JPasswordField(30);
 				
-		botonVer =new javax.swing.JButton ("Ver Datos");
+		botonEliminar =new javax.swing.JButton ("Eliminar Cuenta");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
 		
 		statusMsg1 = new javax.swing.JLabel("Estado: ");
@@ -51,7 +50,7 @@ public class UsuarioView extends javax.swing.JFrame {
 		pass.setLabelFor(campoPass);
 		contentPane.add(campoPass);
 		
-		contentPane.add(botonVer);
+		contentPane.add(botonEliminar);
 		contentPane.add(botonCancelar);
 		
 		contentPane.add(statusMsg1);
@@ -82,22 +81,22 @@ public class UsuarioView extends javax.swing.JFrame {
     private javax.swing.JPasswordField campoPass;
     
     private javax.swing.JButton botonCancelar; 
-    private javax.swing.JButton botonVer; 
+    private javax.swing.JButton botonEliminar; 
     private javax.swing.JLabel statusMsg1;
     private javax.swing.JLabel statusMsg2;
 	
     public String getLoginInput() {
         return campoLogin.getText();
     }
-    public String getMesaInput() {
+    public String getPassInput() {
         return campoPass.getText();
     }
     public void setEstado(String mensajeEstado) {
         statusMsg2.setText(mensajeEstado);
 }
     
-    public void addVerListener(ActionListener mal) {
-        botonVer.addActionListener(mal);
+    public void addEliminarListener(ActionListener mal) {
+        botonEliminar.addActionListener(mal);
     }
     public void addCancelarListener(ActionListener mal) {
         botonCancelar.addActionListener(mal);
