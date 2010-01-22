@@ -34,7 +34,7 @@ public class JugarView extends javax.swing.JFrame {
 		contentPane = new javax.swing.JPanel(new SpringLayout());
 		mesa = new javax.swing.JLabel("Mesa",JLabel.TRAILING);
 			
-		campoMesa= new javax.swing.JTextField(10);
+		campoMesa= new javax.swing.JTextField(15);
 				
 		botonJugar =new javax.swing.JButton ("Jugar");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
@@ -63,7 +63,7 @@ public class JugarView extends javax.swing.JFrame {
 		framecc.setContentPane(contentPane);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-//		framecc.setSize(300,400);
+//		framecc.setSize(300,150);
 		framecc.pack();
 		framecc.setLocation(150,150);
 		framecc.setVisible(true);
@@ -92,4 +92,9 @@ public class JugarView extends javax.swing.JFrame {
     public void addCancelarListener(ActionListener mal) {
         botonCancelar.addActionListener(mal);
     }
+
+	public void cerrar() {
+		framecc.dispose();
+    	framecc.setVisible(false);		
+	}
 }

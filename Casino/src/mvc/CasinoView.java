@@ -51,7 +51,7 @@ public class CasinoView extends javax.swing.JFrame {
         m_archivo = new javax.swing.JMenu("archivo");
         m_usuario=new javax.swing.JMenu("Ususuario");
         m_partida=new javax.swing.JMenu("Partida");
-		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta");
+		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta e iniciar sesion");
 		m_iniciarSesion=new javax.swing.JMenuItem("Iniciar Sesion");
 		m_cerrarSesion=new javax.swing.JMenuItem("Cerrar Sesion");
 		m_sentarMesa=new javax.swing.JMenuItem("Sentar en una Mesa");
@@ -89,8 +89,8 @@ public class CasinoView extends javax.swing.JFrame {
 		scrollPaneLeft = new javax.swing.JScrollPane(juegosPane);
 
 		/*****List*****/
-		list=new JList();
-		scrollPaneRight=new javax.swing.JScrollPane(list);
+		lista=new javax.swing.JTextArea();
+		scrollPaneRight=new javax.swing.JScrollPane(lista);
 		
 		/*****leftPanel*****/
 		rightPanel=new javax.swing.JPanel(new BorderLayout());
@@ -131,7 +131,7 @@ public class CasinoView extends javax.swing.JFrame {
 	
     private javax.swing.JTextPane juegosPane;
     private javax.swing.JScrollPane scrollPane,scrollPaneLeft,scrollPaneRight;
-    private javax.swing.JList list;
+    private javax.swing.JTextArea lista;
     private javax.swing.JPanel rightPanel;
     private javax.swing.JSplitPane splitPane;
     // End of variables declaration//GEN-END:variables
@@ -219,7 +219,7 @@ public class CasinoView extends javax.swing.JFrame {
     public void addSalirListener(ActionListener mal) {
         m_salir.addActionListener(mal);
     }
-
+    
     public void addCrearCuentaListener(ActionListener mal) {
         m_crearCuenta.addActionListener(mal);
     }
@@ -235,8 +235,34 @@ public class CasinoView extends javax.swing.JFrame {
     public void addJugarListener(ActionListener mal) {
         m_jugar.addActionListener(mal);
     }
-    
-    
+
+    public void setUsuario(String login) {
+		//lista.SetText(login);
+		// TODO Auto-generated method stub
+		
+	}
+    public void setEstado(String estado) {
+    	statusMsg2.setText(estado)
+;    }
+	public void addUsuario(String login) {
+		
+	
+		lista.setText(login +'\n' + lista.getText());
+
+		 
+
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setJuegosPane(String stringOut) {
+		// TODO Auto-generated method stub
+		juegosPane.setText(stringOut);
+		
+	}
+
+
 //    public void addClearListener(ActionListener cal) {
 //        m_clearBtn.addActionListener(cal);
 //    }

@@ -10,11 +10,13 @@ public class CrearCuentaController {
 	
 	private CrearCuentaView m_crearView;
 	private CasinoModel m_model;
+	private CasinoView m_view;
 	
-	public CrearCuentaController(CrearCuentaView crearView, CasinoModel model) {
+	public CrearCuentaController(CrearCuentaView crearView, CasinoModel model, CasinoView view) {
        
         m_crearView  = crearView;
         m_model=model;
+        m_view=view;
         
         crearView.addCrearListener(new CrearListener());
         crearView.addCancelarListener(new CancelarListener());
@@ -127,6 +129,8 @@ public class CrearCuentaController {
            				creado=m_model.crearUsuario(login, pass1, nombre, apellido, tipoJugadorUno, tipoJugadorBlack, plantarse);
 					if (creado){
 						m_crearView.setEstado("Usuario creado con éxito");
+						m_model.iniciarUsuario(login, pass1);
+						m_view.addUsuario(login);
 					} else m_crearView.setEstado("El Usuario ya existe");
            			} catch (SQLException e1) {
 						// TODO Auto-generated catch block
@@ -144,8 +148,7 @@ public class CrearCuentaController {
     }
 	class CancelarListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			m_crearView.dispose();
-        	m_crearView.setVisible(false);
+			m_crearView.cerrar();
         }
     }
 

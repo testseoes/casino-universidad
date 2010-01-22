@@ -62,7 +62,10 @@ public class SentarMesaController {
         				estado=m_model.sentarUsuario(login,mesa-1);
         				if (estado==0) m_sentarView.setEstado("El jugador no se encuentra"); 
         				if (estado==1) m_sentarView.setEstado("La mesa seleccionada está llena"); 
-        				if (estado==2) m_sentarView.setEstado("El jugador : " + login + " está en la mesa : " + mesa); 
+        				if (estado==2) {
+        					m_sentarView.setEstado("El jugador : " + login + " está en la mesa : " + mesa); 
+
+        				}
         			} catch (SQLException e1) {
         				// TODO Auto-generated catch block
         				e1.printStackTrace();
@@ -79,8 +82,7 @@ public class SentarMesaController {
     }
 	class CancelarListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			m_sentarView.dispose();
-        	m_sentarView.setVisible(false);
+			m_sentarView.cerrar();
         }
     }
 
