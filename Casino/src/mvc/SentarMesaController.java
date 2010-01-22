@@ -12,11 +12,13 @@ public class SentarMesaController {
     
 	private SentarMesaView m_sentarView;
 	private CasinoModel m_model;
+	private CasinoView m_view;
 	
-	public SentarMesaController(SentarMesaView sentarView, CasinoModel model) {
+	public SentarMesaController(SentarMesaView sentarView, CasinoModel model,CasinoView view) {
        
         m_sentarView  = sentarView;
         m_model=model;
+        m_view=view;
         
         sentarView.addSentarListener(new SentarListener());
         sentarView.addCancelarListener(new CancelarListener());
@@ -62,9 +64,10 @@ public class SentarMesaController {
         				estado=m_model.sentarUsuario(login,mesa-1);
         				if (estado==0) m_sentarView.setEstado("El jugador no se encuentra"); 
         				if (estado==1) m_sentarView.setEstado("La mesa seleccionada está llena"); 
-        				if (estado==2) {
+        				if (estado==2) m_sentarView.setEstado("El jugador ya está en esa mesa"); 
+        				if (estado==3) {
         					m_sentarView.setEstado("El jugador : " + login + " está en la mesa : " + mesa); 
-
+        					m_view.addUsuarioMesa(login,mesa);
         				}
         			} catch (SQLException e1) {
         				// TODO Auto-generated catch block

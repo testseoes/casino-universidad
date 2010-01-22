@@ -52,7 +52,7 @@ public class CasinoView extends javax.swing.JFrame {
         m_usuario=new javax.swing.JMenu("Ususuario");
         m_partida=new javax.swing.JMenu("Partida");
 		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta e iniciar sesion");
-		m_iniciarSesion=new javax.swing.JMenuItem("Iniciar Sesion");
+		m_datos=new javax.swing.JMenuItem("Ver Datos De Usuario");
 		m_cerrarSesion=new javax.swing.JMenuItem("Cerrar Sesion");
 		m_sentarMesa=new javax.swing.JMenuItem("Sentar en una Mesa");
 		m_jugar=new javax.swing.JMenuItem("Jugar");
@@ -65,7 +65,7 @@ public class CasinoView extends javax.swing.JFrame {
         m_archivo.add(m_salir);
         m_barra.add(m_archivo);
         m_usuario.add(m_crearCuenta);
-        m_usuario.add(m_iniciarSesion);
+        m_usuario.add(m_datos);
         m_usuario.add(m_cerrarSesion);
         m_usuario.add(m_sentarMesa);
         m_barra.add(m_usuario);
@@ -85,14 +85,56 @@ public class CasinoView extends javax.swing.JFrame {
 		
 		
 		juegosPane = new javax.swing.JTextPane();
-		juegosPane.setText("resultados Partida 1 en mesa 1 :");
-		scrollPaneLeft = new javax.swing.JScrollPane(juegosPane);
+		contentPaneMesas = new javax.swing.JPanel(new SpringLayout());
+		
+		mesa1 = new javax.swing.JLabel("Mesa  1");
+		mesa2 = new javax.swing.JLabel("Mesa  2");
+		mesa3 = new javax.swing.JLabel("Mesa  3");
+		mesa4 = new javax.swing.JLabel("Mesa  4");
+		lista1=new javax.swing.JTextArea();		
+		lista2=new javax.swing.JTextArea();		
+		lista3=new javax.swing.JTextArea();		
+		lista4=new javax.swing.JTextArea();		
+		botonJugar1=new javax.swing.JButton("Jugar");		
+		botonJugar2=new javax.swing.JButton("Jugar");		
+		botonJugar3=new javax.swing.JButton("Jugar");		
+		botonJugar4=new javax.swing.JButton("Jugar");		
+		
+
+		contentPaneMesas.add(mesa1);
+		contentPaneMesas.add(mesa2);
+		contentPaneMesas.add(mesa3);
+		contentPaneMesas.add(mesa4);
+		
+		
+		contentPaneMesas.add(lista1);
+		contentPaneMesas.add(lista2);
+		contentPaneMesas.add(lista3);
+		contentPaneMesas.add(lista4);
+		contentPaneMesas.add(botonJugar1);
+		contentPaneMesas.add(botonJugar2);
+		contentPaneMesas.add(botonJugar3);
+		contentPaneMesas.add(botonJugar4);
+		
+		SpringUtilities.makeCompactGrid(contentPaneMesas,
+                3, 4, //rows, cols
+                6, 6,        //initX, initY
+                6, 6);       //xPad, yPad
+
+		juegosPane.setText("Aquí se irá mostrando el transcurso de la partida :");
+		
+		splitPaneIzq = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
+		splitPaneIzq.setTopComponent(contentPaneMesas);
+		splitPaneIzq.setBottomComponent(juegosPane);
+		splitPaneIzq.setDividerLocation(100);
+		
+		scrollPaneLeft = new javax.swing.JScrollPane(splitPaneIzq);
 
 		/*****List*****/
 		lista=new javax.swing.JTextArea();
 		scrollPaneRight=new javax.swing.JScrollPane(lista);
 		
-		/*****leftPanel*****/
+		/*****rightPanel*****/
 		rightPanel=new javax.swing.JPanel(new BorderLayout());
 		rightPanel.add(scrollPaneRight,BorderLayout.CENTER);
 		rightPanel.add(new javax.swing.JLabel("Usuarios Conectados"),BorderLayout.NORTH);
@@ -102,7 +144,7 @@ public class CasinoView extends javax.swing.JFrame {
 		splitPane = new javax.swing.JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
 		splitPane.setRightComponent(rightPanel);
 		splitPane.setLeftComponent(scrollPaneLeft);
-		splitPane.setDividerLocation(400);
+		splitPane.setDividerLocation(520);
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -116,7 +158,7 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JMenuItem m_salir;
     private javax.swing.JMenu m_usuario;
     private javax.swing.JMenuItem m_crearCuenta;
-    private javax.swing.JMenuItem m_iniciarSesion;
+    private javax.swing.JMenuItem m_datos;
     private javax.swing.JMenuItem m_cerrarSesion;
     private javax.swing.JMenuItem m_sentarMesa;
     private javax.swing.JMenu m_archivo;
@@ -134,81 +176,25 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JTextArea lista;
     private javax.swing.JPanel rightPanel;
     private javax.swing.JSplitPane splitPane;
+    private javax.swing.JSplitPane splitPaneIzq;
+    
+    private javax.swing.JPanel contentPaneMesas;
+    private javax.swing.JLabel mesa1;
+    private javax.swing.JLabel mesa2;
+    private javax.swing.JLabel mesa3;
+    private javax.swing.JLabel mesa4;
+    private javax.swing.JButton botonJugar1;
+    private javax.swing.JButton botonJugar2;
+    private javax.swing.JButton botonJugar3;
+    private javax.swing.JButton botonJugar4;
+    private javax.swing.JTextArea lista1;    
+    private javax.swing.JTextArea lista2;    
+    private javax.swing.JTextArea lista3;    
+    private javax.swing.JTextArea lista4;    
+
     // End of variables declaration//GEN-END:variables
-//    public void reset() {
-//        m_totalTf.setText(INITIAL_VALUE);
-//    }
-//    
-//    public String getUserInput() {
-//        return m_userInputTf.getText();
-//    }
-//    
-//    public void setTotal(String newTotal) {
-//        m_totalTf.setText(newTotal);
-//    }
-    
-    public void VentanaCrearCuenta() {
-
-  
-   		JFrame framecc = new JFrame("Crear Cuenta");
-   		JPanel contentPane = new JPanel(new SpringLayout());
-   		JLabel loggin = new JLabel("Loggin",JLabel.TRAILING);
-   		JLabel passw1 = new JLabel("Password",JLabel.TRAILING);
-   		JLabel passw2 = new JLabel("Password",JLabel.TRAILING);
-   		JTextField campo1= new JTextField(10);
-   		JPasswordField pass1 = new JPasswordField(10);
-   		JPasswordField pass2 = new JPasswordField(10);
-   		JButton botonCrear =new JButton ("Crear");
-    	JButton botonCancelar =new JButton ("Cancelar");
-    	JLabel statusMsg1 = new JLabel("Estado: ");
-   		JLabel statusMsg2 = new JLabel();
-    		
-    		
-    		//contentPane.add(tex1,SpringLayout.HEIGHT);
-//    		contentPane.add(pass1,BorderLayout.NORTH);
-//    		contentPane.add(pass2,BorderLayout.CENTER);
-    	contentPane.add(loggin);
-    	loggin.setLabelFor(campo1);
-   		contentPane.add(campo1);
-    		
-   		contentPane.add(passw1);
-    	passw1.setLabelFor(pass1);
-    	contentPane.add(pass1);
-    		
-   		contentPane.add(passw2);
-   		passw2.setLabelFor(pass2);
-    	contentPane.add(pass2);
-    		
-   		contentPane.add(botonCrear);
-   		contentPane.add(botonCancelar);
-    		
-   		contentPane.add(statusMsg1);
-   		contentPane.add(statusMsg2);
-    		
-    		
-   		SpringUtilities.makeCompactGrid(contentPane,
-                  5, 2, //rows, cols
-                  6, 6,        //initX, initY
-                  6, 6);       //xPad, yPad
-
-//    		contentPane.add(botonCrear,SpringLayout.SOUTH);
-    	contentPane.setOpaque(true);
-    		
-//    		framecc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-   		framecc.setContentPane(contentPane);
-    		
-//    		framecc.setSize(300,200);
-    	framecc.pack();
-   		framecc.setLocation(150,150);
-   		framecc.setVisible(true);
-    
-
-    }
 
 
-    public void showError(String errMessage) {
-        JOptionPane.showMessageDialog(this, errMessage);
-    }
     
     public void addInicioAutoListener(ActionListener mal) {
         m_inicioAuto.addActionListener(mal);
@@ -223,8 +209,8 @@ public class CasinoView extends javax.swing.JFrame {
     public void addCrearCuentaListener(ActionListener mal) {
         m_crearCuenta.addActionListener(mal);
     }
-    public void addIniciarSesionListener(ActionListener mal) {
-        m_iniciarSesion.addActionListener(mal);
+    public void addDatosListener(ActionListener mal) {
+        m_datos.addActionListener(mal);
     }
     public void addCerrarSesionListener(ActionListener mal) {
         m_cerrarSesion.addActionListener(mal);
@@ -234,6 +220,18 @@ public class CasinoView extends javax.swing.JFrame {
     }
     public void addJugarListener(ActionListener mal) {
         m_jugar.addActionListener(mal);
+    }
+    public void addJugarMesa1Listener(ActionListener mal) {
+        botonJugar1.addActionListener(mal);
+    }
+    public void addJugarMesa2Listener(ActionListener mal) {
+        botonJugar2.addActionListener(mal);
+    }
+    public void addJugarMesa3Listener(ActionListener mal) {
+        botonJugar3.addActionListener(mal);
+    }
+    public void addJugarMesa4Listener(ActionListener mal) {
+        botonJugar4.addActionListener(mal);
     }
 
     public void setUsuario(String login) {
@@ -246,15 +244,40 @@ public class CasinoView extends javax.swing.JFrame {
 ;    }
 	public void addUsuario(String login) {
 		
-	
 		lista.setText(login +'\n' + lista.getText());
-
-		 
-
-		
-		// TODO Auto-generated method stub
-		
 	}
+	public void addUsuarioMesa(String login, int mesa) {
+
+		switch(mesa){
+		case 1:
+			lista1.setText(login +'\n' + lista1.getText());
+			break;
+		case 2:
+			lista2.setText(login +'\n' + lista2.getText());
+			break;
+		case 3:
+			lista3.setText(login +'\n' + lista3.getText());
+		break;
+		case 4:
+			lista4.setText(login +'\n' + lista4.getText());
+		}
+	}
+	public void BorraMesa(int mesa) {
+		switch(mesa){
+		case 1:
+			lista1.setText(null);
+			break;
+		case 2:
+			lista2.setText(null);
+			break;
+		case 3:
+			lista3.setText(null);
+		break;
+		case 4:
+			lista4.setText(null);
+		}
+	}
+	
 
 	public void setJuegosPane(String stringOut) {
 		// TODO Auto-generated method stub
