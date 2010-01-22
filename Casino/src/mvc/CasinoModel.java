@@ -48,9 +48,6 @@ public class CasinoModel {
     private int [] posiMesa;
     
     private String [][] salon;
-    private String [] mesa2;
-    private String [] mesa3;
-    private String [] mesa4;
     private BufferedWriter fout;
 	    
     //============================================================== constructor
@@ -67,9 +64,6 @@ public class CasinoModel {
         	posiMesa[i]=0;
         }
         salon= new String [N_MESAS][MAX_JUG];
-        mesa2= new String [MAX_JUG];
-        mesa3= new String [MAX_JUG];
-        mesa4= new String [MAX_JUG];
     	
         
     }
@@ -117,16 +111,29 @@ public class CasinoModel {
        	if (m_bd.comprobarLogin(login)){
       		estado=1; //la mesa está completa
       		if (posiMesa[mesa]<MAX_JUG){
-      			estado=2; //se incluye en la mesa satisfactoriamente
-      			salon[mesa][posiMesa[mesa]]=login;
-      			posiMesa[mesa]++;
+      			estado=2; //el usuario ya está insertado en esa mesa
+      			if (!UsuarioEnMesa(login,mesa)){
+      				estado=3;//se puede insertar
+      				salon[mesa][posiMesa[mesa]]=login;
+          			posiMesa[mesa]++;
+          			
+      			}
       			
       		}
     	}
     	return estado;
     	
     }
-    public int jugar(int mesa, BufferedWriter fOut) throws IOException, BarajaMesaVacia, SQLException{
+    private boolean UsuarioEnMesa(String login, int mesa) {
+		boolean encontrado=false;
+		for (int i=0;i<posiMesa[mesa];i++){
+			if (login.equals(salon[mesa][i])) encontrado=true;
+		}
+    	// TODO Auto-generated method stub
+		return encontrado;
+	}
+
+	public int jugar(int mesa, BufferedWriter fOut) throws IOException, BarajaMesaVacia, SQLException{
     	int res,estado=0; //la mesa está vacia 
     	String [] aux;
     	fout = new BufferedWriter(new FileWriter("mesas.txt"));

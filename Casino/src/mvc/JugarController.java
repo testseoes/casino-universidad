@@ -58,7 +58,7 @@ public class JugarController {
             				String sOut = BufferedWriterToString(fOut);
             				m_view.setJuegosPane(sOut);
             				m_view.setEstado("Traza del juego en mesa : " + mesa);
-            				
+            				m_view.BorraMesa(mesa);
             			}
                    		 
         			}

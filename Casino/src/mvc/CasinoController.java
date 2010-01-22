@@ -16,11 +16,16 @@ package mvc;
 // Fred Swartz -- December 2004
 
 import java.awt.event.*;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
 import java.sql.SQLException;
 
 import javax.swing.text.View;
+
+import utils.BarajaMesaVacia;
 
 
 public class CasinoController {
@@ -32,6 +37,7 @@ public class CasinoController {
     private CrearCuentaController m_controllerCC;
     private SentarMesaView m_ventanaSM;
     private SentarMesaController m_controllerSM;
+    private UsuarioView m_ventanaDatos;
     private JugarView m_ventanaJ;
     private JugarController m_controllerJ;
     
@@ -50,10 +56,14 @@ public class CasinoController {
         view.addSalirListener(new SalirListener());
         
         view.addCrearCuentaListener(new CrearCuentaListener());
-        view.addIniciarSesionListener(new IniciarSesionListener());
+        view.addDatosListener(new DatosListener());
         view.addCerrarSesionListener(new CerrarSesionListener());
         view.addSentarMesaListener(new SentarMesaListener());
         view.addJugarListener(new JugarListener());
+        view.addJugarMesa1Listener(new JugarMesa1Listener());
+        view.addJugarMesa2Listener(new JugarMesa2Listener());
+        view.addJugarMesa3Listener(new JugarMesa3Listener());
+        view.addJugarMesa4Listener(new JugarMesa4Listener());
         
 //        view.addClearListener(new ClearListener());
     }
@@ -96,14 +106,13 @@ public class CasinoController {
     class CrearCuentaListener implements ActionListener {
         
     	public void actionPerformed(ActionEvent e) {
-        	System.out.println("creetttteearr");
-        	m_ventanaCC=new CrearCuentaView();
+           	m_ventanaCC=new CrearCuentaView();
         	m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model,m_view);        	
         }
     }
-    class IniciarSesionListener implements ActionListener {
+    class DatosListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	//m_ventanaCC=new CrearCuentaView();
+        	m_ventanaDatos=new UsuarioView();
         	//m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model);    
         }
     }
@@ -115,7 +124,7 @@ public class CasinoController {
     class SentarMesaListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	  m_ventanaSM=new SentarMesaView();
-        	  m_controllerSM=new SentarMesaController(m_ventanaSM, m_model);
+        	  m_controllerSM=new SentarMesaController(m_ventanaSM, m_model,m_view);
         }
     }
     class JugarListener implements ActionListener {
@@ -124,7 +133,82 @@ public class CasinoController {
         	  m_controllerJ=new JugarController(m_ventanaJ,m_model,m_view);
         }
     }
-
+    class JugarMesa1Listener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+        	  JugarEnMesa(1);
+        }
+    }
+    class JugarMesa2Listener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+      	  JugarEnMesa(2);
+        }
+    }
+    class JugarMesa3Listener implements ActionListener {
+      public void actionPerformed(ActionEvent e) {
+    	  JugarEnMesa(3);
+      }
+    }
+    class JugarMesa4Listener implements ActionListener {
+    	public void actionPerformed(ActionEvent e) {
+    		JugarEnMesa(4);
+    	}
+    }
+	void JugarEnMesa(int mesa) {
+		
+		int estado=0;
+		BufferedWriter fOut = null;
+						
+		try {
+			estado=m_model.jugar(mesa-1,fOut);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (BarajaMesaVacia e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if (estado==0) m_view.setEstado("No hay jugadores en la mesa "+ mesa); 
+      	if (estado==1) m_view.setEstado("El Uno requiere más de un jugador"); 
+        if (estado==2){
+           	m_view.setEstado("Se ha jugado en la mesa : " + mesa);
+           	String sOut = BufferedWriterToString(fOut);
+           	m_view.setJuegosPane(sOut);
+           	m_view.setEstado("Traza del juego en mesa : " + mesa);
+           	m_view.BorraMesa(mesa);			
+        }
+           	
+	}
+                   		 
+       		private String BufferedWriterToString(BufferedWriter fOut) {
+			
+			Reader r = null;
+			String str=null;
+            
+			try {
+	            r = new FileReader("mesas.txt");
+	            StringBuffer sb = new StringBuffer();
+	            char[] b = new char[1024];
+	            int n;
+	            while ((n = r.read(b)) > 0) {
+	                sb.append(b, 0, n);
+	            }
+	            str = sb.toString();
+	        } catch (FileNotFoundException ex) {
+	            System.out.println(ex);
+	        } catch (IOException ex) {
+	            System.out.println(ex);
+	        } finally {
+	            try {
+	                r.close();
+	            } catch (IOException ex) {
+	                System.out.println(ex);
+	            }
+	        }
+			return str;
+		}
     
     //////////////////////////////////////////// inner class ClearListener
     /**  1. Reset model.

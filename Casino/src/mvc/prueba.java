@@ -28,9 +28,10 @@ public class prueba {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, IOException, BarajaMesaVacia {
 		// TODO Auto-generated method stub
 		BaseDatos bd= new BaseDatos();
-		
-		BufferedWriter fout = new BufferedWriter(new FileWriter("mesas.txt"));//fichero de out
-		FileReader fr=new FileReader("mesas.txt");
+		int mesa=1;
+		String nombreArchivo="mesa"+mesa+".txt";
+		BufferedWriter fout = new BufferedWriter(new FileWriter(nombreArchivo));//fichero de out
+		FileReader fr=new FileReader(nombreArchivo);
 		String [] array ={"11"};
 		PrincipalBlack.iniciaBlack(array,fout,bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
   		System.out.println(fout.toString());
@@ -38,7 +39,7 @@ public class prueba {
         Reader r = null;
         try {
             String str;
-            r = new FileReader("mesas.txt");
+            r = new FileReader(nombreArchivo);
             StringBuffer sb = new StringBuffer();
             char[] b = new char[1024];
             int n;
