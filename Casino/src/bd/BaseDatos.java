@@ -2,6 +2,7 @@ package bd;
 
 import java.io.IOException;
 import java.sql.*;
+import java.util.ArrayList;
 
 import utils.BDNoHayUsuarios;
 import utils.TipoJugadorBlack;
@@ -62,7 +63,8 @@ public class BaseDatos {
 		return numsesion;
 	}
 		
-	//añade un solo login a jugadores_sesion.
+	/*añade un solo login a jugadores_sesion. 
+	             NO USAR
 	public int iniciaUnaSesion(String nombre) throws SQLException{
 		Statement stmt=conexion.createStatement();
 		int numsesion;
@@ -77,7 +79,7 @@ public class BaseDatos {
 				" (Login,NSesion) "
 				+"VALUES ('"+nombre+"',"+numsesion+")");
 		return numsesion;
-	}
+	}*/
 	
 	public void cierraSesion(int numsesion) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
@@ -195,7 +197,7 @@ public class BaseDatos {
 	public int obtenerTipoJugadorUno(String nombre) throws SQLException{
 		int tipo=0;//si no existe el jugador, devuelve 0
 		Statement stmt=conexion.createStatement();
-		ResultSet resultado = stmt.executeQuery("SELECT * FROM jugadores WHERE Login='"+nombre+"'");
+		ResultSet resultado = stmt.executeQuery("SELECT TipoJugadorUno FROM jugadores WHERE Login='"+nombre+"'");
 		if(resultado.next()) tipo=resultado.getInt("TipoJugadorUno");
 		return tipo;
 	}
@@ -211,5 +213,12 @@ public class BaseDatos {
 			tipo.setPlantarse(resultado.getInt("PlantarseBlack"));
 		}
 		return tipo;
+	}
+	public String[] extraerTodosLogin () throws SQLException{
+		ArrayList<String> lista = new ArrayList<String>();
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT Login FROM jugadores");
+		while(resultado.next())lista.add(resultado.getString("Login"));
+		return lista.toArray(new String[lista.size()]);
 	}
 }
