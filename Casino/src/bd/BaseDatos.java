@@ -227,4 +227,20 @@ public class BaseDatos {
 		stmt.executeUpdate("DELETE FROM jugadores_partidas WHERE Login='"+login+"'");
 		stmt.executeUpdate("DELETE FROM jugadores_sesiones WHERE Login='"+login+"'");
 	}
+	//añade un solo login a jugadores_sesion.
+	public int iniciaUnaSesion(String nombre) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		int numsesion;
+		//1º inserto fecha, hora
+		stmt.executeUpdate("INSERT INTO sesion" +
+			" (FechaInicioSesion, HoraInicioSesion) " +
+			"VALUES (CURDATE(),CURTIME())");
+		//2º busco el nº de ult sesion
+		numsesion=ultNum("sesion","NSesion");
+		//3º Inserto el login en la tabla jugadores_sesiones
+		stmt.executeUpdate("INSERT INTO jugadores_sesiones" +
+				" (Login,NSesion) "
+				+"VALUES ('"+nombre+"',"+numsesion+")");
+		return numsesion;
+	}
 }

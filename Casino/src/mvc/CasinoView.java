@@ -212,7 +212,7 @@ public class CasinoView extends javax.swing.JFrame {
     public void addDatosListener(ActionListener mal) {
         m_datos.addActionListener(mal);
     }
-    public void addCerrarSesionListener(ActionListener mal) {
+    public void addEliminarCuentaListener(ActionListener mal) {
         m_eliminarCuenta.addActionListener(mal);
     }
     public void addSentarMesaListener(ActionListener mal) {
@@ -243,8 +243,9 @@ public class CasinoView extends javax.swing.JFrame {
     public void setEstado(String estado) {
     	statusMsg2.setText(estado);
     }
-	private void muestraUsuariosBd(){
+	public void muestraUsuariosBd(){
 		String [] aux=m_model.TodosLogin();
+		lista.setText(null);
 		for (int i=0;i<aux.length;i++) addUsuario(aux[i]);
 	}
     public void addUsuario(String login) {

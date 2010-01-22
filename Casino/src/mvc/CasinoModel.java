@@ -194,4 +194,28 @@ public class CasinoModel {
 		}
 		
 	}
+	public boolean comprobarPass(String login, String pass) {
+		// TODO Auto-generated method stub
+		boolean coincide=false;
+		try {
+			coincide= m_bd.comprobarPass(login, pass);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return coincide;
+		
+	}
+	public void eliminarUsuario(String login) {
+		
+		try {
+			m_bd.eliminarUnUsuario(login);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

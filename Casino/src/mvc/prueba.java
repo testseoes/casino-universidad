@@ -36,7 +36,10 @@ public class prueba {
 		PrincipalBlack.iniciaBlack(array,fout,bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
   		System.out.println(fout.toString());
   		fout.close();
-        Reader r = null;
+  		
+  		bd.eliminarUnUsuario("1");
+        
+  		Reader r = null;
         try {
             String str;
             r = new FileReader(nombreArchivo);
