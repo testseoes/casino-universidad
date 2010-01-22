@@ -113,7 +113,7 @@ public class CasinoController {
     class DatosListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	m_ventanaDatos=new UsuarioView();
-        	//m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model);    
+        	    
         }
     }
     class CerrarSesionListener implements ActionListener {
