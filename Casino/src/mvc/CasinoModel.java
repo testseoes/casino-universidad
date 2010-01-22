@@ -99,6 +99,7 @@ public class CasinoModel {
     	if ((m_bd.comprobarLogin(login))&(m_bd.comprobarPass(pass,login))){
     		correcto=true;
     		m_bd.iniciaUnaSesion(login);
+    		System.out.println("iniciado "+ login);
     	}
     	return correcto;
     }
@@ -125,10 +126,10 @@ public class CasinoModel {
     	return estado;
     	
     }
-    public int jugar(int mesa) throws IOException, BarajaMesaVacia, SQLException{
+    public int jugar(int mesa, BufferedWriter fOut) throws IOException, BarajaMesaVacia, SQLException{
     	int res,estado=0; //la mesa está vacia 
     	String [] aux;
-    	
+    	fout = new BufferedWriter(new FileWriter("mesas.txt"));
 
 //    	BaseDatos bd= new BaseDatos();
     	
@@ -189,7 +190,9 @@ public class CasinoModel {
       		    		System.out.println(mesa);
       		    		
       				PrincipalUno.iniciaUno(aux,fout,m_bd,1,mesa+1);
-      			} catch (BarajaMesaVacia e) {
+      			} 
+      				
+      			catch (BarajaMesaVacia e) {
       				// TODO Auto-generated catch block
       				e.printStackTrace();
       			} //salon[mesa],fout,m_bd,1,mesa);
@@ -200,12 +203,10 @@ public class CasinoModel {
       				// TODO Auto-generated catch block
       				e.printStackTrace();
       			}	
-          			System.out.println("Se JUgó");
-      			}
+          			}
       				//PrincipalBlack.iniciaBlack(aux.toArray(new String[posiMesa[mesa]]),fout,m_bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
       				//System.out.println("Se JUgó");
-      			
-      				
+      			fout.close();	
       			posiMesa[mesa]=0;
       			
       		}

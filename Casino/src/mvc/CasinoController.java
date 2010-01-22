@@ -98,12 +98,13 @@ public class CasinoController {
     	public void actionPerformed(ActionEvent e) {
         	System.out.println("creetttteearr");
         	m_ventanaCC=new CrearCuentaView();
-        	m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model);        	
+        	m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model,m_view);        	
         }
     }
     class IniciarSesionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	  System.exit(0);
+        	//m_ventanaCC=new CrearCuentaView();
+        	//m_controllerCC=new CrearCuentaController(m_ventanaCC,m_model);    
         }
     }
     class CerrarSesionListener implements ActionListener {
@@ -120,7 +121,7 @@ public class CasinoController {
     class JugarListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	  m_ventanaJ=new JugarView();
-        	  m_controllerJ=new JugarController(m_ventanaJ,m_model);
+        	  m_controllerJ=new JugarController(m_ventanaJ,m_model,m_view);
         }
     }
 

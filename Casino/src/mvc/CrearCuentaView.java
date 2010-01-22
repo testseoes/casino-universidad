@@ -171,4 +171,8 @@ public class CrearCuentaView extends javax.swing.JFrame {
     public void addCancelarListener(ActionListener mal) {
         botonCancelar.addActionListener(mal);
     }
+	public void cerrar() {
+		framecc.dispose();
+    	framecc.setVisible(false);		
+	}
 }

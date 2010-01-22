@@ -29,13 +29,13 @@ public class SentarMesaView extends javax.swing.JFrame {
         
     	this.getContentPane().setLayout(new BorderLayout());
     	        
-		framecc = new javax.swing.JFrame("Jugar");
+		framecc = new javax.swing.JFrame("Sentar En Una Mesa");
 		contentPane = new javax.swing.JPanel(new SpringLayout());
 		login = new javax.swing.JLabel("Loggin",JLabel.TRAILING);
 		mesa = new javax.swing.JLabel("Mesa",JLabel.TRAILING);
 			
-		campoLogin= new javax.swing.JTextField(20);
-		campoMesa= new javax.swing.JTextField(20);
+		campoLogin= new javax.swing.JTextField(25);
+		campoMesa= new javax.swing.JTextField(25);
 				
 		botonSentar =new javax.swing.JButton ("Sentar");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
@@ -102,4 +102,8 @@ public class SentarMesaView extends javax.swing.JFrame {
     public void addCancelarListener(ActionListener mal) {
         botonCancelar.addActionListener(mal);
     }
+	public void cerrar() {
+		framecc.dispose();
+    	framecc.setVisible(false);		
+	}
 }
