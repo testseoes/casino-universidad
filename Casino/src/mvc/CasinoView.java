@@ -50,10 +50,10 @@ public class CasinoView extends javax.swing.JFrame {
         m_archivo = new javax.swing.JMenu("archivo");
         m_usuario=new javax.swing.JMenu("Ususuario");
         m_partida=new javax.swing.JMenu("Partida");
-		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta e iniciar sesion");
+		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta");
 		m_datos=new javax.swing.JMenuItem("Ver Datos De Usuario");
-		m_cerrarSesion=new javax.swing.JMenuItem("Cerrar Sesion");
-		m_sentarMesa=new javax.swing.JMenuItem("Sentar en una Mesa");
+		m_eliminarCuenta=new javax.swing.JMenuItem("Eliminar Cuenta");
+		m_sentarMesa=new javax.swing.JMenuItem("Añadir A Una Mesa");
 		m_jugar=new javax.swing.JMenuItem("Jugar");
 		m_barra = new javax.swing.JMenuBar();
         
@@ -64,8 +64,8 @@ public class CasinoView extends javax.swing.JFrame {
         m_archivo.add(m_salir);
         m_barra.add(m_archivo);
         m_usuario.add(m_crearCuenta);
+        m_usuario.add(m_eliminarCuenta);
         m_usuario.add(m_datos);
-        m_usuario.add(m_cerrarSesion);
         m_usuario.add(m_sentarMesa);
         m_barra.add(m_usuario);
         m_partida.add(m_jugar);
@@ -94,10 +94,10 @@ public class CasinoView extends javax.swing.JFrame {
 		lista2=new javax.swing.JTextArea();		
 		lista3=new javax.swing.JTextArea();		
 		lista4=new javax.swing.JTextArea();		
-		botonJugar1=new javax.swing.JButton("Jugar");		
-		botonJugar2=new javax.swing.JButton("Jugar");		
-		botonJugar3=new javax.swing.JButton("Jugar");		
-		botonJugar4=new javax.swing.JButton("Jugar");		
+		botonJugar1=new javax.swing.JButton("Jugar Uno");		
+		botonJugar2=new javax.swing.JButton("Jugar BlackJack");		
+		botonJugar3=new javax.swing.JButton("Jugar Uno");		
+		botonJugar4=new javax.swing.JButton("Jugar BlackJack");		
 		
 
 		contentPaneMesas.add(mesa1);
@@ -136,7 +136,7 @@ public class CasinoView extends javax.swing.JFrame {
 		/*****rightPanel*****/
 		rightPanel=new javax.swing.JPanel(new BorderLayout());
 		rightPanel.add(scrollPaneRight,BorderLayout.CENTER);
-		rightPanel.add(new javax.swing.JLabel("Usuarios Conectados"),BorderLayout.NORTH);
+		rightPanel.add(new javax.swing.JLabel("Usuarios Registrados"),BorderLayout.NORTH);
 
 		/*****Split Panel*****/
 		//Define un contenedor con division izq-der
@@ -159,7 +159,7 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JMenu m_usuario;
     private javax.swing.JMenuItem m_crearCuenta;
     private javax.swing.JMenuItem m_datos;
-    private javax.swing.JMenuItem m_cerrarSesion;
+    private javax.swing.JMenuItem m_eliminarCuenta;
     private javax.swing.JMenuItem m_sentarMesa;
     private javax.swing.JMenu m_archivo;
     private javax.swing.JMenu m_partida;
@@ -213,7 +213,7 @@ public class CasinoView extends javax.swing.JFrame {
         m_datos.addActionListener(mal);
     }
     public void addCerrarSesionListener(ActionListener mal) {
-        m_cerrarSesion.addActionListener(mal);
+        m_eliminarCuenta.addActionListener(mal);
     }
     public void addSentarMesaListener(ActionListener mal) {
         m_sentarMesa.addActionListener(mal);

@@ -29,15 +29,15 @@ public class SentarMesaView extends javax.swing.JFrame {
         
     	this.getContentPane().setLayout(new BorderLayout());
     	        
-		framecc = new javax.swing.JFrame("Sentar En Una Mesa");
+		framecc = new javax.swing.JFrame("Añadir a Una Mesa");
 		contentPane = new javax.swing.JPanel(new SpringLayout());
 		login = new javax.swing.JLabel("Loggin",JLabel.TRAILING);
 		mesa = new javax.swing.JLabel("Mesa",JLabel.TRAILING);
 			
-		campoLogin= new javax.swing.JTextField(25);
-		campoMesa= new javax.swing.JTextField(25);
+		campoLogin= new javax.swing.JTextField(30);
+		campoMesa= new javax.swing.JTextField(30);
 				
-		botonSentar =new javax.swing.JButton ("Sentar");
+		botonSentar =new javax.swing.JButton ("Añadir");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
 		statusMsg1 = new javax.swing.JLabel("Estado: ");
 		statusMsg2 = new javax.swing.JLabel();
