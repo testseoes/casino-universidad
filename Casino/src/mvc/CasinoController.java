@@ -94,7 +94,7 @@ public class CasinoController {
     
     class ResetListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	  System.out.println("Resetttteearr");
+        	 
         }
     }
     class SalirListener implements ActionListener {
@@ -210,35 +210,4 @@ public class CasinoController {
 			return str;
 		}
     
-    //////////////////////////////////////////// inner class ClearListener
-    /**  1. Reset model.
-     *   2. Reset View.
-     */    
-    class ClearListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            try {
-				m_model.reset();
-			} catch (InstantiationException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (IllegalAccessException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (ClassNotFoundException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
-//            m_view.reset();
- catch (FileNotFoundException e2) {
-				// TODO Auto-generated catch block
-				e2.printStackTrace();
-			} catch (IOException e3) {
-	// TODO Auto-generated catch block
-	e3.printStackTrace();
-}
-        }
-    }// end inner class ClearListener
 }

@@ -41,9 +41,9 @@ public class CasinoModel {
 	private static final int N_MESAS =4;
     
     //... Member variable defining state of calculator.
-    private BigInteger m_total;  // The total current value state.
+	private CasinoView m_view;
     private BaseDatos m_bd;
-    //private BufferedWriter fout;
+
     private int numSesion;
     private int [] posiMesa;
     
@@ -58,35 +58,14 @@ public class CasinoModel {
      * @throws InstantiationException 
      * @throws IOException */
     public CasinoModel() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, IOException {
-        reset();
         posiMesa=new int [N_MESAS];
         for (int i=0;i<N_MESAS;i++){
         	posiMesa[i]=0;
         }
         salon= new String [N_MESAS][MAX_JUG];
-    	
-        
-    }
-    
-    //==================================================================== reset
-    /** Reset to initial value. 
-     * @throws SQLException 
-     * @throws ClassNotFoundException 
-     * @throws IllegalAccessException 
-     * @throws InstantiationException 
-     * @throws IOException */
-    public void reset() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, IOException {
-//        numSesion = INITIAL_VALUE;
         m_bd=new BaseDatos();
         fout = new BufferedWriter(new FileWriter("mesas.txt"));
-    }
-    
-    //=============================================================== multiplyBy
-    /** Multiply current total by a number.
-     *@param operand Number (as string) to multiply total by.
-     */
-    public void multiplyBy(String operand) {
-        m_total = m_total.multiply(new BigInteger(operand));
+        
     }
     public boolean iniciarUsuario(String login,String pass) throws SQLException, IOException {
         boolean correcto=false;
@@ -137,23 +116,6 @@ public class CasinoModel {
     	int res,estado=0; //la mesa está vacia 
     	String [] aux;
     	fout = new BufferedWriter(new FileWriter("mesas.txt"));
-
-//    	BaseDatos bd= new BaseDatos();
-    	
-//    	PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
-//    	try {
-//			PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,1);
-//		} catch (BarajaMesaVacia e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} //salon[mesa],fout,m_bd,1,mesa);
-//		catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} catch (SQLException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}	
     	if (posiMesa[mesa]>0){
       		estado=1; //hay al menos una persona; 1 persona en el Uno
       		if ((posiMesa[mesa]>1)||(mesa%2==0)){
@@ -162,17 +124,7 @@ public class CasinoModel {
       			for (int i=0;i<posiMesa[mesa];i++){
       				aux[i]=salon[mesa][i];
       			}
-//      			System.out.println(salon[0][0]);
-//      			for (int i=0;i<posiMesa[mesa];i++){
-//      				aux.add(salon[mesa][i]);
-//      			}
-      			
-//      	    	aux=new String [posiMesa[mesa]];
-//      	    	aux=salon[mesa];
-      		
       			if (mesa%2==0){//juega al black
-//      				String [] array ={"11"};
-//      				PrincipalBlack.iniciaBlack(array,fout,bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
       		    	try {
       		    		System.out.println(aux);
       		    		System.out.println(mesa);
@@ -211,8 +163,6 @@ public class CasinoModel {
       				e.printStackTrace();
       			}	
           			}
-      				//PrincipalBlack.iniciaBlack(aux.toArray(new String[posiMesa[mesa]]),fout,m_bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
-      				//System.out.println("Se JUgó");
       			fout.close();	
       			posiMesa[mesa]=0;
       			
@@ -221,32 +171,18 @@ public class CasinoModel {
     	return estado;
     	
     }
-//    public void JuegaUno(ArrayList<String> mesa,int nmesa,BaseDatos bd,BufferedWriter fout) throws IOException, BarajaMesaVacia, SQLException{
-//    	PrincipalUno.iniciaUno(mesa.toArray(new String[mesa.size()]),fout,bd,1,nmesa);
-//    	
-//    }
-    
-    //================================================================= setValue
-    /** Set the total value.
-     *@param value New value that should be used for the calculator total.
-     */
-    public void setValue(String value) {
-        m_total = new BigInteger(value);
-    }
-    
-    //================================================================= getValue
-    /** Return current calculator total. */
-    public String getValue() {
-        return m_total.toString();
-    }
 
-	public void Salir() {
+	public String[] TodosLogin(){
+		String[] aux=null;
 		try {
-			fout.close();
-		} catch (IOException e) {
+			aux=m_bd.extraerTodosLogin();
+		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return aux;
+	}
+	public void Salir() {
 		try {
 			m_bd.cierraSesion(numSesion);
 		} catch (SQLException e) {
@@ -256,7 +192,6 @@ public class CasinoModel {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		// TODO Auto-generated method stub
 		
 	}
 }
