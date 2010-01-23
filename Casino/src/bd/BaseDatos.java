@@ -223,9 +223,9 @@ public class BaseDatos {
 	}
 	public void eliminarUnUsuario(String login) throws SQLException{
 		Statement stmt=conexion.createStatement();
-		stmt.executeUpdate("DELETE FROM jugadores WHERE Login='"+login+"'");
 		stmt.executeUpdate("DELETE FROM jugadores_partidas WHERE Login='"+login+"'");
 		stmt.executeUpdate("DELETE FROM jugadores_sesiones WHERE Login='"+login+"'");
+		stmt.executeUpdate("DELETE FROM jugadores WHERE Login='"+login+"'");
 	}
 	//añade un solo login a jugadores_sesion.
 	public int iniciaUnaSesion(String nombre) throws SQLException{
