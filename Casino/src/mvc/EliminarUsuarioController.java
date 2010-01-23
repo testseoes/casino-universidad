@@ -27,8 +27,7 @@ public class EliminarUsuarioController {
 
 	class EliminarListener implements ActionListener {
 		String login,pass;
-		int mesa,estado;
-		boolean campoVacio,sentado;
+		boolean campoVacio;
 		
 		public void actionPerformed(ActionEvent e) {
 			campoVacio=false;

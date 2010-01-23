@@ -31,6 +31,7 @@ import blackjack.PrincipalBlack;
 import uno.PrincipalUno;
 import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
+import utils.TipoJugadorBlack;
 
 import bd.BaseDatos;
 
@@ -64,6 +65,7 @@ public class CasinoModel {
         }
         salon= new String [N_MESAS][MAX_JUG];
         m_bd=new BaseDatos();
+//        m_bd.iniciarSesionCasino();
         fout = new BufferedWriter(new FileWriter("mesas.txt"));
         
     }
@@ -71,8 +73,8 @@ public class CasinoModel {
         boolean correcto=false;
     	if ((m_bd.comprobarLogin(login))&(m_bd.comprobarPass(pass,login))){
     		correcto=true;
-    		m_bd.iniciaUnaSesion(login);
-    		System.out.println("iniciado "+ login);
+//    		m_bd.agregarJugadorSesion(login);
+    	
     	}
     	return correcto;
     }
@@ -80,7 +82,7 @@ public class CasinoModel {
         boolean correcto=false;
         if (!m_bd.comprobarLogin(login)){
     		m_bd.crearUsuario(login, pass, nombre, apellido,tipoJugadorUno, tipoJugadorBlack, plantarse);
-    		m_bd.iniciaUnaSesion(login);
+    		
     		correcto=true;
     	}
     	return correcto;
@@ -95,7 +97,7 @@ public class CasinoModel {
       				estado=3;//se puede insertar
       				salon[mesa][posiMesa[mesa]]=login;
           			posiMesa[mesa]++;
-          			
+//          			m_bd.agregarJugadorSesion(login);
       			}
       			
       		}
@@ -126,10 +128,7 @@ public class CasinoModel {
       			}
       			if (mesa%2==0){//juega al black
       		    	try {
-      		    		System.out.println(aux);
-      		    		System.out.println(mesa);
-      		    		
-      				PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,mesa+1);
+      		    		PrincipalBlack.iniciaBlack(aux,fout,m_bd,1,mesa+1);
       			} catch (BarajaMesaVacia e) {
       				// TODO Auto-generated catch block
       				e.printStackTrace();
@@ -141,14 +140,11 @@ public class CasinoModel {
       				// TODO Auto-generated catch block
       				e.printStackTrace();
       			}	
-          			System.out.println("Se JUgó");
+          			
       			}
       			else{  //juega al Uno
       				try {
-      		    		System.out.println(aux);
-      		    		System.out.println(mesa);
-      		    		
-      				PrincipalUno.iniciaUno(aux,fout,m_bd,1,mesa+1);
+      					PrincipalUno.iniciaUno(aux,fout,m_bd,1,mesa+1);
       			} 
       				
       			catch (BarajaMesaVacia e) {
@@ -217,5 +213,57 @@ public class CasinoModel {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	public int getTipoUno (String login) {
+		
+		int tipoUno=0;
+		try {
+			tipoUno=m_bd.obtenerTipoJugadorUno(login);
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+		return(tipoUno);
+		
+	}
+	public int getTipoBlack (String login) {
+		TipoJugadorBlack jugador=null;
+			try {
+				jugador=m_bd.obtenerTipoJugadorBlack(login);
+				
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return(jugador.getTipo());
+		}
+	public int getCreditosUno (String login) {
+		int creditosUno=0;
+			try {
+				m_bd.recuperarCreditoUno(creditosUno, login);
+				
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return(creditosUno);
+	}
+	public float getCreditosBlack (String login) {
+		float creditosBlack=0,invertidos=0;
+			try {
+				m_bd.creditosBlack(login, invertidos, creditosBlack);
+				creditosBlack=creditosBlack-invertidos;
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return(creditosBlack);
+		
 	}
 }

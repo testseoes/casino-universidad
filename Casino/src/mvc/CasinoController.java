@@ -37,7 +37,8 @@ public class CasinoController {
     private CrearCuentaController m_controllerCC;
     private SentarMesaView m_ventanaSM;
     private SentarMesaController m_controllerSM;
-    private UsuarioView m_ventanaDatos;
+    private DatosUsuarioView m_ventanaD;
+    private DatosUsuarioController m_controllerD;
     private JugarView m_ventanaJ;
     private JugarController m_controllerJ;
     private EliminarUsuarioView m_ventanaEU;
@@ -54,7 +55,7 @@ public class CasinoController {
         
         //... Add listeners to the view.
         view.addInicioAutoListener(new InicioAutoListener());
-        view.addResetListener(new ResetListener());
+        //view.addResetListener(new ResetListener());
         view.addSalirListener(new SalirListener());
         
         view.addCrearCuentaListener(new CrearCuentaListener());
@@ -114,7 +115,8 @@ public class CasinoController {
     }
     class DatosListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	m_ventanaDatos=new UsuarioView();
+        	m_ventanaD=new DatosUsuarioView();
+        	m_controllerD=new DatosUsuarioController(m_ventanaD,m_model);
         	    
         }
     }
