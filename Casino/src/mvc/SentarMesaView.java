@@ -4,22 +4,14 @@ package mvc;
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 import vista.SpringUtilities;
 
 public class SentarMesaView extends javax.swing.JFrame {
-    private static final String INITIAL_VALUE = "1";
-    private CasinoModel m_model;
+
+	private CasinoModel m_model;
     /** Creates new form CalcView */
     public SentarMesaView() {
         initComponents();

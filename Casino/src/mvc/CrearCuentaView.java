@@ -5,25 +5,12 @@ package mvc;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
-import java.awt.event.ComponentListener;
-import java.awt.event.ContainerListener;
-import java.awt.event.MouseListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 import vista.SpringUtilities;
 
 public class CrearCuentaView extends javax.swing.JFrame {
-    private static final String INITIAL_VALUE = "1";
     private CasinoModel m_model;
     /** Creates new form CalcView */
     public CrearCuentaView() {

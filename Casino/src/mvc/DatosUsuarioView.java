@@ -3,15 +3,7 @@ package mvc;
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 import vista.SpringUtilities;
@@ -39,9 +31,9 @@ public class DatosUsuarioView extends javax.swing.JFrame {
 			
 		campoLogin = new javax.swing.JTextField(30);
 		campoPass = new javax.swing.JPasswordField(30);
-		campoTipoUno = new javax.swing.JLabel("(1=Numero; 2=Color; 3=Especial)");
+		campoTipoUno = new javax.swing.JLabel();
 		campoCreditosUno = new javax.swing.JLabel();
-		campoTipoBlack = new javax.swing.JLabel("(1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada)");
+		campoTipoBlack = new javax.swing.JLabel();
 		campoCreditosBlack = new javax.swing.JLabel();
 				
 		botonDatos =new javax.swing.JButton ("Ver Datos");
@@ -129,7 +121,7 @@ public class DatosUsuarioView extends javax.swing.JFrame {
         statusMsg2.setText(mensajeEstado);
     }
     public void setTipoBlack(String mensajeEstado) {
-        campoTipoBlack.setText(mensajeEstado);
+        campoTipoBlack.setText(mensajeEstado + " (1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada)");
     }
     
     public void setCreditosUno(String mensajeEstado) {
@@ -137,7 +129,7 @@ public class DatosUsuarioView extends javax.swing.JFrame {
     }
     
     public void setTipoUno(String mensajeEstado) {
-        campoTipoUno.setText(mensajeEstado);
+        campoTipoUno.setText(mensajeEstado + " (1=Numero; 2=Color; 3=Especial)");
     }
     
     public void setCreditosBlack(String mensajeEstado) {

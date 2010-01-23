@@ -2,29 +2,15 @@ package mvc;
 
 
 import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
-import javax.swing.JTextField;
-import javax.swing.JTextPane;
 import javax.swing.SpringLayout;
 
 import vista.SpringUtilities;
 
 
 public class CasinoView extends javax.swing.JFrame {
-    private static final String INITIAL_VALUE = "1";
     private CasinoModel m_model;
     /** Creates new form CalcView */
     public CasinoView(String titulo, CasinoModel model) {
@@ -145,10 +131,11 @@ public class CasinoView extends javax.swing.JFrame {
 		splitPane = new javax.swing.JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
 		splitPane.setRightComponent(rightPanel);
 		splitPane.setLeftComponent(scrollPaneLeft);
-		splitPane.setDividerLocation(520);
+		splitPane.setDividerLocation(700);
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+		this.setSize(850,600);
 		muestraUsuariosBd();
     }// </editor-fold>//GEN-END:initComponents
     
@@ -174,7 +161,7 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JLabel statusMsg2;
 	
     private javax.swing.JTextPane juegosPane;
-    private javax.swing.JScrollPane scrollPane,scrollPaneLeft,scrollPaneRight;
+    private javax.swing.JScrollPane scrollPaneLeft,scrollPaneRight;
     private javax.swing.JTextArea lista;
     private javax.swing.JPanel rightPanel;
     private javax.swing.JSplitPane splitPane;

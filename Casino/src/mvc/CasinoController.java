@@ -23,8 +23,6 @@ import java.io.IOException;
 import java.io.Reader;
 import java.sql.SQLException;
 
-import javax.swing.text.View;
-
 import utils.BarajaMesaVacia;
 
 
@@ -83,17 +81,9 @@ public class CasinoController {
     class InicioAutoListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	  System.exit(0);
-//            String userInput = "";
-//            try {
-//                userInput = m_view.getUserInput();
-//                m_model.multiplyBy(userInput);
-//                m_view.setTotal(m_model.getValue());
-//                
-//            } catch (NumberFormatException nfex) {
-//                m_view.showError("Bad input: '" + userInput + "'");
-//            }
+
         }
-    }//end inner class MultiplyListener
+    }
     
     class ResetListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
