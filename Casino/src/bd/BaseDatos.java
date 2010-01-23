@@ -39,6 +39,18 @@ public class BaseDatos {
 				"VALUES ('"+login+"','"+pass+"','"+nombre+"','"+apellido+"',"+tipojugadoruno+","
 				+tipojugadorblack+","+plantarse+")");
 	}
+	//devuelve el ultimo valor de un campo numérico en una tabla.Devuelve 0 si esta vacia.
+	public int ultNum(String tabla, String campo) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT * FROM "+tabla+" ORDER BY "+campo+" DESC LIMIT 1");
+		if(resultado.next()) return resultado.getInt(campo);
+		else return 0;
+	}
+	
+	//----------------------------
+	// TODO LO RELATIVO A SESIONES
+	//----------------------------
+	
 	public int iniciaSesion(String[] nombres) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
 		int numsesion;   //necesario devolverlo para cuando se cierre la sesión saber si se habia iniciado.
@@ -85,13 +97,11 @@ public class BaseDatos {
 					" WHERE NSesion="+ numsesion);
 		}
 	}
-	//devuelve el ultimo valor de un campo numérico en una tabla.Devuelve 0 si esta vacia.
-	public int ultNum(String tabla, String campo) throws SQLException{
-		Statement stmt=conexion.createStatement();
-		ResultSet resultado = stmt.executeQuery("SELECT * FROM "+tabla+" ORDER BY "+campo+" DESC LIMIT 1");
-		if(resultado.next()) return resultado.getInt(campo);
-		else return 0;
-	}
+	
+	//----------------------------------------
+	// TODO LO RELATIVO A PARTIDAS Y CREDITOS
+	//---------------------------------------
+	
 	//Insertar Partida
 	public void insertarPartida(int mesa,String juego) throws SQLException{
 		Statement stmt=conexion.createStatement();
@@ -189,6 +199,10 @@ public class BaseDatos {
 					" WHERE Login='"+nombres[i]+"' && NPartida="+ultpartida);
 		}
 	}
+	
+	//-------------------------------------------
+	// TODO LO RELATIVO A OBTENER DATOS DE LA BD
+	//-------------------------------------------
 	
 	public int obtenerTipoJugadorUno(String nombre) throws SQLException{
 		Statement stmt=conexion.createStatement();
