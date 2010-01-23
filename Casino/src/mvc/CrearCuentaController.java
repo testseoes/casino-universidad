@@ -2,6 +2,10 @@ package mvc;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
+import java.awt.event.ContainerEvent;
+import java.awt.event.ContainerListener;
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -19,6 +23,7 @@ public class CrearCuentaController {
         m_view=view;
         
         crearView.addCrearListener(new CrearListener());
+        
         crearView.addCancelarListener(new CancelarListener());
         
     }
@@ -146,6 +151,7 @@ public class CrearCuentaController {
            	} 
 		}
     }
+
 	class CancelarListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			m_crearView.cerrar();

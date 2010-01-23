@@ -59,7 +59,7 @@ public class CasinoView extends javax.swing.JFrame {
         
         
 		m_archivo.add(m_inicioAuto);
-        m_archivo.add(m_reset);
+        //m_archivo.add(m_reset);
         m_archivo.addSeparator();
         m_archivo.add(m_salir);
         m_barra.add(m_archivo);
@@ -90,14 +90,14 @@ public class CasinoView extends javax.swing.JFrame {
 		mesa2 = new javax.swing.JLabel("Mesa  2");
 		mesa3 = new javax.swing.JLabel("Mesa  3");
 		mesa4 = new javax.swing.JLabel("Mesa  4");
-		lista1=new javax.swing.JTextArea();		
-		lista2=new javax.swing.JTextArea();		
-		lista3=new javax.swing.JTextArea();		
-		lista4=new javax.swing.JTextArea();		
-		botonJugar1=new javax.swing.JButton("Jugar Uno");		
-		botonJugar2=new javax.swing.JButton("Jugar BlackJack");		
-		botonJugar3=new javax.swing.JButton("Jugar Uno");		
-		botonJugar4=new javax.swing.JButton("Jugar BlackJack");		
+		lista1=new javax.swing.JTextArea(15,5);		
+		lista2=new javax.swing.JTextArea(15,5);		
+		lista3=new javax.swing.JTextArea(15,5);		
+		lista4=new javax.swing.JTextArea(15,5);		
+		botonJugar1=new javax.swing.JButton("Jugar BlackJack");		
+		botonJugar2=new javax.swing.JButton("Jugar Uno");		
+		botonJugar3=new javax.swing.JButton("Jugar BlackJack");		
+		botonJugar4=new javax.swing.JButton("Jugar Uno");		
 		
 
 		contentPaneMesas.add(mesa1);
@@ -115,6 +115,7 @@ public class CasinoView extends javax.swing.JFrame {
 		contentPaneMesas.add(botonJugar3);
 		contentPaneMesas.add(botonJugar4);
 		
+		
 		SpringUtilities.makeCompactGrid(contentPaneMesas,
                 3, 4, //rows, cols
                 6, 6,        //initX, initY
@@ -125,7 +126,8 @@ public class CasinoView extends javax.swing.JFrame {
 		splitPaneIzq = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		splitPaneIzq.setTopComponent(contentPaneMesas);
 		splitPaneIzq.setBottomComponent(juegosPane);
-		splitPaneIzq.setDividerLocation(100);
+		splitPaneIzq.setDividerLocation(130);
+		
 		
 		scrollPaneLeft = new javax.swing.JScrollPane(splitPaneIzq);
 
@@ -199,9 +201,9 @@ public class CasinoView extends javax.swing.JFrame {
     public void addInicioAutoListener(ActionListener mal) {
         m_inicioAuto.addActionListener(mal);
     }
-    public void addResetListener(ActionListener mal) {
-        m_reset.addActionListener(mal);
-    }
+//    public void addResetListener(ActionListener mal) {
+//        m_reset.addActionListener(mal);
+//    }
     public void addSalirListener(ActionListener mal) {
         m_salir.addActionListener(mal);
     }
@@ -291,8 +293,4 @@ public class CasinoView extends javax.swing.JFrame {
 		
 	}
 
-
-//    public void addClearListener(ActionListener cal) {
-//        m_clearBtn.addActionListener(cal);
-//    }
 }

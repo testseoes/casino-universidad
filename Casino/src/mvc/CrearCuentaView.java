@@ -5,6 +5,9 @@ package mvc;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentListener;
+import java.awt.event.ContainerListener;
+import java.awt.event.MouseListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -157,6 +160,10 @@ public class CrearCuentaView extends javax.swing.JFrame {
     public String getTipoJugadorBlackInput() {
         return campoTipoJugadorBlack.getText();
     }
+//    public void addTipoJugadorBlackListener(ContainerListener ac) {
+//        campoTipoJugadorBlack.addContainerListener(ac);
+//    }
+
     public String getPlantarseInput() {
         return campoPlantarse.getText();
     }

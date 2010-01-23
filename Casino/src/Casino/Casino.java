@@ -70,7 +70,7 @@ public class Casino {
 		if(!mesa.isEmpty()){
 			int opcion=0;
 			boolean correcto=false;
-			while(!correcto){
+			while(!correcto){ 
 				System.out.println("Introduzca a que juego se jugará en la mesa "+nmesa+" (1=uno 2=blackjack).");
 				str = entrada.readLine();
 				opcion = Integer.parseInt(str);
