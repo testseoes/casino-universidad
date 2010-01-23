@@ -62,29 +62,24 @@ public class BaseDatos {
 		}
 		return numsesion;
 	}
-		
-	/*añade un solo login a jugadores_sesion. 
-	             NO USAR
-	public int iniciaUnaSesion(String nombre) throws SQLException{
+	public int iniciaSesionCasino() throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
-		int numsesion;
-		//1º inserto fecha, hora
 		stmt.executeUpdate("INSERT INTO sesion" +
-			" (FechaInicioSesion, HoraInicioSesion) " +
-			"VALUES (CURDATE(),CURTIME())");
-		//2º busco el nº de ult sesion
-		numsesion=ultNum("sesion","NSesion");
-		//3º Inserto el login en la tabla jugadores_sesiones
+				" (FechaInicioSesion, HoraInicioSesion) " +
+				"VALUES (CURDATE(),CURTIME())");
+		return ultNum("sesion","NSesion"); //necesario para cuando se cierre la sesión y para añadir un solo jugador.
+	}	
+
+	public void insertaJugadorSesion(String login, int numsesion) throws SQLException{
+		Statement stmt=conexion.createStatement();
 		stmt.executeUpdate("INSERT INTO jugadores_sesiones" +
 				" (Login,NSesion) "
-				+"VALUES ('"+nombre+"',"+numsesion+")");
-		return numsesion;
-	}*/
+				+"VALUES ('"+login+"',"+numsesion+")");
+	}
 	
 	public void cierraSesion(int numsesion) throws SQLException, BDNoHayUsuarios{
 		Statement stmt=conexion.createStatement();
 		if(numsesion!=0){
-			//inserto fecha, hora y el numpartida final.
 			stmt.executeUpdate("UPDATE sesion " +
 					"SET FechaFinSesion=CURDATE(), HoraFinSesion=CURTIME()" +
 					" WHERE NSesion="+ numsesion);
@@ -194,12 +189,12 @@ public class BaseDatos {
 					" WHERE Login='"+nombres[i]+"' && NPartida="+ultpartida);
 		}
 	}
+	
 	public int obtenerTipoJugadorUno(String nombre) throws SQLException{
-		int tipo=0;//si no existe el jugador, devuelve 0
 		Statement stmt=conexion.createStatement();
 		ResultSet resultado = stmt.executeQuery("SELECT TipoJugadorUno FROM jugadores WHERE Login='"+nombre+"'");
-		if(resultado.next()) tipo=resultado.getInt("TipoJugadorUno");
-		return tipo;
+		if(resultado.next()) return resultado.getInt("TipoJugadorUno");
+		else return 0;//si no existe el jugador, devuelve 0
 	}
 	
 	/* OJO!!, es necesario inventare una nueva clase TipoJugadorBlack x q en java no se pueden pasar
@@ -227,20 +222,18 @@ public class BaseDatos {
 		stmt.executeUpdate("DELETE FROM jugadores_sesiones WHERE Login='"+login+"'");
 		stmt.executeUpdate("DELETE FROM jugadores WHERE Login='"+login+"'");
 	}
-	//añade un solo login a jugadores_sesion.
-	public int iniciaUnaSesion(String nombre) throws SQLException{
+
+	public int obtenerInvertidoTotal (String login) throws SQLException{
 		Statement stmt=conexion.createStatement();
-		int numsesion;
-		//1º inserto fecha, hora
-		stmt.executeUpdate("INSERT INTO sesion" +
-			" (FechaInicioSesion, HoraInicioSesion) " +
-			"VALUES (CURDATE(),CURTIME())");
-		//2º busco el nº de ult sesion
-		numsesion=ultNum("sesion","NSesion");
-		//3º Inserto el login en la tabla jugadores_sesiones
-		stmt.executeUpdate("INSERT INTO jugadores_sesiones" +
-				" (Login,NSesion) "
-				+"VALUES ('"+nombre+"',"+numsesion+")");
-		return numsesion;
+		ResultSet resultado = stmt.executeQuery("SELECT InvertidoTotal FROM jugadores WHERE Login='"+login+"'");
+		if(resultado.next())return resultado.getInt("InvertidoTotal");
+		else return 0; //si no existe el jugador, devuelve 0
+	}
+	
+	public int obtenerRecuperadoTotal (String login) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT RecuperadoTotal FROM jugadores WHERE Login='"+login+"'");
+		if(resultado.next())return resultado.getInt("RecuperadoTotal");
+		else return 0; //si no existe el jugador, devuelve 0
 	}
 }
