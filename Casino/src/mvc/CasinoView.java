@@ -58,7 +58,7 @@ public class CasinoView extends javax.swing.JFrame {
 		m_barra = new javax.swing.JMenuBar();
         
         
-		m_archivo.add(m_inicioAuto);
+		// m_archivo.add(m_inicioAuto);
         //m_archivo.add(m_reset);
         m_archivo.addSeparator();
         m_archivo.add(m_salir);
