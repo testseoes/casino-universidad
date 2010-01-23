@@ -10,14 +10,11 @@ import java.io.IOException;
 import java.io.Reader;
 import java.sql.SQLException;
 
-import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
 
 
 public class JugarController {
 	
-	private static final int N_MESAS =4;
-    
 	private JugarView m_jugarView;
 	private CasinoModel m_model;
 	private CasinoView m_view;

@@ -125,7 +125,6 @@ public class CrearCuentaController {
         			}
            		}
          	
-//        		  System.out.println(login);
            	}
            	if (!campoVacio){
            		if (pass1.endsWith(pass2)){
