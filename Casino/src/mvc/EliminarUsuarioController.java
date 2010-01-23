@@ -42,7 +42,7 @@ public class EliminarUsuarioController {
         			campoVacio=true;
         			m_eliminarView.setEstado("La Password no es correcta"); 
         		}else{
-        			//m_model.eliminarUsuario(login);
+        			m_model.eliminarUsuario(login);
         			m_eliminarView.setEstado("Cuenta del Usuario : " + login + " eliminada");
         			m_view.muestraUsuariosBd();
         		}

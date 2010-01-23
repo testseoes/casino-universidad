@@ -27,8 +27,8 @@ public class DatosUsuarioController {
 
 	class DatosListener implements ActionListener {
 		String login,pass;
-		int creditosUno,tipoUno,tipoBlack;
-		float creditosBlack;
+		int creditosInvertidos,creditosRecuperados,tipoUno,tipoBlack;
+
 		boolean campoVacio;
 		
 		public void actionPerformed(ActionEvent e) {
@@ -52,16 +52,26 @@ public class DatosUsuarioController {
         			String aux= String.valueOf(tipoUno);
         			m_datosView.setTipoUno(aux);
         			
-        			creditosUno=m_model.getCreditosUno(login);
-        			aux= String.valueOf(creditosUno);
+        			try {
+						creditosInvertidos=m_model.getCreditosInvertidos(login);
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+        			aux= String.valueOf(creditosInvertidos);
         			m_datosView.setCreditosUno(aux);
         			
         			tipoBlack=m_model.getTipoBlack(login);
         			aux= String.valueOf(tipoBlack);
         			m_datosView.setTipoBlack(aux);
         			
-        			creditosBlack=m_model.getCreditosBlack(login);
-        			aux= String.valueOf(creditosBlack);
+        			try {
+						creditosRecuperados=m_model.getCreditosRecuperados(login);
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+        			aux= String.valueOf(creditosRecuperados);
         			m_datosView.setCreditosBlack(aux);
         			
         			

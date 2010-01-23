@@ -65,7 +65,13 @@ public class CasinoModel {
         }
         salon= new String [N_MESAS][MAX_JUG];
         m_bd=new BaseDatos();
-//        m_bd.iniciarSesionCasino();
+        try {
+			numSesion=m_bd.iniciaSesion(m_bd.extraerTodosLogin());
+			
+		} catch (BDNoHayUsuarios e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         fout = new BufferedWriter(new FileWriter("mesas.txt"));
         
     }
@@ -73,7 +79,7 @@ public class CasinoModel {
         boolean correcto=false;
     	if ((m_bd.comprobarLogin(login))&(m_bd.comprobarPass(pass,login))){
     		correcto=true;
-//    		m_bd.agregarJugadorSesion(login);
+    		m_bd.insertaJugadorSesion(login,numSesion);
     	
     	}
     	return correcto;
@@ -82,7 +88,7 @@ public class CasinoModel {
         boolean correcto=false;
         if (!m_bd.comprobarLogin(login)){
     		m_bd.crearUsuario(login, pass, nombre, apellido,tipoJugadorUno, tipoJugadorBlack, plantarse);
-    		
+  			m_bd.insertaJugadorSesion(login,numSesion);
     		correcto=true;
     	}
     	return correcto;
@@ -97,7 +103,6 @@ public class CasinoModel {
       				estado=3;//se puede insertar
       				salon[mesa][posiMesa[mesa]]=login;
           			posiMesa[mesa]++;
-//          			m_bd.agregarJugadorSesion(login);
       			}
       			
       		}
@@ -241,29 +246,11 @@ public class CasinoModel {
 			}
 			return(jugador.getTipo());
 		}
-	public int getCreditosUno (String login) {
-		int creditosUno=0;
-			try {
-				m_bd.recuperarCreditoUno(creditosUno, login);
-				
-				
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return(creditosUno);
+	public int getCreditosInvertidos (String login) throws SQLException {
+		return m_bd.obtenerInvertidoTotal(login);
 	}
-	public float getCreditosBlack (String login) {
-		float creditosBlack=0,invertidos=0;
-			try {
-				m_bd.creditosBlack(login, invertidos, creditosBlack);
-				creditosBlack=creditosBlack-invertidos;
-				
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return(creditosBlack);
-		
+	public int getCreditosRecuperados (String login) throws SQLException {
+		return m_bd.obtenerRecuperadoTotal(login);
 	}
+
 }

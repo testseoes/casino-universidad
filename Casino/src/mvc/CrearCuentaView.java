@@ -43,7 +43,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		apellido = new javax.swing.JLabel("Apellido",JLabel.TRAILING);
 		tipoJugadorUno = new javax.swing.JLabel("Tipo de Jugador Uno",JLabel.TRAILING);
 		tipoJugadorBlack = new javax.swing.JLabel("Tipo de Jugador BlackJack",JLabel.TRAILING);
-		plantarse = new javax.swing.JLabel("Puntuación con la que se planta",JLabel.TRAILING);
+		plantarse = new javax.swing.JLabel("Puntuación con la que se planta BlackJack",JLabel.TRAILING);
 	
 		campo1= new javax.swing.JTextField(25);
 		pass1 = new javax.swing.JPasswordField(25);
@@ -51,14 +51,16 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		campoNombre= new javax.swing.JTextField(25);
 		campoApellido= new javax.swing.JTextField(25);
 		campoTipoJugadorUno= new javax.swing.JTextField(25);
-		campoTipoJugadorBlack= new javax.swing.JTextField(25);
+		campoTipoJugadorUno.setText("1=Numero; 2=Color; 3=Especial");
+		campoTipoJugadorBlack= new javax.swing.JTextField(28);
+		campoTipoJugadorBlack.setText("1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada");
 		campoPlantarse= new javax.swing.JTextField(25);
 		
 		botonCrear =new javax.swing.JButton ("Crear");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
 		statusMsg1 = new javax.swing.JLabel("Estado: ");
 		statusMsg2 = new javax.swing.JLabel();
-		
+
 		
 		contentPane.add(loggin);
 		loggin.setLabelFor(campo1);
@@ -97,7 +99,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		
 		contentPane.add(statusMsg1);
 		contentPane.add(statusMsg2);
-		
+
 		
 		SpringUtilities.makeCompactGrid(contentPane,
                 10, 2, //rows, cols
@@ -111,7 +113,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 //		framecc.setSize(300,400);
 		framecc.pack();
-		framecc.setLocation(150,150);
+		framecc.setLocation(130,330);
 		framecc.setVisible(true);
     }// </editor-fold>//GEN-END:initComponents
             
@@ -138,6 +140,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
     private javax.swing.JButton botonCancelar; 
     private javax.swing.JLabel statusMsg1;
     private javax.swing.JLabel statusMsg2;
+
 	
     public String getUserInput() {
         return campo1.getText();

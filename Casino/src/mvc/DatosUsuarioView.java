@@ -32,16 +32,16 @@ public class DatosUsuarioView extends javax.swing.JFrame {
 		contentPane = new javax.swing.JPanel(new SpringLayout());
 		login = new javax.swing.JLabel("Loggin",JLabel.TRAILING);
 		pass = new javax.swing.JLabel("Password",JLabel.TRAILING);
-		tipoUno = new javax.swing.JLabel("Tipo de Jugador Uno ",JLabel.TRAILING);
-		creditosUno = new javax.swing.JLabel("Balance de Créditos en UNO",JLabel.TRAILING);
-		tipoBlack = new javax.swing.JLabel("Tipo de Jugador Black",JLabel.TRAILING);
-		creditosBlack = new javax.swing.JLabel("Balance de Créditos en BlackJack ",JLabel.TRAILING);
+		tipoUno = new javax.swing.JLabel("Tipo de Jugador Uno :",JLabel.TRAILING);
+		creditosUno = new javax.swing.JLabel("Créditos Invertidos :",JLabel.TRAILING);
+		tipoBlack = new javax.swing.JLabel("Tipo de Jugador Black :",JLabel.TRAILING);
+		creditosBlack = new javax.swing.JLabel("Créditos Recuperados :",JLabel.TRAILING);
 			
 		campoLogin = new javax.swing.JTextField(30);
 		campoPass = new javax.swing.JPasswordField(30);
-		campoTipoUno = new javax.swing.JLabel();
+		campoTipoUno = new javax.swing.JLabel("(1=Numero; 2=Color; 3=Especial)");
 		campoCreditosUno = new javax.swing.JLabel();
-		campoTipoBlack = new javax.swing.JLabel();
+		campoTipoBlack = new javax.swing.JLabel("(1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada)");
 		campoCreditosBlack = new javax.swing.JLabel();
 				
 		botonDatos =new javax.swing.JButton ("Ver Datos");
@@ -63,13 +63,13 @@ public class DatosUsuarioView extends javax.swing.JFrame {
 		tipoUno.setLabelFor(campoTipoUno);
 		contentPane.add(campoTipoUno);
 		
-		contentPane.add(creditosUno);
-		creditosUno.setLabelFor(campoCreditosUno);
-		contentPane.add(campoCreditosUno);
-		
 		contentPane.add(tipoBlack);
 		tipoBlack.setLabelFor(campoTipoBlack);
 		contentPane.add(campoTipoBlack);
+		
+		contentPane.add(creditosUno);
+		creditosUno.setLabelFor(campoCreditosUno);
+		contentPane.add(campoCreditosUno);
 		
 		contentPane.add(creditosBlack);
 		creditosBlack.setLabelFor(campoCreditosBlack);
@@ -94,7 +94,7 @@ public class DatosUsuarioView extends javax.swing.JFrame {
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 //		framecc.setSize(300,400);
 		framecc.pack();
-		framecc.setLocation(150,150);
+		framecc.setLocation(130,330);
 		framecc.setVisible(true);
     }// </editor-fold>//GEN-END:initComponents
             
