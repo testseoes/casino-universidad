@@ -69,7 +69,7 @@ public class EliminarUsuarioView extends javax.swing.JFrame {
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 //		framecc.setSize(300,400);
 		framecc.pack();
-		framecc.setLocation(150,150);
+		framecc.setLocation(130,330);
 		framecc.setVisible(true);
     }// </editor-fold>//GEN-END:initComponents
             
