@@ -1,0 +1,293 @@
+------------------------------------------
+          Empieza La Partida
+          ------------------
+(J.Color ) 25000001G tiene: (6, VERDE)(4, VERDE)(Roba4, Cambio de Color)(8, AMARILLO)(7, AMARILLO)(0, ROJO)(4, ROJO)
+(J.Número) Pepe tiene: (Roba2 , VERDE)(8, AZUL)(5, ROJO)(Cambio de Sentido, AZUL)(6, VERDE)(2, ROJO)(6, AZUL)
+------------------------------------------
+      En la Mesa: (0, AMARILLO)
+------------------------------------------
+
+Pepe tiene: (Roba2 , VERDE)(8, AZUL)(5, ROJO)(Cambio de Sentido, AZUL)(6, VERDE)(2, ROJO)(6, AZUL)
+Pepe roba : (Cambio de Sentido, ROJO)
+
+25000001G tiene: (6, VERDE)(4, VERDE)(Roba4, Cambio de Color)(8, AMARILLO)(7, AMARILLO)(0, ROJO)(4, ROJO)
+25000001G echa : (7, AMARILLO)
+
+Pepe tiene: (Roba2 , VERDE)(8, AZUL)(5, ROJO)(Cambio de Sentido, AZUL)(6, VERDE)(2, ROJO)(6, AZUL)(Cambio de Sentido, ROJO)
+Pepe roba : (7, AMARILLO)
+Pepe echa : (7, AMARILLO)
+
+25000001G tiene: (6, VERDE)(4, VERDE)(Roba4, Cambio de Color)(8, AMARILLO)(0, ROJO)(4, ROJO)
+25000001G echa : (8, AMARILLO)
+
+Pepe tiene: (Roba2 , VERDE)(8, AZUL)(5, ROJO)(Cambio de Sentido, AZUL)(6, VERDE)(2, ROJO)(6, AZUL)(Cambio de Sentido, ROJO)
+Pepe echa : (8, AZUL)
+
+25000001G tiene: (6, VERDE)(4, VERDE)(Roba4, Cambio de Color)(0, ROJO)(4, ROJO)
+25000001G echa : (Roba4, Cambio de Color)
+25000001G ha elegido el color VERDE
+
+Pepe roba : (3, AZUL)
+Pepe roba : (Roba4, Cambio de Color)
+Pepe roba : (5, AZUL)
+Pepe roba : (Cambio de Color)
+Pepe tiene: (Roba2 , VERDE)(5, ROJO)(Cambio de Sentido, AZUL)(6, VERDE)(2, ROJO)(6, AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(5, AZUL)(Cambio de Color)
+Pepe echa : (6, VERDE)
+
+25000001G tiene: (6, VERDE)(4, VERDE)(0, ROJO)(4, ROJO)
+25000001G echa : (4, VERDE)
+
+Pepe tiene: (Roba2 , VERDE)(5, ROJO)(Cambio de Sentido, AZUL)(2, ROJO)(6, AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(5, AZUL)(Cambio de Color)
+Pepe echa : (Roba2 , VERDE)
+
+25000001G roba : (2, VERDE)
+25000001G roba : (1, ROJO)
+25000001G tiene: (6, VERDE)(0, ROJO)(4, ROJO)(2, VERDE)(1, ROJO)
+25000001G echa : (6, VERDE)
+
+Pepe tiene: (5, ROJO)(Cambio de Sentido, AZUL)(2, ROJO)(6, AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(5, AZUL)(Cambio de Color)
+Pepe echa : (6, AZUL)
+
+25000001G tiene: (0, ROJO)(4, ROJO)(2, VERDE)(1, ROJO)
+25000001G roba : (8, AZUL)
+25000001G echa : (8, AZUL)
+
+Pepe tiene: (5, ROJO)(Cambio de Sentido, AZUL)(2, ROJO)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(5, AZUL)(Cambio de Color)
+Pepe echa : (5, AZUL)
+
+25000001G tiene: (0, ROJO)(4, ROJO)(2, VERDE)(1, ROJO)
+25000001G roba : (8, VERDE)
+
+Pepe tiene: (5, ROJO)(Cambio de Sentido, AZUL)(2, ROJO)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(Cambio de Color)
+Pepe echa : (5, ROJO)
+
+25000001G tiene: (0, ROJO)(4, ROJO)(2, VERDE)(1, ROJO)(8, VERDE)
+25000001G echa : (0, ROJO)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(2, ROJO)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(Cambio de Color)
+Pepe echa : (2, ROJO)
+
+25000001G tiene: (4, ROJO)(2, VERDE)(1, ROJO)(8, VERDE)
+25000001G echa : (1, ROJO)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(Cambio de Sentido, ROJO)(3, AZUL)(Roba4, Cambio de Color)(Cambio de Color)
+Pepe echa : (Cambio de Sentido, ROJO)
+
+           Se cambia orientación
+
+25000001G tiene: (4, ROJO)(2, VERDE)(8, VERDE)
+25000001G echa : (4, ROJO)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(3, AZUL)(Roba4, Cambio de Color)(Cambio de Color)
+Pepe echa : (Roba4, Cambio de Color)
+Pepe ha elegido el color VERDE
+
+25000001G roba : (Roba2 , AZUL)
+25000001G roba : (0, AZUL)
+25000001G roba : (Salta Turno, ROJO)
+25000001G roba : (5, AMARILLO)
+25000001G tiene: (2, VERDE)(8, VERDE)(Roba2 , AZUL)(0, AZUL)(Salta Turno, ROJO)(5, AMARILLO)
+25000001G echa : (8, VERDE)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(3, AZUL)(Cambio de Color)
+Pepe echa : (Cambio de Color)
+Pepe ha elegido el color AZUL
+
+25000001G tiene: (2, VERDE)(Roba2 , AZUL)(0, AZUL)(Salta Turno, ROJO)(5, AMARILLO)
+25000001G echa : (0, AZUL)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(3, AZUL)
+Pepe echa : (3, AZUL)
+
+25000001G tiene: (2, VERDE)(Roba2 , AZUL)(Salta Turno, ROJO)(5, AMARILLO)
+25000001G echa : (Roba2 , AZUL)
+
+Pepe roba : (8, VERDE)
+Pepe roba : (Salta Turno, VERDE)
+Pepe tiene: (Cambio de Sentido, AZUL)(8, VERDE)(Salta Turno, VERDE)
+Pepe roba : (9, AZUL)
+Pepe echa : (9, AZUL)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(5, AMARILLO)
+25000001G roba : (4, AMARILLO)
+
+Pepe tiene: (Cambio de Sentido, AZUL)(8, VERDE)(Salta Turno, VERDE)
+Pepe echa : (Cambio de Sentido, AZUL)
+
+           Se cambia orientación
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(5, AMARILLO)(4, AMARILLO)
+25000001G roba : (4, AMARILLO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)
+Pepe roba : (1, AMARILLO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(5, AMARILLO)(4, AMARILLO)(4, AMARILLO)
+25000001G roba : (Roba2 , AMARILLO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, AMARILLO)
+Pepe roba : (Cambio de Sentido, AMARILLO)
+Pepe echa : (Cambio de Sentido, AMARILLO)
+
+           Se cambia orientación
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(5, AMARILLO)(4, AMARILLO)(4, AMARILLO)(Roba2 , AMARILLO)
+25000001G echa : (4, AMARILLO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, AMARILLO)
+Pepe echa : (1, AMARILLO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(5, AMARILLO)(4, AMARILLO)(Roba2 , AMARILLO)
+25000001G echa : (5, AMARILLO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)
+Pepe roba : (1, ROJO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(4, AMARILLO)(Roba2 , AMARILLO)
+25000001G echa : (4, AMARILLO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, ROJO)
+Pepe roba : (Roba4, Cambio de Color)
+Pepe echa : (Roba4, Cambio de Color)
+Pepe ha elegido el color AMARILLO
+
+25000001G roba : (9, ROJO)
+25000001G roba : (4, VERDE)
+25000001G roba : (6, ROJO)
+25000001G roba : (Cambio de Sentido, VERDE)
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(Roba2 , AMARILLO)(9, ROJO)(4, VERDE)(6, ROJO)(Cambio de Sentido, VERDE)
+25000001G roba : (Roba2 , AZUL)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, ROJO)
+Pepe roba : (8, AMARILLO)
+Pepe echa : (8, AMARILLO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(Roba2 , AMARILLO)(9, ROJO)(4, VERDE)(6, ROJO)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (Roba2 , AMARILLO)
+
+Pepe roba : (1, VERDE)
+Pepe roba : (4, ROJO)
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, ROJO)(1, VERDE)(4, ROJO)
+Pepe roba : (9, AMARILLO)
+Pepe echa : (9, AMARILLO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(9, ROJO)(4, VERDE)(6, ROJO)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (9, ROJO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, ROJO)(1, VERDE)(4, ROJO)
+Pepe echa : (1, ROJO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(4, VERDE)(6, ROJO)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (6, ROJO)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, VERDE)(4, ROJO)
+Pepe echa : (4, ROJO)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(4, VERDE)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (4, VERDE)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)(1, VERDE)
+Pepe echa : (1, VERDE)
+
+25000001G tiene: (2, VERDE)(Salta Turno, ROJO)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (2, VERDE)
+
+Pepe tiene: (8, VERDE)(Salta Turno, VERDE)
+Pepe echa : (8, VERDE)
+
+25000001G tiene: (Salta Turno, ROJO)(Cambio de Sentido, VERDE)(Roba2 , AZUL)
+25000001G echa : (Cambio de Sentido, VERDE)
+
+           Se cambia orientación
+
+Pepe tiene: (Salta Turno, VERDE)
+Pepe roba : (Salta Turno, AZUL)
+
+25000001G tiene: (Salta Turno, ROJO)(Roba2 , AZUL)
+25000001G roba : (Roba2 , AMARILLO)
+
+Pepe tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)
+Pepe roba : (Cambio de Color)
+Pepe echa : (Cambio de Color)
+Pepe ha elegido el color ROJO
+
+25000001G tiene: (Salta Turno, ROJO)(Roba2 , AZUL)(Roba2 , AMARILLO)
+25000001G roba : (5, VERDE)
+
+Pepe tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)
+Pepe roba : (7, AZUL)
+
+25000001G tiene: (Salta Turno, ROJO)(Roba2 , AZUL)(Roba2 , AMARILLO)(5, VERDE)
+25000001G roba : (8, ROJO)
+25000001G echa : (8, ROJO)
+
+Pepe tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(7, AZUL)
+Pepe roba : (6, AMARILLO)
+
+25000001G tiene: (Salta Turno, ROJO)(Roba2 , AZUL)(Roba2 , AMARILLO)(5, VERDE)
+25000001G echa : (Salta Turno, ROJO)
+
+Pepe pierde su turno
+
+25000001G tiene: (Roba2 , AZUL)(Roba2 , AMARILLO)(5, VERDE)
+25000001G roba : (0, VERDE)
+
+Pepe tiene: (Salta Turno, VERDE)(Salta Turno, AZUL)(7, AZUL)(6, AMARILLO)
+Pepe echa : (Salta Turno, VERDE)
+
+25000001G pierde su turno
+
+Pepe tiene: (Salta Turno, AZUL)(7, AZUL)(6, AMARILLO)
+Pepe echa : (Salta Turno, AZUL)
+
+25000001G pierde su turno
+
+Pepe tiene: (7, AZUL)(6, AMARILLO)
+Pepe echa : (7, AZUL)
+
+25000001G tiene: (Roba2 , AZUL)(Roba2 , AMARILLO)(5, VERDE)(0, VERDE)
+25000001G echa : (Roba2 , AZUL)
+
+Pepe roba : (6, AMARILLO)
+Pepe roba : (5, VERDE)
+Pepe tiene: (6, AMARILLO)(6, AMARILLO)(5, VERDE)
+Pepe roba : (2, AMARILLO)
+
+25000001G tiene: (Roba2 , AMARILLO)(5, VERDE)(0, VERDE)
+25000001G echa : (Roba2 , AMARILLO)
+
+Pepe roba : (9, ROJO)
+Pepe roba : (3, ROJO)
+Pepe tiene: (6, AMARILLO)(6, AMARILLO)(5, VERDE)(2, AMARILLO)(9, ROJO)(3, ROJO)
+Pepe echa : (6, AMARILLO)
+
+25000001G tiene: (5, VERDE)(0, VERDE)
+25000001G roba : (Salta Turno, VERDE)
+
+Pepe tiene: (6, AMARILLO)(5, VERDE)(2, AMARILLO)(9, ROJO)(3, ROJO)
+Pepe echa : (6, AMARILLO)
+
+25000001G tiene: (5, VERDE)(0, VERDE)(Salta Turno, VERDE)
+25000001G roba : (Salta Turno, AMARILLO)
+25000001G echa : (Salta Turno, AMARILLO)
+
+Pepe pierde su turno
+
+25000001G tiene: (5, VERDE)(0, VERDE)(Salta Turno, VERDE)
+25000001G echa : (Salta Turno, VERDE)
+
+Pepe pierde su turno
+
+25000001G tiene: (5, VERDE)(0, VERDE)
+25000001G echa : (0, VERDE)
+
+Pepe tiene: (5, VERDE)(2, AMARILLO)(9, ROJO)(3, ROJO)
+Pepe echa : (5, VERDE)
+
+25000001G tiene: (5, VERDE)
+25000001G echa : (5, VERDE)
+------------------------------------------
+             Clasificación
+          ------------------
+1º 25000001G tiene 0.0 puntos y lleva 1 partidas ganadas.
+2º Pepe tiene 14.0 puntos y lleva 0 partidas ganadas.

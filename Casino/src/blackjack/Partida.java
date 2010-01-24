@@ -46,7 +46,7 @@ public class Partida {
 			dineroGanado=new float[NJUGADORES];
 			dineroApostado=new float[NJUGADORES];
 		}
-		jugadores[NJUGADORES] = new JugadorBlackJackCrupier("ElCroupier");
+		jugadores[NJUGADORES] = new JugadorBlackJackCrupier("El Croupier");
 	}
 	void comenzarPartida() {
 		baraja = new BarajaBlackJack(NUMERO_BARAJAS);
