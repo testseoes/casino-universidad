@@ -28,10 +28,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import blackjack.PrincipalBlack;
+import blackjack.TipoJugadorBlack;
 import uno.PrincipalUno;
 import utils.BDNoHayUsuarios;
 import utils.BarajaMesaVacia;
-import utils.TipoJugadorBlack;
 
 import bd.BaseDatos;
 

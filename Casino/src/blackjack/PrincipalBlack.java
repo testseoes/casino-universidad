@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 import bd.BaseDatos;
 import utils.BarajaMesaVacia;
-import utils.TipoJugadorBlack;
 
 public class PrincipalBlack {
 

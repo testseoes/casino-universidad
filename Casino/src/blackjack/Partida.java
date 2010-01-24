@@ -1,7 +1,6 @@
 package blackjack;
 
 import utils.BarajaMesaVacia;
-import utils.TipoJugadorBlack;
 
 public class Partida {
 	private int NJUGADORES = 0;
