@@ -1,7 +1,12 @@
-package mvc;
+package controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import modelo.CasinoModel;
+
+import vista.CasinoView;
+import vista.CerrarSesionView;
 
 public class CerrarSesionController {
 	

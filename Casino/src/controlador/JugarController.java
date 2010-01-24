@@ -1,4 +1,4 @@
-package mvc;
+package controlador;
 
 
 import java.awt.event.ActionEvent;
@@ -10,7 +10,11 @@ import java.io.IOException;
 import java.io.Reader;
 import java.sql.SQLException;
 
+import modelo.CasinoModel;
+
 import utils.BarajaMesaVacia;
+import vista.CasinoView;
+import vista.JugarView;
 
 
 public class JugarController {

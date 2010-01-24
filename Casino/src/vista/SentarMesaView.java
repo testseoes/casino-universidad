@@ -1,4 +1,4 @@
-package mvc;
+package vista;
 
 
 import java.awt.BorderLayout;
@@ -6,6 +6,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JLabel;
 import javax.swing.SpringLayout;
+
+import modelo.CasinoModel;
 
 
 public class SentarMesaView extends javax.swing.JFrame {

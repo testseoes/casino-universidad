@@ -1,4 +1,4 @@
-package mvc;
+package vista;
 
 /*
  * Copyright (c) 1995 - 2008 Sun Microsystems, Inc.  All rights reserved.

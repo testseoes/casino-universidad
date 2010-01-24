@@ -1,4 +1,4 @@
-package mvc;
+package vista;
 
 
 
@@ -7,6 +7,8 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import javax.swing.JLabel;
 import javax.swing.SpringLayout;
+
+import modelo.CasinoModel;
 
 public class CrearCuentaView extends javax.swing.JFrame {
     private CasinoModel m_model;

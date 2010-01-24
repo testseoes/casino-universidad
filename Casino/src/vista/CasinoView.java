@@ -1,4 +1,4 @@
-package mvc;
+package vista;
 
 
 import java.awt.BorderLayout;
@@ -6,6 +6,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JSplitPane;
 import javax.swing.SpringLayout;
+
+import modelo.CasinoModel;
 
 
 
@@ -111,7 +113,7 @@ public class CasinoView extends javax.swing.JFrame {
                 6, 6,        //initX, initY
                 6, 6);       //xPad, yPad
 
-		juegosPane.setText("Aquí se irá mostrando el transcurso de la partida :");
+		juegosPane.setText("Aquí se irá mostrando el transcurso de la partida :"+'\n' +'\n' +'\n' +'\n' +"Pulsando 'Archivo'->'Inicio Automático', inician y se sientan en mesas todos los usuarios registrados");
 		
 		splitPaneIzq = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		splitPaneIzq.setTopComponent(contentPaneMesas);
@@ -138,7 +140,7 @@ public class CasinoView extends javax.swing.JFrame {
 		splitPaneDer = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		splitPaneDer.setTopComponent(rightPanel1);
 		splitPaneDer.setBottomComponent(rightPanel2);
-		//splitPaneDer.setDividerLocation(130);
+		splitPaneDer.setDividerLocation(230);
 
 
 		scrollPaneRight = new javax.swing.JScrollPane(splitPaneDer);
@@ -153,7 +155,11 @@ public class CasinoView extends javax.swing.JFrame {
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-		this.setSize(850,600);
+        
+    	
+		this.setLocation(70,70);
+		this.setVisible(true);
+		this.setSize(900,600);
 		muestraUsuariosBd();
     }// </editor-fold>//GEN-END:initComponents
     

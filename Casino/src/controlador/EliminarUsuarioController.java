@@ -1,7 +1,12 @@
-package mvc;
+package controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import vista.CasinoView;
+import vista.EliminarUsuarioView;
+
+import modelo.CasinoModel;
 
 public class EliminarUsuarioController {
 	
