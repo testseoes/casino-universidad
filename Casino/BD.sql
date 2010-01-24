@@ -45,8 +45,13 @@ CREATE TABLE `jugadores` (
 
 /*!40000 ALTER TABLE `jugadores` DISABLE KEYS */;
 INSERT INTO `jugadores` (`Login`,`Pass`,`Nombre`,`Apellido`,`InvertidoTotal`,`RecuperadoTotal`,`TipoJugadorUno`,`TipoJugadorBlack`,`PlantarseBlack`) VALUES 
- ('25000000K','0000','James','Bond',15,16,3,4,16),
- ('25000001G','1111','Yoni','Melavo',19,4,2,1,16);
+ ('25000000N','0000','Romualdo','Lopez',5,2,1,1,15),
+ ('25000001J','1111','Dolores','Fuertes',3,0,2,3,16),
+ ('25000002Z','2222','Bart','Simpson',4,5,3,2,14),
+ ('25000003S','3333','Domingo','Diaz',2,0,3,4,17),
+ ('25000004Q','4444','Maria','Fontaneda',6,6,3,1,19),
+ ('25000005V','6666','Lord','Voldemort',1,0,2,3,18),
+ ('25000006H','7777','Pepito','DeLomo',1,2,3,1,19);
 /*!40000 ALTER TABLE `jugadores` ENABLE KEYS */;
 
 
@@ -61,7 +66,7 @@ CREATE TABLE `jugadores_partidas` (
   `Invertido` int(10) unsigned DEFAULT '0',
   `Recuperado` int(10) unsigned DEFAULT '0',
   PRIMARY KEY (`NPartida`,`Login`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `jugadores_partidas`
@@ -69,16 +74,26 @@ CREATE TABLE `jugadores_partidas` (
 
 /*!40000 ALTER TABLE `jugadores_partidas` DISABLE KEYS */;
 INSERT INTO `jugadores_partidas` (`NPartida`,`Login`,`Invertido`,`Recuperado`) VALUES 
- (1,'25000000K',1,1),
- (1,'25000001G',1,0),
- (2,'25000000K',2,3),
- (2,'25000001G',3,0),
- (3,'25000000K',3,4),
- (3,'25000001G',4,0),
- (4,'25000000K',4,4),
- (4,'25000001G',5,2),
- (5,'25000000K',5,4),
- (5,'25000001G',6,2);
+ (1,'25000000N',1,0),
+ (2,'25000001J',1,0),
+ (2,'25000002Z',1,2),
+ (3,'25000003S',1,0),
+ (3,'25000004Q',2,4),
+ (4,'25000000N',1,0),
+ (4,'25000001J',1,0),
+ (4,'25000002Z',1,1),
+ (5,'25000001J',1,0),
+ (5,'25000003S',1,0),
+ (6,'25000000N',1,2),
+ (6,'25000004Q',1,0),
+ (7,'25000000N',1,0),
+ (7,'25000004Q',1,0),
+ (8,'25000002Z',1,2),
+ (9,'25000000N',1,0),
+ (9,'25000004Q',2,2),
+ (10,'25000002Z',1,0),
+ (11,'25000005V',1,0),
+ (11,'25000006H',1,2);
 /*!40000 ALTER TABLE `jugadores_partidas` ENABLE KEYS */;
 
 
@@ -102,8 +117,25 @@ CREATE TABLE `jugadores_sesiones` (
 
 /*!40000 ALTER TABLE `jugadores_sesiones` DISABLE KEYS */;
 INSERT INTO `jugadores_sesiones` (`Login`,`NSesion`) VALUES 
- ('25000000K',1),
- ('25000001G',1);
+ ('25000000N',1),
+ ('25000001J',1),
+ ('25000002Z',1),
+ ('25000003S',1),
+ ('25000004Q',1),
+ ('25000000N',2),
+ ('25000001J',2),
+ ('25000002Z',2),
+ ('25000000N',3),
+ ('25000001J',3),
+ ('25000003S',3),
+ ('25000004Q',3),
+ ('25000000N',4),
+ ('25000001J',4),
+ ('25000002Z',4),
+ ('25000003S',4),
+ ('25000004Q',4),
+ ('25000005V',5),
+ ('25000006H',5);
 /*!40000 ALTER TABLE `jugadores_sesiones` ENABLE KEYS */;
 
 
@@ -119,7 +151,7 @@ CREATE TABLE `partidas` (
   `HoraInicioPartida` time NOT NULL,
   `HoraFinPartida` time DEFAULT NULL,
   PRIMARY KEY (`NPartida`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `partidas`
@@ -127,11 +159,17 @@ CREATE TABLE `partidas` (
 
 /*!40000 ALTER TABLE `partidas` DISABLE KEYS */;
 INSERT INTO `partidas` (`NPartida`,`Mesa`,`NombreJuego`,`HoraInicioPartida`,`HoraFinPartida`) VALUES 
- (1,1,'BlackJack','15:20:55','15:20:55'),
- (2,1,'BlackJack','15:20:55','15:20:55'),
- (3,1,'BlackJack','15:20:55','15:20:55'),
- (4,1,'BlackJack','15:20:55','15:20:55'),
- (5,1,'BlackJack','15:20:55','15:20:55');
+ (1,1,'BlackJack','20:09:26','20:09:26'),
+ (2,2,'Uno','20:09:28','20:09:28'),
+ (3,3,'BlackJack','20:09:35','20:09:35'),
+ (4,1,'BlackJack','20:11:21','20:11:21'),
+ (5,1,'BlackJack','20:12:53','20:12:53'),
+ (6,2,'Uno','20:12:54','20:12:54'),
+ (7,1,'BlackJack','20:13:09','20:13:09'),
+ (8,3,'BlackJack','20:13:10','20:13:10'),
+ (9,1,'BlackJack','20:14:33','20:14:33'),
+ (10,3,'BlackJack','20:14:35','20:14:35'),
+ (11,2,'Uno','20:18:19','20:18:19');
 /*!40000 ALTER TABLE `partidas` ENABLE KEYS */;
 
 
@@ -156,8 +194,14 @@ INSERT INTO `partidas_sesiones` (`NPartida`,`NSesion`) VALUES
  (1,1),
  (2,1),
  (3,1),
- (4,1),
- (5,1);
+ (4,2),
+ (5,3),
+ (6,3),
+ (7,4),
+ (8,4),
+ (9,4),
+ (10,4),
+ (11,5);
 /*!40000 ALTER TABLE `partidas_sesiones` ENABLE KEYS */;
 
 
@@ -173,7 +217,7 @@ CREATE TABLE `sesion` (
   `HoraInicioSesion` time NOT NULL,
   `HoraFinSesion` time DEFAULT NULL,
   PRIMARY KEY (`NSesion`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `sesion`
@@ -181,7 +225,11 @@ CREATE TABLE `sesion` (
 
 /*!40000 ALTER TABLE `sesion` DISABLE KEYS */;
 INSERT INTO `sesion` (`NSesion`,`FechaInicioSesion`,`FechaFinSesion`,`HoraInicioSesion`,`HoraFinSesion`) VALUES 
- (1,'2010-01-19','2010-01-19','15:20:47','15:20:55');
+ (1,'2010-01-24','2010-01-24','20:08:56','20:09:35'),
+ (2,'2010-01-24','2010-01-24','20:11:09','20:11:21'),
+ (3,'2010-01-24','2010-01-24','20:12:43','20:12:54'),
+ (4,'2010-01-24','2010-01-24','20:13:01','20:15:15'),
+ (5,'2010-01-24','2010-01-24','20:15:41','20:18:43');
 /*!40000 ALTER TABLE `sesion` ENABLE KEYS */;
 
 
