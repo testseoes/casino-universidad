@@ -1,4 +1,4 @@
-package utils;
+package blackjack;
 
 public class TipoJugadorBlack {
 	private int tipo;

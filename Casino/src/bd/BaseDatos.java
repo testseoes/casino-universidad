@@ -4,8 +4,9 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 
+import blackjack.TipoJugadorBlack;
+
 import utils.BDNoHayUsuarios;
-import utils.TipoJugadorBlack;
 
 public class BaseDatos {
 	/*
