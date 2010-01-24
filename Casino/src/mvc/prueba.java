@@ -12,7 +12,8 @@ import utils.BarajaMesaVacia;
 
 import bd.BaseDatos;
 import blackjack.PrincipalBlack;
-
+import javax.swing.*;
+import java.awt.*;
 public class prueba {
 
 	/**
@@ -30,9 +31,37 @@ public class prueba {
 		BaseDatos bd= new BaseDatos();
 		int mesa=1;
 		String nombreArchivo="mesa"+mesa+".txt";
+		
 		BufferedWriter fout = new BufferedWriter(new FileWriter(nombreArchivo));//fichero de out
 		FileReader fr=new FileReader(nombreArchivo);
 		String [] array ={"11"};
+		
+//		JFrame frameini=new JFrame();
+//		JPanel panel =new JPanel ();
+//		Component c;
+////		img.add(im);
+//		 Image img=Toolkit.getDefaultToolkit().getImage("casino.jpg"); 
+//		 
+//		 Graphics p=img.getGraphics(); 
+//		 
+//		 p.drawImage(img,0,0,400,200,null);
+////		 
+//		 panel.d(img);
+//		 frameini.dsetIconImage(img);
+//		    frameini.setVisible(true);
+//		    
+		    
+		
+		        
+//		         
+//		        p = img.getGraphics(); 
+//		        Image im = Toolkit.GetDefaultToolkit().GetImage("casino.jpg"); 
+//		        p.DrawImage(im, 0, 0, 400, 260, img); 
+//		        p.DrawImage(img, 0, 0, null); 
+//		        repaint(); 
+		
+		 
+
 		PrincipalBlack.iniciaBlack(array,fout,bd,1,1); //salon[mesa],fout,m_bd,1,mesa);
   		System.out.println(fout.toString());
   		fout.close();

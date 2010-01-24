@@ -8,8 +8,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JLabel;
 import javax.swing.SpringLayout;
 
-import vista.SpringUtilities;
-
 public class CrearCuentaView extends javax.swing.JFrame {
     private CasinoModel m_model;
     /** Creates new form CalcView */
@@ -30,7 +28,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		apellido = new javax.swing.JLabel("Apellido",JLabel.TRAILING);
 		tipoJugadorUno = new javax.swing.JLabel("Tipo de Jugador Uno",JLabel.TRAILING);
 		tipoJugadorBlack = new javax.swing.JLabel("Tipo de Jugador BlackJack",JLabel.TRAILING);
-		plantarse = new javax.swing.JLabel("Puntuación con la que se planta BlackJack",JLabel.TRAILING);
+		plantarse = new javax.swing.JLabel("Puntuación plantarse BlackJack",JLabel.TRAILING);
 	
 		campo1= new javax.swing.JTextField(25);
 		pass1 = new javax.swing.JPasswordField(25);
@@ -42,6 +40,7 @@ public class CrearCuentaView extends javax.swing.JFrame {
 		campoTipoJugadorBlack= new javax.swing.JTextField(28);
 		campoTipoJugadorBlack.setText("1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada");
 		campoPlantarse= new javax.swing.JTextField(25);
+		campoPlantarse.setText("número entre 1 y 21");
 		
 		botonCrear =new javax.swing.JButton ("Crear");
 		botonCancelar =new javax.swing.JButton ("Cancelar");

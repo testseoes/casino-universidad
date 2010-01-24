@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JSplitPane;
 import javax.swing.SpringLayout;
 
-import vista.SpringUtilities;
+
 
 
 public class CasinoView extends javax.swing.JFrame {
@@ -34,23 +34,27 @@ public class CasinoView extends javax.swing.JFrame {
         m_reset = new javax.swing.JMenuItem("Resetear");
         m_salir = new javax.swing.JMenuItem("Salir");
         m_archivo = new javax.swing.JMenu("archivo");
-        m_usuario=new javax.swing.JMenu("Ususuario");
+        m_usuario=new javax.swing.JMenu("Usuario");
         m_partida=new javax.swing.JMenu("Partida");
 		m_crearCuenta=new javax.swing.JMenuItem("Crear Cuenta");
 		m_datos=new javax.swing.JMenuItem("Ver Datos De Usuario");
 		m_eliminarCuenta=new javax.swing.JMenuItem("Eliminar Cuenta");
+		m_iniciar=new javax.swing.JMenuItem("Iniciar Sesion");
+		m_cerrar=new javax.swing.JMenuItem("Cerrar Sesion");
 		m_sentarMesa=new javax.swing.JMenuItem("Añadir A Una Mesa");
 		m_jugar=new javax.swing.JMenuItem("Jugar");
 		m_barra = new javax.swing.JMenuBar();
         
         
-		// m_archivo.add(m_inicioAuto);
+		m_archivo.add(m_inicioAuto);
         //m_archivo.add(m_reset);
         m_archivo.addSeparator();
         m_archivo.add(m_salir);
         m_barra.add(m_archivo);
         m_usuario.add(m_crearCuenta);
         m_usuario.add(m_eliminarCuenta);
+        m_usuario.add(m_iniciar);	
+        m_usuario.add(m_cerrar);	
         m_usuario.add(m_datos);
         m_usuario.add(m_sentarMesa);
         m_barra.add(m_usuario);
@@ -118,20 +122,34 @@ public class CasinoView extends javax.swing.JFrame {
 		scrollPaneLeft = new javax.swing.JScrollPane(splitPaneIzq);
 
 		/*****List*****/
-		lista=new javax.swing.JTextArea();
-		scrollPaneRight=new javax.swing.JScrollPane(lista);
+		listaUsu1=new javax.swing.JTextArea();
+		scrollPaneRight1=new javax.swing.JScrollPane(listaUsu1);
+		listaUsu2=new javax.swing.JTextArea();
+		scrollPaneRight2=new javax.swing.JScrollPane(listaUsu2);
 		
 		/*****rightPanel*****/
-		rightPanel=new javax.swing.JPanel(new BorderLayout());
-		rightPanel.add(scrollPaneRight,BorderLayout.CENTER);
-		rightPanel.add(new javax.swing.JLabel("Usuarios Registrados"),BorderLayout.NORTH);
+		rightPanel1=new javax.swing.JPanel(new BorderLayout());
+		rightPanel1.add(scrollPaneRight1,BorderLayout.CENTER);
+		rightPanel1.add(new javax.swing.JLabel("Usuarios Registrados"),BorderLayout.NORTH);
+		rightPanel2=new javax.swing.JPanel(new BorderLayout());
+		rightPanel2.add(scrollPaneRight2,BorderLayout.CENTER);
+		rightPanel2.add(new javax.swing.JLabel("Usuarios Conectados"),BorderLayout.NORTH);
 
+		splitPaneDer = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
+		splitPaneDer.setTopComponent(rightPanel1);
+		splitPaneDer.setBottomComponent(rightPanel2);
+		//splitPaneDer.setDividerLocation(130);
+
+
+		scrollPaneRight = new javax.swing.JScrollPane(splitPaneDer);
+
+		
 		/*****Split Panel*****/
 		//Define un contenedor con division izq-der
 		splitPane = new javax.swing.JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-		splitPane.setRightComponent(rightPanel);
+		splitPane.setRightComponent(scrollPaneRight);
 		splitPane.setLeftComponent(scrollPaneLeft);
-		splitPane.setDividerLocation(700);
+		splitPane.setDividerLocation(680);
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -149,6 +167,8 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JMenuItem m_crearCuenta;
     private javax.swing.JMenuItem m_datos;
     private javax.swing.JMenuItem m_eliminarCuenta;
+    private javax.swing.JMenuItem m_iniciar;
+    private javax.swing.JMenuItem m_cerrar;
     private javax.swing.JMenuItem m_sentarMesa;
     private javax.swing.JMenu m_archivo;
     private javax.swing.JMenu m_partida;
@@ -161,10 +181,13 @@ public class CasinoView extends javax.swing.JFrame {
     private javax.swing.JLabel statusMsg2;
 	
     private javax.swing.JTextPane juegosPane;
-    private javax.swing.JScrollPane scrollPaneLeft,scrollPaneRight;
-    private javax.swing.JTextArea lista;
-    private javax.swing.JPanel rightPanel;
+    private javax.swing.JScrollPane scrollPaneLeft,scrollPaneRight,scrollPaneRight1,scrollPaneRight2;
+    private javax.swing.JTextArea listaUsu1;
+    private javax.swing.JTextArea listaUsu2;
+    private javax.swing.JPanel rightPanel1;
+    private javax.swing.JPanel rightPanel2;
     private javax.swing.JSplitPane splitPane;
+    private javax.swing.JSplitPane splitPaneDer;
     private javax.swing.JSplitPane splitPaneIzq;
     
     private javax.swing.JPanel contentPaneMesas;
@@ -204,6 +227,12 @@ public class CasinoView extends javax.swing.JFrame {
     public void addEliminarCuentaListener(ActionListener mal) {
         m_eliminarCuenta.addActionListener(mal);
     }
+    public void addIniciarSesionListener(ActionListener mal) {
+        m_iniciar.addActionListener(mal);
+    }
+    public void addCerrarSesionListener(ActionListener mal) {
+        m_cerrar.addActionListener(mal);
+    }
     public void addSentarMesaListener(ActionListener mal) {
         m_sentarMesa.addActionListener(mal);
     }
@@ -233,14 +262,18 @@ public class CasinoView extends javax.swing.JFrame {
     	statusMsg2.setText(estado);
     }
 	public void muestraUsuariosBd(){
-		String [] aux=m_model.TodosLogin();
-		lista.setText(null);
-		for (int i=0;i<aux.length;i++) addUsuario(aux[i]);
+		String [] aux=m_model.getTodosLogin();
+		listaUsu1.setText(null);
+		for (int i=0;i<aux.length;i++) addUsuarioRegistrado(aux[i]);
 	}
-    public void addUsuario(String login) {
+	public void addUsuarioRegistrado(String login) {
 		
-		lista.setText(login +'\n' + lista.getText());
+		listaUsu1.setText(login +'\n' + listaUsu1.getText());
 	}
+	public void addUsuarioConectado(String login) {
+	
+	listaUsu2.setText(login +'\n' + listaUsu2.getText());
+}
 	public void addUsuarioMesa(String login, int mesa) {
 
 		switch(mesa){
@@ -279,5 +312,12 @@ public class CasinoView extends javax.swing.JFrame {
 		juegosPane.setText(stringOut);
 		
 	}
+
+	public void muestraUsuariosConectados(String [] aux){
+	
+		listaUsu2.setText(null);
+		for (int i=0;aux[i]!=null;i++) addUsuarioConectado(aux[i]);
+	}
+	
 
 }

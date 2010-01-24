@@ -41,6 +41,10 @@ public class CasinoController {
     private JugarController m_controllerJ;
     private EliminarUsuarioView m_ventanaEU;
     private EliminarUsuarioController m_controllerEU;
+    private IniciarSesionView m_ventanaIS;
+    private IniciarSesionController m_controllerIS;
+    private CerrarSesionView m_ventanaCS;
+    private CerrarSesionController m_controllerCS;
     
     
     //========================================================== constructor
@@ -59,6 +63,8 @@ public class CasinoController {
         view.addCrearCuentaListener(new CrearCuentaListener());
         view.addDatosListener(new DatosListener());
         view.addEliminarCuentaListener(new EliminarListener());
+        view.addIniciarSesionListener(new IniciarListener());
+        view.addCerrarSesionListener(new CerrarListener());
         view.addSentarMesaListener(new SentarMesaListener());
         view.addJugarListener(new JugarListener());
         view.addJugarMesa1Listener(new JugarMesa1Listener());
@@ -80,7 +86,14 @@ public class CasinoController {
      */
     class InicioAutoListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-        	  System.exit(0);
+        	String [] registrados;
+        	int i=0, estado;
+        	registrados=m_model.getTodosLogin();
+        	while (i<registrados.length){
+        		estado=m_model.iniciarSesion(registrados[i]);
+        		if (estado==2) m_view.addUsuarioConectado(registrados[i]);
+        		i++;
+        	}
 
         }
     }
@@ -114,6 +127,18 @@ public class CasinoController {
         public void actionPerformed(ActionEvent e) {
         	m_ventanaEU=new EliminarUsuarioView();
         	m_controllerEU=new EliminarUsuarioController(m_ventanaEU,m_model,m_view);        	
+        }
+    }
+    class IniciarListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+        	m_ventanaIS=new IniciarSesionView();
+        	m_controllerIS=new IniciarSesionController(m_ventanaIS,m_model,m_view);        	
+        }
+    }
+    class CerrarListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+        	m_ventanaCS=new CerrarSesionView();
+        	m_controllerCS=new CerrarSesionController(m_ventanaCS,m_model,m_view);        	
         }
     }
     class SentarMesaListener implements ActionListener {

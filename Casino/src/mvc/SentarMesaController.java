@@ -63,9 +63,10 @@ public class SentarMesaController {
         			try {
         				estado=m_model.sentarUsuario(login,mesa-1);
         				if (estado==0) m_sentarView.setEstado("El jugador no se encuentra"); 
-        				if (estado==1) m_sentarView.setEstado("La mesa seleccionada está llena"); 
-        				if (estado==2) m_sentarView.setEstado("El jugador ya está en esa mesa"); 
-        				if (estado==3) {
+        				if (estado==1) m_sentarView.setEstado("El jugador no ha iniciado sesion"); 
+        				if (estado==2) m_sentarView.setEstado("La mesa seleccionada está llena"); 
+        				if (estado==3) m_sentarView.setEstado("El jugador ya está en esa mesa"); 
+        				if (estado==4) {
         					m_sentarView.setEstado("El jugador : " + login + " está en la mesa : " + mesa); 
         					m_view.addUsuarioMesa(login,mesa);
         				}

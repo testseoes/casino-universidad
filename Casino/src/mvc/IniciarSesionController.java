@@ -3,14 +3,14 @@ package mvc;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class EliminarUsuarioController {
+public class IniciarSesionController {
 	
     
-	private EliminarUsuarioView m_eliminarView;
+	private IniciarSesionView m_eliminarView;
 	private CasinoModel m_model;
 	private CasinoView m_view;
 	
-	public EliminarUsuarioController(EliminarUsuarioView eliminarView, CasinoModel model,CasinoView view) {
+	public IniciarSesionController(IniciarSesionView eliminarView, CasinoModel model,CasinoView view) {
        
         m_eliminarView  = eliminarView;
         m_model=model;
@@ -23,9 +23,10 @@ public class EliminarUsuarioController {
 	
 
 	class EliminarListener implements ActionListener {
-		String [] aux;
-		String login,pass,add;
-		boolean campoVacio, cerrada=false;
+		String login,pass;
+		boolean campoVacio;
+		int estado;
+		String [] conectados;
 		
 		public void actionPerformed(ActionEvent e) {
 			campoVacio=false;
@@ -40,16 +41,14 @@ public class EliminarUsuarioController {
         			campoVacio=true;
         			m_eliminarView.setEstado("La Password no es correcta"); 
         		}else{
-        			m_model.eliminarUsuario(login);
-        			cerrada=m_model.cerrarSesion(login);
-        			add=null;
-        			if (cerrada) {
-        				add=" y su sesion ha sido cerrada";
-        				aux=m_model.GetConectados();
-        				m_view.muestraUsuariosConectados(aux);
+        			estado = m_model.iniciarSesion(login);
+        			if (estado==0) m_eliminarView.setEstado("El Usuario : " + login + " tenía sesion iniciada");
+        			if (estado==1) m_eliminarView.setEstado("El Aforo del Casino está lleno, inténtelo más tarde");
+        			if (estado==2) {
+        				m_eliminarView.setEstado("Sesion del Usuario : " + login + " iniciada con éxito");
+        				conectados = m_model.GetConectados();
+        				m_view.muestraUsuariosConectados(conectados);
         			}
-        			m_eliminarView.setEstado("Cuenta del Usuario : " + login + " eliminada" + add);
-        			m_view.muestraUsuariosBd();
         			
         		}
         	}

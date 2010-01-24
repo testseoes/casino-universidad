@@ -79,6 +79,10 @@ public class CrearCuentaController {
         			aux.replaceAll(" ", "");
         			try{
         				tipoJugadorUno=Integer.parseInt(aux);
+        				if ((tipoJugadorUno<1)||(tipoJugadorUno>3)){
+        					campoVacio=true;
+        					m_crearView.setEstado("Tipo de Jugador Uno debe ser: 1=Numero; 2=Color; 3=Especial");
+        				}
             				
         			}
         			catch (NumberFormatException nfe){
@@ -99,7 +103,13 @@ public class CrearCuentaController {
            			aux.replaceAll(" ", "");
         			try{
         				tipoJugadorBlack=Integer.parseInt(aux);
+        				if ((tipoJugadorBlack<1)||(tipoJugadorBlack>4)){
+        					campoVacio=true;
+        					m_crearView.setEstado("Tipo de Jugador BlacK debe ser: 1=dobla y separa; 2=separa; 3=dobla; 4=no hace nada");
+        					m_crearView.pack();
             				
+        				}
+        				
         			}
         			catch (NumberFormatException nfe){
         				m_crearView.setEstado("El campo Tipo de Jugador Black no es un número"); 
@@ -117,7 +127,11 @@ public class CrearCuentaController {
            			aux.replaceAll(" ", "");
         			try{
         				plantarse=Integer.parseInt(aux);
-            				
+        				if ((plantarse<1)||(plantarse>21)){
+        					campoVacio=true;
+        					m_crearView.setEstado("Puntuación plantarse debe ser entre 1 y 21");
+        					m_crearView.pack();
+        				}	
         			}
         			catch (NumberFormatException nfe){
         				m_crearView.setEstado("El campo plantarse no es un número"); 
@@ -132,10 +146,10 @@ public class CrearCuentaController {
            				creado=false;
            				creado=m_model.crearUsuario(login, pass1, nombre, apellido, tipoJugadorUno, tipoJugadorBlack, plantarse);
 					if (creado){
-						m_crearView.setEstado("Usuario creado con éxito");
-						m_model.iniciarUsuario(login, pass1);
-						m_view.addUsuario(login);
-					} else m_crearView.setEstado("El Usuario ya existe");
+						m_crearView.setEstado("Usuario creado con éxito y con sesión iniciada");
+						m_view.addUsuarioConectado(login);
+						m_view.addUsuarioRegistrado(login);
+						} else m_crearView.setEstado("El Usuario ya existe");
            			} catch (SQLException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
