@@ -1,7 +1,11 @@
-package mvc;
+package controlador;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
+
+import modelo.CasinoModel;
+
+import vista.DatosUsuarioView;
 
 public class DatosUsuarioController {
 	

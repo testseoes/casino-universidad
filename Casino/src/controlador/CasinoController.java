@@ -1,4 +1,4 @@
-package mvc;
+package controlador;
 /*
  * CalcController.java
  *
@@ -23,14 +23,19 @@ import java.io.IOException;
 import java.io.Reader;
 import java.sql.SQLException;
 
+import modelo.*;
+
 import utils.BarajaMesaVacia;
+import vista.*;
 
 
 public class CasinoController {
-    //... The Controller needs to interact with both the Model and View.
+	private static final int N_MESAS =4;
+
+	//... The Controller needs to interact with both the Model and View.
     private CasinoModel m_model;
     private CasinoView  m_view;
-    //private CalcView  m_modelCC;
+
     private CrearCuentaView m_ventanaCC;
     private CrearCuentaController m_controllerCC;
     private SentarMesaView m_ventanaSM;
@@ -87,11 +92,26 @@ public class CasinoController {
     class InicioAutoListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	String [] registrados;
-        	int i=0, estado;
+        	int i=0, estado=0;
         	registrados=m_model.getTodosLogin();
         	while (i<registrados.length){
-        		estado=m_model.iniciarSesion(registrados[i]);
+        		try {
+					estado=m_model.iniciarSesion(registrados[i]);
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
         		if (estado==2) m_view.addUsuarioConectado(registrados[i]);
+        		try {
+					estado=m_model.sentarUsuario(registrados[i], (i%N_MESAS));
+					if (estado==4) m_view.addUsuarioMesa(registrados[i],(i%N_MESAS)+1);
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
         		i++;
         	}
 

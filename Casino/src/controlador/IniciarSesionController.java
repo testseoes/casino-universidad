@@ -1,7 +1,13 @@
-package mvc;
+package controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
+
+import modelo.CasinoModel;
+
+import vista.CasinoView;
+import vista.IniciarSesionView;
 
 public class IniciarSesionController {
 	
@@ -41,7 +47,12 @@ public class IniciarSesionController {
         			campoVacio=true;
         			m_eliminarView.setEstado("La Password no es correcta"); 
         		}else{
-        			estado = m_model.iniciarSesion(login);
+        			try {
+						estado = m_model.iniciarSesion(login);
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
         			if (estado==0) m_eliminarView.setEstado("El Usuario : " + login + " tenía sesion iniciada");
         			if (estado==1) m_eliminarView.setEstado("El Aforo del Casino está lleno, inténtelo más tarde");
         			if (estado==2) {

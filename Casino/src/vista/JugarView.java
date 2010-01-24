@@ -1,16 +1,21 @@
-package mvc;
+package vista;
+
+
+
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 
 import javax.swing.JLabel;
 import javax.swing.SpringLayout;
 
+import modelo.CasinoModel;
 
-public class EliminarUsuarioView extends javax.swing.JFrame {
+
+public class JugarView extends javax.swing.JFrame {
 
 	private CasinoModel m_model;
     /** Creates new form CalcView */
-    public EliminarUsuarioView() {
+    public JugarView() {
         initComponents();
     }
     
@@ -18,30 +23,23 @@ public class EliminarUsuarioView extends javax.swing.JFrame {
         
     	this.getContentPane().setLayout(new BorderLayout());
     	        
-		framecc = new javax.swing.JFrame("Eliminar Cuenta de Usuario");
+		framecc = new javax.swing.JFrame("Jugar");
 		contentPane = new javax.swing.JPanel(new SpringLayout());
-		login = new javax.swing.JLabel("Loggin",JLabel.TRAILING);
-		pass = new javax.swing.JLabel("Password",JLabel.TRAILING);
+		mesa = new javax.swing.JLabel("Mesa",JLabel.TRAILING);
 			
-		campoLogin = new javax.swing.JTextField(35);
-		campoPass = new javax.swing.JPasswordField(35);
+		campoMesa= new javax.swing.JTextField(15);
 				
-		botonEliminar =new javax.swing.JButton ("Eliminar Cuenta");
+		botonJugar =new javax.swing.JButton ("Jugar");
 		botonCancelar =new javax.swing.JButton ("Cancelar");
-		
 		statusMsg1 = new javax.swing.JLabel("Estado: ");
 		statusMsg2 = new javax.swing.JLabel();
 		
 		
-		contentPane.add(login);
-		login.setLabelFor(campoLogin);
-		contentPane.add(campoLogin);
+		contentPane.add(mesa);
+		mesa.setLabelFor(campoMesa);
+		contentPane.add(campoMesa);
 		
-		contentPane.add(pass);
-		pass.setLabelFor(campoPass);
-		contentPane.add(campoPass);
-		
-		contentPane.add(botonEliminar);
+		contentPane.add(botonJugar);
 		contentPane.add(botonCancelar);
 		
 		contentPane.add(statusMsg1);
@@ -49,7 +47,7 @@ public class EliminarUsuarioView extends javax.swing.JFrame {
 		
 		
 		SpringUtilities.makeCompactGrid(contentPane,
-                4, 2, //rows, cols
+                3, 2, //rows, cols
                 6, 6,        //initX, initY
                 6, 6);       //xPad, yPad
 
@@ -58,7 +56,7 @@ public class EliminarUsuarioView extends javax.swing.JFrame {
 		framecc.setContentPane(contentPane);
 		
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-//		framecc.setSize(300,400);
+//		framecc.setSize(300,150);
 		framecc.pack();
 		framecc.setLocation(130,330);
 		framecc.setVisible(true);
@@ -66,32 +64,28 @@ public class EliminarUsuarioView extends javax.swing.JFrame {
             
     private javax.swing.JFrame framecc;
     private javax.swing.JPanel contentPane;
-    private javax.swing.JLabel login;
-    private javax.swing.JTextField campoLogin;
-    private javax.swing.JLabel pass;
-    private javax.swing.JPasswordField campoPass;
+    private javax.swing.JLabel mesa;
+    private javax.swing.JTextField campoMesa;
     
     private javax.swing.JButton botonCancelar; 
-    private javax.swing.JButton botonEliminar; 
+    private javax.swing.JButton botonJugar; 
     private javax.swing.JLabel statusMsg1;
     private javax.swing.JLabel statusMsg2;
 	
-    public String getLoginInput() {
-        return campoLogin.getText();
-    }
-    public String getPassInput() {
-        return campoPass.getText();
+    public String getMesaInput() {
+        return campoMesa.getText();
     }
     public void setEstado(String mensajeEstado) {
         statusMsg2.setText(mensajeEstado);
 }
     
-    public void addEliminarListener(ActionListener mal) {
-        botonEliminar.addActionListener(mal);
+    public void addJugarListener(ActionListener mal) {
+        botonJugar.addActionListener(mal);
     }
     public void addCancelarListener(ActionListener mal) {
         botonCancelar.addActionListener(mal);
     }
+
 	public void cerrar() {
 		framecc.dispose();
     	framecc.setVisible(false);		

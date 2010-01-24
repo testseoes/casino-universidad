@@ -1,0 +1,24 @@
+------------------------------------------
+          Empieza La Partida
+          ------------------
+11 es un Jugador que solo juega su mano y se planta en: 0
+------------------------------------------
+11 tiene: (OCHO de DIAMANTES)(J de TREBOLES)
+ElCroupier tiene: (DIEZ de PICAS)
+------------------------------------------
+11 tiene: (OCHO de DIAMANTES)(J de TREBOLES)
+           no pide más cartas
+           tiene: (OCHO de DIAMANTES)(J de TREBOLES)
+------------------------------------------
+ElCroupier tiene: (DIEZ de PICAS)
+           roba : (SIETE de TREBOLES)
+           no pide más cartas
+           tiene: (DIEZ de PICAS)(SIETE de TREBOLES)
+------------------------------------------
+              Resultados
+          ------------------
+ElCroupier tiene: 17.0 puntos
+11 tiene: 18.0 puntos(Gana)
+------------------------------------------
+11 ha apostado: 1.0
+           ha ganado  : 1.0

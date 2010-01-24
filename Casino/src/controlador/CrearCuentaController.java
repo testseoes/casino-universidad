@@ -1,4 +1,4 @@
-package mvc;
+package controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,6 +8,11 @@ import java.awt.event.ContainerEvent;
 import java.awt.event.ContainerListener;
 import java.io.IOException;
 import java.sql.SQLException;
+
+import modelo.CasinoModel;
+
+import vista.CasinoView;
+import vista.CrearCuentaView;
 
 
 public class CrearCuentaController {

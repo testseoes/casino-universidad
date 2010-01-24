@@ -1,9 +1,14 @@
-package mvc;
+package controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.sql.SQLException;
+
+import modelo.CasinoModel;
+
+import vista.CasinoView;
+import vista.SentarMesaView;
 
 
 public class SentarMesaController {
