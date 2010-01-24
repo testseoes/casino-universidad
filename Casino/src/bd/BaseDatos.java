@@ -251,4 +251,14 @@ public class BaseDatos {
 		if(resultado.next())return resultado.getInt("RecuperadoTotal");
 		else return 0; //si no existe el jugador, devuelve 0
 	}
+	
+	public boolean comprobarLoginSesion(String login, int numsesion) throws SQLException{
+		Statement stmt=conexion.createStatement();
+		ResultSet resultado = stmt.executeQuery("SELECT NSesion FROM jugadores_sesiones WHERE Login='"+login+"'");
+		while(resultado.next()){
+			int numero=resultado.getInt("NSesion");
+			if (numero==numsesion) return true;
+		}
+		return false;
+	}
 }
