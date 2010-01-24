@@ -56,13 +56,16 @@ public class Partida {
 	}
 
 	void juega() throws BarajaMesaVacia {
+		//jugada=0->me toca jugar
+		//jugada=1->he robado una carta
+		//jugada=2->paso turno sin haber echado ninguna carta
+		//jugada=3->paso turno habiendo echado una carta
 		cartaelegida = null;
 		cartaelegida = (jugadores[turno].echarCarta(cartas_jugadas
 				.verUltimaCarta()));
 		if (cartaelegida == null) {
-			if (jugada == 0) {
+			if (jugada == 0)
 				robarCarta();
-			}
 			jugada++;
 		} else {
 			cartas_jugadas.recogerCarta(cartaelegida);

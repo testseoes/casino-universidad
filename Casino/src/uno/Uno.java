@@ -138,7 +138,7 @@ public class Uno {
 	public void finalizarPartida(BaseDatos bd) throws IOException, SQLException{
 		partida.getJugadores()[partida.getTurno()].sumaPartidaGanada();
 		String ganador= partida.getJugadores()[partida.getTurno()].getNombre();
-		bd.recuperarCreditoUno(1,ganador);
+		bd.recuperarCreditoUno(partida.getNJUGADORES(),ganador);
 		JugadorUno jugadores[] = partida.getJugadores();
 		float puntuacion = 0;
 		for (int i = 0; i < jugadores.length; i++)
