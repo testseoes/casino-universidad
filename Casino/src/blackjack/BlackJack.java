@@ -43,15 +43,15 @@ public class BlackJack {
 			int mazo_separado=0;
 			fout.write(partida.getJugadores()[turno].toString() + "\n");
 			while(((JugadorBlackJackN) partida.getJugadores()[turno]).separar()){
-				fout.write("           decide separar\n");
+				fout.write(partida.getJugadores()[turno].getNombre() + " decide separar\n");
 				partida.pedirCarta(turno);
-				fout.write("           roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
+				fout.write(partida.getJugadores()[turno].getNombre() + " roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
 			}
 			if(((JugadorBlackJackN) partida.getJugadores()[turno]).doblar()){
-				fout.write("           decide doblar\n");
+				fout.write(partida.getJugadores()[turno].getNombre() + " decide doblar\n");
 				partida.pedirCarta(turno);
-				fout.write("           roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
-				fout.write("           acaba mano con: " + partida.getJugadores()[turno].toString2() + "\n");
+				fout.write(partida.getJugadores()[turno].getNombre() + " roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
+				fout.write(partida.getJugadores()[turno].getNombre() + " acaba mano con: " + partida.getJugadores()[turno].toString2() + "\n");
 			}
 			else{
 				if(((JugadorBlackJackN)partida.getJugadores()[turno]).getNMazos_separados()!=0){
@@ -73,11 +73,11 @@ public class BlackJack {
 	public void juegaJugadorNormal() throws IOException, BarajaMesaVacia{
 		while(partida.getJugadores()[turno].pedirCarta()){
 			partida.pedirCarta(turno);
-			fout.write("           roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
+			fout.write(partida.getJugadores()[turno].getNombre() + " roba : " + partida.getJugadores()[turno].verUltimaCarta().toString() + "\n");
 		}
 		//fout.write("           se planta con: " + partida.getJugadores()[turno].toString2() + "\n");
-		fout.write("           no pide más cartas\n");
-		fout.write("           tiene: " + partida.getJugadores()[turno].toString2() + "\n");
+		fout.write(partida.getJugadores()[turno].getNombre() + " no pide más cartas\n");
+		fout.write(partida.getJugadores()[turno].getNombre() + " tiene: " + partida.getJugadores()[turno].toString2() + "\n");
 	}
 	public void finalizarPartida(BaseDatos bd) throws IOException, SQLException {
 		float puntuacionCrupier=partida.getJugadores()[partida.getNJUGADORES()].sumaPuntos();
@@ -141,7 +141,7 @@ public class BlackJack {
 			fout.write(partida.getJugadores()[turno].getNombre() + " ha apostado: ");
 			fout.write(partida.getApostado(turno) + "\n");
 			float ganado=partida.getGanado(turno)-partida.getApostado(turno);
-			fout.write("          " + " ha ganado  : ");
+			fout.write(partida.getJugadores()[turno].getNombre() + " ha ganado  : ");
 			fout.write(ganado + "\n");
 			bd.creditosBlack(partida.getJugadores()[turno].getNombre(),partida.getApostado(turno),partida.getGanado(turno));
 		}

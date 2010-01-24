@@ -37,7 +37,7 @@ public class Uno {
 			if (partida.getCartaJugada() instanceof CartaCambioColor
 					| partida.getCartaJugada() instanceof CartaCambioColorRoba4) {
 				partida.eligeColor();
-				fout.write("           ha elegido el color "
+				fout.write(partida.getJugadores()[partida.getTurno()].getNombre() + " ha elegido el color "
 						+ ((CartaEspecial) partida.getCartaJugada()).getColor()
 						+ "\n");
 			}
@@ -75,7 +75,7 @@ public class Uno {
 				do {
 					try {
 						partida.robarCarta();
-						fout.write("           roba : "
+						fout.write(partida.getJugadores()[partida.getTurno()].getNombre() + " roba : "
 								+ partida.getCartaelegida().toString() + "\n");
 						robadas++;
 					} catch (BarajaMesaVacia e) {
@@ -112,8 +112,7 @@ public class Uno {
 	}
 
 	public void jugarPartida() throws IOException {
-		fout
-				.write(partida.getJugadores()[partida.getTurno()].toString()
+		fout.write(partida.getJugadores()[partida.getTurno()].toString()
 						+ "\n");
 		partida.resetJugada();
 		while (partida.getJugada() < 2) {
@@ -121,14 +120,13 @@ public class Uno {
 				partida.juega();
 			} catch (BarajaMesaVacia e) {
 				partida.darVueltaBaraja();
-				fout
-						.write("          (Baraja Sin Cartas, recupero cartas de La Mesa)\n");
+				fout.write("          (Baraja Sin Cartas, recupero cartas de La Mesa)\n");
 			}
 			if (partida.getJugada() == 1)
-				fout.write("           roba : "
+				fout.write(partida.getJugadores()[partida.getTurno()].getNombre() + " roba : "
 						+ partida.getCartaelegida().toString() + "\n");
 			if (partida.getJugada() == 3)
-				fout.write("           echa : "
+				fout.write(partida.getJugadores()[partida.getTurno()].getNombre() + " echa : "
 						+ partida.getCartaelegida().toString() + "\n");
 		}
 		if (!partida.finpartida())
