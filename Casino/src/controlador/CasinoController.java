@@ -22,6 +22,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.sql.SQLException;
+import java.util.Random;
 
 import modelo.*;
 
@@ -35,7 +36,7 @@ public class CasinoController {
 	//... The Controller needs to interact with both the Model and View.
     private CasinoModel m_model;
     private CasinoView  m_view;
-
+ 
     private CrearCuentaView m_ventanaCC;
     private CrearCuentaController m_controllerCC;
     private SentarMesaView m_ventanaSM;
@@ -59,11 +60,11 @@ public class CasinoController {
         m_view  = view;
         
         
-        
         //... Add listeners to the view.
         view.addInicioAutoListener(new InicioAutoListener());
         //view.addResetListener(new ResetListener());
         view.addSalirListener(new SalirListener());
+        view.addWindowListener(new WindowClosing());	
         
         view.addCrearCuentaListener(new CrearCuentaListener());
         view.addDatosListener(new DatosListener());
@@ -92,7 +93,10 @@ public class CasinoController {
     class InicioAutoListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
         	String [] registrados;
-        	int i=0, estado=0;
+        	int i=0,estado=0,x;
+
+        	Random rand = new Random();
+        	x = rand.nextInt(N_MESAS);  	  
         	registrados=m_model.getTodosLogin();
         	while (i<registrados.length){
         		try {
@@ -103,8 +107,8 @@ public class CasinoController {
 				}
         		if (estado==2) m_view.addUsuarioConectado(registrados[i]);
         		try {
-					estado=m_model.sentarUsuario(registrados[i], (i%N_MESAS));
-					if (estado==4) m_view.addUsuarioMesa(registrados[i],(i%N_MESAS)+1);
+					estado=m_model.sentarUsuario(registrados[i], (x%N_MESAS));
+					if (estado==4) m_view.addUsuarioMesa(registrados[i],(x%N_MESAS)+1);
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -113,6 +117,7 @@ public class CasinoController {
 					e1.printStackTrace();
 				}
         		i++;
+        		x++;
         	}
 
         }
@@ -129,6 +134,51 @@ public class CasinoController {
         	System.exit(0);
         }
     }
+    class WindowClosing implements WindowListener{
+		@Override
+		public void windowActivated(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowClosed(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowDeactivated(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowDeiconified(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowIconified(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowOpened(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void windowClosing(WindowEvent e) {
+			// TODO Auto-generated method stub
+			m_model.Salir();
+        	System.exit(0);
+		} 
+    } 
+
     class CrearCuentaListener implements ActionListener {
         
     	public void actionPerformed(ActionEvent e) {

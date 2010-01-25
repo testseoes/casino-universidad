@@ -3,6 +3,8 @@ package vista;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 
 import javax.swing.JSplitPane;
 import javax.swing.SpringLayout;
@@ -113,7 +115,7 @@ public class CasinoView extends javax.swing.JFrame {
                 6, 6,        //initX, initY
                 6, 6);       //xPad, yPad
 
-		juegosPane.setText("Aquí se irá mostrando el transcurso de la partida :"+'\n' +'\n' +'\n' +'\n' +"Pulsando 'Archivo'->'Inicio Automático', inician y se sientan en mesas todos los usuarios registrados");
+		juegosPane.setText("Aquí se irá mostrando el transcurso de la partida :"+'\n' +'\n' +'\n' +'\n' +"Pulsando 'Archivo'->'Inicio Automático', inician y se sientan en mesas todos los usuarios registrados"+'\n' +'\n' +'\n' +'\n' +"La última partida quedsrá guardada en el archivo 'mesas.txt'");
 		
 		splitPaneIzq = new javax.swing.JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		splitPaneIzq.setTopComponent(contentPaneMesas);
@@ -154,9 +156,9 @@ public class CasinoView extends javax.swing.JFrame {
 		splitPane.setDividerLocation(680);
 		this.getContentPane().add(splitPane, BorderLayout.CENTER);
 		
-		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        
-    	
+		
+		
+
 		this.setLocation(70,70);
 		this.setVisible(true);
 		this.setSize(900,600);
@@ -214,6 +216,9 @@ public class CasinoView extends javax.swing.JFrame {
 
 
     
+    public void windowClosing(WindowEvent e) { 
+    	this.addWindowListener((WindowListener) e);	
+	}
     public void addInicioAutoListener(ActionListener mal) {
         m_inicioAuto.addActionListener(mal);
     }
