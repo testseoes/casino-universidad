@@ -1,0 +1,1 @@
+En principio el casino sólo implementará dos juegos. Los resultados de las partidas se irán guardando en una base de datos.
